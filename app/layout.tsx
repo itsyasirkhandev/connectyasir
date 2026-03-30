@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Roboto, Nunito } from 'next/font/google'
+import { Roboto, Nunito, Geist } from 'next/font/google'
 import './globals.css'
 
 import { JsonLd } from '@/components/seo/json-ld'
@@ -11,6 +11,9 @@ import {
   SITE_URL,
 } from '@/lib/site-config'
 import { getOrganizationNode, getWebsiteNode, schemaGraph } from '@/lib/schema'
+import { cn } from "@/lib/utils";
+
+const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const roboto = Roboto({
   weight: ['400', '500', '700'],
@@ -63,7 +66,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={cn("font-sans", geist.variable)}>
       <body className={`${roboto.variable} ${nunito.variable} antialiased`}>
         <JsonLd data={schemaGraph([getWebsiteNode(), getOrganizationNode()])} />
         {children}
