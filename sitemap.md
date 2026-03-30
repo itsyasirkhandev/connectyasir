@@ -1,5 +1,3 @@
-
-
 # Detailed Structural Sitemap — Every Page, Every Section
 
 ---
@@ -317,7 +315,7 @@ SECTION 2: SERVICES BREAKDOWN
         ├── Service Title
         ├── Service Description (2-3 lines)
         └── What's Included (bullet list)
-    
+
     ├── Service 1: Branding & Logo Design
     ├── Service 2: UI/UX Design
     ├── Service 3: Full-Stack Development
@@ -469,7 +467,7 @@ SECTION 2: MY VALUES / HOW I WORK
         ├── Icon
         ├── Value Title
         └── Value Description (2-3 lines)
-    
+
     ├── Value 1 (e.g. Communication)
     ├── Value 2 (e.g. Transparency)
     ├── Value 3 (e.g. Quality)
@@ -587,20 +585,19 @@ SECTION 4: MAP / LOCATION (optional)
 ## 📐 Complete Structure Count
 
 ```
-PAGE                    SECTIONS    
+PAGE                    SECTIONS
 ─────────────────────────────────
-/  (Home)               7 sections  
-/projects               3 sections  
-/projects/[slug]        10 sections 
-/services               7 sections  
-/about                  6 sections  
-/contact                4 sections  
+/  (Home)               7 sections
+/projects               3 sections
+/projects/[slug]        10 sections
+/services               7 sections
+/about                  6 sections
+/contact                4 sections
 ─────────────────────────────────
-TOTAL                   37 sections 
-+ Navbar                           
-+ Footer                           
-+ Floating WhatsApp                
+TOTAL                   37 sections
++ Navbar
++ Footer
++ Floating WhatsApp
 ─────────────────────────────────
 TOTAL PAGES             8 (5 + 3 case studies)
 ```
-
