@@ -85,15 +85,17 @@ export default function Navbar() {
 
           {/* Mobile Menu Trigger */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
-            <SheetTrigger>
-              <Button
-                variant="ghost"
-                size="icon-sm"
-                className="md:hidden"
-                aria-label="Open navigation menu"
-              >
-                <HamburgerMenu isOpen={isOpen} />
-              </Button>
+            <SheetTrigger
+              render={
+                <Button
+                  variant="ghost"
+                  size="icon-sm"
+                  className="md:hidden"
+                  aria-label="Open navigation menu"
+                />
+              }
+            >
+              <HamburgerMenu isOpen={isOpen} />
             </SheetTrigger>
             <SheetContent side="right" className="w-full sm:max-w-xs">
               <SheetHeader className="pb-8">

@@ -1,3 +1,5 @@
+'use client'
+
 import { MessageCircle, Mail, Clock, Calendar } from 'lucide-react'
 import { PrimaryButton } from '@/components/ui/primary-button'
 
