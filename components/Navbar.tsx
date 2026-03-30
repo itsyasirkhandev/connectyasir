@@ -5,12 +5,10 @@ import Link from 'next/link'
 import { usePathname, useRouter } from 'next/navigation'
 import { HugeiconsIcon } from '@hugeicons/react'
 import {
-  ArrowRight01Icon,
   Home01Icon,
   Briefcase01Icon,
   Configuration01Icon,
   UserEdit01Icon,
-  Contact01Icon,
 } from '@hugeicons/core-free-icons'
 
 import { cn } from '@/lib/utils'

@@ -1,40 +1,35 @@
+import { SERVICES_FAQS } from '@/lib/site-data'
+
 export default function Faq() {
   return (
-    <section>
-      <header>
-        <span>FAQ</span>
-        <h2>Questions before you book?</h2>
-      </header>
+    <section className="border-border border-t py-20 md:py-24">
+      <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2fr]">
+        <div>
+          <span className="text-primary mb-4 inline-block text-xs font-semibold tracking-[0.2em] uppercase">
+            FAQ
+          </span>
+          <h2 className="text-foreground text-3xl leading-tight font-semibold tracking-tighter md:text-4xl">
+            Questions before you book?
+          </h2>
+          <p className="text-muted-foreground mt-4 max-w-sm text-base leading-relaxed">
+            Everything you need to know about the process, ownership, and
+            support.
+          </p>
+        </div>
 
-      <dl>
-        <div>
-          <dt>Q: How long does it take?</dt>
-          <dd>A: Most websites launch in 1–3 weeks depending on scope.</dd>
+        <div className="grid grid-cols-1 gap-x-12 gap-y-10 md:grid-cols-2">
+          {SERVICES_FAQS.map((item, index) => (
+            <div key={index} className="flex flex-col gap-3">
+              <h3 className="text-foreground text-lg leading-snug font-semibold tracking-tight">
+                {item.question}
+              </h3>
+              <p className="text-muted-foreground text-base leading-relaxed">
+                {item.answer}
+              </p>
+            </div>
+          ))}
         </div>
-        <div>
-          <dt>Q: Do I own the website?</dt>
-          <dd>A: Yes — the code, design, and assets are yours.</dd>
-        </div>
-        <div>
-          <dt>Q: Can you redesign my current site?</dt>
-          <dd>A: Yes. That’s a big part of what I do.</dd>
-        </div>
-        <div>
-          <dt>Q: Do you write the content?</dt>
-          <dd>A: Yes, I can help write and structure your website copy.</dd>
-        </div>
-        <div>
-          <dt>Q: What happens after launch?</dt>
-          <dd>
-            A: Every package includes support, and ongoing help is available
-            too.
-          </dd>
-        </div>
-        <div>
-          <dt>Q: How does payment work?</dt>
-          <dd>A: 50% upfront, 50% before launch.</dd>
-        </div>
-      </dl>
+      </div>
     </section>
   )
 }

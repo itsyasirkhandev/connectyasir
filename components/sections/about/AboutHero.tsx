@@ -1,67 +1,83 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
+import { PrimaryButton } from '@/components/ui/primary-button'
+import { CONTACT } from '@/lib/site-config'
 
 export default function AboutHero() {
+  const router = useRouter()
+
   return (
-    <section>
-      <header>
-        <span>About</span>
-        <h1>I build websites that help businesses grow.</h1>
-        <p>
-          My name is Yasir Khan. I&rsquo;m a developer and designer focused on
-          creating professional, high-performing websites for small businesses
-          and founders.
-        </p>
-      </header>
+    <header className="bg-background pt-24 pb-16 md:pt-32 md:pb-24">
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2fr] lg:gap-24">
+          {/* Left Column: Label */}
+          <div className="transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
+            <span className="text-primary text-[10px] font-bold tracking-[0.25em] uppercase">
+              About Yasir
+            </span>
+          </div>
 
-      <div>
-        <p>
-          The goal is simple: to build you a website that works as hard as you
-          do. A lot of websites look good but don’t actually do anything. I
-          focus on the things that matter — speed, trust, and a clear path for
-          your customers to take action.
-        </p>
-        <p>
-          When you work with me, you’re not talking to a project manager or a
-          sales team. You’re talking directly to the person who will be
-          designing and coding every pixel of your site. This means things get
-          done faster, communication is clearer, and the final result actually
-          matches your vision.
-        </p>
+          {/* Right Column: Content */}
+          <div className="max-w-4xl">
+            <div className="transition-all delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
+              <h1 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter md:text-6xl lg:text-7xl">
+                I build websites that help businesses{' '}
+                <span className="text-muted-foreground/60">actually grow.</span>
+              </h1>
+            </div>
 
-        <ul>
-          <li>
-            <a
-              href="https://linkedin.com/in/connectyasir"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2"
-            >
-              LinkedIn <ArrowRight className="h-4 w-4" />{' '}
-              linkedin.com/in/connectyasir
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://wa.me/923014545482"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-2"
-            >
-              WhatsApp <ArrowRight className="h-4 w-4" /> wa.me/923014545482
-            </a>
-          </li>
-        </ul>
+            <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1.2fr_0.8fr] lg:gap-20">
+              <div className="text-muted-foreground space-y-8 text-lg leading-relaxed transition-all delay-200 duration-700 ease-out md:text-xl starting:translate-y-4 starting:opacity-0">
+                <p>
+                  My name is Yasir Khan. I&rsquo;m a developer and designer
+                  focused on creating professional, high-performing websites for
+                  small businesses and founders.
+                </p>
+                <p>
+                  When you work with me, you&rsquo;re talking directly to the
+                  person who will be designing and coding every pixel of your
+                  site. This means things get done faster, communication is
+                  clearer, and the final result actually matches your vision.
+                </p>
+                <div className="flex flex-col items-start gap-8 pt-4 sm:flex-row sm:items-center">
+                  <PrimaryButton
+                    text="Book a Call"
+                    onClick={() => {
+                      router.push(CONTACT.calendar)
+                    }}
+                    className="h-14 px-10 text-lg font-bold"
+                  />
+                  <div className="flex flex-wrap gap-6">
+                    <a
+                      href={CONTACT.whatsapp}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group text-foreground hover:text-primary flex items-center gap-2 text-sm font-semibold transition-colors"
+                    >
+                      WhatsApp
+                      <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="border-border/50 relative aspect-[4/5] w-full overflow-hidden rounded-3xl border transition-all delay-300 duration-1000 ease-out starting:scale-95 starting:opacity-0">
+                <Image
+                  src="/images/yasir-khan.jpg"
+                  alt="Yasir Khan - Web Designer & Developer"
+                  fill
+                  className="object-cover grayscale transition-all duration-500 hover:grayscale-0"
+                  sizes="(max-width: 768px) 100vw, 400px"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
-      <div>
-        <Image
-          src="/images/yasir-khan.jpg"
-          alt="Professional photo of Yasir Khan"
-          width={600}
-          height={800}
-        />
-      </div>
-    </section>
+    </header>
   )
 }

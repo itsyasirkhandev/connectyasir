@@ -38,13 +38,13 @@ export default function FeaturedProjects() {
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="max-w-3xl">
-          <span className="text-[10px] font-semibold tracking-[0.2em] text-muted-foreground uppercase">
+          <span className="text-muted-foreground text-[10px] font-semibold tracking-[0.2em] uppercase">
             Recent Work
           </span>
-          <h2 className="mt-6 text-4xl font-semibold leading-tight tracking-tighter text-foreground md:text-5xl lg:text-6xl">
+          <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter md:text-5xl lg:text-6xl">
             Real projects. Real businesses. Real results.
           </h2>
-          <p className="mt-8 text-lg leading-relaxed text-muted-foreground">
+          <p className="text-muted-foreground mt-8 text-lg leading-relaxed">
             A few examples of websites I’ve designed and built for businesses.
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function FeaturedProjects() {
               }`}
             >
               {/* Image Container */}
-              <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-border bg-muted lg:w-3/5">
+              <div className="border-border bg-muted relative aspect-[16/10] overflow-hidden rounded-2xl border lg:w-3/5">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -70,27 +70,28 @@ export default function FeaturedProjects() {
 
               {/* Content Container */}
               <div className="flex flex-col lg:w-2/5">
-                <span className="text-xs font-medium tracking-widest text-muted-foreground uppercase">
+                <span className="text-muted-foreground text-xs font-medium tracking-widest uppercase">
                   {project.category}
                 </span>
-                <h3 className="mt-4 text-3xl font-semibold tracking-tight text-foreground md:text-4xl">
+                <h3 className="text-foreground mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
                   {project.title}
                 </h3>
-                <p className="mt-6 text-base leading-relaxed text-muted-foreground md:text-lg">
+                <p className="text-muted-foreground mt-6 text-base leading-relaxed md:text-lg">
                   {project.description}
                 </p>
 
                 <div className="mt-10">
-                  {project.href && project.status !== 'Case Study Coming Soon' ? (
+                  {project.href &&
+                  project.status !== 'Case Study Coming Soon' ? (
                     <Link
                       href={project.href}
-                      className="group/link inline-flex items-center gap-2 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                      className="group/link text-foreground hover:text-primary inline-flex items-center gap-2 text-sm font-semibold transition-colors"
                     >
                       {project.status}
                       <ArrowRight className="h-4 w-4 transition-transform group-hover/link:translate-x-1" />
                     </Link>
                   ) : (
-                    <span className="text-sm font-medium text-muted-foreground/60">
+                    <span className="text-muted-foreground/60 text-sm font-medium">
                       {project.status}
                     </span>
                   )}
@@ -101,10 +102,10 @@ export default function FeaturedProjects() {
         </div>
 
         {/* Footer Link */}
-        <div className="mt-24 border-t border-border/40 pt-16">
+        <div className="border-border/40 mt-24 border-t pt-16">
           <Link
             href="/projects"
-            className="group inline-flex items-center gap-3 text-lg font-semibold text-foreground transition-colors hover:text-primary md:text-xl"
+            className="group text-foreground hover:text-primary inline-flex items-center gap-3 text-lg font-semibold transition-colors md:text-xl"
           >
             View All Projects
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-2" />

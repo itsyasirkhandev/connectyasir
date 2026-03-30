@@ -10,7 +10,10 @@ const techCategories = [
       { name: 'Next.js', icon: 'devicon--nextjs' },
       { name: 'React', icon: 'devicon--react' },
       { name: 'Tailwind CSS', icon: 'devicon--tailwindcss' },
-      { name: 'TypeScript', icon: 'vscode-icons--file-type-typescript-official' },
+      {
+        name: 'TypeScript',
+        icon: 'vscode-icons--file-type-typescript-official',
+      },
       { name: 'shadcn/ui', icon: 'hugeicons--shadcn-square' },
     ],
   },
@@ -39,40 +42,38 @@ export default function TechStack() {
     <section className="bg-background py-24 md:py-32 lg:py-48" id="stack">
       <div className="container mx-auto px-6">
         <div className="mb-20 max-w-2xl">
-          <span className="text-xs font-semibold uppercase tracking-widest text-primary">
+          <span className="text-primary text-xs font-semibold tracking-widest uppercase">
             The Toolkit
           </span>
-          <h2 className="mt-4 text-3xl font-semibold leading-tight tracking-tighter text-foreground md:text-5xl">
+          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
             My Technical Arsenal
           </h2>
-          <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            I don&apos;t just use tools; I master the ones that deliver the best 
+          <p className="text-muted-foreground mt-6 max-w-2xl text-base leading-relaxed md:text-lg">
+            I don&apos;t just use tools; I master the ones that deliver the best
             performance, security, and developer experience for my clients.
           </p>
         </div>
 
         <div className="grid gap-12 lg:grid-cols-3">
           {techCategories.map((category) => (
-            <div 
+            <div
               key={category.name}
-              className="flex flex-col border-l border-border pl-8 transition-colors hover:border-primary/40"
+              className="border-border hover:border-primary/40 flex flex-col border-l pl-8 transition-colors"
             >
-              <h3 className="text-xl font-semibold tracking-tight text-foreground">
+              <h3 className="text-foreground text-xl font-semibold tracking-tight">
                 {category.name}
               </h3>
-              <p className="mt-4 text-base leading-relaxed text-muted-foreground">
+              <p className="text-muted-foreground mt-4 text-base leading-relaxed">
                 {category.description}
               </p>
-              
+
               <ul className="mt-8 flex flex-wrap gap-4">
                 {category.tools.map((tool) => (
-                  <li 
+                  <li
                     key={tool.name}
-                    className="flex items-center gap-2 rounded-full border border-border bg-card px-4 py-1.5 text-sm font-medium text-foreground transition-all hover:bg-muted"
+                    className="border-border bg-card text-foreground hover:bg-muted flex items-center gap-2 rounded-full border px-4 py-1.5 text-sm font-medium transition-all"
                   >
-                    {tool.icon && (
-                      <span className={cn(tool.icon, "h-4 w-4")} />
-                    )}
+                    {tool.icon && <span className={cn(tool.icon, 'h-4 w-4')} />}
                     {tool.name}
                   </li>
                 ))}

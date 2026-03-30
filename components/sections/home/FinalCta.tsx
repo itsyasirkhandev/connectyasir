@@ -1,6 +1,5 @@
 'use client'
 
-import Link from 'next/link'
 import { buttonVariants } from '@/components/ui/button'
 import { CONTACT, AVAILABILITY } from '@/lib/site-config'
 import { cn } from '@/lib/utils'
@@ -12,48 +11,54 @@ export default function FinalCta() {
   const availabilityText = AVAILABILITY.contact.replace('🟢 ', '')
 
   return (
-    <section className="py-24 @container overflow-hidden">
+    <section className="@container overflow-hidden py-24">
       <div className="container mx-auto px-6">
-        <div className="relative rounded-[2.5rem] bg-muted/30 p-8 @3xl:p-20 overflow-hidden border border-border/50">
+        <div className="bg-muted/30 border-border/50 relative overflow-hidden rounded-[2.5rem] border p-8 @3xl:p-20">
           {/* Subtle background decoration - Editorial touch */}
-          <div className="absolute -top-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none" />
-          <div className="absolute -bottom-24 -left-24 w-72 h-72 bg-primary/5 rounded-full blur-[80px] pointer-events-none" />
-          
-          <div className="relative z-10 grid grid-cols-1 gap-12 @4xl:grid-cols-[1.3fr_0.7fr] items-center">
+          <div className="bg-primary/10 pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full blur-[100px]" />
+          <div className="bg-primary/5 pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full blur-[80px]" />
+
+          <div className="relative z-10 grid grid-cols-1 items-center gap-12 @4xl:grid-cols-[1.3fr_0.7fr]">
             <div className="flex flex-col gap-8">
               <div className="flex items-center gap-3 transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
                 <span className="relative flex h-2.5 w-2.5">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500"></span>
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
+                  <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500"></span>
                 </span>
-                <span className="text-xs font-bold uppercase tracking-[0.25em] text-muted-foreground/90">
+                <span className="text-muted-foreground/90 text-xs font-bold tracking-[0.25em] uppercase">
                   {availabilityText}
                 </span>
               </div>
 
-              <h2 className="text-4xl @3xl:text-6xl font-semibold leading-[1.05] tracking-tighter text-foreground transition-all duration-700 delay-100 ease-out starting:translate-y-4 starting:opacity-0">
-                If your website doesn’t <span className="text-primary">build trust</span>, it’s costing you business.
+              <h2 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter transition-all delay-100 duration-700 ease-out @3xl:text-6xl starting:translate-y-4 starting:opacity-0">
+                If your website doesn&apos;t{' '}
+                <span className="text-primary">build trust</span>, it&apos;s
+                costing you business.
               </h2>
 
-              <p className="max-w-[45ch] text-lg @3xl:text-xl leading-relaxed text-muted-foreground transition-all duration-700 delay-200 ease-out starting:translate-y-4 starting:opacity-0">
-                Stop wondering why visitors aren't converting. Book a free 30-minute strategy call and I’ll show you exactly what your site needs to turn browsers into buyers.
+              <p className="text-muted-foreground max-w-[45ch] text-lg leading-relaxed transition-all delay-200 duration-700 ease-out @3xl:text-xl starting:translate-y-4 starting:opacity-0">
+                Stop wondering why visitors aren&apos;t converting. Book a free
+                30-minute strategy call and I&apos;ll show you exactly what your
+                site needs to turn browsers into buyers.
               </p>
             </div>
 
-            <div className="flex flex-col gap-5 transition-all duration-700 delay-300 ease-out starting:translate-x-4 starting:opacity-0">
+            <div className="flex flex-col gap-5 transition-all delay-300 duration-700 ease-out starting:translate-x-4 starting:opacity-0">
               <PrimaryButton
                 text="Book a Free Call"
-                onClick={() => router.push(CONTACT.calendar)}
-                className="h-16 px-10 text-lg font-bold shadow-2xl shadow-primary/25 transition-all hover:scale-[1.02] active:scale-[0.98] rounded-2xl"
+                onClick={() => {
+                  router.push(CONTACT.calendar)
+                }}
+                className="shadow-primary/25 h-16 rounded-2xl px-10 text-lg font-bold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
               />
-              
-              <a 
-                href={CONTACT.whatsapp} 
-                target="_blank" 
+
+              <a
+                href={CONTACT.whatsapp}
+                target="_blank"
                 rel="noopener noreferrer"
                 className={cn(
-                  buttonVariants({ variant: 'outline', size: 'lg' }), 
-                  "h-16 px-10 text-lg font-bold hover:bg-background/80 rounded-2xl border-border/50 group"
+                  buttonVariants({ variant: 'outline', size: 'lg' }),
+                  'hover:bg-background/80 border-border/50 group h-16 rounded-2xl px-10 text-lg font-bold'
                 )}
               >
                 <svg
@@ -102,10 +107,11 @@ export default function FinalCta() {
               </a>
 
               <div className="mt-4 flex flex-col gap-2 @4xl:px-2">
-                <p className="text-sm font-medium text-muted-foreground/80 leading-relaxed">
-                  No pressure. No sales pitch. Just a real conversation about your business goals.
+                <p className="text-muted-foreground/80 text-sm leading-relaxed font-medium">
+                  No pressure. No sales pitch. Just a real conversation about
+                  your business goals.
                 </p>
-                <div className="h-px w-12 bg-primary/20" />
+                <div className="bg-primary/20 h-px w-12" />
               </div>
             </div>
           </div>

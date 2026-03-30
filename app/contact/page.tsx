@@ -43,48 +43,52 @@ export default function ContactPage() {
         ])}
       />
       <Navbar />
-      <main className="mx-auto max-w-6xl px-6 py-10">
-        <Breadcrumbs items={breadcrumbs} />
+      <main>
+        <div className="container mx-auto px-6 pt-10">
+          <Breadcrumbs items={breadcrumbs} />
+        </div>
 
         <PageHeader />
 
-        <AnswerFirstBlock
-          heading="How to start your project"
-          summary={PAGE_SUMMARIES.contact}
-        />
+        <div className="container mx-auto px-6">
+          <AnswerFirstBlock
+            heading="How to start your project"
+            summary={PAGE_SUMMARIES.contact}
+          />
 
-        <section className="mt-8 rounded-2xl border border-zinc-200 p-6">
-          <h2 className="text-2xl font-semibold text-zinc-900">
-            Before you book
-          </h2>
+          <section className="border-border bg-muted/30 mt-8 rounded-2xl border p-6">
+            <h2 className="text-foreground text-2xl font-semibold">
+              Before you book
+            </h2>
 
-          <ul className="mt-4 space-y-3 text-zinc-700">
-            {CONTACT_FAQS.slice(0, 3).map((faq) => (
-              <li key={faq.question}>
-                <strong className="text-zinc-900">{faq.question}</strong>
-                <p className="mt-1">{faq.answer}</p>
-              </li>
-            ))}
-          </ul>
+            <ul className="text-muted-foreground mt-4 space-y-3">
+              {CONTACT_FAQS.slice(0, 3).map((faq) => (
+                <li key={faq.question}>
+                  <strong className="text-foreground">{faq.question}</strong>
+                  <p className="mt-1">{faq.answer}</p>
+                </li>
+              ))}
+            </ul>
 
-          <p className="mt-6 text-sm text-zinc-700">
-            Still comparing options? Review the{' '}
-            <Link
-              href="/services"
-              className="font-medium text-zinc-900 underline"
-            >
-              website pricing
-            </Link>{' '}
-            or browse{' '}
-            <Link
-              href="/projects"
-              className="font-medium text-zinc-900 underline"
-            >
-              real client projects
-            </Link>
-            .
-          </p>
-        </section>
+            <p className="text-muted-foreground mt-6 text-sm">
+              Still comparing options? Review the{' '}
+              <Link
+                href="/services"
+                className="text-foreground decoration-primary/30 font-medium underline underline-offset-4"
+              >
+                website pricing
+              </Link>{' '}
+              or browse{' '}
+              <Link
+                href="/projects"
+                className="text-foreground decoration-primary/30 font-medium underline underline-offset-4"
+              >
+                real client projects
+              </Link>
+              .
+            </p>
+          </section>
+        </div>
 
         <ContactOptions />
         <MiniFaq />

@@ -40,45 +40,49 @@ export default function AboutPage() {
         ])}
       />
       <Navbar />
-      <main className="mx-auto max-w-6xl px-6 py-10">
-        <Breadcrumbs items={breadcrumbs} />
+      <main>
+        <div className="container mx-auto px-6 pt-10">
+          <Breadcrumbs items={breadcrumbs} />
+        </div>
 
         <PageHeader />
 
-        <AnswerFirstBlock
-          heading="Who Yasir Khan is and how he works"
-          summary={PAGE_SUMMARIES.about}
-        />
+        <div className="container mx-auto px-6">
+          <AnswerFirstBlock
+            heading="Who Yasir Khan is and how he works"
+            summary={PAGE_SUMMARIES.about}
+          />
 
-        <section className="mt-8 rounded-2xl border border-zinc-200 p-6">
-          <h2 className="text-2xl font-semibold text-zinc-900">
-            What to expect
-          </h2>
-          <ul className="mt-4 list-disc space-y-2 pl-5 text-zinc-700">
-            <li>You talk directly to the person building your website.</li>
-            <li>You see the price before the work starts.</li>
-            <li>Most projects launch in 1–3 weeks.</li>
-            <li>Every website is custom-built for the business.</li>
-          </ul>
+          <section className="border-border bg-muted/30 mt-8 rounded-2xl border p-6">
+            <h2 className="text-foreground text-2xl font-semibold">
+              What to expect
+            </h2>
+            <ul className="text-muted-foreground mt-4 list-disc space-y-2 pl-5">
+              <li>You talk directly to the person building your website.</li>
+              <li>You see the price before the work starts.</li>
+              <li>Most projects launch in 1–3 weeks.</li>
+              <li>Every website is custom-built for the business.</li>
+            </ul>
 
-          <p className="mt-6 text-sm text-zinc-700">
-            Want to see proof before contacting Yasir? Browse the{' '}
-            <Link
-              href="/projects"
-              className="font-medium text-zinc-900 underline"
-            >
-              project case studies
-            </Link>
-            . Want pricing first? See the{' '}
-            <Link
-              href="/services"
-              className="font-medium text-zinc-900 underline"
-            >
-              service packages
-            </Link>
-            .
-          </p>
-        </section>
+            <p className="text-muted-foreground mt-6 text-sm">
+              Want to see proof before contacting Yasir? Browse the{' '}
+              <Link
+                href="/projects"
+                className="text-foreground decoration-primary/30 font-medium underline underline-offset-4"
+              >
+                project case studies
+              </Link>
+              . Want pricing first? See the{' '}
+              <Link
+                href="/services"
+                className="text-foreground decoration-primary/30 font-medium underline underline-offset-4"
+              >
+                service packages
+              </Link>
+              .
+            </p>
+          </section>
+        </div>
 
         <MyValues />
         <TechStack />

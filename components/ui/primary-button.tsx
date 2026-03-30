@@ -4,13 +4,12 @@ import React from 'react'
 import { cn } from '@/lib/utils'
 import './primary-button.css'
 
-interface PrimaryButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+type PrimaryButtonProps = {
   text?: string
   sentText?: string
   isSent?: boolean
   size?: 'default' | 'sm'
-}
+} & React.ButtonHTMLAttributes<HTMLButtonElement>
 
 const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
   (
@@ -24,7 +23,7 @@ const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
     },
     ref
   ) => {
-    const renderLetters = (word: string, startIdx: number = 0) => {
+    const renderLetters = (word: string, startIdx = 0) => {
       return word.split('').map((char, index) => (
         <span
           key={index}

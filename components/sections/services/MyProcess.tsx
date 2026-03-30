@@ -1,43 +1,65 @@
+const steps = [
+  {
+    number: '01',
+    title: 'Discovery',
+    description: 'We discuss your business, goals, and website needs.',
+  },
+  {
+    number: '02',
+    title: 'Planning',
+    description: 'I map the structure, direction, and brand visuals.',
+  },
+  {
+    number: '03',
+    title: 'Design',
+    description: 'You review the design before anything gets built.',
+  },
+  {
+    number: '04',
+    title: 'Development',
+    description: 'I build the approved website and prepare it for launch.',
+  },
+  {
+    number: '05',
+    title: 'Launch',
+    description: 'Domain, analytics, SEO basics, and final checks go live.',
+  },
+  {
+    number: '06',
+    title: 'Support',
+    description: 'You get post-launch help and optional ongoing support.',
+  },
+]
+
 export default function MyProcess() {
   return (
-    <section>
-      <header>
-        <span>The Process</span>
-        <h2>What happens after you book a call.</h2>
-      </header>
+    <section className="border-border border-t py-20 md:py-24">
+      <div className="mb-16">
+        <span className="text-primary mb-4 inline-block text-xs font-semibold tracking-[0.2em] uppercase">
+          The Process
+        </span>
+        <h2 className="text-foreground max-w-2xl text-3xl leading-tight font-semibold tracking-tighter md:text-4xl">
+          What happens after you book a call.
+        </h2>
+      </div>
 
-      <ol>
-        <li>
-          <span>01</span>
-          <h3>Discovery</h3>
-          <p>We discuss your business, goals, and website needs.</p>
-        </li>
-        <li>
-          <span>02</span>
-          <h3>Planning</h3>
-          <p>I map the structure, direction, and brand visuals.</p>
-        </li>
-        <li>
-          <span>03</span>
-          <h3>Design</h3>
-          <p>You review the design before anything gets built.</p>
-        </li>
-        <li>
-          <span>04</span>
-          <h3>Development</h3>
-          <p>I build the approved website and prepare it for launch.</p>
-        </li>
-        <li>
-          <span>05</span>
-          <h3>Launch</h3>
-          <p>Domain, analytics, SEO basics, and final checks go live.</p>
-        </li>
-        <li>
-          <span>06</span>
-          <h3>Support</h3>
-          <p>You get post-launch help and optional ongoing support.</p>
-        </li>
-      </ol>
+      <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+        {steps.map((step) => (
+          <div key={step.number} className="relative">
+            <span className="text-muted-foreground/10 font-mono text-5xl font-semibold">
+              {step.number}
+            </span>
+            <div className="mt-4">
+              <h3 className="text-foreground text-xl font-semibold tracking-tight">
+                {step.title}
+              </h3>
+              <p className="text-muted-foreground mt-3 text-base leading-relaxed">
+                {step.description}
+              </p>
+            </div>
+          </div>
+        ))}
+      </div>
     </section>
   )
 }

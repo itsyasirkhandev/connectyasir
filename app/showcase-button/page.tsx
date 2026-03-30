@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { PrimaryButton } from '@/components/ui/primary-button'
 
 export default function ShowcaseButtonPage() {
@@ -8,7 +8,9 @@ export default function ShowcaseButtonPage() {
 
   const handleSend = () => {
     setIsSent(true)
-    setTimeout(() => setIsSent(false), 5000)
+    setTimeout(() => {
+      setIsSent(false)
+    }, 5000)
   }
 
   return (
@@ -47,7 +49,7 @@ export default function ShowcaseButtonPage() {
 
         <div className="text-muted-foreground mx-auto max-w-md pt-10 text-sm leading-relaxed">
           <p>
-            This button adapt's to your theme's{' '}
+            This button adapts to your theme&apos;s{' '}
             <span className="text-primary font-semibold">
               primary gold color
             </span>{' '}
