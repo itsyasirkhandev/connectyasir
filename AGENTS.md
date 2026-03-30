@@ -7,16 +7,7 @@ Project guidelines:
 - use tailwindcss for styling whenever possible, only resort to custom css if needed
 - I am on windows so use powershell 5 for commands
 - run 'pnpm lint' to check for linting errors, 'pnpm format', and 'pnpm check' to check for errors after making changes
-
-## UI Rules
-
-For all UI work, read `DESIGN_RULES.md` and validate with `DESIGN_CHECKLIST.md`.
-
-Before coding, define: primary goal, primary action, focal point, and layout.
-
-Avoid generic/template-like/AI-looking UI. Prefer intentional hierarchy, restraint, spacing, semantic tokens, accessibility, and required states (empty/loading/error/validation).
-
-If it feels generic, over-carded, over-decorated, or default-symmetrical, revise it.
+- **when writing ANY UI/component/page code, you MUST first read `design-guide.md`** in the project root and follow every rule in it. This is non-negotiable and applies to all design and redesign tasks.
 
 <!-- BEGIN:nextjs-agent-rules -->
 
