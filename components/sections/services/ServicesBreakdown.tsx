@@ -54,7 +54,7 @@ export default function ServicesBreakdown() {
                 <span className="text-muted-foreground/15 group-hover:text-primary/30 font-mono text-4xl font-semibold transition-colors">
                   {(index + 1).toString().padStart(2, '0')}
                 </span>
-                <div className="bg-border mt-4 h-full w-[1px]" />
+                <div className="bg-border mt-4 h-full w-px" />
               </div>
               <div className="pb-8">
                 <div className="bg-muted/50 border-border group-hover:border-primary/50 group-hover:bg-primary/5 mb-4 flex h-10 w-10 items-center justify-center rounded-lg border transition-colors">

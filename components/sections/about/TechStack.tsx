@@ -4,35 +4,33 @@ import { cn } from '@/lib/utils'
 
 const techCategories = [
   {
-    name: 'Frontend Core',
-    description: 'Highly interactive, fast, and SEO-optimized interfaces.',
+    name: 'Frontend',
+    description: 'Modern, fast, and SEO-optimized interfaces.',
     tools: [
       { name: 'Next.js', icon: 'devicon--nextjs' },
       { name: 'React', icon: 'devicon--react' },
-      { name: 'Tailwind CSS', icon: 'devicon--tailwindcss' },
       {
         name: 'TypeScript',
         icon: 'vscode-icons--file-type-typescript-official',
       },
+      { name: 'Tailwind CSS', icon: 'devicon--tailwindcss' },
       { name: 'shadcn/ui', icon: 'hugeicons--shadcn-square' },
     ],
   },
   {
     name: 'Backend & Hosting',
-    description: 'Reliable infrastructure for content and user data.',
+    description: 'Reliable infrastructure for data and deployment.',
     tools: [
-      { name: 'Vercel', icon: 'devicon--vercel' },
       { name: 'Convex', icon: 'bxl--convex' },
-      { name: 'Node.js', icon: 'material-icon-theme--nodejs' },
+      { name: 'Vercel', icon: 'devicon--vercel' },
+      { name: 'GitHub', icon: 'devicon--github' },
     ],
   },
   {
-    name: 'Design & Tools',
+    name: 'Design',
     description: 'Visual systems that speak your brand identity.',
     tools: [
       { name: 'Figma', icon: 'devicon--figma' },
-      { name: 'Google Stitch', icon: 'material-icon-theme--google' },
-      { name: 'Git', icon: 'material-icon-theme--git' },
     ],
   },
 ]
@@ -42,11 +40,11 @@ export default function TechStack() {
     <section className="bg-background py-24 md:py-32 lg:py-48" id="stack">
       <div className="container mx-auto px-6">
         <div className="mb-20 max-w-2xl">
-          <span className="text-primary text-xs font-semibold tracking-widest uppercase">
-            The Toolkit
+          <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
+            Tools
           </span>
-          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
-            My Technical Arsenal
+          <h2 className="text-foreground mt-4 max-w-2xl text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
+            Modern tools for fast, reliable websites.
           </h2>
           <p className="text-muted-foreground mt-6 max-w-2xl text-base leading-relaxed md:text-lg">
             I don&apos;t just use tools; I master the ones that deliver the best
