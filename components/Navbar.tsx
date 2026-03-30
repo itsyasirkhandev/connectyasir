@@ -25,7 +25,7 @@ export default function Navbar() {
           Taking on 2 new projects
         </span>
         <Link href="/contact">
-          Start With a Free Call <ArrowRight className="h-4 w-4" />
+          Book a Free Call <ArrowRight className="h-4 w-4" />
         </Link>
       </div>
     </nav>

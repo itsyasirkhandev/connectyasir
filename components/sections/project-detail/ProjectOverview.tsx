@@ -16,9 +16,7 @@ export default function ProjectOverview() {
           <tr>
             <td>Rashid Bashir</td>
             <td>2 weeks</td>
-            <td>
-              Logo, Design, Dev, Backend, SEO, Hosting, Dashboard, Content
-            </td>
+            <td>Branding, design, development, backend, SEO, hosting</td>
             <td>
               <a
                 href="https://apnaqarz.com"
@@ -34,7 +32,7 @@ export default function ProjectOverview() {
       </table>
 
       <section>
-        <h2>The transformation.</h2>
+        <h2>The transformation</h2>
         <table>
           <thead>
             <tr>
@@ -44,28 +42,20 @@ export default function ProjectOverview() {
           </thead>
           <tbody>
             <tr>
-              <td>No website</td>
-              <td>10+ page website</td>
+              <td>- No website</td>
+              <td>- Full website</td>
             </tr>
             <tr>
-              <td>No logo</td>
-              <td>Full brand identity</td>
+              <td>- No logo</td>
+              <td>- Brand identity</td>
             </tr>
             <tr>
-              <td>No online presence</td>
-              <td>Running paid ads</td>
+              <td>- No online presence</td>
+              <td>- Admin dashboard</td>
             </tr>
             <tr>
-              <td>Zero leads</td>
-              <td>1,000+ leads/month</td>
-            </tr>
-            <tr>
-              <td>No backend system</td>
-              <td>Admin dashboard</td>
-            </tr>
-            <tr>
-              <td>Couldn&apos;t track anything</td>
-              <td>Full analytics + Search Console</td>
+              <td>- No lead system</td>
+              <td>- 1,000+ leads in month one</td>
             </tr>
           </tbody>
         </table>

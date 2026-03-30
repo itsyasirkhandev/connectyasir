@@ -5,20 +5,15 @@ export default function CtaBlock() {
   return (
     <section>
       <header>
-        <h2>
-          Three weeks from now, you could have a website that makes people take
-          your business seriously.
-        </h2>
-        <p>Or you could still be thinking about it.</p>
+        <h2>A better website can change how people see your business.</h2>
         <p>
-          30-minute call. Free. I&apos;ll map out what your website needs. No
-          commitment. If we&apos;re not a fit, I&apos;ll tell you.
+          Book a free call and I’ll help you figure out the right next step.
         </p>
       </header>
 
       <div>
         <Link href="/contact" className="flex items-center gap-2">
-          Start With a Free Call <ArrowRight className="h-4 w-4" />
+          Book a Free Call <ArrowRight className="h-4 w-4" />
         </Link>
         <a
           href="https://wa.me/923014545482"

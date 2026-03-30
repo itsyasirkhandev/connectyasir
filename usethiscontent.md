@@ -348,12 +348,13 @@ Heading:
 Clear process. Full ownership. No surprises.
 
 Points:
+
 - You approve the design before development starts
 - You review the site before launch
 - You own the code, design, and assets
 - 50% upfront, 50% before launch
-Process
-txt
+  Process
+  txt
 
 Eyebrow:
 The Process
@@ -503,18 +504,20 @@ Heading:
 The transformation
 
 Before:
+
 - No website
 - No logo
 - No online presence
 - No lead system
 
 After:
+
 - Full website
 - Brand identity
 - Admin dashboard
 - 1,000+ leads in month one
-The Challenge
-txt
+  The Challenge
+  txt
 
 Heading:
 The challenge
@@ -535,8 +538,8 @@ What I delivered
 - SEO setup
 - Analytics and Search Console
 - Hosting and launch support
-The Approach
-txt
+  The Approach
+  txt
 
 Heading:
 How I approached it
@@ -564,8 +567,8 @@ Results
 - 1,000+ form submissions in the first month
 - Website launched in 14 days
 - Built to handle 50K+ monthly users
-Testimonial
-txt
+  Testimonial
+  txt
 
 Quote:
 “One of the most professional developers I've worked with. Latest technology. On-time delivery. Fair pricing.”

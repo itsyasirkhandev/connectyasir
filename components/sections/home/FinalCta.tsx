@@ -5,25 +5,16 @@ export default function FinalCta() {
   return (
     <section>
       <header>
-        <h2>Picture this.</h2>
+        <h2>If your website doesn’t build trust, it’s costing you business.</h2>
         <p>
-          A customer Googles what you sell. Your site comes up. It loads fast.
-          It looks sharp. They fill out your contact form within 60 seconds.
-        </p>
-        <p>That&apos;s what we&apos;re building.</p>
-        <p>
-          Or you can keep losing those customers to competitors who already
-          figured this out.
-        </p>
-        <p>
-          30-minute call. Free. I&apos;ll map out what your website needs. No
-          commitment. If I&apos;m not the right fit, I&apos;ll tell you.
+          Book a free 30-minute call and I’ll show you what your site needs
+          next.
         </p>
       </header>
 
       <div>
         <Link href="/contact" className="flex items-center gap-2">
-          Start With a Free Call <ArrowRight className="h-4 w-4" />
+          Book a Free Call <ArrowRight className="h-4 w-4" />
         </Link>
         <a
           href="https://wa.me/923014545482"
@@ -38,7 +29,7 @@ export default function FinalCta() {
       <div className="mt-8">
         <span className="flex items-center gap-2">
           <Circle className="h-2 w-2 fill-green-500 text-green-500" />
-          Currently taking on 2 new projects
+          Taking on 2 new projects
         </span>
       </div>
     </section>

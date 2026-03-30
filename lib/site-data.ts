@@ -35,61 +35,61 @@ export type PricingPackage = {
 
 export const PAGE_SEO = {
   home: {
-    title: 'Small Business Website Design & Development',
+    title: 'Your website should win trust — not lose customers.',
     description:
-      'Yasir Khan builds complete websites for small businesses — branding, design, development, hosting, and SEO handled by one person. Launch in weeks, not months.',
+      'I design and build modern websites for small businesses that look credible, load fast, and help turn visitors into leads.',
     path: '/',
     ogImage: '/og/default.jpg',
   },
   services: {
-    title: 'Website Design & Development Pricing for Small Businesses',
+    title: 'Websites built to make your business look credible online.',
     description:
-      'See website packages, pricing, timelines, and what’s included. Branding, design, development, hosting, SEO, and post-launch support for small businesses.',
+      'From branding and design to development, launch, and support — everything is handled in one place.',
     path: '/services',
     ogImage: '/og/services.jpg',
   },
   projects: {
-    title: 'Web Design Case Studies for Small Businesses',
+    title: 'A few businesses I’ve helped improve online.',
     description:
-      'Explore live website projects and before-and-after results from Yasir Khan, including Apna Qarz, Prime Tools Provider, and Ghulam Seeds.',
+      'Real projects built to increase trust, improve design, and support growth.',
     path: '/projects',
     ogImage: '/og/projects.jpg',
   },
   apnaQarz: {
     title: 'Apna Qarz Case Study: Finance Advisory Website & Lead Generation',
-    description:
-      'See how Yasir Khan built Apna Qarz from zero to a full finance advisory web app with branding, admin dashboard, and 1,000+ leads in the first month.',
+    description: 'Full platform, admin dashboard, 1,000+ leads in month one.',
     path: '/projects/apna-qarz',
     ogImage: '/og/apna-qarz.jpg',
   },
   about: {
-    title: 'About Yasir Khan',
+    title:
+      'I build websites that help small businesses look more established online.',
     description:
-      'Meet Yasir Khan, a freelance web designer and developer who builds custom websites for small businesses without agency middlemen.',
+      'I’m Yasir — a full-stack developer focused on modern, high-trust websites for small businesses.',
     path: '/about',
     ogImage: '/og/about.jpg',
   },
   contact: {
-    title: 'Contact Yasir Khan | Book a Free Website Strategy Call',
+    title: 'Let’s talk about your website.',
     description:
-      'Book a free 30-minute call with Yasir Khan to discuss your website project, timeline, pricing, and best-fit package.',
+      'Book a free 30-minute call and I’ll help you figure out the best next step.',
     path: '/contact',
     ogImage: '/og/contact.jpg',
   },
 } satisfies Record<string, PageSeoConfig>
 
 export const PAGE_SUMMARIES = {
-  home: 'Yasir Khan designs, builds, and launches complete websites for small businesses. He handles branding, website design, development, hosting setup, SEO setup, and post-launch support so businesses can go live fast without hiring an agency.',
+  home: 'I design and build modern websites for small businesses that look credible, load fast, and help turn visitors into leads.',
   services:
-    'Yasir Khan offers fixed-price website packages for small businesses, from fast starter sites to full branding, custom features, backend systems, and launch support. Every package includes direct communication, clear timelines, and post-launch support.',
+    'From branding and design to development, launch, and support — everything is handled in one place.',
   projects:
-    'This page showcases real client website projects by Yasir Khan, including full builds and redesigns for small businesses. Each project shows what existed before, what was built, and what changed after launch.',
+    'A few businesses I’ve helped improve online. Real projects built to increase trust, improve design, and support growth.',
   apnaQarz:
-    'Yasir Khan built Apna Qarz from scratch as a complete finance advisory website and web app, including branding, content, frontend, backend, admin dashboard, hosting, and SEO setup. The result was a professional launch-ready system built in two weeks.',
+    'From no website to a full platform with 1,000+ leads in the first month.',
   about:
-    'Yasir Khan is a freelance website designer and developer focused on small business websites. He works directly with clients and handles branding, design, development, hosting setup, SEO setup, and post-launch support himself.',
+    'I build websites that help small businesses look more established online.',
   contact:
-    'Book a free 30-minute call with Yasir Khan to discuss your business, website goals, recommended package, timeline, and pricing. If you prefer, you can also message directly on WhatsApp or email first.',
+    'Book a free 30-minute call and I’ll help you figure out the best next step.',
 }
 
 export const PROJECTS: ProjectItem[] = [
@@ -100,7 +100,7 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/projects/apna-qarz-homepage.jpg',
     imageAlt: 'Homepage screenshot of the Apna Qarz website',
     shortDescription:
-      'Full website and web app build with brand identity, admin dashboard, and 1,000+ leads in the first month.',
+      'From no website to a full platform with 1,000+ leads in the first month.',
     projectType: 'Full-Stack · Done-for-You',
   },
   {
@@ -110,7 +110,7 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/projects/prime-tools-provider-homepage.jpg',
     imageAlt: 'Homepage screenshot of the Prime Tools Provider website',
     shortDescription:
-      'Premium marketing site redesign that improved trust and conversions.',
+      'Upgraded an outdated site into a cleaner, more trustworthy business presence.',
     projectType: 'Marketing Site',
   },
   {
@@ -120,7 +120,7 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/projects/ghulam-seeds-homepage.jpg',
     imageAlt: 'Homepage screenshot of the Ghulam Seeds website',
     shortDescription:
-      'Modern rebuild that increased traffic and led to consistent weekly inquiries.',
+      'Rebuilt an old website into a modern site that brought weekly inquiries.',
     projectType: 'Marketing Site',
   },
 ]
@@ -130,15 +130,15 @@ export const PRICING_PACKAGES: PricingPackage[] = [
     name: 'Starter',
     price: 497,
     timeline: '~1 week',
-    tagline: 'Go from zero to live in 7 days.',
+    tagline: 'A simple, professional website — live fast.',
     description:
-      'A clean, professional 3–4 page site for businesses that need to get online fast.',
+      'A simple, professional 3–4 page site for businesses that need to get online fast.',
   },
   {
     name: 'Standard',
     price: 997,
     timeline: '~2 weeks',
-    tagline: 'A complete website built to bring you customers.',
+    tagline: 'A complete website built to grow trust and leads.',
     description:
       'A 7–10 page website with trust-building design, lead capture, analytics, Search Console, and on-page SEO.',
   },
@@ -146,7 +146,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
     name: 'Premium',
     price: 2997,
     timeline: '~3 weeks',
-    tagline: 'Your entire digital presence — built, branded, and launched.',
+    tagline: 'A complete digital presence with advanced features.',
     description:
       'Everything in Standard plus logo, brand identity, custom features, backend systems, admin dashboards, and priority delivery.',
   },
@@ -154,49 +154,29 @@ export const PRICING_PACKAGES: PricingPackage[] = [
 
 export const SERVICES_FAQS: FaqItem[] = [
   {
-    question: 'How long until my site is live?',
-    answer:
-      '1 to 3 weeks. Starter sites launch in about 7 days. Premium projects with branding and custom features take up to 3 weeks. You’ll get a clear timeline on our first call — and I stick to it.',
+    question: 'How long does it take?',
+    answer: 'Most websites launch in 1–3 weeks depending on scope.',
   },
   {
-    question: 'I only need a simple landing page. Which plan?',
-    answer:
-      'Starter. 3–4 pages. Clean design. Live in a week. $497. If you’re not sure it’s enough, book a call and I’ll tell you honestly — even if it means you spend less.',
+    question: 'Do I own the website?',
+    answer: 'Yes — the code, design, and assets are yours.',
   },
   {
-    question: 'Do I own the website and code?',
-    answer:
-      'Yes. Everything — the design, the code, the content, the logo. It’s all yours. I hand it over. No licensing fees. No lock-in.',
+    question: 'Can you redesign my current site?',
+    answer: 'Yes. That’s a big part of what I do.',
   },
   {
-    question: 'Do you write the website content too?',
-    answer:
-      'Every word on every page. You review it, give feedback, and we finalize together. You don’t need to show up with a Google Doc full of marketing copy.',
-  },
-  {
-    question: 'I already have a site. Can you redo it?',
-    answer:
-      'That’s most of my work. Clients come to me with a site that looks outdated or isn’t bringing in leads. I rebuild it from scratch — focused on trust and conversions. The difference between before and after is usually night and day.',
+    question: 'Do you write the content?',
+    answer: 'Yes, I can help write and structure your website copy.',
   },
   {
     question: 'What happens after launch?',
     answer:
-      'Every package includes post-launch support — 14 to 60 days depending on the plan. After that, we can set up ongoing support if you need it. You’re not on your own.',
-  },
-  {
-    question: 'What if I need something custom that’s not in any package?',
-    answer:
-      'Book a call. Tell me what you need. I’ll give you an honest recommendation — even if the honest answer is “I’m not the right person for this.”',
+      'Every package includes support, and ongoing help is available too.',
   },
   {
     question: 'How does payment work?',
-    answer:
-      '50% upfront to start. 50% before I hit publish. No surprise invoices. No hourly billing. You know the full cost before a single pixel gets designed.',
-  },
-  {
-    question: 'What technology do you use?',
-    answer:
-      'Next.js, React, and Tailwind CSS — the same technology stack behind Netflix, Twitch, and Nike. In plain terms: your site loads fast, ranks well on Google, and handles traffic without breaking.',
+    answer: '50% upfront, 50% before launch.',
   },
 ]
 
@@ -204,26 +184,22 @@ export const CONTACT_FAQS: FaqItem[] = [
   {
     question: 'What happens on the call?',
     answer:
-      'You tell me about your business. I ask questions. Then I tell you exactly what I’d build, which package fits, and how long it’d take. That’s it. No slides. No pitch deck.',
+      'We talk about your business, your goals, and what kind of website you need.',
   },
   {
     question: 'Do I need to prepare anything?',
-    answer:
-      'Nope. Just know what your business does and what you’re hoping a website will do for you. I’ll guide the rest of the conversation.',
+    answer: 'No — just come with a basic idea of what your business does.',
   },
   {
-    question: 'Is the call actually free?',
-    answer:
-      'Completely free. 30 minutes. If I’m not the right fit for your project, I’ll tell you — and point you somewhere better if I can.',
+    question: 'Is the call free?',
+    answer: 'Yes, completely free.',
   },
   {
-    question: 'I’m not sure what I need yet — is that okay?',
-    answer:
-      'That’s literally what the call is for. Most people who book aren’t sure. They know they need “something.” By the end of 30 minutes, you’ll know exactly what that something is.',
+    question: 'I’m not sure what I need yet. Is that okay?',
+    answer: 'Yes — that’s exactly what the call is for.',
   },
   {
-    question: 'Can I just WhatsApp you instead?',
-    answer:
-      'Absolutely. Message me anything — a question, a project idea, a screenshot of your current site. I’ll reply within a few hours during working hours.',
+    question: 'Can I message you first instead?',
+    answer: 'Absolutely. WhatsApp is always open.',
   },
 ]

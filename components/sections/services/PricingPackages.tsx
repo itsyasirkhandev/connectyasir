@@ -6,14 +6,10 @@ export default function PricingPackages() {
     <section>
       <header>
         <span>Pricing</span>
-        <h2>Agencies charge $5,000–$15,000 for what I deliver in 1–3 weeks.</h2>
+        <h2>Simple packages. Clear scope. No hidden fees.</h2>
         <p>
-          And they take 2–3 months. And you talk to a project manager instead of
-          the person building your site.
-        </p>
-        <p>
-          Three packages. Transparent pricing. 50% upfront. 50% before launch.
-          No hidden fees. No hourly billing. You know the total before we start.
+          Choose the package that fits your business stage. All projects are
+          fixed-price with clear deliverables.
         </p>
       </header>
 
@@ -21,52 +17,37 @@ export default function PricingPackages() {
         {/* Starter Package */}
         <article>
           <h3>Starter</h3>
-          <p>Go from zero to live in 7 days.</p>
-          <div>
-            <strong>Ideal For:</strong>
-            <p>
-              You need a clean, professional site — fast. A few pages. Done
-              right. No overthinking.
-            </p>
-          </div>
+          <p>A simple, professional website — live fast.</p>
           <div>
             <span>$497</span>
-            <span>One-time · No recurring fees</span>
             <span>Timeline: ~1 week</span>
           </div>
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 3–4 custom designed
-              pages
+              <Check className="h-4 w-4 text-green-500" /> ✓ 3–4 pages
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Clean, modern design
+              <Check className="h-4 w-4 text-green-500" /> ✓ Modern responsive
+              design
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Looks great on phones
-              and tablets
+              <Check className="h-4 w-4 text-green-500" /> ✓ Clear
+              calls-to-action
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Clear calls-to-action
-              on every page
+              <Check className="h-4 w-4 text-green-500" /> ✓ Contact form
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Fast-loading pages
+              <Check className="h-4 w-4 text-green-500" /> ✓ Fast-loading pages
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Contact form — wired
-              up and working
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 1 round of design
+              <Check className="h-4 w-4 text-green-500" /> ✓ 1 round of
               revisions
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 14 days post-launch
-              support
+              <Check className="h-4 w-4 text-green-500" /> ✓ 14 days support
             </li>
           </ul>
-          <p>Great for businesses that need to get online — now.</p>
           <Link href="/contact" className="flex items-center gap-2">
             Get Started <ArrowRight className="h-4 w-4" />
           </Link>
@@ -76,65 +57,44 @@ export default function PricingPackages() {
         <article>
           <span className="flex items-center gap-2">
             <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" /> Most
-            Popular — chosen by 2 out of 3 clients
+            Popular
           </span>
           <h3>Standard</h3>
-          <p>
-            A complete website built to bring you customers — not just visitors.
-          </p>
-          <div>
-            <strong>Ideal For:</strong>
-            <p>
-              You&apos;re ready to grow. You want a site that ranks on Google,
-              captures leads, and makes people trust you before they ever call.
-            </p>
-          </div>
+          <p>A complete website built to grow trust and leads.</p>
           <div>
             <span>$997</span>
-            <span>One-time · No recurring fees</span>
             <span>Timeline: ~2 weeks</span>
           </div>
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 7–10 page full
-              website
+              <Check className="h-4 w-4 text-green-500" /> ✓ 7–10 pages
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Designed to build
-              trust and convert
+              <Check className="h-4 w-4 text-green-500" /> ✓ Conversion-focused
+              structure
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Customer reviews and
-              trust signals built into the design
+              <Check className="h-4 w-4 text-green-500" /> ✓ Trust signals built
+              into design
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Google Analytics +
-              Search Console configured
+              <Check className="h-4 w-4 text-green-500" /> ✓ Google Analytics +
+              Search Console
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> On-page SEO for every
-              page
+              <Check className="h-4 w-4 text-green-500" /> ✓ On-page SEO basics
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Lead capture forms
+              <Check className="h-4 w-4 text-green-500" /> ✓ Lead forms
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> I show you how to
-              update content yourself
-            </li>
-            <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 2 rounds of design
+              <Check className="h-4 w-4 text-green-500" /> ✓ 2 rounds of
               revisions
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 30 days post-launch
-              support
+              <Check className="h-4 w-4 text-green-500" /> ✓ 30 days support
             </li>
           </ul>
-          <p>
-            For $500 more than Starter, you get 3× the pages, full SEO, lead
-            capture, and double the support.
-          </p>
           <Link href="/contact" className="flex items-center gap-2">
             Get Started <ArrowRight className="h-4 w-4" />
           </Link>
@@ -143,57 +103,41 @@ export default function PricingPackages() {
         {/* Premium Package */}
         <article>
           <h3>Premium</h3>
-          <p>Your entire digital presence — built, branded, and launched.</p>
-          <div>
-            <strong>Ideal For:</strong>
-            <p>
-              You want the full treatment. Brand identity. A high-performance
-              website with custom features, backend systems, and admin
-              dashboards. Everything handled. Fast.
-            </p>
-          </div>
+          <p>A complete digital presence with advanced features.</p>
           <div>
             <span>$2,997</span>
-            <span>One-time · No recurring fees</span>
             <span>Timeline: ~3 weeks</span>
           </div>
           <ul className="space-y-2">
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Everything in
+              <Check className="h-4 w-4 text-green-500" /> ✓ Everything in
               Standard
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Logo and full brand
+              <Check className="h-4 w-4 text-green-500" /> ✓ Logo + brand
               identity
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 1-on-1 strategy
-              session
+              <Check className="h-4 w-4 text-green-500" /> ✓ Strategy session
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Priority fast-track
-              delivery
+              <Check className="h-4 w-4 text-green-500" /> ✓ Priority delivery
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Custom features and
-              integrations
+              <Check className="h-4 w-4 text-green-500" /> ✓ Custom features
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> Admin dashboards and
-              backend systems
+              <Check className="h-4 w-4 text-green-500" /> ✓ Admin
+              dashboard/backend systems
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 3 rounds of design
+              <Check className="h-4 w-4 text-green-500" /> ✓ 3 rounds of
               revisions
             </li>
             <li className="flex items-center gap-2">
-              <Check className="h-4 w-4 text-green-500" /> 60 days post-launch
-              support
+              <Check className="h-4 w-4 text-green-500" /> ✓ 60 days support
             </li>
           </ul>
-          <p>
-            For businesses that want everything done — with zero loose ends.
-          </p>
           <Link href="/contact" className="flex items-center gap-2">
             Get Started <ArrowRight className="h-4 w-4" />
           </Link>
@@ -204,26 +148,13 @@ export default function PricingPackages() {
         <h4 className="flex items-center gap-2">
           <ShieldCheck className="h-5 w-5 text-green-500" /> THE PROMISE
         </h4>
-        <p>You approve the design before I build it.</p>
-        <p>You see the site before I launch it.</p>
-        <p>
-          You own everything I create — code, design, content, logo. It&apos;s
-          all yours.
-        </p>
-        <p>If the design doesn&apos;t feel right, we revise until it does.</p>
-        <p>
-          50% upfront. 50% before launch. You never pay for something you
-          haven&apos;t seen and approved.
-        </p>
-      </section>
-
-      <section>
-        <p>I take on 2–3 projects at a time.</p>
-        <p>
-          Not because I can&apos;t handle more — because your project deserves
-          my full attention. If I&apos;m at capacity when you reach out,
-          I&apos;ll let you know and give you the earliest available slot.
-        </p>
+        <h2>Clear process. Full ownership. No surprises.</h2>
+        <ul>
+          <li>- You approve the design before development starts</li>
+          <li>- You review the site before launch</li>
+          <li>- You own the code, design, and assets</li>
+          <li>- 50% upfront, 50% before launch</li>
+        </ul>
       </section>
     </section>
   )

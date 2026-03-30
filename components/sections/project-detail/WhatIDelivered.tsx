@@ -3,47 +3,35 @@ import { Check } from 'lucide-react'
 export default function WhatIDelivered() {
   return (
     <section>
-      <h2>What I built.</h2>
-      <p>
-        Every part of the project — handled from scratch. One person. Two weeks.
-      </p>
+      <h2>What I delivered</h2>
       <ul className="space-y-2">
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Logo and complete brand
-          identity
+          <Check className="h-4 w-4 text-green-500" /> Logo and brand identity
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Full website strategy and
-          sitemap
+          <Check className="h-4 w-4 text-green-500" /> Website strategy and page
+          structure
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Custom design for every
-          page
-        </li>
-        <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Frontend and backend
+          <Check className="h-4 w-4 text-green-500" /> Custom design and
           development
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Copywriting for all pages
+          <Check className="h-4 w-4 text-green-500" /> Admin dashboard
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Admin dashboard for
-          managing loan applications
+          <Check className="h-4 w-4 text-green-500" /> Copywriting
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> On-page and technical SEO
+          <Check className="h-4 w-4 text-green-500" /> SEO setup
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Google Analytics + Search
+          <Check className="h-4 w-4 text-green-500" /> Analytics and Search
           Console
         </li>
         <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Hosting configuration and
-          domain connection
-        </li>
-        <li className="flex items-center gap-2">
-          <Check className="h-4 w-4 text-green-500" /> Post-launch support
+          <Check className="h-4 w-4 text-green-500" /> Hosting and launch
+          support
         </li>
       </ul>
     </section>

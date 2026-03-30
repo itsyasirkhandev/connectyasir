@@ -13,24 +13,15 @@ export default function Hero() {
       </header>
 
       <div>
-        <h1>
-          Right now, someone is Googling what you sell. They&apos;re picking
-          your competitor.
-        </h1>
+        <h1>Your website should win trust — not lose customers.</h1>
         <p>
-          Your website is either building trust or losing customers.
-          There&apos;s no in-between.
-        </p>
-        <p>
-          I design, build, and launch complete websites for small businesses —
-          logo, content, hosting, SEO — all handled by one person. Live in
-          weeks.
+          I design and build modern websites for small businesses that look
+          credible, load fast, and help turn visitors into leads.
         </p>
 
         <div>
           <Link href="/contact" className="flex items-center gap-2">
-            Start With a Free Call <ArrowRight className="h-4 w-4" />
-            <span>No commitment. No pitch.</span>
+            Book a Free Call <ArrowRight className="h-4 w-4" />
           </Link>
           <a
             href="https://wa.me/923014545482"
@@ -43,8 +34,8 @@ export default function Hero() {
         </div>
 
         <p>
-          3 businesses launched · 1,000+ leads generated · Built with the same
-          tech behind Netflix and Twitch
+          3 businesses launched · 1,000+ leads generated · Built with modern web
+          tech
         </p>
       </div>
 

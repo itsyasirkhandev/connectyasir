@@ -1,7 +1,7 @@
 export default function TechStackUsed() {
   return (
     <section>
-      <h2>Built with.</h2>
+      <h2>Built with</h2>
       <ul>
         <li>Next.js</li>
         <li>React</li>

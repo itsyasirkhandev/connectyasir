@@ -2,15 +2,9 @@ export default function TechStack() {
   return (
     <section>
       <header>
-        <span>Tech Stack</span>
-        <h2>
-          Your website runs on the same technology behind Netflix, Twitch, and
-          Nike.
-        </h2>
-        <p>
-          Fast. Reliable. Built to handle traffic without slowing down.
-          Here&apos;s what powers your site under the hood.
-        </p>
+        <span>Built With Modern Tech</span>
+        <h2>Fast, scalable websites built with a modern stack.</h2>
+        <p>Designed for speed, reliability, and a smooth user experience.</p>
       </header>
 
       <ul>

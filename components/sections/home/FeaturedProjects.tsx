@@ -6,13 +6,9 @@ export default function FeaturedProjects() {
     <section>
       <header>
         <span>Recent Work</span>
-        <h2>
-          These aren&apos;t mockups. These are live businesses you can visit
-          right now.
-        </h2>
+        <h2>Real projects. Real businesses. Real results.</h2>
         <p>
-          Real clients. Real websites. Real results. Click any project to see
-          what they had before, what I built, and what happened after launch.
+          A few examples of websites I’ve designed and built for businesses.
         </p>
       </header>
 
@@ -28,11 +24,10 @@ export default function FeaturedProjects() {
             <span>Full-Stack · Done-for-You</span>
             <h3>Apna Qarz</h3>
             <p>
-              Had nothing &mdash; no website, no logo, no online presence. Two
-              weeks later: a full web app with admin dashboard. 1,000+ leads in
-              the first month.
+              From no website to a full platform with 1,000+ leads in the first
+              month.
             </p>
-            <Link href="/projects/apna-qarz">See the full story →</Link>
+            <Link href="/projects/apna-qarz">View Case Study →</Link>
           </article>
         </li>
         <li>
@@ -46,11 +41,10 @@ export default function FeaturedProjects() {
             <span>Marketing Site</span>
             <h3>Prime Tools Provider</h3>
             <p>
-              Before: a site that looked like it was built in 2012. Visitors
-              didn&apos;t trust it. After: a premium site. Conversions went up
-              immediately.
+              Upgraded an outdated site into a cleaner, more trustworthy
+              business presence.
             </p>
-            <span>Case study coming soon</span>
+            <span>Case Study Coming Soon</span>
           </article>
         </li>
         <li>
@@ -64,15 +58,15 @@ export default function FeaturedProjects() {
             <span>Marketing Site</span>
             <h3>Ghulam Seeds</h3>
             <p>
-              Outdated site. Zero inbound leads. After the rebuild &mdash;
-              consistent weekly inquiries and significantly more traffic.
+              Rebuilt an old website into a modern site that brought weekly
+              inquiries.
             </p>
-            <span>Case study coming soon</span>
+            <span>Case Study Coming Soon</span>
           </article>
         </li>
       </ul>
 
-      <Link href="/projects">View all projects → /projects</Link>
+      <Link href="/projects">View All Projects →</Link>
     </section>
   )
 }

@@ -18,21 +18,17 @@ export default function ProjectGrid() {
             <h3>Apna Qarz</h3>
             <div>
               <strong>Before:</strong>
-              <p>No website. No logo. No online presence. Running zero ads.</p>
+              <p>No website, no brand, no online presence.</p>
             </div>
             <div>
               <strong>After:</strong>
-              <p>
-                Full web app. Admin dashboard. Brand identity. 1,000+ leads in
-                the first month.
-              </p>
+              <p>Full platform, admin dashboard, 1,000+ leads in month one.</p>
             </div>
-            <span>Timeline: Built in 2 weeks</span>
             <Link
               href="/projects/apna-qarz"
               className="flex items-center gap-2"
             >
-              Read the full story <ArrowRight className="h-4 w-4" />
+              Read Case Study <ArrowRight className="h-4 w-4" />
             </Link>
           </article>
         </li>
@@ -48,20 +44,13 @@ export default function ProjectGrid() {
             <h3>Prime Tools Provider</h3>
             <div>
               <strong>Before:</strong>
-              <p>
-                Site looked amateur. Visitors left because it didn&apos;t feel
-                trustworthy.
-              </p>
+              <p>Outdated and untrustworthy site.</p>
             </div>
             <div>
               <strong>After:</strong>
-              <p>
-                Premium redesign. Clean, fast, professional. Conversions went up
-                immediately.
-              </p>
+              <p>Cleaner, stronger, more premium online presence.</p>
             </div>
-            <span>Timeline: Redesign</span>
-            <span>Case study coming soon</span>
+            <span>Case Study Coming Soon</span>
           </article>
         </li>
         <li>
@@ -76,18 +65,13 @@ export default function ProjectGrid() {
             <h3>Ghulam Seeds</h3>
             <div>
               <strong>Before:</strong>
-              <p>
-                Outdated website. Zero inbound leads. No online credibility.
-              </p>
+              <p>Old site with no inbound leads.</p>
             </div>
             <div>
               <strong>After:</strong>
-              <p>
-                Modern site. Traffic up. Weekly inquiries from new customers.
-              </p>
+              <p>Modern website with more traffic and weekly inquiries.</p>
             </div>
-            <span>Timeline: Full rebuild</span>
-            <span>Case study coming soon</span>
+            <span>Case Study Coming Soon</span>
           </article>
         </li>
       </ul>

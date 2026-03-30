@@ -6,8 +6,7 @@ export default function ProjectHero() {
   return (
     <section>
       <Link href="/projects" className="flex items-center gap-2">
-        <ArrowLeft className="h-4 w-4" />
-        All Projects
+        <ArrowLeft className="h-4 w-4" />← All Projects
       </Link>
       <h1>Apna Qarz</h1>
       <span>Full-Stack · Done-for-You</span>

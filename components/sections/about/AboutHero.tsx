@@ -6,30 +6,27 @@ export default function AboutHero() {
     <section>
       <header>
         <span>About</span>
-        <h1>
-          I&apos;m Yasir. I build websites that make small businesses look like
-          they&apos;ve been around for decades.
-        </h1>
+        <h1>I build websites that help businesses grow.</h1>
+        <p>
+          My name is Yasir Khan. I&rsquo;m a developer and designer focused on
+          creating professional, high-performing websites for small businesses
+          and founders.
+        </p>
       </header>
 
       <div>
         <p>
-          I got into development through curiosity. I liked figuring out how
-          things work — and how one small detail can completely change whether
-          someone trusts a website or clicks away. That curiosity turned into 3+
-          years of building for real businesses.
+          The goal is simple: to build you a website that works as hard as you
+          do. A lot of websites look good but don’t actually do anything. I
+          focus on the things that matter — speed, trust, and a clear path for
+          your customers to take action.
         </p>
         <p>
-          I freelance because I don&apos;t like middlemen. No project managers.
-          No ticket queues. You talk to me. I talk to you. Decisions happen
-          based on what actually fits your business — not what&apos;s fastest
-          for an agency to ship and invoice.
-        </p>
-        <p>
-          I work mostly with small businesses because the work feels honest.
-          There&apos;s usually a real person behind it who genuinely cares about
-          what they do. They just need their online presence to match the
-          quality of their actual work. That&apos;s where I come in.
+          When you work with me, you’re not talking to a project manager or a
+          sales team. You’re talking directly to the person who will be
+          designing and coding every pixel of your site. This means things get
+          done faster, communication is clearer, and the final result actually
+          matches your vision.
         </p>
 
         <ul>

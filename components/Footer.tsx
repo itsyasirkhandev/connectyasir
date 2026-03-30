@@ -7,10 +7,7 @@ export default function Footer() {
       <section>
         <div>
           <h2>Yasir Khan</h2>
-          <p>
-            I build websites for small businesses — from first logo to final
-            launch.
-          </p>
+          <p>Websites for small businesses — from idea to launch.</p>
           <span>
             <Circle className="h-2 w-2 fill-green-500 text-green-500" />
             Taking on 2 new projects
@@ -18,7 +15,7 @@ export default function Footer() {
         </div>
 
         <nav>
-          <h3>Pages</h3>
+          <h3>Home</h3>
           <ul>
             <li>
               <Link href="/">Home</Link>
@@ -68,7 +65,7 @@ export default function Footer() {
             </li>
             <li>
               <Link href="/contact">
-                Start With a Free Call <ArrowRight className="h-4 w-4" />
+                Book a Free Call <ArrowRight className="h-4 w-4" />
               </Link>
             </li>
           </ul>

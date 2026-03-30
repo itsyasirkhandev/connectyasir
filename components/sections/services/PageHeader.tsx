@@ -2,15 +2,11 @@ export default function PageHeader() {
   return (
     <header>
       <span>Services & Pricing</span>
-      <h1>
-        Every day your website looks outdated, a potential customer decides
-        you&apos;re not worth trusting.
-      </h1>
+      <h1>Websites built to make your business look credible online.</h1>
       <p>
-        They don&apos;t tell you. They don&apos;t send you a message. They just
-        leave — and find someone who looks more professional.
+        From branding and design to development, launch, and support —{' '}
+        <span>everything is handled in one place.</span>
       </p>
-      <p>That ends here. One developer. One price. Everything handled.</p>
     </header>
   )
 }

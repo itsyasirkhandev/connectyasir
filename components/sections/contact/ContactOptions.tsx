@@ -24,11 +24,10 @@ export default function ContactOptions() {
     <section>
       <div>
         <h3>BOOK A CALL</h3>
-        <h4>Pick a time. I&apos;ll be there.</h4>
+        <h4>Pick a time that works for you.</h4>
         <p>
-          30 minutes. Free. No prep needed. Just know what your business does
-          and what you&apos;re hoping a website will do for you. I&apos;ll guide
-          the rest.
+          I’ll ask about your business and your goals, then I’ll tell you
+          exactly how I can help.
         </p>
 
         {/* Cal.com Embed Placeholder */}
@@ -46,7 +45,7 @@ export default function ContactOptions() {
 
       <div>
         <h3>MESSAGE ME</h3>
-        <h4>Rather message first?</h4>
+        <h4>Prefer to message first?</h4>
 
         <ul className="mt-6 space-y-4">
           <li className="flex flex-col gap-1">
