@@ -8,6 +8,16 @@ Project guidelines:
 - I am on windows so use powershell 5 for commands
 - run 'pnpm lint' to check for linting errors, 'pnpm format', and 'pnpm check' to check for errors after making changes
 
+## UI Rules
+
+For all UI work, read `DESIGN_RULES.md` and validate with `DESIGN_CHECKLIST.md`.
+
+Before coding, define: primary goal, primary action, focal point, and layout.
+
+Avoid generic/template-like/AI-looking UI. Prefer intentional hierarchy, restraint, spacing, semantic tokens, accessibility, and required states (empty/loading/error/validation).
+
+If it feels generic, over-carded, over-decorated, or default-symmetrical, revise it.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
