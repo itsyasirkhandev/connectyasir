@@ -37,24 +37,12 @@ export default function Home() {
           <div>
             <p>
               Looking for pricing? Visit the{' '}
-              <Link
-                href="/services"
-              >
+              <Link href="/services">
                 website design and development pricing page
               </Link>
               . Want proof? See the{' '}
-              <Link
-                href="/projects"
-              >
-                web design case studies
-              </Link>
-              . Ready to talk?{' '}
-              <Link
-                href="/contact"
-              >
-                Book a free website call
-              </Link>
-              .
+              <Link href="/projects">web design case studies</Link>. Ready to
+              talk? <Link href="/contact">Book a free website call</Link>.
             </p>
           </div>
         </section>

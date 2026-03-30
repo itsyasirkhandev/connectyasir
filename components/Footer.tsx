@@ -61,17 +61,13 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="mailto:itsyasirkhan.dev@gmail.com"
-              >
+              <a href="mailto:itsyasirkhan.dev@gmail.com">
                 Email <ArrowRight className="h-4 w-4" />{' '}
                 itsyasirkhan.dev@gmail.com
               </a>
             </li>
             <li>
-              <Link
-                href="/contact"
-              >
+              <Link href="/contact">
                 Start With a Free Call <ArrowRight className="h-4 w-4" />
               </Link>
             </li>

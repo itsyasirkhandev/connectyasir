@@ -2,7 +2,6 @@
 
 This is a [Next.js](https://nextjs.org) portfolio project built for **itsyasirkhandev**.
 
-
 ## Getting Started
 
 First, run the development server:

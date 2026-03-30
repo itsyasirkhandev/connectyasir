@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Roboto, Nunito } from 'next/font/google'
 import './globals.css'
 
 import { JsonLd } from '@/components/seo/json-ld'
@@ -12,13 +12,14 @@ import {
 } from '@/lib/site-config'
 import { getOrganizationNode, getWebsiteNode, schemaGraph } from '@/lib/schema'
 
-const geistSans = Geist({
-  variable: '--font-geist-sans',
+const roboto = Roboto({
+  weight: ['400', '500', '700'],
+  variable: '--font-roboto',
   subsets: ['latin'],
 })
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const nunito = Nunito({
+  variable: '--font-nunito',
   subsets: ['latin'],
 })
 
@@ -63,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${roboto.variable} ${nunito.variable} antialiased`}>
         <JsonLd data={schemaGraph([getWebsiteNode(), getOrganizationNode()])} />
         {children}
       </body>
