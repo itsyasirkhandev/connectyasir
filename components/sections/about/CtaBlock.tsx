@@ -31,11 +31,14 @@ export default function CtaBlock() {
 
               <h2 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter @3xl:text-6xl">
                 If your business does great work,{' '}
-                <span className="text-primary">your website should show it.</span>
+                <span className="text-primary">
+                  your website should show it.
+                </span>
               </h2>
 
               <p className="text-muted-foreground max-w-[45ch] text-lg leading-relaxed @3xl:text-xl">
-                Let&apos;s talk about building a site that matches the quality of your business.
+                Let&apos;s talk about building a site that matches the quality
+                of your business.
               </p>
             </div>
 

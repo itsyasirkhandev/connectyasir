@@ -38,13 +38,13 @@ export default function FeaturedProjects() {
       <div className="container mx-auto px-6">
         {/* Header */}
         <div className="max-w-3xl">
-          <span className="text-muted-foreground text-[10px] font-semibold tracking-[0.2em] uppercase">
+          <span className="text-muted-foreground text-sm font-semibold tracking-[0.2em] uppercase">
             Recent Work
           </span>
-          <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter md:text-5xl lg:text-6xl">
+          <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter">
             Real projects. Real businesses. Real results.
           </h2>
-          <p className="text-muted-foreground mt-8 text-lg leading-relaxed">
+          <p className="text-muted-foreground mt-8 max-w-prose text-base leading-relaxed">
             A few examples of websites I’ve designed and built for businesses.
           </p>
         </div>
@@ -59,7 +59,7 @@ export default function FeaturedProjects() {
               }`}
             >
               {/* Image Container */}
-              <div className="border-border bg-muted relative aspect-[16/10] overflow-hidden rounded-2xl border lg:w-3/5">
+              <div className="border-border bg-muted relative aspect-16/10 overflow-hidden rounded-2xl border lg:w-3/5">
                 <Image
                   src={project.image}
                   alt={project.title}
@@ -70,13 +70,13 @@ export default function FeaturedProjects() {
 
               {/* Content Container */}
               <div className="flex flex-col lg:w-2/5">
-                <span className="text-muted-foreground text-xs font-medium tracking-widest uppercase">
+                <span className="text-muted-foreground text-sm font-medium tracking-widest uppercase">
                   {project.category}
                 </span>
-                <h3 className="text-foreground mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
+                <h3 className="text-foreground mt-4 text-3xl font-semibold tracking-tight">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground mt-6 text-base leading-relaxed md:text-lg">
+                <p className="text-muted-foreground mt-6 text-base leading-relaxed">
                   {project.description}
                 </p>
 
@@ -105,7 +105,7 @@ export default function FeaturedProjects() {
         <div className="border-border/40 mt-24 border-t pt-16">
           <Link
             href="/projects"
-            className="group text-foreground hover:text-primary inline-flex items-center gap-3 text-lg font-semibold transition-colors md:text-xl"
+            className="group text-foreground hover:text-primary inline-flex items-center gap-3 text-base font-semibold transition-colors"
           >
             View All Projects
             <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-2" />

@@ -36,29 +36,29 @@ export default function Home() {
               summary={PAGE_SUMMARIES.home}
             />
 
-            <div className="mx-auto mt-12 max-w-4xl px-4 md:px-12">
-              <div className="border-border/40 flex flex-col items-center justify-between gap-6 border-t pt-10 md:flex-row">
+            <div className="mx-auto mt-12 max-w-4xl">
+              <div className="border-border/40 flex flex-col items-start justify-between gap-6 border-t pt-10 md:flex-row md:items-center">
                 <p className="text-muted-foreground text-sm font-medium tracking-tight">
                   Looking for more?
                 </p>
-                <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+                <div className="flex flex-wrap items-center justify-start gap-x-10 gap-y-4">
                   <Link
                     href="/services"
-                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-sm font-semibold transition-colors"
+                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-base font-semibold transition-colors"
                   >
                     Pricing & Packages
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                   <Link
                     href="/projects"
-                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-sm font-semibold transition-colors"
+                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-base font-semibold transition-colors"
                   >
                     Case Studies
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                   <Link
                     href="/contact"
-                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-sm font-semibold transition-colors"
+                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-base font-semibold transition-colors"
                   >
                     Book a Call
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

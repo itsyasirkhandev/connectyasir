@@ -35,13 +35,13 @@ export default function ServicesOverview() {
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_2fr] lg:gap-24">
           {/* Left Side: Sticky Content */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
-            <span className="text-muted-foreground text-[10px] font-semibold tracking-[0.2em] uppercase">
+            <span className="text-muted-foreground text-sm font-semibold tracking-[0.2em] uppercase">
               What You Get
             </span>
-            <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter md:text-5xl">
+            <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter">
               Everything you need to launch — handled by one person.
             </h2>
-            <p className="text-muted-foreground mt-8 max-w-prose text-lg leading-relaxed">
+            <p className="text-muted-foreground mt-8 max-w-prose text-base leading-relaxed">
               Branding, design, development, hosting, SEO, and support. No
               chasing multiple freelancers. No messy handoffs.
             </p>
@@ -60,7 +60,7 @@ export default function ServicesOverview() {
                       {service.id}
                     </span>
                     <div className="space-y-4">
-                      <h3 className="text-foreground text-2xl font-semibold tracking-tight md:text-3xl">
+                      <h3 className="text-foreground text-3xl font-semibold tracking-tight">
                         {service.title}
                       </h3>
                       <p className="text-muted-foreground max-w-prose text-base leading-relaxed">

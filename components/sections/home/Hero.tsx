@@ -12,25 +12,25 @@ export default function Hero() {
       <div className="grid-background" />
 
       <div className="relative z-10 container mx-auto px-6">
-        <div className="flex flex-col items-center text-center transition-all duration-300 ease-out starting:translate-y-4 starting:opacity-0">
-          <h1 className="text-foreground max-w-[18ch] text-4xl leading-[1.05] font-semibold tracking-tighter md:text-6xl lg:text-7xl">
+        <div className="start flex flex-col items-start text-left transition-all duration-300 ease-out starting:translate-y-4 starting:opacity-0">
+          <h1 className="text-foreground max-w-[18ch] text-5xl leading-tight font-semibold tracking-tighter md:text-6xl">
             Your website should <span className="text-primary">win trust</span>{' '}
             not lose customers.
           </h1>
 
-          <p className="text-muted-foreground mt-6 max-w-2xl text-base leading-relaxed md:text-lg">
+          <p className="text-muted-foreground mt-6 max-w-prose text-base leading-relaxed">
             I design and build modern websites for small businesses that look
             credible, load fast, and help turn visitors into leads. Designed
             with intent, built for growth.
           </p>
 
-          <div className="mt-10 flex flex-col items-center gap-8 sm:flex-row">
+          <div className="mt-10 flex flex-col items-start gap-8 sm:flex-row sm:items-center">
             <PrimaryButton
               text="Book a Free Call"
               onClick={() => {
                 router.push('/contact')
               }}
-              className="h-14 px-10 text-lg"
+              className="h-12 px-8 text-base"
             />
             <a
               href="https://wa.me/923014545482"
@@ -43,20 +43,20 @@ export default function Hero() {
             </a>
           </div>
 
-          <footer className="border-border mt-16 grid grid-cols-2 gap-12 border-t pt-12 md:gap-24">
-            <div className="flex flex-col items-center">
+          <footer className="border-border mt-16 flex gap-12 border-t pt-12 md:gap-24">
+            <div className="flex flex-col items-start">
               <p className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
                 3
               </p>
-              <p className="text-muted-foreground mt-1 text-xs tracking-widest uppercase">
+              <p className="text-muted-foreground mt-1 text-sm tracking-widest uppercase">
                 Businesses Launched
               </p>
             </div>
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-start">
               <p className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
                 1k+
               </p>
-              <p className="text-muted-foreground mt-1 text-xs tracking-widest uppercase">
+              <p className="text-muted-foreground mt-1 text-sm tracking-widest uppercase">
                 Leads Generated
               </p>
             </div>

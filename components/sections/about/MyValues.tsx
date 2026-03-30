@@ -19,7 +19,8 @@ const VALUES = [
   {
     icon: Hammer,
     title: 'Custom-Built',
-    description: 'Your website is built for your business — not copied from a template.',
+    description:
+      'Your website is built for your business — not copied from a template.',
   },
 ]
 
@@ -46,7 +47,7 @@ export default function MyValues() {
                 <h3 className="text-foreground text-xl font-semibold tracking-tight">
                   {value.title}
                 </h3>
-                <p className="text-muted-foreground text-lg leading-relaxed max-w-prose">
+                <p className="text-muted-foreground max-w-prose text-lg leading-relaxed">
                   {value.description}
                 </p>
               </div>

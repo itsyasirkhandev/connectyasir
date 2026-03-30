@@ -42,10 +42,10 @@ export default function TechStack() {
     <section className="bg-background py-24 md:py-32 lg:py-48" id="stack">
       <div className="container mx-auto px-6">
         <div className="mb-20 max-w-2xl">
-          <span className="text-primary text-xs font-semibold tracking-widest uppercase">
+          <span className="text-primary text-sm font-semibold tracking-widest uppercase">
             The Toolkit
           </span>
-          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
+          <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
             The modern stack I use to deliver exceptional results.
           </h2>
         </div>
@@ -56,7 +56,7 @@ export default function TechStack() {
               key={category.name}
               className="border-border hover:border-primary/40 flex flex-col border-l pl-8 transition-colors"
             >
-              <h3 className="text-foreground text-xl font-semibold tracking-tight">
+              <h3 className="text-foreground text-3xl font-semibold tracking-tight">
                 {category.name}
               </h3>
               <p className="text-muted-foreground mt-4 text-base leading-relaxed">

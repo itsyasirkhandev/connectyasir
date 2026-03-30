@@ -29,9 +29,7 @@ const techCategories = [
   {
     name: 'Design',
     description: 'Visual systems that speak your brand identity.',
-    tools: [
-      { name: 'Figma', icon: 'devicon--figma' },
-    ],
+    tools: [{ name: 'Figma', icon: 'devicon--figma' }],
   },
 ]
 

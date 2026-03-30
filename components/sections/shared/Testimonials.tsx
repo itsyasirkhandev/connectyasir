@@ -35,10 +35,10 @@ export default function Testimonials() {
     >
       <div className="container mx-auto px-6">
         <div className="mb-16 max-w-2xl">
-          <span className="text-primary text-xs font-semibold tracking-widest uppercase">
+          <span className="text-primary text-sm font-semibold tracking-widest uppercase">
             Client Success
           </span>
-          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
+          <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
             Trusted by founders and <br className="hidden md:block" />
             business owners.
           </h2>
@@ -58,17 +58,17 @@ export default function Testimonials() {
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} className="h-4 w-4 fill-current" />
                     ))}
-                    <span className="text-muted-foreground ml-2 text-xs font-semibold tracking-widest uppercase">
+                    <span className="text-muted-foreground ml-2 text-sm font-semibold tracking-widest uppercase">
                       Verified Review
                     </span>
                   </div>
-                  <blockquote className="text-foreground text-2xl leading-snug font-semibold tracking-tight md:text-3xl">
+                  <blockquote className="text-foreground text-3xl leading-snug font-semibold tracking-tight">
                     &ldquo;{t.quote}&rdquo;
                   </blockquote>
                 </div>
 
                 <footer className="mt-12 flex items-center gap-4">
-                  <div className="border-border bg-muted text-muted-foreground flex h-12 w-12 items-center justify-center rounded-full border text-lg font-semibold">
+                  <div className="border-border bg-muted text-muted-foreground flex h-12 w-12 items-center justify-center rounded-full border text-base font-semibold">
                     {t.author[0]}
                   </div>
                   <div>
@@ -92,7 +92,7 @@ export default function Testimonials() {
                   key={i}
                   className="border-border bg-background hover:border-primary/20 flex flex-col justify-between rounded-2xl border p-8 transition-colors"
                 >
-                  <blockquote className="text-foreground text-lg leading-relaxed italic">
+                  <blockquote className="text-foreground text-base leading-relaxed italic">
                     &ldquo;{t.quote}&rdquo;
                   </blockquote>
 
@@ -101,10 +101,10 @@ export default function Testimonials() {
                       {t.author[0]}
                     </div>
                     <div>
-                      <cite className="text-foreground text-sm font-semibold not-italic">
+                      <cite className="text-foreground text-base font-semibold not-italic">
                         {t.author}
                       </cite>
-                      <p className="text-muted-foreground text-xs">
+                      <p className="text-muted-foreground text-sm">
                         {t.role} &middot; {t.company}
                       </p>
                     </div>

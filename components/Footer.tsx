@@ -54,7 +54,7 @@ export default function Footer() {
           <div className="flex flex-col items-start gap-6">
             <Link
               href="/"
-              className="text-foreground text-2xl font-semibold tracking-tighter transition-opacity hover:opacity-80"
+              className="text-foreground text-3xl font-semibold tracking-tighter transition-opacity hover:opacity-80"
             >
               {SITE_NAME}
             </Link>
@@ -75,7 +75,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div className="flex flex-col gap-6">
-            <h3 className="text-muted-foreground/60 text-sm font-bold tracking-widest uppercase">
+            <h3 className="text-muted-foreground/60 text-sm font-semibold tracking-widest uppercase">
               Navigation
             </h3>
             <ul className="flex flex-col gap-3">
@@ -94,7 +94,7 @@ export default function Footer() {
 
           {/* Contact & Social */}
           <div className="flex flex-col gap-6">
-            <h3 className="text-muted-foreground/60 text-sm font-bold tracking-widest uppercase">
+            <h3 className="text-muted-foreground/60 text-sm font-semibold tracking-widest uppercase">
               Connect
             </h3>
             <ul className="flex flex-col gap-4">
@@ -133,7 +133,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
           </p>
 
-          <div className="text-muted-foreground flex items-center gap-3 text-[10px] font-bold tracking-[0.15em] uppercase">
+          <div className="text-muted-foreground flex items-center gap-3 text-sm font-semibold tracking-[0.15em] uppercase">
             <span>Built with Next.js</span>
             <span className="bg-border h-px w-6" />
             <span>Tailwind CSS</span>

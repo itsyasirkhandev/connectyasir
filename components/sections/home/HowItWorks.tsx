@@ -36,15 +36,15 @@ export default function HowItWorks() {
         <div className="grid gap-16 lg:grid-cols-[1fr_1.5fr] lg:gap-32">
           {/* Sticky Header Section */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
-            <span className="text-primary text-xs font-semibold tracking-widest uppercase">
+            <span className="text-primary text-sm font-semibold tracking-widest uppercase">
               The Process
             </span>
-            <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
+            <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
               Simple process. <br />
               Clear communication. <br />
               Fast delivery.
             </h2>
-            <p className="text-muted-foreground mt-6 max-w-sm text-base leading-relaxed md:text-lg">
+            <p className="text-muted-foreground mt-6 max-w-sm text-base leading-relaxed">
               You’ll always know exactly where we are in the project and what
               comes next. No surprises, just results.
             </p>
@@ -65,11 +65,11 @@ export default function HowItWorks() {
                 key={step.number}
                 className="group border-border relative flex flex-col gap-6 border-t pt-12 md:flex-row md:gap-12"
               >
-                <span className="text-muted-foreground/30 group-hover:text-primary/40 font-mono text-4xl font-semibold tracking-tighter transition-colors md:text-6xl">
+                <span className="text-muted-foreground/30 group-hover:text-primary/40 font-mono text-6xl font-semibold tracking-tighter transition-colors">
                   {step.number}
                 </span>
                 <div className="flex flex-col">
-                  <h3 className="text-foreground text-xl font-semibold tracking-tight md:text-2xl">
+                  <h3 className="text-foreground text-3xl font-semibold tracking-tight">
                     {step.title}
                   </h3>
                   <p className="text-muted-foreground mt-4 max-w-prose text-base leading-relaxed">

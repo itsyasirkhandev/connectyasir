@@ -25,7 +25,7 @@ export default function FinalCta() {
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500"></span>
                 </span>
-                <span className="text-muted-foreground/90 text-xs font-bold tracking-[0.25em] uppercase">
+                <span className="text-muted-foreground/90 text-sm font-semibold tracking-[0.25em] uppercase">
                   {availabilityText}
                 </span>
               </div>
@@ -36,7 +36,7 @@ export default function FinalCta() {
                 costing you business.
               </h2>
 
-              <p className="text-muted-foreground max-w-[45ch] text-lg leading-relaxed transition-all delay-200 duration-700 ease-out @3xl:text-xl starting:translate-y-4 starting:opacity-0">
+              <p className="text-muted-foreground max-w-[45ch] text-base leading-relaxed transition-all delay-200 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
                 Stop wondering why visitors aren&apos;t converting. Book a free
                 30-minute strategy call and I&apos;ll show you exactly what your
                 site needs to turn browsers into buyers.
@@ -49,7 +49,7 @@ export default function FinalCta() {
                 onClick={() => {
                   router.push(CONTACT.calendar)
                 }}
-                className="shadow-primary/25 h-16 rounded-2xl px-10 text-lg font-bold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="shadow-primary/25 h-16 rounded-2xl px-10 text-base font-semibold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
               />
 
               <a
@@ -58,7 +58,7 @@ export default function FinalCta() {
                 rel="noopener noreferrer"
                 className={cn(
                   buttonVariants({ variant: 'outline', size: 'lg' }),
-                  'hover:bg-background/80 border-border/50 group h-16 rounded-2xl px-10 text-lg font-bold'
+                  'hover:bg-background/80 border-border/50 group h-16 rounded-2xl px-10 text-base font-semibold'
                 )}
               >
                 <svg
