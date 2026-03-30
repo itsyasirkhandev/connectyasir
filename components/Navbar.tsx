@@ -19,12 +19,12 @@ export default function Navbar() {
           <Link href="/about">About</Link>
         </li>
       </ul>
-      <div className="flex items-center gap-4">
-        <span className="flex items-center gap-2">
+      <div>
+        <span>
           <Circle className="h-2 w-2 fill-green-500 text-green-500" />
           Taking on 2 new projects
         </span>
-        <Link href="/contact" className="flex items-center gap-2">
+        <Link href="/contact">
           Start With a Free Call <ArrowRight className="h-4 w-4" />
         </Link>
       </div>

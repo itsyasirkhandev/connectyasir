@@ -28,32 +28,29 @@ export default function Home() {
       <main>
         <Hero />
 
-        <section className="mx-auto max-w-6xl px-6 py-10">
+        <section>
           <AnswerFirstBlock
             heading="What Yasir Khan does"
             summary={PAGE_SUMMARIES.home}
           />
 
-          <div className="mt-6 text-sm text-zinc-700">
+          <div>
             <p>
               Looking for pricing? Visit the{' '}
               <Link
                 href="/services"
-                className="font-medium text-zinc-900 underline"
               >
                 website design and development pricing page
               </Link>
               . Want proof? See the{' '}
               <Link
                 href="/projects"
-                className="font-medium text-zinc-900 underline"
               >
                 web design case studies
               </Link>
               . Ready to talk?{' '}
               <Link
                 href="/contact"
-                className="font-medium text-zinc-900 underline"
               >
                 Book a free website call
               </Link>

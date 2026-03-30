@@ -11,7 +11,7 @@ export default function Footer() {
             I build websites for small businesses — from first logo to final
             launch.
           </p>
-          <span className="flex items-center gap-2">
+          <span>
             <Circle className="h-2 w-2 fill-green-500 text-green-500" />
             Taking on 2 new projects
           </span>
@@ -40,13 +40,12 @@ export default function Footer() {
 
         <div>
           <h3>Let&apos;s talk</h3>
-          <ul className="mt-4 space-y-2">
+          <ul>
             <li>
               <a
                 href="https://wa.me/923014545482"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2"
               >
                 WhatsApp <ArrowRight className="h-4 w-4" /> wa.me/923014545482
               </a>
@@ -56,7 +55,6 @@ export default function Footer() {
                 href="https://linkedin.com/in/connectyasir"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2"
               >
                 LinkedIn <ArrowRight className="h-4 w-4" />{' '}
                 linkedin.com/in/connectyasir
@@ -65,7 +63,6 @@ export default function Footer() {
             <li>
               <a
                 href="mailto:itsyasirkhan.dev@gmail.com"
-                className="flex items-center gap-2"
               >
                 Email <ArrowRight className="h-4 w-4" />{' '}
                 itsyasirkhan.dev@gmail.com
@@ -74,7 +71,6 @@ export default function Footer() {
             <li>
               <Link
                 href="/contact"
-                className="mt-2 flex items-center gap-2 font-bold"
               >
                 Start With a Free Call <ArrowRight className="h-4 w-4" />
               </Link>
