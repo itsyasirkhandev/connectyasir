@@ -23,6 +23,8 @@ export type ProjectItem = {
   imageAlt: string
   shortDescription: string
   projectType: string
+  before?: string
+  after?: string
 }
 
 export type PricingPackage = {
@@ -102,6 +104,8 @@ export const PROJECTS: ProjectItem[] = [
     shortDescription:
       'From no website to a full platform with 1,000+ leads in the first month.',
     projectType: 'Full-Stack · Done-for-You',
+    before: 'No website, no brand, no online presence.',
+    after: 'Full platform, admin dashboard, 1,000+ leads in month one.',
   },
   {
     name: 'Prime Tools Provider',
@@ -112,6 +116,8 @@ export const PROJECTS: ProjectItem[] = [
     shortDescription:
       'Upgraded an outdated site into a cleaner, more trustworthy business presence.',
     projectType: 'Marketing Site',
+    before: 'Outdated and untrustworthy site.',
+    after: 'Cleaner, stronger, more premium online presence.',
   },
   {
     name: 'Ghulam Seeds',
@@ -122,6 +128,8 @@ export const PROJECTS: ProjectItem[] = [
     shortDescription:
       'Rebuilt an old website into a modern site that brought weekly inquiries.',
     projectType: 'Marketing Site',
+    before: 'Old site with no inbound leads.',
+    after: 'Modern website with more traffic and weekly inquiries.',
   },
 ]
 

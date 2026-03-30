@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { ArrowRight } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -28,22 +29,43 @@ export default function Home() {
       <main>
         <Hero />
 
-        <section>
-          <AnswerFirstBlock
-            heading="What Yasir Khan does"
-            summary={PAGE_SUMMARIES.home}
-          />
+        <section className="relative overflow-hidden bg-background py-24 md:py-32">
+          <div className="container relative z-10 mx-auto px-6">
+            <AnswerFirstBlock
+              heading="What Yasir Khan does"
+              summary={PAGE_SUMMARIES.home}
+            />
 
-          <div>
-            <p>
-              Looking for pricing? Visit the{' '}
-              <Link href="/services">
-                website design and development pricing page
-              </Link>
-              . Want proof? See the{' '}
-              <Link href="/projects">web design case studies</Link>. Ready to
-              talk? <Link href="/contact">Book a free website call</Link>.
-            </p>
+            <div className="mx-auto mt-12 max-w-4xl px-4 md:px-12">
+              <div className="flex flex-col items-center justify-between gap-6 border-t border-border/40 pt-10 md:flex-row">
+                <p className="text-sm font-medium tracking-tight text-muted-foreground">
+                  Looking for more?
+                </p>
+                <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+                  <Link
+                    href="/services"
+                    className="group flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                  >
+                    Pricing & Packages
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                  <Link
+                    href="/projects"
+                    className="group flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                  >
+                    Case Studies
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="group flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                  >
+                    Book a Call
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

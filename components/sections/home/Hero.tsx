@@ -1,52 +1,55 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import { Circle, ArrowRight } from 'lucide-react'
+'use client'
+
+import { useRouter } from 'next/navigation'
+import { ArrowRight } from 'lucide-react'
+import { PrimaryButton } from '@/components/ui/primary-button'
 
 export default function Hero() {
+  const router = useRouter()
+
   return (
-    <section>
-      <header>
-        <span className="flex items-center gap-2">
-          <Circle className="h-2 w-2 fill-green-500 text-green-500" />
-          Taking on 2 new projects
-        </span>
-      </header>
+    <section className="grid-wrapper overflow-hidden py-16 md:py-20 lg:py-24">
+      <div className="grid-background" />
+      
+      <div className="container relative z-10 mx-auto px-6">
+        <div className="flex flex-col items-center text-center transition-all duration-300 ease-out starting:translate-y-4 starting:opacity-0">
+          <h1 className="max-w-[18ch] text-4xl font-semibold leading-[1.05] tracking-tighter text-foreground md:text-6xl lg:text-7xl">
+            Your website should <span className="text-primary">win trust</span> not lose customers.
+          </h1>
 
-      <div>
-        <h1>Your website should win trust — not lose customers.</h1>
-        <p>
-          I design and build modern websites for small businesses that look
-          credible, load fast, and help turn visitors into leads.
-        </p>
+          <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted-foreground md:text-lg">
+            I design and build modern websites for small businesses that look
+            credible, load fast, and help turn visitors into leads. Designed with intent, built for growth.
+          </p>
 
-        <div>
-          <Link href="/contact" className="flex items-center gap-2">
-            Book a Free Call <ArrowRight className="h-4 w-4" />
-          </Link>
-          <a
-            href="https://wa.me/923014545482"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-2"
-          >
-            Message on WhatsApp <ArrowRight className="h-4 w-4" />
-          </a>
+          <div className="mt-10 flex flex-col items-center gap-8 sm:flex-row">
+            <PrimaryButton
+              text="Book a Free Call"
+              onClick={() => router.push('/contact')}
+              className="h-14 px-10 text-lg"
+            />
+            <a
+              href="https://wa.me/923014545482"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+            >
+              Message on WhatsApp
+              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+            </a>
+          </div>
+
+          <footer className="mt-16 grid grid-cols-2 gap-12 border-t border-border pt-12 md:gap-24">
+            <div className="flex flex-col items-center">
+              <p className="font-mono text-3xl font-semibold tracking-tighter text-foreground">3</p>
+              <p className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">Businesses Launched</p>
+            </div>
+            <div className="flex flex-col items-center">
+              <p className="font-mono text-3xl font-semibold tracking-tighter text-foreground">1k+</p>
+              <p className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">Leads Generated</p>
+            </div>
+          </footer>
         </div>
-
-        <p>
-          3 businesses launched · 1,000+ leads generated · Built with modern web
-          tech
-        </p>
-      </div>
-
-      <div>
-        <Image
-          src="/images/yasir-khan.jpg"
-          alt="Professional photo of Yasir Khan"
-          width={400}
-          height={400}
-          priority
-        />
       </div>
     </section>
   )

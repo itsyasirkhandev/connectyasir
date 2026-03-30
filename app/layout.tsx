@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Roboto, Nunito, Geist, Outfit, Lora } from 'next/font/google'
+import { Roboto, Nunito, Outfit, Lora } from 'next/font/google'
 import './globals.css'
 
 import { JsonLd } from '@/components/seo/json-ld'
@@ -11,11 +11,11 @@ import {
   SITE_URL,
 } from '@/lib/site-config'
 import { getOrganizationNode, getWebsiteNode, schemaGraph } from '@/lib/schema'
-import { cn } from "@/lib/utils";
+import { cn } from '@/lib/utils'
 
-const loraHeading = Lora({subsets:['latin'],variable:'--font-heading'});
+const loraHeading = Lora({ subsets: ['latin'], variable: '--font-heading' })
 
-const outfit = Outfit({subsets:['latin'],variable:'--font-sans'});
+const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' })
 
 const roboto = Roboto({
   weight: ['400', '500', '700'],
@@ -68,7 +68,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={cn(, "font-sans", outfit.variable, loraHeading.variable)}>
+    <html
+      lang="en"
+      className={cn('font-sans', outfit.variable, loraHeading.variable)}
+    >
       <body className={`${roboto.variable} ${nunito.variable} antialiased`}>
         <JsonLd data={schemaGraph([getWebsiteNode(), getOrganizationNode()])} />
         {children}

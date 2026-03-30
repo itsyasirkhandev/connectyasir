@@ -120,10 +120,10 @@ Don't choose sizes arbitrarily. Use a **modular scale (Perfect Fourth — 1.333 
 
 ```html
 <!-- Designed. Not generated. -->
-<h1 class="text-4xl font-semibold tracking-tight leading-tight text-foreground">
+<h1 class="text-foreground text-4xl leading-tight font-semibold tracking-tight">
   The thing you're building
 </h1>
-<p class="mt-3 text-base text-muted-foreground leading-relaxed max-w-prose">
+<p class="text-muted-foreground mt-3 max-w-prose text-base leading-relaxed">
   A supporting sentence that gives context without competing for attention.
 </p>
 ```
@@ -330,7 +330,7 @@ Elevation signals clickability and layering. Three tools: **shadow**, **border**
 
 ```html
 <div class="@container">
-  <div class="@md:grid-cols-2 grid grid-cols-1 gap-6">...</div>
+  <div class="grid grid-cols-1 gap-6 @md:grid-cols-2">...</div>
 </div>
 ```
 
@@ -389,7 +389,9 @@ Never exceed 400ms for any micro-interaction.
 Or with Tailwind:
 
 ```html
-<div class="starting:opacity-0 starting:translate-y-2 transition-all duration-200 ease-out">
+<div
+  class="transition-all duration-200 ease-out starting:translate-y-2 starting:opacity-0"
+>
   ...
 </div>
 ```
@@ -485,7 +487,7 @@ Not optional. These are what separate amateur from professional.
 /* globals.css */
 @import 'tailwindcss';
 
-@source not "../../../node_modules";
+@source not '../../../node_modules';
 
 @theme {
   --color-background: var(--background);

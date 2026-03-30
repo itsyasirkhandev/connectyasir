@@ -1,4 +1,5 @@
 import { MessageCircle, Mail, Clock, Calendar } from 'lucide-react'
+import { PrimaryButton } from '@/components/ui/primary-button'
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -63,14 +64,23 @@ export default function ContactOptions() {
             <p>&quot;Quick questions or project ideas&quot;</p>
             <span>wa.me/923014545482</span>
           </li>
-          <li className="flex flex-col gap-1">
+          <li className="flex flex-col items-start gap-1">
             <strong className="flex items-center gap-2">
               <Mail className="h-5 w-5 text-blue-500" />
               EMAIL:
             </strong>
-            <a href="mailto:itsyasirkhan.dev@gmail.com">Send an Email</a>
-            <p>&quot;Detailed project briefs&quot;</p>
-            <span>itsyasirkhan.dev@gmail.com</span>
+            <PrimaryButton
+              text="Send Message"
+              sentText="Ready to send!"
+              className="mt-2"
+              onClick={() => {
+                window.location.href = 'mailto:itsyasirkhan.dev@gmail.com'
+              }}
+            />
+            <p className="mt-2 text-zinc-700 italic">
+              &quot;Detailed project briefs&quot;
+            </p>
+            <span className="text-zinc-600">itsyasirkhan.dev@gmail.com</span>
           </li>
           <li className="flex flex-col gap-1">
             <strong className="flex items-center gap-2">

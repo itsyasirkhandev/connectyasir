@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import { ArrowRight } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -15,7 +16,6 @@ import { createMetadata } from '@/lib/seo'
 import {
   PAGE_SEO,
   PAGE_SUMMARIES,
-  PROJECTS,
   type BreadcrumbItem,
 } from '@/lib/site-data'
 import {
@@ -41,63 +41,52 @@ export default function ProjectsPage() {
         ])}
       />
       <Navbar />
-      <main className="mx-auto max-w-6xl px-6 py-10">
+      <main>
         <Breadcrumbs items={breadcrumbs} />
 
         <PageHeader />
 
-        <AnswerFirstBlock
-          heading="Real client websites and outcomes"
-          summary={PAGE_SUMMARIES.projects}
-        />
+        <section className="relative overflow-hidden bg-background py-24 md:py-32">
+          <div className="container relative z-10 mx-auto px-6">
+            <AnswerFirstBlock
+              heading="Real client websites and outcomes"
+              summary={PAGE_SUMMARIES.projects}
+            />
 
-        <section className="mt-8 grid gap-6 md:grid-cols-3">
-          {PROJECTS.map((project) => (
-            <article
-              key={project.slug}
-              id={project.slug}
-              className="rounded-2xl border border-zinc-200 p-5"
-            >
-              <p className="text-sm font-medium text-emerald-700">
-                {project.projectType}
-              </p>
-              <h2 className="mt-2 text-xl font-semibold text-zinc-900">
-                {project.name}
-              </h2>
-              <p className="mt-3 text-zinc-700">{project.shortDescription}</p>
-              <Link
-                href={project.path}
-                className="mt-4 inline-flex text-sm font-medium text-zinc-900 underline"
-              >
-                {project.slug === 'apna-qarz'
-                  ? 'Read the full case study'
-                  : 'View project section'}
-              </Link>
-            </article>
-          ))}
+            <div className="mx-auto mt-12 max-w-4xl px-4 md:px-12">
+              <div className="flex flex-col items-center justify-between gap-6 border-t border-border/40 pt-10 md:flex-row">
+                <p className="text-sm font-medium tracking-tight text-muted-foreground">
+                  Looking for more?
+                </p>
+                <div className="flex flex-wrap items-center justify-center gap-x-10 gap-y-4">
+                  <Link
+                    href="/services"
+                    className="group flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                  >
+                    Pricing & Packages
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                  <Link
+                    href="/about"
+                    className="group flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                  >
+                    My Journey
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                  <Link
+                    href="/contact"
+                    className="group flex items-center gap-1.5 text-sm font-semibold text-foreground transition-colors hover:text-primary"
+                  >
+                    Book a Call
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
 
         <ProjectGrid />
-
-        <div className="mt-8 text-sm text-zinc-700">
-          <p>
-            Need pricing before you browse? Go to the{' '}
-            <Link
-              href="/services"
-              className="font-medium text-zinc-900 underline"
-            >
-              website pricing page
-            </Link>
-            . Ready to start your own project?{' '}
-            <Link
-              href="/contact"
-              className="font-medium text-zinc-900 underline"
-            >
-              Book a free call
-            </Link>
-            .
-          </p>
-        </div>
 
         <CtaBlock />
       </main>
