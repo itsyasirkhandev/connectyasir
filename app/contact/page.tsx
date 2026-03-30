@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -12,12 +11,7 @@ import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { Breadcrumbs } from '@/components/seo/breadcrumbs'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
-import {
-  CONTACT_FAQS,
-  PAGE_SEO,
-  PAGE_SUMMARIES,
-  type BreadcrumbItem,
-} from '@/lib/site-data'
+import { PAGE_SEO, PAGE_SUMMARIES, type BreadcrumbItem } from '@/lib/site-data'
 import {
   getBreadcrumbNode,
   getContactFaqNode,
@@ -55,39 +49,6 @@ export default function ContactPage() {
             heading="How to start your project"
             summary={PAGE_SUMMARIES.contact}
           />
-
-          <section className="border-border bg-muted/30 mt-8 rounded-2xl border p-6">
-            <h2 className="text-foreground text-2xl font-semibold">
-              Before you book
-            </h2>
-
-            <ul className="text-muted-foreground mt-4 space-y-3">
-              {CONTACT_FAQS.slice(0, 3).map((faq) => (
-                <li key={faq.question}>
-                  <strong className="text-foreground">{faq.question}</strong>
-                  <p className="mt-1">{faq.answer}</p>
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-muted-foreground mt-6 text-sm">
-              Still comparing options? Review the{' '}
-              <Link
-                href="/services"
-                className="text-foreground decoration-primary/30 font-medium underline underline-offset-4"
-              >
-                website pricing
-              </Link>{' '}
-              or browse{' '}
-              <Link
-                href="/projects"
-                className="text-foreground decoration-primary/30 font-medium underline underline-offset-4"
-              >
-                real client projects
-              </Link>
-              .
-            </p>
-          </section>
         </div>
 
         <ContactOptions />

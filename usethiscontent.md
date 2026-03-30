@@ -42,7 +42,7 @@ Badge:
 🟢 Taking on 2 new projects
 
 Headline:
-Your website should win trust —
+Your website should win trust
 not lose customers.
 
 Subheadline:

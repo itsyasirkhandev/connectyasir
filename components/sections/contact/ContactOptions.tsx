@@ -1,7 +1,8 @@
 'use client'
 
-import { MessageCircle, Mail, Clock, Calendar } from 'lucide-react'
+import { MessageCircle, Mail, Clock, Calendar, ArrowRight } from 'lucide-react'
 import { PrimaryButton } from '@/components/ui/primary-button'
+import { CONTACT } from '@/lib/site-config'
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -11,11 +12,11 @@ function LinkedinIcon({ className }: { className?: string }) {
       className={className}
     >
       <path
-        fill="#0076b2"
+        fill="currentColor"
         d="M116 3H12a8.91 8.91 0 0 0-9 8.8v104.42a8.91 8.91 0 0 0 9 8.78h104a8.93 8.93 0 0 0 9-8.81V11.77A8.93 8.93 0 0 0 116 3"
       />
       <path
-        fill="#fff"
+        fill="var(--color-background, #fff)"
         d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 1 1-10.5 10.49a10.5 10.5 0 0 1 10.5-10.49m20.41 29h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"
       />
     </svg>
@@ -24,89 +25,109 @@ function LinkedinIcon({ className }: { className?: string }) {
 
 export default function ContactOptions() {
   return (
-    <section>
-      <div>
-        <h3>BOOK A CALL</h3>
-        <h4>Pick a time that works for you.</h4>
-        <p>
-          I’ll ask about your business and your goals, then I’ll tell you
-          exactly how I can help.
-        </p>
-
-        {/* Cal.com Embed Placeholder */}
-        <div>
-          <p>[Cal.com Embed Placeholder]</p>
-          <a
-            href="https://cal.com/connectyasir/30min"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            cal.com/connectyasir/30min
-          </a>
-        </div>
-      </div>
-
-      <div>
-        <h3>MESSAGE ME</h3>
-        <h4>Prefer to message first?</h4>
-
-        <ul className="mt-6 space-y-4">
-          <li className="flex flex-col gap-1">
-            <strong className="flex items-center gap-2">
-              <MessageCircle className="h-5 w-5 text-green-500" />
-              WHATSAPP:
-            </strong>
-            <a
-              href="https://wa.me/923014545482"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Message on WhatsApp
-            </a>
-            <p>&quot;Quick questions or project ideas&quot;</p>
-            <span>wa.me/923014545482</span>
-          </li>
-          <li className="flex flex-col items-start gap-1">
-            <strong className="flex items-center gap-2">
-              <Mail className="h-5 w-5 text-blue-500" />
-              EMAIL:
-            </strong>
-            <PrimaryButton
-              text="Send Message"
-              sentText="Ready to send!"
-              className="mt-2"
-              onClick={() => {
-                window.location.href = 'mailto:itsyasirkhan.dev@gmail.com'
-              }}
-            />
-            <p className="mt-2 text-zinc-700 italic">
-              &quot;Detailed project briefs&quot;
+    <section className="bg-background py-24 md:py-32">
+      <div className="container mx-auto px-6">
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
+          {/* Left Column: Heading */}
+          <div>
+            <h2 className="text-foreground text-3xl font-semibold tracking-tight md:text-4xl">
+              Get in touch
+            </h2>
+            <p className="text-muted-foreground mt-4 max-w-prose text-base leading-relaxed">
+              Choose the method that works best for you. I respond swiftly to
+              all inquiries.
             </p>
-            <span className="text-zinc-600">itsyasirkhan.dev@gmail.com</span>
-          </li>
-          <li className="flex flex-col gap-1">
-            <strong className="flex items-center gap-2">
-              <LinkedinIcon className="h-5 w-5" />
-              LINKEDIN:
-            </strong>
-            <a
-              href="https://linkedin.com/in/connectyasir"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Connect on LinkedIn
-            </a>
-            <span>linkedin.com/in/connectyasir</span>
-          </li>
-        </ul>
+          </div>
 
-        <div className="mt-8 flex flex-col gap-2">
-          <p className="flex items-center gap-2">
-            <Clock className="h-4 w-4" /> I respond within a few hours.
-          </p>
-          <p className="flex items-center gap-2">
-            <Calendar className="h-4 w-4" /> Mon–Fri 9 AM – 5 PM PST
-          </p>
+          {/* Right Column: Options */}
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
+            {/* Call Card */}
+            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-8 transition-all duration-300 hover:shadow-sm">
+              <div className="bg-primary/10 text-primary mb-6 flex h-12 w-12 items-center justify-center rounded-xl">
+                <Calendar className="h-6 w-6" />
+              </div>
+              <h3 className="text-foreground text-xl font-semibold">
+                Book a call
+              </h3>
+              <p className="text-muted-foreground mt-3 grow text-base leading-relaxed">
+                Pick a time that works for you. I’ll ask about your business and
+                goals, then I’ll tell you exactly how I can help.
+              </p>
+
+              <div className="mt-8 flex w-full flex-col items-start gap-4 sm:w-auto">
+                <PrimaryButton
+                  text="Schedule on Cal.com"
+                  onClick={() => window.open(CONTACT.calendar, '_blank')}
+                  className="w-full sm:w-auto"
+                />
+              </div>
+            </div>
+
+            {/* Direct Message Card */}
+            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-8 transition-all duration-300 hover:shadow-sm">
+              <div className="bg-primary/10 text-primary mb-6 flex h-12 w-12 items-center justify-center rounded-xl">
+                <MessageCircle className="h-6 w-6" />
+              </div>
+              <h3 className="text-foreground text-xl font-semibold">
+                Send a message
+              </h3>
+              <p className="text-muted-foreground mt-3 grow text-base leading-relaxed">
+                Prefer to write it out? Send an email or reach out on WhatsApp
+                for quick questions.
+              </p>
+
+              <div className="mt-8 flex w-full flex-col gap-3">
+                <a
+                  href={`mailto:${CONTACT.email}`}
+                  className="bg-muted hover:bg-muted/80 text-foreground focus-visible:ring-primary flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                >
+                  <Mail className="h-4 w-4" />
+                  Email me directly
+                </a>
+
+                <a
+                  href={CONTACT.whatsapp}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-muted hover:bg-muted/80 text-foreground focus-visible:ring-primary flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                >
+                  <MessageCircle className="h-4 w-4" />
+                  WhatsApp
+                </a>
+
+                <a
+                  href={CONTACT.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-foreground group focus-visible:ring-primary mt-2 flex items-center justify-center gap-2 rounded-md px-2 py-1 text-sm font-semibold transition-colors focus-visible:ring-2 focus-visible:outline-none"
+                >
+                  <LinkedinIcon className="h-4 w-4" />
+                  Connect on LinkedIn
+                  <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Global Details - response time info */}
+        <div className="mt-16 grid grid-cols-1 gap-12 lg:mt-24 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
+          {/* Empty div for alignment */}
+          <div className="hidden lg:block"></div>
+          <div className="border-border flex flex-col gap-6 border-t pt-8 sm:flex-row sm:gap-12">
+            <div className="flex items-center gap-3">
+              <Clock className="text-muted-foreground/50 h-5 w-5" />
+              <span className="text-muted-foreground text-sm font-medium">
+                I typically respond within a few hours.
+              </span>
+            </div>
+            <div className="flex items-center gap-3">
+              <Calendar className="text-muted-foreground/50 h-5 w-5" />
+              <span className="text-muted-foreground text-sm font-medium">
+                Available Mon–Fri, 9 AM – 5 PM PST.
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </section>
