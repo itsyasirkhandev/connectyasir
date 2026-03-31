@@ -2,8 +2,10 @@ export default function ClientTestimonial() {
   return (
     <section>
       <blockquote>
-        &ldquo;One of the most professional developers I&apos;ve worked with.
-        Latest technology. On-time delivery. Fair pricing.&rdquo;
+        &ldquo;I found more professional and best web developer using next.js
+        and latest technology, to building websites and completing projects on
+        time in normal service charges, Personally I like and recommend yasir
+        Khan as web developer&rdquo;
       </blockquote>
       <cite>
         <span>Rashid Bashir</span>

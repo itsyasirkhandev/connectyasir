@@ -5,8 +5,8 @@ import { Star } from 'lucide-react'
 const testimonials = [
   {
     quote:
-      'Professional, modern, on-time, and fairly priced. I highly recommend Yasir Khan.',
-    shortQuote: 'Professional, modern, on-time, and fairly priced.',
+      'I found more professional and best web developer using next.js and latest technology, to building websites and completing projects on time in normal service charges, Personally I like and recommend yasir Khan as web developer',
+    shortQuote: 'Personally I like and recommend yasir Khan as web developer',
     author: 'Rashid Bashir',
     role: 'Finance Advisor',
     company: 'Apna Qarz',
@@ -14,16 +14,18 @@ const testimonials = [
   },
   {
     quote:
-      'The new site looks premium, loads fast, and helped improve trust and conversions.',
-    shortQuote: 'The new site feels premium and helped improve trust.',
-    author: 'Owner',
+      "I really struggled with credibility early on. I had a great service with Prime Tools, but the way my site looked before... well, it just didn't inspire much confidence. I was losing people because it didn't look 'official' enough, I think. Yasir Khan really stepped in and fixed that. The new landing page is clean, fast, and actually looks like a premium business. My conversion rates have improved quite a bit because people actually trust the site now. It’s a huge relief.",
+    shortQuote:
+      'The new landing page is clean, fast, and actually looks like a premium business.',
+    author: 'Mohummad Ayan',
     role: 'Owner',
-    company: 'Prime Tools Provider',
+    company: 'Prime Tools',
   },
   {
     quote:
-      'Our old site brought no leads. After the rebuild, traffic and inquiries improved significantly.',
-    shortQuote: 'Traffic and inquiries improved after the rebuild.',
+      "We were struggling with an outdated website that wasn't bringing in any leads. Yasir khan completely transformed our online presence by building us a professional, modern marketing website with great design and clear messaging. Since the new site went live, our traffic and inquiries have significantly increased. Communication was smooth, delivery was on time, and the quality exceeded our expectations. Highly recommend for anyone needing a website that actually delivers results!",
+    shortQuote:
+      'Yasir khan completely transformed our online presence by building us a professional, modern marketing website.',
     author: 'Ghulam Yaseen',
     role: 'Director',
     company: 'Ghulam Seeds',
@@ -34,7 +36,9 @@ type TestimonialsProps = {
   variant?: 'home' | 'about'
 }
 
-export default function Testimonials({ variant = 'home' }: TestimonialsProps = {}) {
+export default function Testimonials({
+  variant = 'home',
+}: TestimonialsProps = {}) {
   const isAbout = variant === 'about'
 
   return (
@@ -50,7 +54,9 @@ export default function Testimonials({ variant = 'home' }: TestimonialsProps = {
             </span>
           )}
           <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
-            {isAbout ? 'What founders say' : 'Trusted by founders who demand results.'}
+            {isAbout
+              ? 'What founders say'
+              : 'Trusted by founders who demand results.'}
           </h2>
         </div>
 
