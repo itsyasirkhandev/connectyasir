@@ -60,6 +60,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  appleWebApp: {
+    title: 'Yasir Khan',
+  },
 }
 
 export default function RootLayout({
