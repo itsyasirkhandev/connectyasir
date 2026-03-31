@@ -7,7 +7,7 @@ Project guidelines:
 - use tailwindcss for styling whenever possible, only resort to custom css if needed
 - I am on windows so use powershell 5 for commands
 - run 'pnpm lint' to check for linting errors, 'pnpm format', and 'pnpm check' to check for errors after making changes
-- **when writing ANY UI/component/page code, you MUST first read `design-guide.md`** in the project root and follow every rule in it. This is non-negotiable and applies to all design and redesign tasks.
+- **when writing ANY UI/component/page code, you MUST first read `DESIGN_RULES.md`** in the project root and follow every rule in it. This is non-negotiable and applies to all design and redesign tasks. and finally verify it using `DESIGN_CHECKLIST.md`
 
 <!-- BEGIN:nextjs-agent-rules -->
 
