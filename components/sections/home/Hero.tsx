@@ -15,7 +15,7 @@ export default function Hero() {
     <section className="grid-wrapper overflow-hidden py-16 md:py-24">
       <div className="grid-background" />
 
-      <div className="container relative z-10 mx-auto px-4 md:px-6">
+      <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="mx-auto flex max-w-200 flex-col items-center text-center transition-all duration-300 ease-out starting:translate-y-4 starting:opacity-0">
           <div className="border-border/50 bg-muted/30 text-foreground/80 mb-6 inline-flex items-center gap-3 rounded-full border px-4 py-1.5 text-xs font-medium">
             <div className="relative flex h-2 w-2">
@@ -46,7 +46,7 @@ export default function Hero() {
               rel="noopener noreferrer"
               className={cn(
                 'group flex items-center gap-2 py-2 text-base font-semibold transition-colors',
-                'text-foreground hover:text-primary outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 active:opacity-80'
+                'text-foreground hover:text-primary focus-visible:ring-ring outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:opacity-80'
               )}
             >
               Message on WhatsApp
@@ -62,7 +62,7 @@ export default function Hero() {
               <span className="text-muted-foreground text-xs tracking-widest uppercase">
                 Companies Launched
               </span>
-              <p className="text-muted-foreground text-xs max-w-40 leading-relaxed">
+              <p className="text-muted-foreground max-w-40 text-xs leading-relaxed">
                 Strategic digital partners for growing businesses.
               </p>
             </div>
@@ -74,7 +74,7 @@ export default function Hero() {
               <span className="text-muted-foreground text-xs tracking-widest uppercase">
                 Leads Generated
               </span>
-              <p className="text-muted-foreground text-xs max-w-40 leading-relaxed">
+              <p className="text-muted-foreground max-w-40 text-xs leading-relaxed">
                 Proven results in conversion optimization.
               </p>
             </div>
@@ -86,7 +86,7 @@ export default function Hero() {
               <span className="text-muted-foreground text-xs tracking-widest uppercase">
                 Average Load Times
               </span>
-              <p className="text-muted-foreground text-xs max-w-40 leading-relaxed">
+              <p className="text-muted-foreground max-w-40 text-xs leading-relaxed">
                 Built for performance and technical SEO.
               </p>
             </div>

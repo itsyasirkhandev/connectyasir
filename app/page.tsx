@@ -38,27 +38,27 @@ export default function Home() {
 
             <div className="mx-auto mt-12 max-w-4xl">
               <div className="border-border/40 flex flex-col items-start justify-between gap-6 border-t pt-10 md:flex-row md:items-center">
-                <p className="text-muted-foreground text-sm font-medium tracking-tight">
+                <p className="text-muted-foreground text-xs font-semibold tracking-widest uppercase">
                   Looking for more?
                 </p>
                 <div className="flex flex-wrap items-center justify-start gap-x-10 gap-y-4">
                   <Link
                     href="/services"
-                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-base font-semibold transition-colors"
+                    className="group text-foreground hover:text-primary focus-visible:ring-ring flex items-center gap-1.5 text-base font-semibold transition-all outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:opacity-80"
                   >
                     Pricing & Packages
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                   <Link
                     href="/projects"
-                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-base font-semibold transition-colors"
+                    className="group text-foreground hover:text-primary focus-visible:ring-ring flex items-center gap-1.5 text-base font-semibold transition-all outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:opacity-80"
                   >
                     Case Studies
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                   <Link
                     href="/contact"
-                    className="group text-foreground hover:text-primary flex items-center gap-1.5 text-base font-semibold transition-colors"
+                    className="group text-foreground hover:text-primary focus-visible:ring-ring flex items-center gap-1.5 text-base font-semibold transition-all outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:opacity-80"
                   >
                     Book a Call
                     <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

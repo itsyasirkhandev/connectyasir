@@ -39,13 +39,13 @@ const techCategories = [
 
 export default function TechStack() {
   return (
-    <section className="bg-background py-16 md:py-32 lg:py-48" id="stack">
-      <div className="container mx-auto px-4 sm:px-6">
-        <div className="mb-12 max-w-2xl sm:mb-20">
-          <span className="text-primary text-sm font-semibold tracking-widest uppercase">
+    <section className="bg-background py-24 md:py-32" id="stack">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="mb-16 max-w-2xl">
+          <span className="text-primary text-xs font-semibold tracking-widest uppercase">
             The Toolkit
           </span>
-          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl">
+          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter">
             The modern stack I use to deliver exceptional results.
           </h2>
         </div>
@@ -54,20 +54,20 @@ export default function TechStack() {
           {techCategories.map((category) => (
             <div
               key={category.name}
-              className="border-border hover:border-primary/40 flex flex-col border-l pl-6 transition-colors sm:pl-8"
+              className="border-border hover:border-primary/40 flex flex-col border-l pl-8 transition-colors"
             >
-              <h3 className="text-foreground text-2xl font-semibold tracking-tight sm:text-3xl">
+              <h3 className="text-foreground text-3xl font-semibold tracking-tight">
                 {category.name}
               </h3>
-              <p className="text-muted-foreground mt-4 text-base leading-relaxed">
+              <p className="text-muted-foreground mt-6 text-base leading-relaxed">
                 {category.description}
               </p>
 
-              <ul className="mt-8 flex flex-wrap gap-2 sm:gap-4">
+              <ul className="mt-10 flex flex-wrap gap-2.5">
                 {category.tools.map((tool) => (
                   <li
                     key={tool.name}
-                    className="border-border bg-card text-foreground hover:bg-muted flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium transition-all sm:px-4 sm:py-1.5 sm:text-sm"
+                    className="border-border bg-card text-foreground hover:bg-muted flex items-center gap-2 rounded-full border px-4 py-1.5 text-xs font-medium transition-all"
                   >
                     {tool.icon && <span className={cn(tool.icon, 'h-4 w-4')} />}
                     {tool.name}

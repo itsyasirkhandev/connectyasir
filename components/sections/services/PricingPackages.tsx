@@ -208,9 +208,9 @@ export default function PricingPackages() {
 
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:gap-8 xl:gap-12">
               {[
-                "You approve the exact design before any coding begins.",
-                "You review the fully functioning site before it goes live.",
-                "You hold 100% ownership of your code, design, and domain.",
+                'You approve the exact design before any coding begins.',
+                'You review the fully functioning site before it goes live.',
+                'You hold 100% ownership of your code, design, and domain.',
                 "Transparent payment: 50% upfront, 50% only when you're ready to launch.",
               ].map((item) => (
                 <div

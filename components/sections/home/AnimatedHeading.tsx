@@ -77,7 +77,7 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
     <h1
       ref={containerRef}
       className={cn(
-        'text-foreground min-h-[2.4em] w-full max-w-[20ch] text-5xl font-semibold leading-tight tracking-tighter',
+        'text-foreground min-h-[2.4em] w-full max-w-[20ch] text-5xl leading-tight font-semibold tracking-tighter',
         className
       )}
     >
