@@ -72,7 +72,7 @@ export default function PricingPackages() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 lg:grid-cols-3 lg:items-stretch">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_1.3fr_1fr] lg:items-stretch lg:gap-12">
           {packages.map((pkg, idx) => {
             const isMain = idx === 1
             const Icon = pkg.icon

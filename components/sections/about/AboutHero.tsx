@@ -15,20 +15,20 @@ export default function AboutHero() {
         <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-24 xl:grid-cols-[1.5fr_1fr] xl:gap-32">
           {/* Left Column: Content */}
           <div className="space-y-8 lg:space-y-12">
-            <div className="transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
+            <div className="transition-[opacity,transform] duration-500 ease-out starting:translate-y-2 starting:opacity-0">
               <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
                 The Builder
               </span>
             </div>
 
-            <div className="transition-all delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
-              <h1 className="text-foreground text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
+            <div className="transition-[opacity,transform] delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
+              <h1 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
                 I build the digital assets that make small businesses{' '}
                 <span className="text-muted-foreground">undeniable.</span>
               </h1>
             </div>
 
-            <div className="text-muted-foreground space-y-6 text-base leading-relaxed transition-all delay-200 duration-700 ease-out sm:space-y-8 sm:text-lg md:text-xl starting:translate-y-4 starting:opacity-0">
+            <div className="text-muted-foreground space-y-6 text-base leading-relaxed transition-[opacity,transform] delay-200 duration-700 ease-out sm:space-y-8 sm:text-lg starting:translate-y-4 starting:opacity-0">
               <p className="max-w-prose">
                 I&rsquo;m Yasir. I engineer screaming-fast, high-trust websites
                 that turn your visitors into actual clients. No agencies. No
@@ -42,7 +42,7 @@ export default function AboutHero() {
                   onClick={() => {
                     router.push(CONTACT.calendar)
                   }}
-                  className="h-14 px-8 text-base md:h-16 md:px-10 md:text-lg"
+                  className="h-14 px-8 text-base md:h-16 md:px-10"
                 />
                 <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
                   <a
@@ -69,7 +69,7 @@ export default function AboutHero() {
           </div>
 
           {/* Right Column: Image */}
-          <div className="w-full transition-all delay-300 duration-1000 ease-out starting:translate-y-8 starting:scale-95 starting:rotate-1 starting:opacity-0">
+          <div className="w-full transition-[opacity,transform] delay-300 duration-1000 ease-out starting:translate-y-8 starting:scale-95 starting:rotate-1 starting:opacity-0">
             <div className="border-border/50 bg-card relative aspect-square w-full overflow-hidden rounded-3xl border sm:aspect-4/3 lg:aspect-4/5">
               <Image
                 src="/images/yasir-khan.jpg"
