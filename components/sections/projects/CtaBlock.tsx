@@ -17,7 +17,7 @@ export default function CtaBlock() {
 
           <div className="relative z-10 grid grid-cols-1 items-center gap-10 sm:gap-12 @4xl:grid-cols-[1.3fr_0.7fr]">
             <div className="flex flex-col gap-6 sm:gap-8">
-              <h2 className="text-foreground text-3xl leading-[1.1] font-semibold tracking-tighter @3xl:text-6xl sm:text-4xl">
+              <h2 className="text-foreground text-3xl leading-[1.1] font-semibold tracking-tighter sm:text-4xl @3xl:text-6xl">
                 Your business deserves a success story like these.
               </h2>
 
@@ -32,7 +32,7 @@ export default function CtaBlock() {
                 onClick={() => {
                   router.push(CONTACT.calendar)
                 }}
-                className="shadow-primary/25 h-14 rounded-xl px-8 text-base font-bold shadow-2xl transition-all sm:h-16 sm:rounded-2xl sm:px-10 sm:text-lg hover:scale-[1.02] active:scale-[0.98]"
+                className="shadow-primary/25 h-14 rounded-xl px-8 text-base font-bold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98] sm:h-16 sm:rounded-2xl sm:px-10 sm:text-lg"
               />
             </div>
           </div>

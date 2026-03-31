@@ -42,7 +42,7 @@ export default function ContactOptions() {
           {/* Right Column: Options */}
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* Call Card */}
-            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-6 transition-all duration-300 sm:p-8 hover:shadow-sm">
+            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-6 transition-all duration-300 hover:shadow-sm sm:p-8">
               <div className="bg-primary/10 text-primary mb-6 flex h-11 w-11 items-center justify-center rounded-xl sm:h-12 sm:w-12">
                 <Calendar className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>
@@ -63,7 +63,7 @@ export default function ContactOptions() {
             </div>
 
             {/* Direct Message Card */}
-            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-6 transition-all duration-300 sm:p-8 hover:shadow-sm">
+            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-6 transition-all duration-300 hover:shadow-sm sm:p-8">
               <div className="bg-primary/10 text-primary mb-6 flex h-11 w-11 items-center justify-center rounded-xl sm:h-12 sm:w-12">
                 <MessageCircle className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>

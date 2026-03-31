@@ -42,7 +42,10 @@ export default function MyValues() {
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:gap-24">
           {VALUES.map((value) => (
-            <div key={value.title} className="flex flex-col items-start gap-4 sm:gap-5">
+            <div
+              key={value.title}
+              className="flex flex-col items-start gap-4 sm:gap-5"
+            >
               <div className="bg-primary/10 text-primary flex h-12 w-12 shrink-0 items-center justify-center rounded-xl sm:h-14 sm:w-14 sm:rounded-2xl">
                 <value.icon className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>

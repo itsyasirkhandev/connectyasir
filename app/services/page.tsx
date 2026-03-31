@@ -43,7 +43,7 @@ export default function ServicesPage() {
       />
       <Navbar />
       <main>
-        <div className="container mx-auto px-4 sm:px-6 pt-10">
+        <div className="container mx-auto px-4 pt-10 sm:px-6">
           <Breadcrumbs items={breadcrumbs} />
         </div>
 

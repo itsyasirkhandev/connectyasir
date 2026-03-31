@@ -193,31 +193,36 @@ export default function PricingPackages() {
           <div className="bg-primary/20 group-hover:bg-primary/30 absolute top-0 right-0 -mt-20 -mr-20 h-64 w-64 rounded-full blur-[100px] transition-colors duration-700" />
           <div className="bg-primary/10 absolute bottom-0 left-0 -mb-20 -ml-20 h-64 w-64 rounded-full blur-[100px]" />
 
-          <div className="relative flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
-            <div className="max-w-xl">
+          <div className="relative flex flex-col gap-16 lg:gap-24">
+            <div className="max-w-5xl">
               <h4 className="text-primary flex items-center gap-2 text-xs font-bold tracking-[0.3em] uppercase">
                 <ShieldCheck className="h-4 w-4" /> THE PROMISE
               </h4>
-              <h2 className="mt-6 text-3xl leading-[1.1] font-semibold tracking-tighter sm:mt-8 sm:text-4xl md:text-5xl lg:text-6xl">
-                Transparent process. <br />
+              <h2 className="mt-8 text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
+                Transparent process.{' '}
                 <span className="text-muted-foreground group-hover:text-primary/80 transition-colors">
                   No surprises.
                 </span>
               </h2>
             </div>
 
-            <div className="grid shrink-0 grid-cols-1 gap-6 sm:grid-cols-2 lg:flex lg:flex-col lg:gap-8">
+            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:gap-8 xl:gap-12">
               {[
-                'You approve the exact design before any coding begins.',
-                'You review the fully functioning site before it goes live.',
-                'You hold 100% ownership of your code, design, and domain.',
-                'Transparent payment: 50% upfront, 50% only when you&apos;re ready to launch.',
+                "You approve the exact design before any coding begins.",
+                "You review the fully functioning site before it goes live.",
+                "You hold 100% ownership of your code, design, and domain.",
+                "Transparent payment: 50% upfront, 50% only when you're ready to launch.",
               ].map((item) => (
-                <div key={item} className="group/item flex items-center gap-4">
-                  <div className="border-primary/20 bg-primary/5 group-hover/item:border-primary/50 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border transition-colors sm:h-10 sm:w-10">
-                    <Check className="text-primary h-4 w-4 sm:h-5 sm:w-5" />
+                <div
+                  key={item}
+                  className="group/item hover:bg-primary/5 hover:border-primary/10 flex items-start gap-5 rounded-3xl border border-transparent p-6 transition-all duration-300"
+                >
+                  <div className="border-primary/20 bg-primary/5 group-hover/item:border-primary/40 mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border transition-colors sm:h-14 sm:w-14">
+                    <Check className="text-primary h-5 w-5 sm:h-6 sm:w-6" />
                   </div>
-                  <span className="text-base font-medium opacity-90 sm:text-lg">{item}</span>
+                  <span className="text-base leading-snug font-medium opacity-90 sm:text-xl lg:text-2xl">
+                    {item}
+                  </span>
                 </div>
               ))}
             </div>

@@ -98,7 +98,7 @@ export default function Navbar() {
             >
               <HamburgerMenu isOpen={isOpen} />
             </SheetTrigger>
-            <SheetContent side="right" className="w-full sm:max-w-xs px-4">
+            <SheetContent side="right" className="w-full px-4 sm:max-w-xs">
               <SheetHeader className="pb-8">
                 <SheetTitle className="font-heading text-left text-xl">
                   Navigation

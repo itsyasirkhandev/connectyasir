@@ -30,10 +30,10 @@ export default function AboutHero() {
 
             <div className="text-muted-foreground space-y-6 text-base leading-relaxed transition-all delay-200 duration-700 ease-out sm:space-y-8 sm:text-lg md:text-xl starting:translate-y-4 starting:opacity-0">
               <p className="max-w-prose">
-                I&rsquo;m Yasir. I engineer screaming-fast, high-trust
-                websites that turn your visitors into actual clients. No
-                agencies. No junior developers. You get my absolute best work,
-                from the first strategy call to the final launch.
+                I&rsquo;m Yasir. I engineer screaming-fast, high-trust websites
+                that turn your visitors into actual clients. No agencies. No
+                junior developers. You get my absolute best work, from the first
+                strategy call to the final launch.
               </p>
 
               <div className="flex flex-col items-start gap-8 pt-4 sm:flex-row sm:items-center">
@@ -69,8 +69,8 @@ export default function AboutHero() {
           </div>
 
           {/* Right Column: Image */}
-          <div className="w-full transition-all delay-300 duration-1000 ease-out starting:translate-y-8 starting:rotate-1 starting:scale-95 starting:opacity-0">
-            <div className="border-border/50 bg-card relative w-full overflow-hidden rounded-3xl border aspect-square sm:aspect-4/3 lg:aspect-4/5">
+          <div className="w-full transition-all delay-300 duration-1000 ease-out starting:translate-y-8 starting:scale-95 starting:rotate-1 starting:opacity-0">
+            <div className="border-border/50 bg-card relative aspect-square w-full overflow-hidden rounded-3xl border sm:aspect-4/3 lg:aspect-4/5">
               <Image
                 src="/images/yasir-khan.jpg"
                 alt="Yasir Khan - Web Designer & Developer"
