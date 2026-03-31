@@ -4,7 +4,7 @@ import { CONTACT } from '@/lib/site-config'
 
 export default function WhatsAppButton() {
   return (
-    <div className="@container pointer-events-none fixed right-6 bottom-6 z-50">
+    <div className="@container pointer-events-none fixed right-4 bottom-4 z-50 sm:right-6 sm:bottom-6">
       <div className="pointer-events-auto flex flex-col items-end gap-3">
         {/* Editorial Chat Tooltip */}
         <div className="bg-card/95 text-foreground border-border rounded-2xl border px-4 py-2.5 text-sm font-medium shadow-2xl backdrop-blur-md transition-all duration-500 ease-out @[0px]:hidden @md:block starting:translate-y-2 starting:opacity-0">
@@ -22,7 +22,7 @@ export default function WhatsAppButton() {
           href={CONTACT.whatsapp}
           target="_blank"
           rel="noopener noreferrer"
-          className="group relative flex h-16 w-16 items-center justify-center rounded-2xl bg-[#25D366] text-white shadow-[0_8px_30px_rgb(37,211,102,0.4)] transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-110 active:scale-95 starting:scale-0 starting:opacity-0"
+          className="group relative flex h-14 w-14 items-center justify-center rounded-2xl bg-[#25D366] text-white shadow-[0_8px_30px_rgb(37,211,102,0.4)] transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-110 active:scale-95 sm:h-16 sm:w-16 starting:scale-0 starting:opacity-0"
           aria-label="Contact on WhatsApp"
         >
           {/* Concentric Pulse Effect */}

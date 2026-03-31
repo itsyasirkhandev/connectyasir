@@ -35,15 +35,15 @@ const testimonials = [
 export default function Testimonials() {
   return (
     <section
-      className="bg-background py-24 md:py-32 lg:py-48"
+      className="bg-background py-16 md:py-32 lg:py-48"
       id="testimonials"
     >
-      <div className="container mx-auto px-6">
-        <div className="mb-16 max-w-2xl">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="mb-12 max-w-2xl sm:mb-16">
           <span className="text-primary text-sm font-semibold tracking-widest uppercase">
             Client Reviews
           </span>
-          <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
+          <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl">
             Trusted by founders who demand results.
           </h2>
         </div>
@@ -55,31 +55,31 @@ export default function Testimonials() {
             .map((t, i) => (
               <div
                 key={i}
-                className="border-border bg-card hover:border-primary/20 flex flex-col justify-between rounded-2xl border p-8 transition-colors md:p-12"
+                className="border-border bg-card hover:border-primary/20 flex flex-col justify-between rounded-2xl border p-6 transition-colors sm:p-8 md:p-12"
               >
                 <div>
-                  <div className="text-primary mb-8 flex items-center gap-1">
+                  <div className="text-primary mb-6 flex items-center gap-1 sm:mb-8">
                     {Array.from({ length: 5 }).map((_, i) => (
                       <Star key={i} className="h-4 w-4 fill-current" />
                     ))}
-                    <span className="text-muted-foreground ml-2 text-sm font-semibold tracking-widest uppercase">
+                    <span className="text-muted-foreground ml-2 text-xs font-semibold tracking-widest uppercase sm:text-sm">
                       Verified Review
                     </span>
                   </div>
-                  <blockquote className="text-foreground text-3xl leading-snug font-semibold tracking-tight">
+                  <blockquote className="text-foreground text-xl leading-snug font-semibold tracking-tight sm:text-3xl">
                     &ldquo;{t.quote}&rdquo;
                   </blockquote>
                 </div>
 
-                <footer className="mt-12 flex items-center gap-4">
-                  <div className="border-border bg-muted text-muted-foreground flex h-12 w-12 items-center justify-center rounded-full border text-base font-semibold">
+                <footer className="mt-10 flex items-center gap-4 sm:mt-12">
+                  <div className="border-border bg-muted text-muted-foreground flex h-10 w-10 items-center justify-center rounded-full border text-sm font-semibold sm:h-12 sm:w-12 sm:text-base">
                     {t.author[0]}
                   </div>
                   <div>
-                    <cite className="text-foreground text-base font-semibold not-italic">
+                    <cite className="text-foreground text-sm font-semibold not-italic sm:text-base">
                       {t.author}
                     </cite>
-                    <p className="text-muted-foreground text-sm">
+                    <p className="text-muted-foreground text-xs sm:text-sm">
                       {t.role} &middot; {t.company}
                     </p>
                   </div>
@@ -88,27 +88,27 @@ export default function Testimonials() {
             ))}
 
           {/* Secondary Testimonials */}
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-6 sm:gap-8">
             {testimonials
               .filter((t) => !t.featured)
               .map((t, i) => (
                 <div
                   key={i}
-                  className="border-border bg-background hover:border-primary/20 flex flex-col justify-between rounded-2xl border p-8 transition-colors"
+                  className="border-border bg-background hover:border-primary/20 flex flex-col justify-between rounded-2xl border p-6 transition-colors sm:p-8"
                 >
                   <blockquote className="text-foreground text-base leading-relaxed italic">
                     &ldquo;{t.quote}&rdquo;
                   </blockquote>
 
-                  <footer className="mt-8 flex items-center gap-4">
-                    <div className="border-border bg-muted text-muted-foreground flex h-10 w-10 items-center justify-center rounded-full border text-sm font-semibold">
+                  <footer className="mt-6 flex items-center gap-4 sm:mt-8">
+                    <div className="border-border bg-muted text-muted-foreground flex h-9 w-9 items-center justify-center rounded-full border text-xs font-semibold sm:h-10 sm:w-10 sm:text-sm">
                       {t.author[0]}
                     </div>
                     <div>
-                      <cite className="text-foreground text-base font-semibold not-italic">
+                      <cite className="text-foreground text-sm font-semibold not-italic sm:text-base">
                         {t.author}
                       </cite>
-                      <p className="text-muted-foreground text-sm">
+                      <p className="text-muted-foreground text-xs sm:text-sm">
                         {t.role} &middot; {t.company}
                       </p>
                     </div>

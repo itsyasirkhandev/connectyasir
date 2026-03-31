@@ -38,13 +38,13 @@ export default function ContactPage() {
       />
       <Navbar />
       <main>
-        <div className="container mx-auto px-6 pt-10">
+        <div className="container mx-auto px-4 sm:px-6 pt-10">
           <Breadcrumbs items={breadcrumbs} />
         </div>
 
         <PageHeader />
 
-        <div className="container mx-auto px-6">
+        <div className="container mx-auto px-4 sm:px-6">
           <AnswerFirstBlock
             heading="How to start your project"
             summary={PAGE_SUMMARIES.contact}

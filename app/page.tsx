@@ -29,8 +29,8 @@ export default function Home() {
       <main>
         <Hero />
 
-        <section className="bg-background relative overflow-hidden py-24 md:py-32">
-          <div className="relative z-10 container mx-auto px-6">
+        <section className="bg-background relative overflow-hidden py-16 md:py-32">
+          <div className="relative z-10 container mx-auto px-4 sm:px-6">
             <AnswerFirstBlock
               heading="What Yasir Khan does"
               summary={PAGE_SUMMARIES.home}

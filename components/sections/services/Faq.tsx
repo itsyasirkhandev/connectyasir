@@ -2,14 +2,14 @@ import { SERVICES_FAQS } from '@/lib/site-data'
 
 export default function Faq() {
   return (
-    <section className="border-border border-t py-20 md:py-24">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2fr]">
+    <section className="border-border border-t py-16 md:py-24">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-[1fr_2fr]">
           <div>
             <span className="text-primary mb-4 inline-block text-xs font-semibold tracking-[0.2em] uppercase">
               FAQ
             </span>
-            <h2 className="text-foreground text-3xl leading-tight font-semibold tracking-tighter md:text-4xl">
+            <h2 className="text-foreground text-2xl leading-tight font-semibold tracking-tighter sm:text-3xl md:text-4xl">
               Questions before you book?
             </h2>
             <p className="text-muted-foreground mt-4 max-w-sm text-base leading-relaxed">

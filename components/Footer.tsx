@@ -47,42 +47,42 @@ const socials = [
 
 export default function Footer() {
   return (
-    <footer className="border-border/40 bg-background w-full border-t pt-16 pb-8">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-[2fr_1fr_1fr] md:gap-8">
+    <footer className="border-border/40 bg-background w-full border-t pt-12 pb-6 sm:pt-16 sm:pb-8">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 gap-10 sm:gap-12 md:grid-cols-[2fr_1fr_1fr] md:gap-8">
           {/* Brand Section */}
-          <div className="flex flex-col items-start gap-6">
+          <div className="flex flex-col items-start gap-4 sm:gap-6">
             <Link
               href="/"
-              className="text-foreground text-3xl font-semibold tracking-tighter transition-opacity hover:opacity-80"
+              className="text-foreground text-2xl font-semibold tracking-tighter transition-opacity hover:opacity-80 sm:text-3xl"
             >
               {SITE_NAME}
             </Link>
 
-            <p className="text-muted-foreground max-w-xs text-base leading-relaxed">
+            <p className="text-muted-foreground max-w-xs text-sm leading-relaxed sm:text-base">
               Launch a website that actually grows your business.
             </p>
 
-            <div className="border-border/50 bg-muted/30 text-foreground/80 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm font-medium">
-              <span className="relative flex h-2 w-2">
+            <div className="border-border/50 bg-muted/30 text-foreground/80 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium sm:text-sm">
+              <span className="relative flex h-1.5 w-1.5 sm:h-2 sm:w-2">
                 <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span>
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
+                <span className="relative inline-flex h-full w-full rounded-full bg-green-500"></span>
               </span>
               {AVAILABILITY.footer.replace('🟢 ', '')}
             </div>
           </div>
 
           {/* Navigation */}
-          <div className="flex flex-col gap-6">
-            <h3 className="text-muted-foreground/60 text-sm font-semibold tracking-widest uppercase">
+          <div className="flex flex-col gap-4 sm:gap-6">
+            <h3 className="text-muted-foreground/60 text-xs font-semibold tracking-widest uppercase sm:text-sm">
               Navigation
             </h3>
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col gap-2 sm:gap-3">
               {navigation.map((item) => (
                 <li key={item.name}>
                   <Link
                     href={item.href}
-                    className="text-muted-foreground hover:text-foreground text-base transition-colors"
+                    className="text-muted-foreground hover:text-foreground text-sm transition-colors sm:text-base"
                   >
                     {item.name}
                   </Link>
@@ -92,31 +92,31 @@ export default function Footer() {
           </div>
 
           {/* Contact & Social */}
-          <div className="flex flex-col gap-6">
-            <h3 className="text-muted-foreground/60 text-sm font-semibold tracking-widest uppercase">
+          <div className="flex flex-col gap-4 sm:gap-6">
+            <h3 className="text-muted-foreground/60 text-xs font-semibold tracking-widest uppercase sm:text-sm">
               Connect
             </h3>
-            <ul className="flex flex-col gap-4">
+            <ul className="flex flex-col gap-3 sm:gap-4">
               {socials.map((item) => (
                 <li key={item.name}>
                   <a
                     href={item.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group text-muted-foreground hover:text-foreground flex items-center gap-3 text-base transition-colors"
+                    className="group text-muted-foreground hover:text-foreground flex items-center gap-3 text-sm transition-colors sm:text-base"
                   >
-                    <item.icon className="h-5 w-5 transition-transform group-hover:scale-110" />
+                    <item.icon className="h-4 w-4 transition-transform group-hover:scale-110 sm:h-5 sm:w-5" />
                     <span>{item.name}</span>
                     <ArrowUpRight className="h-3.5 w-3.5 opacity-0 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
                   </a>
                 </li>
               ))}
-              <li>
+              <li className="pt-2">
                 <a
                   href={CONTACT.calendar}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group text-foreground hover:text-primary inline-flex items-center gap-2 text-base font-semibold transition-colors"
+                  className="group text-foreground hover:text-primary inline-flex items-center gap-1.5 text-sm font-semibold transition-colors sm:gap-2 sm:text-base"
                 >
                   Book Your Free Call
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -127,14 +127,14 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-border/40 mt-16 flex flex-col items-center justify-between gap-6 border-t pt-8 md:flex-row">
-          <p className="text-muted-foreground text-sm">
+        <div className="border-border/40 mt-12 flex flex-col items-center justify-between gap-6 border-t pt-8 sm:mt-16 md:flex-row">
+          <p className="text-muted-foreground text-xs sm:text-sm">
             © {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
           </p>
 
-          <div className="text-muted-foreground flex items-center gap-3 text-sm font-semibold tracking-[0.15em] uppercase">
+          <div className="text-muted-foreground flex items-center gap-3 text-[10px] font-semibold tracking-[0.15em] uppercase sm:text-sm">
             <span>Built with Next.js</span>
-            <span className="bg-border h-px w-6" />
+            <span className="bg-border h-px w-4 sm:w-6" />
             <span>Tailwind CSS</span>
           </div>
         </div>

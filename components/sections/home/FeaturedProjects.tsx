@@ -34,27 +34,27 @@ const FEATURED_PROJECTS = [
 
 export default function FeaturedProjects() {
   return (
-    <section className="bg-background py-24 md:py-32">
-      <div className="container mx-auto px-6">
+    <section className="bg-background py-16 md:py-32">
+      <div className="container mx-auto px-4 sm:px-6">
         {/* Header */}
         <div className="max-w-3xl">
           <span className="text-muted-foreground text-sm font-semibold tracking-[0.2em] uppercase">
             Recent Work
           </span>
-          <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter">
+          <h2 className="text-foreground mt-6 text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl">
             See how a premium website transforms your business.
           </h2>
-          <p className="text-muted-foreground mt-8 max-w-prose text-base leading-relaxed">
+          <p className="text-muted-foreground mt-6 max-w-prose text-base leading-relaxed sm:mt-8">
             Proof that a modern online presence drives real revenue.
           </p>
         </div>
 
         {/* Project Staggered List */}
-        <div className="mt-20 space-y-32 md:mt-32">
+        <div className="mt-16 space-y-20 md:mt-32 md:space-y-32">
           {FEATURED_PROJECTS.map((project, index) => (
             <article
               key={project.title}
-              className={`group flex flex-col gap-12 lg:flex-row lg:items-center ${
+              className={`group flex flex-col gap-8 sm:gap-12 lg:flex-row lg:items-center ${
                 index % 2 !== 0 ? 'lg:flex-row-reverse' : ''
               }`}
             >
@@ -70,17 +70,17 @@ export default function FeaturedProjects() {
 
               {/* Content Container */}
               <div className="flex flex-col lg:w-2/5">
-                <span className="text-muted-foreground text-sm font-medium tracking-widest uppercase">
+                <span className="text-muted-foreground text-xs font-medium tracking-widest uppercase sm:text-sm">
                   {project.category}
                 </span>
-                <h3 className="text-foreground mt-4 text-3xl font-semibold tracking-tight">
+                <h3 className="text-foreground mt-3 text-2xl font-semibold tracking-tight sm:mt-4 sm:text-3xl">
                   {project.title}
                 </h3>
-                <p className="text-muted-foreground mt-6 text-base leading-relaxed">
+                <p className="text-muted-foreground mt-4 text-base leading-relaxed sm:mt-6">
                   {project.description}
                 </p>
 
-                <div className="mt-10">
+                <div className="mt-8 sm:mt-10">
                   {project.href &&
                   project.status !== 'Case Study Coming Soon' ? (
                     <Link
@@ -102,7 +102,7 @@ export default function FeaturedProjects() {
         </div>
 
         {/* Footer Link */}
-        <div className="border-border/40 mt-24 border-t pt-16">
+        <div className="border-border/40 mt-20 border-t pt-12 sm:mt-24 sm:pt-16">
           <Link
             href="/projects"
             className="group text-foreground hover:text-primary inline-flex items-center gap-3 text-base font-semibold transition-colors"

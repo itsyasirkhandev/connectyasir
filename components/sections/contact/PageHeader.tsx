@@ -8,9 +8,9 @@ export default function PageHeader() {
   const availabilityText = AVAILABILITY.contact.replace('🟢 ', '')
 
   return (
-    <header className="bg-background pt-24 pb-20 md:pt-32 md:pb-32">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
+    <header className="bg-background pt-16 pb-12 md:pt-32 md:pb-32">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
           {/* Left Column: Label */}
           <div className="transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
             <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
@@ -30,13 +30,13 @@ export default function PageHeader() {
               </span>
             </div>
 
-            <h1 className="text-foreground mt-8 text-5xl leading-[1.05] font-semibold tracking-tighter md:text-7xl">
+            <h1 className="text-foreground mt-8 text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
               Let’s architect your next{' '}
               <span className="text-muted-foreground">growth engine.</span>
             </h1>
 
-            <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-24">
-              <p className="text-muted-foreground max-w-prose text-lg leading-relaxed md:text-xl">
+            <div className="mt-10 grid grid-cols-1 gap-10 sm:mt-16 lg:grid-cols-[1.5fr_1fr] lg:gap-24">
+              <p className="text-muted-foreground max-w-prose text-base leading-relaxed sm:text-lg md:text-xl">
                 Grab a totally free 30-minute call. I’ll audit your current
                 process and tell you exactly how to capture more leads.
               </p>
@@ -45,13 +45,13 @@ export default function PageHeader() {
                 <PrimaryButton
                   text="Schedule a Call"
                   onClick={() => window.open(CONTACT.calendar, '_blank')}
-                  className="h-16 px-10 text-lg"
+                  className="h-14 px-8 text-base sm:h-16 sm:px-10 sm:text-lg"
                 />
                 <a
                   href={CONTACT.whatsapp}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group text-foreground hover:text-primary flex items-center gap-2 text-base font-semibold transition-colors"
+                  className="group text-foreground hover:text-primary flex items-center gap-2 text-sm font-semibold transition-colors sm:text-base"
                 >
                   Message on WhatsApp
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />

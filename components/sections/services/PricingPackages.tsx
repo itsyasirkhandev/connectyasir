@@ -57,16 +57,16 @@ export default function PricingPackages() {
   const packages = [starter, standard, premium]
 
   return (
-    <section className="py-24 md:py-32" id="pricing">
-      <div className="container mx-auto px-6">
-        <div className="mb-16 text-center md:mb-24">
+    <section className="py-16 md:py-32" id="pricing">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="mb-12 text-center sm:mb-16 md:mb-24">
           <div className="border-primary/30 text-primary bg-primary/5 mb-4 inline-flex items-center rounded-full border px-4 py-1 text-[10px] font-bold tracking-widest uppercase">
             Pricing
           </div>
-          <h2 className="text-foreground mx-auto max-w-3xl text-4xl leading-tight font-semibold tracking-tighter md:text-5xl lg:text-6xl">
+          <h2 className="text-foreground mx-auto max-w-3xl text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
             Simple packages. No surprise invoices.
           </h2>
-          <p className="text-muted-foreground mx-auto mt-6 max-w-xl text-lg leading-relaxed">
+          <p className="text-muted-foreground mx-auto mt-6 max-w-xl text-base leading-relaxed sm:text-lg">
             Choose the exact package that fits your goals. You own 100% of your
             code and design from day one.
           </p>
@@ -96,7 +96,7 @@ export default function PricingPackages() {
                   </div>
                 )}
 
-                <CardHeader className="px-8 pt-10 pb-4 text-center lg:text-left">
+                <CardHeader className="px-6 pt-10 pb-4 text-center sm:px-8 lg:text-left">
                   <div
                     className={cn(
                       'mb-6 inline-flex h-12 w-12 items-center justify-center rounded-xl transition-colors',
@@ -117,12 +117,12 @@ export default function PricingPackages() {
                   </div>
                 </CardHeader>
 
-                <CardContent className="grow px-8">
+                <CardContent className="grow px-6 sm:px-8">
                   <div className="mb-8 flex items-baseline justify-center gap-1 lg:justify-start">
-                    <span className="text-foreground font-mono text-4xl font-bold tracking-tight">
+                    <span className="text-foreground font-mono text-3xl font-bold tracking-tight sm:text-4xl">
                       ${pkg.price}
                     </span>
-                    <span className="text-muted-foreground text-sm font-medium">
+                    <span className="text-muted-foreground text-xs font-medium sm:text-sm">
                       /project
                     </span>
                   </div>
@@ -161,7 +161,7 @@ export default function PricingPackages() {
                   </div>
                 </CardContent>
 
-                <CardFooter className="p-8 pt-4">
+                <CardFooter className="p-6 pt-4 sm:p-8">
                   <div className="w-full space-y-4">
                     <div className="text-muted-foreground flex items-center justify-between text-[11px] font-medium tracking-wider uppercase">
                       <span>Timeline</span>
@@ -189,16 +189,16 @@ export default function PricingPackages() {
         </div>
 
         {/* Trust Bar / Promise */}
-        <div className="bg-foreground text-background group relative mt-24 overflow-hidden rounded-[2.5rem] p-12 md:mt-32 md:p-20">
+        <div className="bg-foreground text-background group relative mt-20 overflow-hidden rounded-[1.5rem] p-8 sm:mt-32 sm:rounded-[2.5rem] sm:p-20">
           <div className="bg-primary/20 group-hover:bg-primary/30 absolute top-0 right-0 -mt-20 -mr-20 h-64 w-64 rounded-full blur-[100px] transition-colors duration-700" />
           <div className="bg-primary/10 absolute bottom-0 left-0 -mb-20 -ml-20 h-64 w-64 rounded-full blur-[100px]" />
 
-          <div className="relative flex flex-col gap-12 lg:flex-row lg:items-center lg:justify-between">
+          <div className="relative flex flex-col gap-10 lg:flex-row lg:items-center lg:justify-between">
             <div className="max-w-xl">
               <h4 className="text-primary flex items-center gap-2 text-xs font-bold tracking-[0.3em] uppercase">
                 <ShieldCheck className="h-4 w-4" /> THE PROMISE
               </h4>
-              <h2 className="mt-8 text-4xl leading-[1.1] font-semibold tracking-tighter md:text-5xl lg:text-6xl">
+              <h2 className="mt-6 text-3xl leading-[1.1] font-semibold tracking-tighter sm:mt-8 sm:text-4xl md:text-5xl lg:text-6xl">
                 Transparent process. <br />
                 <span className="text-muted-foreground group-hover:text-primary/80 transition-colors">
                   No surprises.
@@ -214,10 +214,10 @@ export default function PricingPackages() {
                 'Transparent payment: 50% upfront, 50% only when you&apos;re ready to launch.',
               ].map((item) => (
                 <div key={item} className="group/item flex items-center gap-4">
-                  <div className="border-primary/20 bg-primary/5 group-hover/item:border-primary/50 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border transition-colors">
-                    <Check className="text-primary h-5 w-5" />
+                  <div className="border-primary/20 bg-primary/5 group-hover/item:border-primary/50 flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border transition-colors sm:h-10 sm:w-10">
+                    <Check className="text-primary h-4 w-4 sm:h-5 sm:w-5" />
                   </div>
-                  <span className="text-lg font-medium opacity-90">{item}</span>
+                  <span className="text-base font-medium opacity-90 sm:text-lg">{item}</span>
                 </div>
               ))}
             </div>

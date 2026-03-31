@@ -23,15 +23,15 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="bg-background py-24 md:py-32 lg:py-48" id="process">
-      <div className="container mx-auto px-6">
-        <div className="grid gap-16 lg:grid-cols-[1fr_1.5fr] lg:gap-32">
+    <section className="bg-background py-16 md:py-32 lg:py-48" id="process">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid gap-12 lg:grid-cols-[1fr_1.5fr] lg:gap-32">
           {/* Sticky Header Section */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
             <span className="text-primary text-sm font-semibold tracking-widest uppercase">
               The Process
             </span>
-            <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
+            <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl">
               Get your new website live in 3 simple steps.
             </h2>
             <p className="text-muted-foreground mt-6 max-w-sm text-base leading-relaxed">
@@ -40,17 +40,17 @@ export default function HowItWorks() {
           </div>
 
           {/* Steps List */}
-          <div className="flex flex-col gap-16 md:gap-24">
+          <div className="flex flex-col gap-12 md:gap-24">
             {steps.map((step) => (
               <div
                 key={step.number}
-                className="group border-border relative flex flex-col gap-6 border-t pt-12 md:flex-row md:gap-12"
+                className="group border-border relative flex flex-col gap-6 border-t pt-8 md:flex-row md:gap-12 md:pt-12"
               >
-                <span className="text-muted-foreground/30 group-hover:text-primary/40 font-mono text-6xl font-semibold tracking-tighter transition-colors">
+                <span className="text-muted-foreground/30 group-hover:text-primary/40 font-mono text-4xl font-semibold tracking-tighter transition-colors sm:text-6xl">
                   {step.number}
                 </span>
                 <div className="flex flex-col">
-                  <h3 className="text-foreground text-3xl font-semibold tracking-tight">
+                  <h3 className="text-foreground text-2xl font-semibold tracking-tight sm:text-3xl">
                     {step.title}
                   </h3>
                   <p className="text-muted-foreground mt-4 max-w-prose text-base leading-relaxed">

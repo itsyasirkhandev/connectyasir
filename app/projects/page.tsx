@@ -38,12 +38,14 @@ export default function ProjectsPage() {
       />
       <Navbar />
       <main>
-        <Breadcrumbs items={breadcrumbs} />
+        <div className="container mx-auto px-4 sm:px-6 pt-10">
+          <Breadcrumbs items={breadcrumbs} />
+        </div>
 
         <PageHeader />
 
-        <section className="bg-background relative overflow-hidden py-24 md:py-32">
-          <div className="relative z-10 container mx-auto px-6">
+        <section className="bg-background relative overflow-hidden py-16 md:py-32">
+          <div className="relative z-10 container mx-auto px-4 sm:px-6">
             <AnswerFirstBlock
               heading="Real client websites and outcomes"
               summary={PAGE_SUMMARIES.projects}

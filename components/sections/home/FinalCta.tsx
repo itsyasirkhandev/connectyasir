@@ -11,26 +11,26 @@ export default function FinalCta() {
   const availabilityText = AVAILABILITY.contact.replace('🟢 ', '')
 
   return (
-    <section className="@container overflow-hidden py-24">
-      <div className="container mx-auto px-6">
-        <div className="bg-muted/30 border-border/50 relative overflow-hidden rounded-[2.5rem] border p-8 @3xl:p-20">
+    <section className="@container overflow-hidden py-16 sm:py-24">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="bg-muted/30 border-border/50 relative overflow-hidden rounded-[2rem] border p-6 sm:rounded-[2.5rem] sm:p-10 @3xl:p-20">
           {/* Subtle background decoration - Editorial touch */}
           <div className="bg-primary/10 pointer-events-none absolute -top-24 -right-24 h-96 w-96 rounded-full blur-[100px]" />
           <div className="bg-primary/5 pointer-events-none absolute -bottom-24 -left-24 h-72 w-72 rounded-full blur-[80px]" />
 
-          <div className="relative z-10 grid grid-cols-1 items-center gap-12 @4xl:grid-cols-[1.3fr_0.7fr]">
-            <div className="flex flex-col gap-8">
+          <div className="relative z-10 grid grid-cols-1 items-center gap-10 @4xl:grid-cols-[1.3fr_0.7fr]">
+            <div className="flex flex-col gap-6 sm:gap-8">
               <div className="flex items-center gap-3 transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
                 <span className="relative flex h-2.5 w-2.5">
                   <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
                   <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-green-500"></span>
                 </span>
-                <span className="text-muted-foreground/90 text-sm font-semibold tracking-[0.25em] uppercase">
+                <span className="text-muted-foreground/90 text-xs font-semibold tracking-[0.25em] uppercase sm:text-sm">
                   {availabilityText}
                 </span>
               </div>
 
-              <h2 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter transition-all delay-100 duration-700 ease-out @3xl:text-6xl starting:translate-y-4 starting:opacity-0">
+              <h2 className="text-foreground text-3xl leading-[1.1] font-semibold tracking-tighter transition-all delay-100 duration-700 ease-out sm:text-4xl @3xl:text-6xl starting:translate-y-4 starting:opacity-0">
                 Every day you wait, you&apos;re handing customers to your
                 competitors.
               </h2>
@@ -41,13 +41,13 @@ export default function FinalCta() {
               </p>
             </div>
 
-            <div className="flex flex-col gap-5 transition-all delay-300 duration-700 ease-out starting:translate-x-4 starting:opacity-0">
+            <div className="flex flex-col gap-4 transition-all delay-300 duration-700 ease-out sm:gap-5 starting:translate-x-4 starting:opacity-0">
               <PrimaryButton
                 text="Book Your Free Call →"
                 onClick={() => {
                   router.push(CONTACT.calendar)
                 }}
-                className="shadow-primary/25 h-16 rounded-2xl px-10 text-base font-semibold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="shadow-primary/25 h-14 rounded-xl px-8 text-sm font-semibold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98] sm:h-16 sm:rounded-2xl sm:px-10 sm:text-base"
               />
 
               <a
@@ -56,15 +56,15 @@ export default function FinalCta() {
                 rel="noopener noreferrer"
                 className={cn(
                   buttonVariants({ variant: 'outline', size: 'lg' }),
-                  'hover:bg-background/80 border-border/50 group h-16 rounded-2xl px-10 text-base font-semibold'
+                  'hover:bg-background/80 border-border/50 group h-14 rounded-xl px-8 text-sm font-semibold sm:h-16 sm:rounded-2xl sm:px-10 sm:text-base'
                 )}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="2.5em"
-                  height="2.5em"
+                  width="2em"
+                  height="2em"
                   viewBox="0 0 256 258"
-                  className="mr-3 size-8"
+                  className="mr-3 size-6 sm:size-8"
                 >
                   <defs>
                     <linearGradient

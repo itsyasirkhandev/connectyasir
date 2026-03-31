@@ -39,7 +39,7 @@ export default function AboutPage() {
       />
       <Navbar />
       <main>
-        <div className="container mx-auto px-6 pt-10">
+        <div className="container mx-auto px-4 sm:px-6 pt-10">
           <Breadcrumbs items={breadcrumbs} />
         </div>
 

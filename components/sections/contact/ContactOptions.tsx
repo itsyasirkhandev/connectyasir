@@ -25,12 +25,12 @@ function LinkedinIcon({ className }: { className?: string }) {
 
 export default function ContactOptions() {
   return (
-    <section className="bg-background py-24 md:py-32">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
+    <section className="bg-background py-16 md:py-32">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
           {/* Left Column: Heading */}
           <div>
-            <h2 className="text-foreground text-3xl font-semibold tracking-tight md:text-4xl">
+            <h2 className="text-foreground text-2xl font-semibold tracking-tight sm:text-3xl md:text-4xl">
               Get in touch
             </h2>
             <p className="text-muted-foreground mt-4 max-w-prose text-base leading-relaxed">
@@ -42,14 +42,14 @@ export default function ContactOptions() {
           {/* Right Column: Options */}
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             {/* Call Card */}
-            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-8 transition-all duration-300 hover:shadow-sm">
-              <div className="bg-primary/10 text-primary mb-6 flex h-12 w-12 items-center justify-center rounded-xl">
-                <Calendar className="h-6 w-6" />
+            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-6 transition-all duration-300 sm:p-8 hover:shadow-sm">
+              <div className="bg-primary/10 text-primary mb-6 flex h-11 w-11 items-center justify-center rounded-xl sm:h-12 sm:w-12">
+                <Calendar className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>
               <h3 className="text-foreground text-xl font-semibold">
                 Book Your Strategy Call
               </h3>
-              <p className="text-muted-foreground mt-3 grow text-base leading-relaxed">
+              <p className="text-muted-foreground mt-3 grow text-sm leading-relaxed sm:text-base">
                 Pick a time that fits your schedule.
               </p>
 
@@ -63,14 +63,14 @@ export default function ContactOptions() {
             </div>
 
             {/* Direct Message Card */}
-            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-8 transition-all duration-300 hover:shadow-sm">
-              <div className="bg-primary/10 text-primary mb-6 flex h-12 w-12 items-center justify-center rounded-xl">
-                <MessageCircle className="h-6 w-6" />
+            <div className="bg-card hover:border-primary/30 flex flex-col items-start rounded-2xl border p-6 transition-all duration-300 sm:p-8 hover:shadow-sm">
+              <div className="bg-primary/10 text-primary mb-6 flex h-11 w-11 items-center justify-center rounded-xl sm:h-12 sm:w-12">
+                <MessageCircle className="h-5 w-5 sm:h-6 sm:w-6" />
               </div>
               <h3 className="text-foreground text-xl font-semibold">
                 Or bypass the calendar
               </h3>
-              <p className="text-muted-foreground mt-3 grow text-base leading-relaxed">
+              <p className="text-muted-foreground mt-3 grow text-sm leading-relaxed sm:text-base">
                 I personally reply to all messages within a few hours.
               </p>
 
