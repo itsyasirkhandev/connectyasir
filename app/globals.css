@@ -45,6 +45,8 @@
   --radius-2xl: calc(var(--radius) * 1.8);
   --radius-3xl: calc(var(--radius) * 2.2);
   --radius-4xl: calc(var(--radius) * 2.6);
+  --color-success: var(--success);
+  --color-success-foreground: var(--success-foreground);
 }
 
 :root {
@@ -80,6 +82,8 @@
   --sidebar-ring: oklch(0.705 0.015 286.067);
   --background: oklch(1 0 0);
   --foreground: oklch(0.141 0.005 285.823);
+  --success: oklch(0.627 0.265 149.214);
+  --success-foreground: oklch(1 0 0);
 }
 
 .dark {
@@ -114,6 +118,8 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.552 0.016 285.938);
+  --success: oklch(0.627 0.265 149.214);
+  --success-foreground: oklch(0.141 0.005 285.823);
 }
 
 @layer utilities {

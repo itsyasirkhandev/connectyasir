@@ -32,7 +32,7 @@ export default function CtaBlock() {
                 onClick={() => {
                   router.push(CONTACT.calendar)
                 }}
-                className="shadow-primary/25 h-16 rounded-2xl px-10 text-lg font-bold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
+                className="shadow-primary/25 h-16 rounded-2xl px-10 text-lg font-semibold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98]"
               />
             </div>
           </div>

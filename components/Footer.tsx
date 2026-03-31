@@ -65,8 +65,8 @@ export default function Footer() {
 
             <div className="border-border/50 bg-muted/30 text-foreground/80 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-xs font-medium sm:text-sm">
               <span className="relative flex h-1.5 w-1.5 sm:h-2 sm:w-2">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span>
-                <span className="relative inline-flex h-full w-full rounded-full bg-green-500"></span>
+                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-75"></span>
+                <span className="relative inline-flex h-full w-full rounded-full bg-success"></span>
               </span>
               {AVAILABILITY.footer.replace('🟢 ', '')}
             </div>

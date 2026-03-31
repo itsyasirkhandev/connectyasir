@@ -71,8 +71,8 @@ export default function ProjectOverview() {
               </ul>
             </div>
 
-            <div className="relative pl-6 before:absolute before:top-2 before:left-0 before:h-[calc(100%-16px)] before:w-0.5 before:bg-green-500/50">
-              <span className="mb-2 block text-xs font-semibold tracking-widest text-green-600 uppercase dark:text-green-500">
+            <div className="relative pl-6 before:absolute before:top-2 before:left-0 before:h-[calc(100%-16px)] before:w-0.5 before:bg-success/50">
+              <span className="text-success mb-2 block text-xs font-semibold tracking-widest uppercase">
                 After
               </span>
               <ul className="text-foreground space-y-2 text-sm font-medium">

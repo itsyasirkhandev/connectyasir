@@ -60,10 +60,10 @@ export default function ProjectGrid() {
                   {project.before && (
                     <div className="max-w-prose">
                       <div className="flex items-center gap-3">
-                        <span className="bg-destructive/10 text-destructive flex h-5 w-5 items-center justify-center rounded-sm text-[10px] font-bold">
+                        <span className="bg-destructive/10 text-destructive flex h-5 w-5 items-center justify-center rounded-sm text-[10px] font-semibold">
                           ×
                         </span>
-                        <span className="text-muted-foreground text-[10px] font-bold tracking-widest uppercase sm:text-xs">
+                        <span className="text-muted-foreground text-[10px] font-semibold tracking-widest uppercase sm:text-xs">
                           The Challenge
                         </span>
                       </div>
@@ -78,7 +78,7 @@ export default function ProjectGrid() {
                         <span className="bg-primary/10 text-primary flex h-5 w-5 items-center justify-center rounded-sm">
                           <Check className="h-3.5 w-3.5 stroke-3" />
                         </span>
-                        <span className="text-muted-foreground text-[10px] font-bold tracking-widest uppercase sm:text-xs">
+                        <span className="text-muted-foreground text-[10px] font-semibold tracking-widest uppercase sm:text-xs">
                           The Outcome
                         </span>
                       </div>

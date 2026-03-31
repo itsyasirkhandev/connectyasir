@@ -19,10 +19,10 @@ export default function CtaBlock() {
             <div className="flex flex-col gap-6 sm:gap-8">
               <div className="flex items-center gap-3">
                 <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75"></span>
-                  <span className="relative inline-flex h-full w-full rounded-full bg-green-500"></span>
+                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-75"></span>
+                  <span className="relative inline-flex h-full w-full rounded-full bg-success"></span>
                 </span>
-                <span className="text-muted-foreground/90 text-[10px] font-bold tracking-[0.25em] uppercase sm:text-xs">
+                <span className="text-muted-foreground/90 text-[10px] font-semibold tracking-[0.25em] uppercase sm:text-xs">
                   {availabilityText}
                 </span>
               </div>
@@ -46,7 +46,7 @@ export default function CtaBlock() {
                 onClick={() => {
                   router.push(CONTACT.calendar)
                 }}
-                className="shadow-primary/25 h-14 rounded-xl px-8 text-base font-bold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98] sm:h-16 sm:rounded-2xl sm:px-10 sm:text-lg"
+                className="shadow-primary/25 h-14 rounded-xl px-8 text-base font-semibold shadow-2xl transition-all hover:scale-[1.02] active:scale-[0.98] sm:h-16 sm:rounded-2xl sm:px-10 sm:text-lg"
               />
             </div>
           </div>

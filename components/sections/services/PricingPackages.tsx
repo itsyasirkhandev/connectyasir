@@ -60,7 +60,7 @@ export default function PricingPackages() {
     <section className="py-16 md:py-32" id="pricing">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="mb-12 text-center sm:mb-16 md:mb-24">
-          <div className="border-primary/30 text-primary bg-primary/5 mb-4 inline-flex items-center rounded-full border px-4 py-1 text-[10px] font-bold tracking-widest uppercase">
+          <div className="border-primary/30 text-primary bg-primary/5 mb-4 inline-flex items-center rounded-full border px-4 py-1 text-[10px] font-semibold tracking-widest uppercase">
             Pricing
           </div>
           <h2 className="text-foreground mx-auto max-w-3xl text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
@@ -89,7 +89,7 @@ export default function PricingPackages() {
               >
                 {isMain && (
                   <div className="absolute -top-4 left-1/2 z-20 -translate-x-1/2">
-                    <div className="bg-primary text-primary-foreground ring-background flex items-center rounded-full px-4 py-1.5 text-xs font-bold whitespace-nowrap shadow-lg ring-4">
+                    <div className="bg-primary text-primary-foreground ring-background flex items-center rounded-full px-4 py-1.5 text-xs font-semibold whitespace-nowrap shadow-lg ring-4">
                       <Star className="mr-1.5 h-3 w-3 fill-current" />
                       Most Popular
                     </div>
@@ -119,7 +119,7 @@ export default function PricingPackages() {
 
                 <CardContent className="grow px-6 sm:px-8">
                   <div className="mb-8 flex items-baseline justify-center gap-1 lg:justify-start">
-                    <span className="text-foreground font-mono text-3xl font-bold tracking-tight sm:text-4xl">
+                    <span className="text-foreground font-mono text-3xl font-semibold tracking-tight sm:text-4xl">
                       ${pkg.price}
                     </span>
                     <span className="text-muted-foreground text-xs font-medium sm:text-sm">
@@ -128,7 +128,7 @@ export default function PricingPackages() {
                   </div>
 
                   <div className="space-y-4">
-                    <p className="text-muted-foreground/80 border-muted/30 border-b pb-2 text-[10px] font-bold tracking-[0.2em] uppercase">
+                    <p className="text-muted-foreground/80 border-muted/30 border-b pb-2 text-[10px] font-semibold tracking-[0.2em] uppercase">
                       What&apos;s included
                     </p>
                     <ul className="space-y-3">
@@ -195,7 +195,7 @@ export default function PricingPackages() {
 
           <div className="relative flex flex-col gap-16 lg:gap-24">
             <div className="max-w-5xl">
-              <h4 className="text-primary flex items-center gap-2 text-xs font-bold tracking-[0.3em] uppercase">
+              <h4 className="text-primary flex items-center gap-2 text-xs font-semibold tracking-[0.3em] uppercase">
                 <ShieldCheck className="h-4 w-4" /> THE PROMISE
               </h4>
               <h2 className="mt-8 text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">

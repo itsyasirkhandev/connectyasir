@@ -55,7 +55,7 @@ export default function ApnaQarzPage() {
           />
         </div>
 
-        <div className="divide-y">
+        <div className="flex flex-col gap-16">
           <ProjectOverview />
           <TheChallenge />
           <WhatIDelivered />
