@@ -3,24 +3,27 @@ import { MessageSquare, Tag, Zap, Hammer } from 'lucide-react'
 const VALUES = [
   {
     icon: MessageSquare,
-    title: 'Direct Communication',
-    description: 'You work directly with the person building your website.',
+    title: 'Direct Access',
+    description:
+      'You communicate exclusively with the expert writing your code and designing your site.',
   },
   {
     icon: Tag,
-    title: 'Clear Pricing',
-    description: 'You know the scope, price, and timeline before we begin.',
+    title: 'Total Transparency',
+    description:
+      'You agree to the scope, precise timeline, and exact price before any work begins.',
   },
   {
     icon: Zap,
-    title: 'Fast Delivery',
-    description: 'Most projects launch in 1–3 weeks without cutting corners.',
+    title: 'Rapid Velocity',
+    description:
+      'You launch in 1–3 weeks without sacrificing a single drop of quality.',
   },
   {
     icon: Hammer,
-    title: 'Custom-Built',
+    title: 'Custom Engineered',
     description:
-      'Your website is built for your business — not copied from a template.',
+      'You get a platform architected exclusively for your audience—never a generic template.',
   },
 ]
 
@@ -30,10 +33,10 @@ export default function MyValues() {
       <div className="container mx-auto px-6">
         <div className="mb-20">
           <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
-            How I Work
+            The Standard
           </span>
           <h2 className="text-foreground mt-4 max-w-2xl text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
-            What it’s like to work with me.
+            What you get when you hire me.
           </h2>
         </div>
 

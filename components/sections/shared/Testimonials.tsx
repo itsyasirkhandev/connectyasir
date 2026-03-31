@@ -5,7 +5,8 @@ import { Star } from 'lucide-react'
 const testimonials = [
   {
     quote:
-      'Professional, modern, on-time, and fairly priced. I highly recommend Yasir Khan for any business looking to level up their online presence.',
+      'Professional, modern, on-time, and fairly priced. I highly recommend Yasir Khan.',
+    shortQuote: 'Professional, modern, on-time, and fairly priced.',
     author: 'Rashid Bashir',
     role: 'Finance Advisor',
     company: 'Apna Qarz',
@@ -13,21 +14,29 @@ const testimonials = [
   },
   {
     quote:
-      'The new site looks premium, loads fast, and helped improve trust and conversions significantly within the first month.',
-    author: 'Prime Tools Provider',
+      'The new site looks premium, loads fast, and helped improve trust and conversions.',
+    shortQuote: 'The new site feels premium and helped improve trust.',
+    author: 'Owner',
     role: 'Owner',
-    company: 'Industrial Supplies',
+    company: 'Prime Tools Provider',
   },
   {
     quote:
-      'Our old site brought no leads. After the rebuild, traffic and inquiries improved significantly. A complete transformation of our digital identity.',
+      'Our old site brought no leads. After the rebuild, traffic and inquiries improved significantly.',
+    shortQuote: 'Traffic and inquiries improved after the rebuild.',
     author: 'Ghulam Yaseen',
     role: 'Director',
     company: 'Ghulam Seeds',
   },
 ]
 
-export default function Testimonials() {
+type TestimonialsProps = {
+  variant?: 'home' | 'about'
+}
+
+export default function Testimonials({ variant = 'home' }: TestimonialsProps = {}) {
+  const isAbout = variant === 'about'
+
   return (
     <section
       className="bg-background py-24 md:py-32 lg:py-48"
@@ -35,12 +44,13 @@ export default function Testimonials() {
     >
       <div className="container mx-auto px-6">
         <div className="mb-16 max-w-2xl">
-          <span className="text-primary text-sm font-semibold tracking-widest uppercase">
-            Client Success
-          </span>
+          {!isAbout && (
+            <span className="text-primary text-sm font-semibold tracking-widest uppercase">
+              Client Reviews
+            </span>
+          )}
           <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
-            Trusted by founders and <br className="hidden md:block" />
-            business owners.
+            {isAbout ? 'What founders say' : 'Trusted by founders who demand results.'}
           </h2>
         </div>
 
@@ -63,7 +73,7 @@ export default function Testimonials() {
                     </span>
                   </div>
                   <blockquote className="text-foreground text-3xl leading-snug font-semibold tracking-tight">
-                    &ldquo;{t.quote}&rdquo;
+                    &ldquo;{isAbout ? t.shortQuote : t.quote}&rdquo;
                   </blockquote>
                 </div>
 
@@ -93,7 +103,7 @@ export default function Testimonials() {
                   className="border-border bg-background hover:border-primary/20 flex flex-col justify-between rounded-2xl border p-8 transition-colors"
                 >
                   <blockquote className="text-foreground text-base leading-relaxed italic">
-                    &ldquo;{t.quote}&rdquo;
+                    &ldquo;{isAbout ? t.shortQuote : t.quote}&rdquo;
                   </blockquote>
 
                   <footer className="mt-8 flex items-center gap-4">

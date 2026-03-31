@@ -66,19 +66,19 @@ export default function ApnaQarzPage() {
             </div>
             <div>
               <dt className="text-sm font-medium text-zinc-600">Timeline</dt>
-              <dd className="mt-1 text-zinc-900">2 weeks</dd>
+              <dd className="mt-1 text-zinc-900">14 Days</dd>
             </div>
             <div>
               <dt className="text-sm font-medium text-zinc-600">Scope</dt>
               <dd className="mt-1 text-zinc-900">
-                Logo, brand identity, design, development, backend, SEO,
-                hosting, dashboard, content
+                Complete Branding, UX Design, Custom Development, Backend
+                Systems, SEO, Managed Hosting
               </dd>
             </div>
             <div>
               <dt className="text-sm font-medium text-zinc-600">Result</dt>
               <dd className="mt-1 text-zinc-900">
-                1,000+ form submissions in the first month
+                1,000+ high-intent leads generated in 30 days
               </dd>
             </div>
           </dl>

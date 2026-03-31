@@ -2,32 +2,32 @@ const steps = [
   {
     number: '01',
     title: 'Discovery',
-    description: 'We discuss your business, goals, and website needs.',
+    description: "We expose exactly what's blocking your online growth.",
   },
   {
     number: '02',
     title: 'Planning',
-    description: 'I map the structure, direction, and brand visuals.',
+    description: 'I map your site architecture and brand direction.',
   },
   {
     number: '03',
     title: 'Design',
-    description: 'You review the design before anything gets built.',
+    description: 'You critically review the visual layout before the build.',
   },
   {
     number: '04',
     title: 'Development',
-    description: 'I build the approved website and prepare it for launch.',
+    description: 'I engineer your custom website to load instantly.',
   },
   {
     number: '05',
     title: 'Launch',
-    description: 'Domain, analytics, SEO basics, and final checks go live.',
+    description: 'Your domain, analytics, and SEO flip live seamlessly.',
   },
   {
     number: '06',
     title: 'Support',
-    description: 'You get post-launch help and optional ongoing support.',
+    description: 'You enjoy priority access for updates and technical help.',
   },
 ]
 
@@ -40,7 +40,7 @@ export default function MyProcess() {
             The Process
           </span>
           <h2 className="text-foreground max-w-2xl text-3xl leading-tight font-semibold tracking-tighter md:text-4xl">
-            What happens after you book a call.
+            What happens the moment you book a call.
           </h2>
         </div>
 

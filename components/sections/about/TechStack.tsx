@@ -39,15 +39,11 @@ export default function TechStack() {
       <div className="container mx-auto px-6">
         <div className="mb-20 max-w-2xl">
           <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
-            Tools
+            The Toolbelt
           </span>
           <h2 className="text-foreground mt-4 max-w-2xl text-3xl leading-tight font-semibold tracking-tighter md:text-5xl">
-            Modern tools for fast, reliable websites.
+            Enterprise-grade technology for your small business.
           </h2>
-          <p className="text-muted-foreground mt-6 max-w-2xl text-base leading-relaxed md:text-lg">
-            I don&apos;t just use tools; I master the ones that deliver the best
-            performance, security, and developer experience for my clients.
-          </p>
         </div>
 
         <div className="grid gap-12 lg:grid-cols-3">

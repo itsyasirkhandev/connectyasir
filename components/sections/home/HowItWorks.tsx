@@ -1,31 +1,23 @@
 'use client'
 
-import { ArrowUpRight } from 'lucide-react'
-
 const steps = [
   {
     number: '01',
-    title: 'Discovery Call',
+    title: 'The Strategy Call',
     description:
-      'We discuss your business goals, target audience, and current pain points. This ensures the strategy is aligned with your bottom line before we write a single line of code.',
+      "Tell me about your business. We'll map out exactly what you need to grow.",
   },
   {
     number: '02',
-    title: 'Strategy & Design',
+    title: 'Review Your Design',
     description:
-      'I map out the user journey and design the high-fidelity pages. You’ll see exactly how the site will look and function before the build phase begins.',
+      'You approve the visual direction before a single line of code is written.',
   },
   {
     number: '03',
-    title: 'Development & Testing',
+    title: 'Launch & Grow',
     description:
-      'I build your site using modern technologies for speed and SEO. Every page is tested for accessibility, responsiveness, and performance on all devices.',
-  },
-  {
-    number: '04',
-    title: 'Launch & Support',
-    description:
-      'I handle the technical setup, hosting, and domain configuration. After launch, I’m available for updates to ensure your site continues to perform.',
+      'I handle the complete technical setup. You start receiving leads.',
   },
 ]
 
@@ -40,22 +32,11 @@ export default function HowItWorks() {
               The Process
             </span>
             <h2 className="text-foreground mt-4 text-4xl leading-tight font-semibold tracking-tighter">
-              Simple process. <br />
-              Clear communication. <br />
-              Fast delivery.
+              Get your new website live in 3 simple steps.
             </h2>
             <p className="text-muted-foreground mt-6 max-w-sm text-base leading-relaxed">
-              You’ll always know exactly where we are in the project and what
-              comes next. No surprises, just results.
+              You’ll never have to ask &quot;what happens next?&quot;
             </p>
-
-            <a
-              href="/contact"
-              className="group text-foreground hover:text-primary mt-8 inline-flex items-center gap-2 text-sm font-semibold transition-colors"
-            >
-              Start your project
-              <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
-            </a>
           </div>
 
           {/* Steps List */}

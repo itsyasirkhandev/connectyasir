@@ -60,8 +60,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-muted-foreground max-w-xs text-base leading-relaxed">
-              Designing and building high-trust websites for small businesses —
-              from strategy to launch.
+              Launch a website that actually grows your business.
             </p>
 
             <div className="border-border/50 bg-muted/30 text-foreground/80 inline-flex items-center gap-2 rounded-full border px-3 py-1 text-sm font-medium">
@@ -119,7 +118,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="group text-foreground hover:text-primary inline-flex items-center gap-2 text-base font-semibold transition-colors"
                 >
-                  Book a Free Call
+                  Book Your Free Call
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </a>
               </li>

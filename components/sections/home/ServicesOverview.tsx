@@ -2,27 +2,30 @@ import { Palette, Monitor, Globe, Wrench } from 'lucide-react'
 
 const SERVICES = [
   {
-    title: 'Branding & Logo',
-    description: 'A clean identity that makes your business look professional.',
+    title: 'Brand & Identity',
+    description:
+      'Look instantly credible with a clean, professional logo and brand design.',
     icon: Palette,
     id: '01',
   },
   {
-    title: 'Website Design & Development',
-    description: 'Fast, modern pages built to earn trust and drive action.',
+    title: 'High-Converting Design',
+    description:
+      'Guide your visitors effortlessly from their first click to booking a call.',
     icon: Monitor,
     id: '02',
   },
   {
-    title: 'Domain & Hosting',
+    title: 'Complete Tech Setup',
     description:
-      'Setup, launch, security, and technical details handled for you.',
+      'Never worry about domains, hosting, or security updates. It’s handled.',
     icon: Globe,
     id: '03',
   },
   {
-    title: 'SEO & Support',
-    description: 'Basic SEO setup and post-launch help when you need it.',
+    title: 'Search & Support',
+    description:
+      'Rank on Google from day one and get direct support whenever you need it.',
     icon: Wrench,
     id: '04',
   },
@@ -36,14 +39,14 @@ export default function ServicesOverview() {
           {/* Left Side: Sticky Content */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
             <span className="text-muted-foreground text-sm font-semibold tracking-[0.2em] uppercase">
-              What You Get
+              The Package
             </span>
             <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter">
-              Everything you need to launch — handled by one person.
+              Launch your website without the freelancer headache.
             </h2>
             <p className="text-muted-foreground mt-8 max-w-prose text-base leading-relaxed">
-              Branding, design, development, hosting, SEO, and support. No
-              chasing multiple freelancers. No messy handoffs.
+              Stop chasing designers, developers, and hosting companies. You get
+              an entire digital team in one expert.
             </p>
           </div>
 

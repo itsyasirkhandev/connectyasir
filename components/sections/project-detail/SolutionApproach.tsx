@@ -1,10 +1,12 @@
 export default function SolutionApproach() {
   return (
     <section>
-      <h2>How I approached it</h2>
+      <h2>How I Solved It</h2>
       <p>
-        The focus was simple: build trust fast, make applications easy, and
-        create a system the business could actually use day to day.
+        I engineered the site around one primary metric: trust. By combining
+        ultra-fast load times with a frictionless application process, we
+        created a system that made submitting an inquiry feel effortless and
+        secure.
       </p>
     </section>
   )

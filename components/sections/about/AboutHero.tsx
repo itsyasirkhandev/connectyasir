@@ -16,7 +16,7 @@ export default function AboutHero() {
           {/* Left Column: Label */}
           <div className="transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
             <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
-              About
+              The Builder
             </span>
           </div>
 
@@ -24,25 +24,23 @@ export default function AboutHero() {
           <div className="max-w-4xl">
             <div className="transition-all delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
               <h1 className="text-foreground text-5xl leading-[1.05] font-semibold tracking-tighter md:text-7xl">
-                I build websites that help small businesses{' '}
-                <span className="text-muted-foreground">
-                  look more established online.
-                </span>
+                I build the digital assets that make small businesses{' '}
+                <span className="text-muted-foreground">undeniable.</span>
               </h1>
             </div>
 
             <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-24">
               <div className="text-muted-foreground space-y-8 text-lg leading-relaxed transition-all delay-200 duration-700 ease-out md:text-xl starting:translate-y-4 starting:opacity-0">
                 <p className="max-w-prose">
-                  I&rsquo;m Yasir — a full-stack developer focused on modern,
-                  high-trust websites for small businesses. I handle everything
-                  from strategy and design to development and launch, with
-                  direct communication throughout.
+                  I&rsquo;m Yasir. I engineer screaming-fast, high-trust
+                  websites that turn your visitors into actual clients. No
+                  agencies. No junior developers. You get my absolute best work,
+                  from the first strategy call to the final launch.
                 </p>
 
                 <div className="flex flex-col items-start gap-8 pt-6 sm:flex-row sm:items-center">
                   <PrimaryButton
-                    text="Book a Call"
+                    text="Book Your Free Call"
                     onClick={() => {
                       router.push(CONTACT.calendar)
                     }}

@@ -46,7 +46,7 @@ export default function AboutPage() {
         <PageHeader />
         <MyValues />
         <TechStack />
-        <Testimonials />
+        <Testimonials variant="about" />
         <CtaBlock />
       </main>
       <Footer />

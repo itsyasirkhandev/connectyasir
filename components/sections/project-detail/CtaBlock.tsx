@@ -5,13 +5,13 @@ export default function CtaBlock() {
   return (
     <section>
       <header>
-        <h2>Need a website that makes your business look credible?</h2>
-        <p>Book a free call and let’s map out what your project needs.</p>
+        <h2>Ready for a website that actually works for you?</h2>
+        <p>Secure your free 30-minute strategy call today.</p>
       </header>
 
       <div>
         <Link href="/contact" className="flex items-center gap-2">
-          Book a Free Call <ArrowRight className="h-4 w-4" />
+          Book Your Free Call &rarr;
         </Link>
         <a
           href="https://wa.me/923014545482"
@@ -19,7 +19,7 @@ export default function CtaBlock() {
           rel="noopener noreferrer"
           className="flex items-center gap-2"
         >
-          Message on WhatsApp <ArrowRight className="h-4 w-4" />
+          Message on WhatsApp &rarr;
         </a>
       </div>
 

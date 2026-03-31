@@ -6,14 +6,13 @@ export default function MiniFaq() {
     <section className="bg-background py-16 md:py-32">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
-          {/* Left Column: Heading */}
           <div>
-            <h2 className="text-foreground text-3xl font-semibold tracking-tight md:text-4xl">
-              Common questions
+            <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
+              Quick Answers
+            </span>
+            <h2 className="text-foreground mt-4 text-3xl font-semibold tracking-tight md:text-4xl">
+              Before you book
             </h2>
-            <p className="text-muted-foreground mt-4 max-w-prose text-base leading-relaxed">
-              Everything you need to know before we talk over a call.
-            </p>
           </div>
 
           {/* Right Column: FAQ List */}

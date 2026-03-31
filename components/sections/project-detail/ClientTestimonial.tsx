@@ -2,8 +2,8 @@ export default function ClientTestimonial() {
   return (
     <section>
       <blockquote>
-        “One of the most professional developers I&rsquo;ve worked with. Latest
-        technology. On-time delivery. Fair pricing.”
+        &ldquo;One of the most professional developers I&apos;ve worked with.
+        Latest technology. On-time delivery. Fair pricing.&rdquo;
       </blockquote>
       <cite>
         <span>Rashid Bashir</span>

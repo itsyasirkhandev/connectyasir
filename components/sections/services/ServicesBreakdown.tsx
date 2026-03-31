@@ -4,33 +4,35 @@ const services = [
   {
     icon: Palette,
     title: 'Branding & Logo',
-    description: 'A clean, professional identity for your business.',
+    description: 'Secure a clean, premium identity for your business.',
   },
   {
     icon: Monitor,
     title: 'Website Design',
-    description: 'Strategic layouts that build trust and guide action.',
+    description: 'Build instant trust with strategic, high-converting layouts.',
   },
   {
     icon: Settings,
     title: 'Development',
-    description: 'Fast, responsive websites built with modern tools.',
+    description:
+      'Deliver a flawless experience with an ultra-fast, responsive codebase.',
   },
   {
     icon: Globe,
     title: 'Domain & Hosting',
-    description: 'Setup, security, and launch handled for you.',
+    description:
+      'Skip the technical roadblocks. Setup and launch are fully managed.',
   },
   {
     icon: Search,
     title: 'SEO Setup',
-    description:
-      'Search-ready pages with analytics and technical basics in place.',
+    description: 'Launch search-ready pages mapped to Google Analytics.',
   },
   {
     icon: Wrench,
-    title: 'Post-Launch Support',
-    description: 'Updates, fixes, and help after your website goes live.',
+    title: 'Priority Support',
+    description:
+      'Get direct help and fast updates long after your website goes live.',
   },
 ]
 
@@ -40,10 +42,10 @@ export default function ServicesBreakdown() {
       <div className="container mx-auto px-6">
         <div className="mb-16">
           <span className="text-primary mb-4 inline-block text-xs font-semibold tracking-[0.2em] uppercase">
-            What I Handle
+            What You Get
           </span>
           <h2 className="text-foreground max-w-2xl text-3xl leading-tight font-semibold tracking-tighter md:text-4xl">
-            One person. One process. Everything covered.
+            One point of contact. Everything covered.
           </h2>
         </div>
 

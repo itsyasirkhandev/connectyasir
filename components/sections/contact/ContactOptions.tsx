@@ -1,6 +1,6 @@
 'use client'
 
-import { MessageCircle, Mail, Clock, Calendar, ArrowRight } from 'lucide-react'
+import { MessageCircle, Mail, Calendar, ArrowRight } from 'lucide-react'
 import { PrimaryButton } from '@/components/ui/primary-button'
 import { CONTACT } from '@/lib/site-config'
 
@@ -47,16 +47,15 @@ export default function ContactOptions() {
                 <Calendar className="h-6 w-6" />
               </div>
               <h3 className="text-foreground text-xl font-semibold">
-                Book a call
+                Book Your Strategy Call
               </h3>
               <p className="text-muted-foreground mt-3 grow text-base leading-relaxed">
-                Pick a time that works for you. I’ll ask about your business and
-                goals, then I’ll tell you exactly how I can help.
+                Pick a time that fits your schedule.
               </p>
 
               <div className="mt-8 flex w-full flex-col items-start gap-4 sm:w-auto">
                 <PrimaryButton
-                  text="Schedule on Cal.com"
+                  text="Schedule a Call"
                   onClick={() => window.open(CONTACT.calendar, '_blank')}
                   className="w-full sm:w-auto"
                 />
@@ -69,11 +68,10 @@ export default function ContactOptions() {
                 <MessageCircle className="h-6 w-6" />
               </div>
               <h3 className="text-foreground text-xl font-semibold">
-                Send a message
+                Or bypass the calendar
               </h3>
               <p className="text-muted-foreground mt-3 grow text-base leading-relaxed">
-                Prefer to write it out? Send an email or reach out on WhatsApp
-                for quick questions.
+                I personally reply to all messages within a few hours.
               </p>
 
               <div className="mt-8 flex w-full flex-col gap-3">
@@ -106,26 +104,6 @@ export default function ContactOptions() {
                   <ArrowRight className="h-3 w-3 transition-transform group-hover:translate-x-1" />
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Global Details - response time info */}
-        <div className="mt-16 grid grid-cols-1 gap-12 lg:mt-24 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
-          {/* Empty div for alignment */}
-          <div className="hidden lg:block"></div>
-          <div className="border-border flex flex-col gap-6 border-t pt-8 sm:flex-row sm:gap-12">
-            <div className="flex items-center gap-3">
-              <Clock className="text-muted-foreground/50 h-5 w-5" />
-              <span className="text-muted-foreground text-sm font-medium">
-                I typically respond within a few hours.
-              </span>
-            </div>
-            <div className="flex items-center gap-3">
-              <Calendar className="text-muted-foreground/50 h-5 w-5" />
-              <span className="text-muted-foreground text-sm font-medium">
-                Available Mon–Fri, 9 AM – 5 PM PST.
-              </span>
             </div>
           </div>
         </div>

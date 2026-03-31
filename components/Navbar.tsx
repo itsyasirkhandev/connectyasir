@@ -12,6 +12,7 @@ import {
 } from '@hugeicons/core-free-icons'
 
 import { cn } from '@/lib/utils'
+import { AVAILABILITY } from '@/lib/site-config'
 import { Button } from '@/components/ui/button'
 import { PrimaryButton } from '@/components/ui/primary-button'
 import {
@@ -73,10 +74,10 @@ export default function Navbar() {
 
         {/* Right Section / Actions */}
         <div className="flex items-center gap-4">
-          <div className="hidden sm:block">
+          <div className="hidden items-center gap-4 sm:flex">
             <PrimaryButton
               size="sm"
-              text="Book a Call"
+              text="Book Your Free Call →"
               onClick={() => {
                 router.push('/contact')
               }}
@@ -133,7 +134,7 @@ export default function Navbar() {
 
                 <div className="flex flex-col gap-4 px-6 pb-8">
                   <PrimaryButton
-                    text="Book a Free Call"
+                    text="Book Your Free Call →"
                     className="w-full"
                     onClick={() => {
                       setIsOpen(false)

@@ -18,40 +18,39 @@ export default function PricingPackages() {
     ...PRICING_PACKAGES[0],
     icon: Zap,
     features: [
-      '3–4 Essential Pages',
-      'Mobile-responsive design',
-      'Basic contact form',
-      'Social media integration',
+      '3–4 static pages',
+      'Flawless mobile-responsive design',
+      'Clear lead flow',
+      'Sub-100ms load times',
       '1 round of revisions',
-      '15 days post-launch support',
+      '14 days of direct support',
     ],
   }
   const standard = {
     ...PRICING_PACKAGES[1],
     icon: Rocket,
     features: [
-      '7–10 conversion-focused pages',
-      'Trust signals & social proof design',
-      'Google Analytics + Search Console',
+      '7–10 conversion-optimized pages',
+      'Advanced trust-building design logic',
+      'Google Analytics + Search Console integration',
       'On-page SEO optimization',
-      'Advanced lead capture forms',
+      'Custom lead capture systems',
       '2 rounds of revisions',
-      '30 days post-launch support',
-      'Speed & performance optimization',
+      '30 days of direct support',
     ],
   }
   const premium = {
     ...PRICING_PACKAGES[2],
     icon: Crown,
     features: [
-      'Everything in Standard',
-      'Logo & Brand Identity design',
-      'Custom backend functionality',
-      'Admin dashboard / CMS',
-      'E-commerce or Booking systems',
-      'Priority 1-on-1 support',
-      'Unlimited revisions during design',
-      '90 days extended support',
+      'Everything in the Standard Package',
+      'Custom logo + deep brand identity',
+      '1-on-1 strategy deep dive',
+      'Priority development timeline',
+      'Advanced custom integrations',
+      'Secure admin dashboard/backend',
+      '3 rounds of revisions',
+      '60 days of direct support',
     ],
   }
 
@@ -62,15 +61,14 @@ export default function PricingPackages() {
       <div className="container mx-auto px-6">
         <div className="mb-16 text-center md:mb-24">
           <div className="border-primary/30 text-primary bg-primary/5 mb-4 inline-flex items-center rounded-full border px-4 py-1 text-[10px] font-bold tracking-widest uppercase">
-            Flexible Pricing
+            Pricing
           </div>
           <h2 className="text-foreground mx-auto max-w-3xl text-4xl leading-tight font-semibold tracking-tighter md:text-5xl lg:text-6xl">
-            Simple packages.{' '}
-            <span className="text-muted-foreground">Clear scope.</span>
+            Simple packages. No surprise invoices.
           </h2>
           <p className="text-muted-foreground mx-auto mt-6 max-w-xl text-lg leading-relaxed">
-            Choose the package that fits your business stage. All projects are
-            fixed-price with zero hidden fees.
+            Choose the exact package that fits your goals. You own 100% of your
+            code and design from day one.
           </p>
         </div>
 
@@ -180,7 +178,7 @@ export default function PricingPackages() {
                           'shadow-primary/20 hover:shadow-primary/30 shadow-lg'
                       )}
                     >
-                      Get Started
+                      Secure Your Spot
                       <ArrowRight className="h-4 w-4 shrink-0" />
                     </Link>
                   </div>
@@ -210,10 +208,10 @@ export default function PricingPackages() {
 
             <div className="grid shrink-0 grid-cols-1 gap-6 sm:grid-cols-2 lg:flex lg:flex-col lg:gap-8">
               {[
-                'Approve design before dev',
-                'Review site before launch',
-                'You own all code & assets',
-                'Simple 50/50 payment',
+                'You approve the exact design before any coding begins.',
+                'You review the fully functioning site before it goes live.',
+                'You hold 100% ownership of your code, design, and domain.',
+                'Transparent payment: 50% upfront, 50% only when you&apos;re ready to launch.',
               ].map((item) => (
                 <div key={item} className="group/item flex items-center gap-4">
                   <div className="border-primary/20 bg-primary/5 group-hover/item:border-primary/50 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border transition-colors">

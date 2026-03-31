@@ -102,10 +102,12 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/projects/apna-qarz-homepage.jpg',
     imageAlt: 'Homepage screenshot of the Apna Qarz website',
     shortDescription:
-      'From no website to a full platform with 1,000+ leads in the first month.',
+      'Complete digital platform built from scratch. 1,000+ targeted leads generated in month one.',
     projectType: 'Full-Stack · Done-for-You',
-    before: 'No website, no brand, no online presence.',
-    after: 'Full platform, admin dashboard, 1,000+ leads in month one.',
+    before:
+      'Zero digital footprint. No brand identity. No automated lead capture. Total reliance on manual outreach.',
+    after:
+      'A blazing fast custom platform with a secure admin dashboard, resulting in 1,000+ high-intent leads generated in 30 days.',
   },
   {
     name: 'Prime Tools Provider',
@@ -114,7 +116,7 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/projects/prime-tools-provider-homepage.jpg',
     imageAlt: 'Homepage screenshot of the Prime Tools Provider website',
     shortDescription:
-      'Upgraded an outdated site into a cleaner, more trustworthy business presence.',
+      'Revamped an outdated, low-trust site into a category-leading digital storefront.',
     projectType: 'Marketing Site',
     before: 'Outdated and untrustworthy site.',
     after: 'Cleaner, stronger, more premium online presence.',
@@ -126,7 +128,7 @@ export const PROJECTS: ProjectItem[] = [
     image: '/images/projects/ghulam-seeds-homepage.jpg',
     imageAlt: 'Homepage screenshot of the Ghulam Seeds website',
     shortDescription:
-      'Rebuilt an old website into a modern site that brought weekly inquiries.',
+      'Replaced an invisible, underperforming site with a lead-generating engine.',
     projectType: 'Marketing Site',
     before: 'Old site with no inbound leads.',
     after: 'Modern website with more traffic and weekly inquiries.',
@@ -138,7 +140,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
     name: 'Starter',
     price: 497,
     timeline: '~1 week',
-    tagline: 'A simple, professional website — live fast.',
+    tagline: 'Launch your professional presence fast.',
     description:
       'A simple, professional 3–4 page site for businesses that need to get online fast.',
   },
@@ -146,7 +148,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
     name: 'Standard',
     price: 997,
     timeline: '~2 weeks',
-    tagline: 'A complete website built to grow trust and leads.',
+    tagline: 'Turn your website into an automated lead machine.',
     description:
       'A 7–10 page website with trust-building design, lead capture, analytics, Search Console, and on-page SEO.',
   },
@@ -154,7 +156,7 @@ export const PRICING_PACKAGES: PricingPackage[] = [
     name: 'Premium',
     price: 2997,
     timeline: '~3 weeks',
-    tagline: 'A complete digital presence with advanced features.',
+    tagline: 'Dominate your market with a powerful custom platform.',
     description:
       'Everything in Standard plus logo, brand identity, custom features, backend systems, admin dashboards, and priority delivery.',
   },
@@ -162,52 +164,48 @@ export const PRICING_PACKAGES: PricingPackage[] = [
 
 export const SERVICES_FAQS: FaqItem[] = [
   {
-    question: 'How long does it take?',
-    answer: 'Most websites launch in 1–3 weeks depending on scope.',
-  },
-  {
-    question: 'Do I own the website?',
-    answer: 'Yes — the code, design, and assets are yours.',
-  },
-  {
-    question: 'Can you redesign my current site?',
-    answer: 'Yes. That’s a big part of what I do.',
-  },
-  {
-    question: 'Do you write the content?',
-    answer: 'Yes, I can help write and structure your website copy.',
-  },
-  {
-    question: 'What happens after launch?',
+    question: 'How completely hands-off is this for me?',
     answer:
-      'Every package includes support, and ongoing help is available too.',
+      'Very. Give me your goals during our call, and I handle the design, code, and launch.',
   },
   {
-    question: 'How does payment work?',
-    answer: '50% upfront, 50% before launch.',
+    question: 'Do I own my website and domain?',
+    answer:
+      '100%. You maintain total ownership and admin access to everything we build.',
+  },
+  {
+    question: 'Is my current site hurting my business?',
+    answer:
+      "If it's slow, outdated, or confusing, yes. A complete redesign is the fastest way to fix that.",
+  },
+  {
+    question: 'I hate writing copy. Will you do it?',
+    answer:
+      'Absolutely. I’ll write clear, high-converting copy that sounds like you.',
+  },
+  {
+    question: 'What happens if something breaks next month?',
+    answer:
+      'Every package includes an initial support window, and ongoing support retainers are always available.',
   },
 ]
 
 export const CONTACT_FAQS: FaqItem[] = [
   {
-    question: 'What happens on the call?',
+    question: 'What actually happens on this free call?',
     answer:
-      'We talk about your business, your goals, and what kind of website you need.',
+      'I listen to your business goals and map out precisely what your website needs to help you reach them. No hard pitches.',
   },
   {
-    question: 'Do I need to prepare anything?',
-    answer: 'No — just come with a basic idea of what your business does.',
+    question: 'Do I need to prep documentation or specs?',
+    answer: 'None. Just show up knowing who your best customers are.',
   },
   {
-    question: 'Is the call free?',
-    answer: 'Yes, completely free.',
+    question: 'I’m not tech-savvy at all. Is that an issue?',
+    answer: "Not even slightly. That's exactly why you hire me.",
   },
   {
-    question: 'I’m not sure what I need yet. Is that okay?',
-    answer: 'Yes — that’s exactly what the call is for.',
-  },
-  {
-    question: 'Can I message you first instead?',
-    answer: 'Absolutely. WhatsApp is always open.',
+    question: 'Is a quick WhatsApp message okay instead of a call?',
+    answer: 'Absolutely. My WhatsApp is always open for quick questions.',
   },
 ]

@@ -18,7 +18,7 @@ export default function ProjectGrid() {
             >
               {/* Image Side */}
               <div className="lg:w-1/2">
-                <div className="group border-border bg-muted/30 hover:border-primary/20 relative aspect-[16/10] overflow-hidden rounded-3xl border shadow-sm transition-all duration-500 hover:shadow-md">
+                <div className="group border-border bg-muted/30 hover:border-primary/20 relative aspect-16/10 overflow-hidden rounded-3xl border shadow-sm transition-all duration-500 hover:shadow-md">
                   <Image
                     src={project.image}
                     alt={project.imageAlt}
@@ -26,7 +26,7 @@ export default function ProjectGrid() {
                     className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
-                  <div className="from-background/20 absolute inset-0 bg-gradient-to-t to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
+                  <div className="from-background/20 absolute inset-0 bg-linear-to-t to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" />
                 </div>
               </div>
 
@@ -85,12 +85,12 @@ export default function ProjectGrid() {
                       href={project.path}
                       className="group/link bg-foreground text-background hover:bg-primary inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all"
                     >
-                      Read the full case study
+                      Read Case Study
                       <ArrowRight className="h-4 w-4 transition-transform group-hover/link:translate-x-1" />
                     </Link>
                   ) : (
                     <div className="border-border text-muted-foreground inline-flex items-center gap-2 rounded-full border px-6 py-3 text-sm font-medium">
-                      Detailed case study coming soon
+                      Case Study Coming Soon
                     </div>
                   )}
                 </div>

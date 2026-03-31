@@ -15,8 +15,11 @@ export default function ProjectOverview() {
         <tbody>
           <tr>
             <td>Rashid Bashir</td>
-            <td>2 weeks</td>
-            <td>Branding, design, development, backend, SEO, hosting</td>
+            <td>14 Days</td>
+            <td>
+              Complete Branding, UX Design, Custom Development, Backend Systems,
+              SEO, Managed Hosting
+            </td>
             <td>
               <a
                 href="https://apnaqarz.com"
@@ -32,7 +35,7 @@ export default function ProjectOverview() {
       </table>
 
       <section>
-        <h2>The transformation</h2>
+        <h2>The Before &amp; After</h2>
         <table>
           <thead>
             <tr>
@@ -42,20 +45,20 @@ export default function ProjectOverview() {
           </thead>
           <tbody>
             <tr>
-              <td>- No website</td>
-              <td>- Full website</td>
+              <td>- Zero digital footprint.</td>
+              <td>- A blazing fast custom platform.</td>
             </tr>
             <tr>
-              <td>- No logo</td>
-              <td>- Brand identity</td>
+              <td>- No brand identity.</td>
+              <td>- Secure admin dashboard.</td>
             </tr>
             <tr>
-              <td>- No online presence</td>
-              <td>- Admin dashboard</td>
+              <td>- No automated lead capture.</td>
+              <td>- 1,000+ high-intent leads generated.</td>
             </tr>
             <tr>
-              <td>- No lead system</td>
-              <td>- 1,000+ leads in month one</td>
+              <td>- Total reliance on manual outreach.</td>
+              <td>- Launched in 30 days.</td>
             </tr>
           </tbody>
         </table>

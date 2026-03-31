@@ -1,745 +1,388 @@
-Optimized Website Content — Shorter, Cleaner, Higher-Converting
-Navbar
-txt
-
-Logo: Yasir Khan
-Nav Links: Home · Projects · Services · About
-Badge: 🟢 Taking on 2 new projects
-CTA Button: Book a Free Call →
-Floating WhatsApp Button
-txt
-
-Tooltip: Quick question? Message me.
-Link: wa.me/923014545482
-Footer
-txt
-
-LEFT:
-Yasir Khan
-Websites for small businesses — from idea to launch.
-🟢 Taking on 2 new projects
-
-MIDDLE:
-Home
-Projects
-Services
-About
-Contact
-
-RIGHT:
-WhatsApp → wa.me/923014545482
-LinkedIn → linkedin.com/in/connectyasir
-Email → itsyasirkhan.dev@gmail.com
-CTA → Book a Free Call →
-
-BOTTOM:
-© 2025 Yasir Khan. All rights reserved.
-HOME /
-Hero
-txt
-
-Badge:
-🟢 Taking on 2 new projects
-
-Headline:
-Your website should win trust
-not lose customers.
-
-Subheadline:
-I design and build modern websites for small businesses
-that look credible, load fast, and help turn visitors into leads.
-
-Primary CTA:
-Book a Free Call →
-
-Secondary CTA:
-Message on WhatsApp →
-
-Trust Line:
-3 businesses launched · 1,000+ leads generated · Built with modern web tech
-What You Get
-txt
-
-Eyebrow:
-What You Get
-
-Heading:
-Everything you need to launch — handled by one person.
-
-Subtext:
-Branding, design, development, hosting, SEO, and support.
-No chasing multiple freelancers. No messy handoffs.
-
-Card 1:
-Title: Branding & Logo
-Desc: A clean identity that makes your business look professional.
-
-Card 2:
-Title: Website Design & Development
-Desc: Fast, modern pages built to earn trust and drive action.
-
-Card 3:
-Title: Domain & Hosting
-Desc: Setup, launch, security, and technical details handled for you.
-
-Card 4:
-Title: SEO & Support
-Desc: Basic SEO setup and post-launch help when you need it.
-Featured Projects
-txt
-
-Eyebrow:
-Recent Work
-
-Heading:
-Real projects. Real businesses. Real results.
-
-Subtext:
-A few examples of websites I’ve designed and built for businesses.
-
-Card 1:
-Title: Apna Qarz
-Desc: From no website to a full platform with 1,000+ leads in the first month.
-Link: View Case Study →
-
-Card 2:
-Title: Prime Tools Provider
-Desc: Upgraded an outdated site into a cleaner, more trustworthy business presence.
-Link: Case Study Coming Soon
-
-Card 3:
-Title: Ghulam Seeds
-Desc: Rebuilt an old website into a modern site that brought weekly inquiries.
-Link: Case Study Coming Soon
-
-Bottom Link:
-View All Projects →
-How It Works
-txt
-
-Eyebrow:
-How It Works
-
-Heading:
-Simple process. Clear communication. Fast delivery.
-
-Subtext:
-You always know what’s happening and what comes next.
-
-Step 1:
-Title: Free Call
-Desc: We talk about your business, goals, and what your website needs.
-
-Step 2:
-Title: Plan & Design
-Desc: I map the structure and design the pages for your approval.
-
-Step 3:
-Title: Build & Launch
-Desc: I develop the site, handle setup, and get everything live.
-
-Step 4:
-Title: Ongoing Support
-Desc: Need updates after launch? I’m available to help.
-Testimonials
-txt
-
-Eyebrow:
-Client Reviews
-
-Heading:
-Trusted by business owners.
-
-Testimonial 1:
-Quote: “Professional, modern, on-time, and fairly priced. I highly recommend Yasir Khan.”
-Name: Rashid Bashir
-Role: Finance Advisor · Apna Qarz
-
-Testimonial 2:
-Quote: “The new site looks premium, loads fast, and helped improve trust and conversions.”
-Name: Prime Tools Provider
-Role: Owner
-
-Testimonial 3:
-Quote: “Our old site brought no leads. After the rebuild, traffic and inquiries improved significantly.”
-Name: Ghulam Yaseen
-Role: Owner · Ghulam Seeds
-Tech Stack
-txt
-
-Eyebrow:
-Built With Modern Tech
-
-Heading:
-Fast, scalable websites built with a modern stack.
-
-Subtext:
-Designed for speed, reliability, and a smooth user experience.
-
-Tech:
-Next.js
-React
-TypeScript
-Tailwind CSS
-Convex
-Vercel
-Figma
-Final CTA
-txt
-
-Heading:
-If your website doesn’t build trust, it’s costing you business.
-
-Subtext:
-Book a free 30-minute call and I’ll show you what your site needs next.
-
-Primary CTA:
-Book a Free Call →
-
-Secondary CTA:
-Message on WhatsApp →
-
-Status:
-🟢 Taking on 2 new projects
-SERVICES /services
-Page Header
-txt
-
-Eyebrow:
-Services & Pricing
-
-Heading:
-Websites built to make your business look credible online.
-
-Subtext:
-From branding and design to development, launch, and support —
-everything is handled in one place.
-Services Breakdown
-txt
-
-Eyebrow:
-What I Handle
-
-Heading:
-One person. One process. Everything covered.
-
-Service 1:
-Title: Branding & Logo
-Desc: A clean, professional identity for your business.
-
-Service 2:
-Title: Website Design
-Desc: Strategic layouts that build trust and guide action.
-
-Service 3:
-Title: Development
-Desc: Fast, responsive websites built with modern tools.
-
-Service 4:
-Title: Domain & Hosting
-Desc: Setup, security, and launch handled for you.
-
-Service 5:
-Title: SEO Setup
-Desc: Search-ready pages with analytics and technical basics in place.
-
-Service 6:
-Title: Post-Launch Support
-Desc: Updates, fixes, and help after your website goes live.
-Pricing Intro
-txt
-
-Eyebrow:
-Pricing
-
-Heading:
-Simple packages. Clear scope. No hidden fees.
-
-Subtext:
-Choose the package that fits your business stage.
-All projects are fixed-price with clear deliverables.
-Starter Package
-txt
-
-Name:
-Starter
-
-Tagline:
-A simple, professional website — live fast.
-
-Price:
-$497
-
-Timeline:
-~1 week
-
-Includes:
-✓ 3–4 pages
-✓ Modern responsive design
-✓ Clear calls-to-action
-✓ Contact form
-✓ Fast-loading pages
-✓ 1 round of revisions
-✓ 14 days support
-
-CTA:
-Get Started →
-Standard Package
-txt
-
-Badge:
-Most Popular
-
-Name:
-Standard
-
-Tagline:
-A complete website built to grow trust and leads.
-
-Price:
-$997
-
-Timeline:
-~2 weeks
-
-Includes:
-✓ 7–10 pages
-✓ Conversion-focused structure
-✓ Trust signals built into design
-✓ Google Analytics + Search Console
-✓ On-page SEO basics
-✓ Lead forms
-✓ 2 rounds of revisions
-✓ 30 days support
-
-CTA:
-Get Started →
-Premium Package
-txt
-
-Name:
-Premium
-
-Tagline:
-A complete digital presence with advanced features.
-
-Price:
-$2,997
-
-Timeline:
-~3 weeks
-
-Includes:
-✓ Everything in Standard
-✓ Logo + brand identity
-✓ Strategy session
-✓ Priority delivery
-✓ Custom features
-✓ Admin dashboard/backend systems
-✓ 3 rounds of revisions
-✓ 60 days support
-
-CTA:
-Get Started →
-The Promise
-txt
-
-Heading:
-Clear process. Full ownership. No surprises.
-
-Points:
-
-- You approve the design before development starts
-- You review the site before launch
-- You own the code, design, and assets
-- 50% upfront, 50% before launch
-  Process
-  txt
-
-Eyebrow:
-The Process
-
-Heading:
-What happens after you book a call.
-
-Step 1:
-Title: Discovery
-Desc: We discuss your business, goals, and website needs.
-
-Step 2:
-Title: Planning
-Desc: I map the structure, direction, and brand visuals.
-
-Step 3:
-Title: Design
-Desc: You review the design before anything gets built.
-
-Step 4:
-Title: Development
-Desc: I build the approved website and prepare it for launch.
-
-Step 5:
-Title: Launch
-Desc: Domain, analytics, SEO basics, and final checks go live.
-
-Step 6:
-Title: Support
-Desc: You get post-launch help and optional ongoing support.
-FAQ
-txt
-
-Eyebrow:
-FAQ
-
-Heading:
-Questions before you book?
-
-Q: How long does it take?
-A: Most websites launch in 1–3 weeks depending on scope.
-
-Q: Do I own the website?
-A: Yes — the code, design, and assets are yours.
-
-Q: Can you redesign my current site?
-A: Yes. That’s a big part of what I do.
-
-Q: Do you write the content?
-A: Yes, I can help write and structure your website copy.
-
-Q: What happens after launch?
-A: Every package includes support, and ongoing help is available too.
-
-Q: How does payment work?
-A: 50% upfront, 50% before launch.
-CTA Block
-txt
-
-Heading:
-A better website can change how people see your business.
-
-Subtext:
-Book a free call and I’ll help you figure out the right next step.
-
-Primary CTA:
-Book a Free Call →
-
-Secondary CTA:
-Message on WhatsApp →
-PROJECTS /projects
-Page Header
-txt
-
-Eyebrow:
-Projects
-
-Heading:
-A few businesses I’ve helped improve online.
-
-Subtext:
-Real projects built to increase trust, improve design, and support growth.
-Project Grid
-txt
-
-Project 1:
-Title: Apna Qarz
-Before: No website, no brand, no online presence.
-After: Full platform, admin dashboard, 1,000+ leads in month one.
-Link: Read Case Study →
-
-Project 2:
-Title: Prime Tools Provider
-Before: Outdated and untrustworthy site.
-After: Cleaner, stronger, more premium online presence.
-Link: Case Study Coming Soon
-
-Project 3:
-Title: Ghulam Seeds
-Before: Old site with no inbound leads.
-After: Modern website with more traffic and weekly inquiries.
-Link: Case Study Coming Soon
-CTA
-txt
-
-Heading:
-Your business could be the next before-and-after story.
-
-Subtext:
-Let’s talk about what your website needs.
-
-CTA:
-Book a Free Call →
-CASE STUDY /projects/apna-qarz
-Hero
-txt
-
-Back Link:
-← All Projects
-
-Title:
-Apna Qarz
-
-Tag:
-Full-Stack · Done-for-You
-
-Industry:
-Finance Advisory
-Overview
-txt
-
-Client:
-Rashid Bashir
-
-Timeline:
-2 weeks
-
-Scope:
-Branding, design, development, backend, SEO, hosting
-
-Live Site:
-apnaqarz.com
-Before / After
-txt
-
-Heading:
-The transformation
-
-Before:
-
-- No website
-- No logo
-- No online presence
-- No lead system
-
-After:
-
-- Full website
-- Brand identity
-- Admin dashboard
-- 1,000+ leads in month one
-  The Challenge
-  txt
-
-Heading:
-The challenge
-
-Apna Qarz needed a complete online presence from scratch —
-website, branding, lead flow, and a dashboard to manage applications.
-What I Built
-txt
-
-Heading:
-What I delivered
-
-- Logo and brand identity
-- Website strategy and page structure
-- Custom design and development
-- Admin dashboard
-- Copywriting
-- SEO setup
-- Analytics and Search Console
-- Hosting and launch support
-  The Approach
-  txt
-
-Heading:
-How I approached it
-
-The focus was simple:
-build trust fast, make applications easy, and create a system the business could actually use day to day.
-Tech Stack
-txt
-
-Heading:
-Built with
-
-Next.js
-React
-Tailwind CSS
-shadcn/ui
-Convex
-Vercel
-Results
-txt
-
-Heading:
-Results
-
-- 1,000+ form submissions in the first month
-- Website launched in 14 days
-- Built to handle 50K+ monthly users
-  Testimonial
-  txt
-
-Quote:
-“One of the most professional developers I've worked with. Latest technology. On-time delivery. Fair pricing.”
-
-Name:
-Rashid Bashir
-
-Role:
-Finance Advisor
-CTA
-txt
-
-Heading:
-Need a website that makes your business look credible?
-
-Subtext:
-Book a free call and let’s map out what your project needs.
-
-Primary CTA:
-Book a Free Call →
-
-Secondary CTA:
-Message on WhatsApp →
-ABOUT /about
-Hero
-txt
-
-Eyebrow:
-About
-
-Heading:
-I build websites that help small businesses look more established online.
-
-Paragraph:
-I’m Yasir — a full-stack developer focused on modern, high-trust websites for small businesses. I handle everything from strategy and design to development and launch, with direct communication throughout.
-
-Socials:
-LinkedIn
-WhatsApp
-How I Work
-txt
-
-Eyebrow:
-How I Work
-
-Heading:
-What it’s like to work with me.
-
-Value 1:
-Title: Direct Communication
-Desc: You work directly with the person building your website.
-
-Value 2:
-Title: Clear Pricing
-Desc: You know the scope, price, and timeline before we begin.
-
-Value 3:
-Title: Fast Delivery
-Desc: Most projects launch in 1–3 weeks without cutting corners.
-
-Value 4:
-Title: Custom-Built
-Desc: Your website is built for your business — not copied from a template.
-Tech Stack
-txt
-
-Eyebrow:
-Tools
-
-Heading:
-Modern tools for fast, reliable websites.
-
-Frontend:
-Next.js
-React
-TypeScript
-Tailwind CSS
-shadcn/ui
-
-Backend:
-Convex
-
-Design:
-Figma
-
-Hosting:
-Vercel
-GitHub
-Testimonials
-txt
-
-Heading:
-What clients said
-
-Quote 1:
-“Professional, modern, on-time, and fairly priced.”
-
-Quote 2:
-“The new site feels premium and helped improve trust.”
-
-Quote 3:
-“Traffic and inquiries improved after the rebuild.”
-CTA
-txt
-
-Heading:
-If your business does great work, your website should show it.
-
-Subtext:
-Let’s talk about building a site that matches the quality of your business.
-
-Primary CTA:
-Book a Free Call →
-
-Secondary CTA:
-Message on WhatsApp →
-CONTACT /contact
-Header
-txt
-
-Eyebrow:
-Contact
-
-Heading:
-Let’s talk about your website.
-
-Subtext:
-Book a free 30-minute call and I’ll help you figure out the best next step.
-
-Status:
-🟢 Taking on 2 new projects
-Contact Options
-txt
-
-Left:
-Heading: Book a Call
-Subtext: Pick a time that works for you.
-Embed: Cal.com
-
-Right:
-Heading: Or message me directly
-
-WhatsApp:
-Quick questions or project ideas
-wa.me/923014545482
-
-Email:
-itsyasirkhan.dev@gmail.com
-
-LinkedIn:
-linkedin.com/in/connectyasir
-
-Response Note:
-I usually reply within a few hours.
-Mini FAQ
-txt
-
-Heading:
-Before you book
-
-Q: What happens on the call?
-A: We talk about your business, your goals, and what kind of website you need.
-
-Q: Do I need to prepare anything?
-A: No — just come with a basic idea of what your business does.
-
-Q: Is the call free?
-A: Yes, completely free.
-
-Q: I’m not sure what I need yet. Is that okay?
-A: Yes — that’s exactly what the call is for.
-
-Q: Can I message you first instead?
-A: Absolutely. WhatsApp is always open.
+# Optimized Website Content — Copywriting Guide Applied
+
+## Global Elements
+
+### Navbar
+
+- **Badge:** 🟢 Taking on 2 new projects
+- **Logo:** Yasir Khan
+- **Nav Links:** Home · Projects · Services · About
+- **CTA Button:** Book Your Free Call →
+
+### Floating WhatsApp Button
+
+- **Tooltip:** Quick question? Ask me here.
+- **Link:** wa.me/923014545482
+
+### Footer
+
+- **Left:**
+  - Yasir Khan
+  - Launch a website that actually grows your business.
+  - 🟢 Taking on 2 new projects
+- **Middle (Links):** Home · Projects · Services · About · Contact
+- **Right:**
+  - WhatsApp → wa.me/923014545482
+  - LinkedIn → linkedin.com/in/connectyasir
+  - Email → itsyasirkhan.dev@gmail.com
+  - **CTA:** Book Your Free Call →
+- **Bottom:** © 2026 Yasir Khan. All rights reserved.
+
+---
+
+## HOME (/)
+
+### Hero
+
+- **Badge:** 🟢 Taking on 2 new projects
+- **Headline:** Stop losing customers to a slow, outdated website.
+- **Subheadline:** Your business deserves a blazingly fast, premium website that builds instant trust and turns cold visitors into daily leads.
+- **Primary CTA:** Book Your Free Call →
+- **Secondary CTA:** Message on WhatsApp →
+- **Trust Line:** 3 businesses launched · 1,000+ leads generated · <3s load times
+
+### What You Get
+
+- **Eyebrow:** The Package
+- **Heading:** Launch your website without the freelancer headache.
+- **Subtext:** Stop chasing designers, developers, and hosting companies. You get an entire digital team in one expert.
+
+- **Card 1 (Brand & Identity):** Look instantly credible with a clean, professional logo and brand design.
+- **Card 2 (High-Converting Design):** Guide your visitors effortlessly from their first click to booking a call.
+- **Card 3 (Complete Tech Setup):** Never worry about domains, hosting, or security updates. It’s handled.
+- **Card 4 (Search & Support):** Rank on Google from day one and get direct support whenever you need it.
+
+### Featured Projects
+
+- **Eyebrow:** Recent Work
+- **Heading:** See how a premium website transforms your business.
+- **Subtext:** Proof that a modern online presence drives real revenue.
+
+- **Card 1 (Apna Qarz):** From zero online presence to 1,000+ verified leads in the first 30 days. [View Case Study →]
+- **Card 2 (Prime Tools Provider):** Upgraded an outdated site into a highly trusted digital storefront. [Case Study Coming Soon]
+- **Card 3 (Ghulam Seeds):** Replaced a low-traffic website with an engine that drives weekly inquiries. [Case Study Coming Soon]
+- **Bottom Link:** View All Projects →
+
+### How It Works
+
+- **Eyebrow:** The Process
+- **Heading:** Get your new website live in 3 simple steps.
+- **Subtext:** You’ll never have to ask "what happens next?"
+
+- **Step 1 (The Strategy Call):** Tell me about your business. We'll map out exactly what you need to grow.
+- **Step 2 (Review Your Design):** You approve the visual direction before a single line of code is written.
+- **Step 3 (Launch & Grow):** I handle the complete technical setup. You start receiving leads.
+
+### Testimonials
+
+- **Eyebrow:** Client Reviews
+- **Heading:** Trusted by founders who demand results.
+
+- **Quote 1:** “Professional, modern, on-time, and fairly priced. I highly recommend Yasir Khan.” — Rashid Bashir, Apna Qarz
+- **Quote 2:** “The new site looks premium, loads fast, and helped improve trust and conversions.” — Owner, Prime Tools Provider
+- **Quote 3:** “Our old site brought no leads. After the rebuild, traffic and inquiries improved significantly.” — Ghulam Yaseen, Ghulam Seeds
+
+### Tech Stack
+
+- **Eyebrow:** Under the Hood
+- **Heading:** Blazing fast performance. Zero lag.
+- **Subtext:** Your site loads in under 100ms so your customers never hit the "back" button.
+- **Tech:** Next.js · React · TypeScript · Tailwind CSS · Convex · Vercel
+
+### Final CTA
+
+- **Heading:** Every day you wait, you're handing customers to your competitors.
+- **Subtext:** Spend 30 minutes on a free call, and I'll show you exactly how to fix your online presence.
+- **Primary CTA:** Book Your Free Call →
+- **Secondary CTA:** Message on WhatsApp →
+- **Status:** 🟢 Taking on 2 new projects
+
+---
+
+## SERVICES (/services)
+
+### Page Header
+
+- **Eyebrow:** Services & Pricing
+- **Heading:** Stop guessing. Get a website built specifically to drive leads.
+- **Subtext:** You focus on running your business. Get your site designed, coded, and launched without lifting a finger.
+
+### Services Breakdown
+
+- **Eyebrow:** What You Get
+- **Heading:** One point of contact. Everything covered.
+- **Service 1 (Branding & Logo):** Secure a clean, premium identity for your business.
+- **Service 2 (Website Design):** Build instant trust with strategic, high-converting layouts.
+- **Service 3 (Development):** Deliver a flawless experience with an ultra-fast, responsive codebase.
+- **Service 4 (Domain & Hosting):** Skip the technical roadblocks. Setup and launch are fully managed.
+- **Service 5 (SEO Setup):** Launch search-ready pages mapped to Google Analytics.
+- **Service 6 (Priority Support):** Get direct help and fast updates long after your website goes live.
+
+### Pricing Intro
+
+- **Eyebrow:** Pricing
+- **Heading:** Simple packages. No surprise invoices.
+- **Subtext:** Choose the exact package that fits your goals. You own 100% of your code and design from day one.
+
+### Starter Package
+
+- **Name:** Starter
+- **Tagline:** Launch your professional presence fast.
+- **Price:** $497
+- **Timeline:** ~1 week
+- **Includes:**
+  - ✓ 3–4 static pages
+  - ✓ Flawless mobile-responsive design
+  - ✓ Clear lead flow
+  - ✓ Sub-100ms load times
+  - ✓ 1 round of revisions
+  - ✓ 14 days of direct support
+- **CTA:** Secure Your Spot →
+
+### Standard Package
+
+- **Badge:** Most Popular
+- **Name:** Standard
+- **Tagline:** Turn your website into an automated lead machine.
+- **Price:** $997
+- **Timeline:** ~2 weeks
+- **Includes:**
+  - ✓ 7–10 conversion-optimized pages
+  - ✓ Advanced trust-building design logic
+  - ✓ Google Analytics + Search Console integration
+  - ✓ On-page SEO optimization
+  - ✓ Custom lead capture systems
+  - ✓ 2 rounds of revisions
+  - ✓ 30 days of direct support
+- **CTA:** Secure Your Spot →
+
+### Premium Package
+
+- **Name:** Premium
+- **Tagline:** Dominate your market with a powerful custom platform.
+- **Price:** $2,997
+- **Timeline:** ~3 weeks
+- **Includes:**
+  - ✓ Everything in the Standard Package
+  - ✓ Custom logo + deep brand identity
+  - ✓ 1-on-1 strategy deep dive
+  - ✓ Priority development timeline
+  - ✓ Advanced custom integrations
+  - ✓ Secure admin dashboard/backend
+  - ✓ 3 rounds of revisions
+  - ✓ 60 days of direct support
+- **CTA:** Secure Your Spot →
+
+### The Promise
+
+- **Heading:** You stay in control. You own your assets.
+- **Points:**
+  - You approve the exact design before any coding begins.
+  - You review the fully functioning site before it goes live.
+  - You hold 100% ownership of your code, design, and domain.
+  - Transparent payment: 50% upfront, 50% only when you're ready to launch.
+
+### Process
+
+- **Eyebrow:** The Process
+- **Heading:** What happens the moment you book a call.
+- **Step 1 (Discovery):** We expose exactly what's blocking your online growth.
+- **Step 2 (Planning):** I map your site architecture and brand direction.
+- **Step 3 (Design):** You critically review the visual layout before the build.
+- **Step 4 (Development):** I engineer your custom website to load instantly.
+- **Step 5 (Launch):** Your domain, analytics, and SEO flip live seamlessly.
+- **Step 6 (Support):** You enjoy priority access for updates and technical help.
+
+### FAQ
+
+- **Eyebrow:** FAQ
+- **Heading:** Everything you need to know before we start.
+- **Q: How completely hands-off is this for me?**
+  **A:** Very. Give me your goals during our call, and I handle the design, code, and launch.
+- **Q: Do I own my website and domain?**
+  **A:** 100%. You maintain total ownership and admin access to everything we build.
+- **Q: Is my current site hurting my business?**
+  **A:** If it's slow, outdated, or confusing, yes. A complete redesign is the fastest way to fix that.
+- **Q: I hate writing copy. Will you do it?**
+  **A:** Absolutely. I’ll write clear, high-converting copy that sounds like you.
+- **Q: What happens if something breaks next month?**
+  **A:** Every package includes an initial support window, and ongoing support retainers are always available.
+
+### CTA Block
+
+- **Heading:** A premium website transforms how customers see you.
+- **Subtext:** Grab a 30-minute slot and I’ll tell you exactly what your business needs next.
+- **Primary CTA:** Book Your Free Call →
+
+---
+
+## PROJECTS (/projects)
+
+### Page Header
+
+- **Eyebrow:** Projects
+- **Heading:** See the businesses already dominating their markets.
+- **Subtext:** Real projects engineered to maximize trust, load instantly, and drive revenue.
+
+### Project Grid
+
+- **Project 1 (Apna Qarz):** Complete digital platform built from scratch. 1,000+ targeted leads generated in month one. [Read Case Study →]
+- **Project 2 (Prime Tools Provider):** Revamped an outdated, low-trust site into a category-leading digital storefront. [Case Study Coming Soon]
+- **Project 3 (Ghulam Seeds):** Replaced an invisible, underperforming site with a lead-generating engine. [Case Study Coming Soon]
+
+### CTA
+
+- **Heading:** Your business deserves a success story like these.
+- **Subtext:** Let’s map out a website that actually grows your revenue.
+- **CTA:** Book Your Free Call →
+
+---
+
+## CASE STUDY (/projects/apna-qarz)
+
+### Hero
+
+- **Back Link:** ← All Projects
+- **Title:** Apna Qarz
+- **Tag:** Full-Stack · Done-for-You
+- **Industry:** Finance Advisory
+
+### Overview
+
+- **Client:** Rashid Bashir
+- **Timeline:** 14 Days
+- **Scope:** Complete Branding, UX Design, Custom Development, Backend Systems, SEO, Managed Hosting
+- **Live Site:** apnaqarz.com
+
+### Before / After
+
+- **Heading:** The Before & After
+- **Before:** Zero digital footprint. No brand identity. No automated lead capture. Total reliance on manual outreach.
+- **After:** A blazing fast custom platform with a secure admin dashboard, resulting in 1,000+ high-intent leads generated in 30 days.
+
+### The Challenge
+
+- **Heading:** The Challenge
+- **Body:** Apna Qarz needed to emerge from nothing and instantly appear as the most trusted finance advisory in their space. They required a secure dashboard to manage applications and a lead flow that never slept.
+
+### What I Built
+
+- **Heading:** The Deliverables
+- **List:**
+  - Premium brand identity + logo
+  - High-converting site architecture
+  - Custom Next.js frontend
+  - Secure data dashboard
+  - Persuasive, human-first copywriting
+  - Technical SEO foundation
+  - Zero-maintenance managed hosting
+
+### The Approach
+
+- **Heading:** How I Solved It
+- **Body:** I engineered the site around one primary metric: trust. By combining ultra-fast load times with a frictionless application process, we created a system that made submitting an inquiry feel effortless and secure.
+
+### Tech Stack
+
+- **Heading:** The Architecture
+- **Tech:** Next.js · React · Tailwind CSS · shadcn/ui · Convex · Vercel
+
+### Results
+
+- **Heading:** The Impact
+- **Impact:**
+  - 1,000+ qualified form submissions inside month one.
+  - Complete platform designed, coded, and launched in 14 days.
+  - Scalable backend built to comfortably handle 50,000+ monthly visitors.
+
+### Testimonial
+
+- **Quote:** “One of the most professional developers I've worked with. Latest technology. On-time delivery. Fair pricing.”
+- **Name:** Rashid Bashir
+- **Role:** Finance Advisor
+
+### CTA
+
+- **Heading:** Ready for a website that actually works for you?
+- **Subtext:** Secure your free 30-minute strategy call today.
+- **Primary CTA:** Book Your Free Call →
+- **Secondary CTA:** Message on WhatsApp →
+
+---
+
+## ABOUT (/about)
+
+### Hero
+
+- **Eyebrow:** The Builder
+- **Heading:** I build the digital assets that make small businesses undeniable.
+- **Paragraph:** I’m Yasir. I engineer screaming-fast, high-trust websites that turn your visitors into actual clients. No agencies. No junior developers. You get my absolute best work, from the first strategy call to the final launch.
+- **Socials:** LinkedIn · WhatsApp
+
+### How I Work
+
+- **Eyebrow:** The Standard
+- **Heading:** What you get when you hire me.
+- **Value 1 (Direct Access):** You communicate exclusively with the expert writing your code and designing your site.
+- **Value 2 (Total Transparency):** You agree to the scope, precise timeline, and exact price before any work begins.
+- **Value 3 (Rapid Velocity):** You launch in 1–3 weeks without sacrificing a single drop of quality.
+- **Value 4 (Custom Engineered):** You get a platform architected exclusively for your audience—never a generic template.
+
+### Tech Stack
+
+- **Eyebrow:** The Toolbelt
+- **Heading:** Enterprise-grade technology for your small business.
+- **Frontend:** Next.js · React · TypeScript · Tailwind CSS · shadcn/ui
+- **Backend/Db:** Convex
+- **Design:** Figma
+- **Infrastructure:** Vercel · GitHub
+
+### Testimonials
+
+- **Heading:** What founders say
+- **Quote 1:** “Professional, modern, on-time, and fairly priced.”
+- **Quote 2:** “The new site feels premium and helped improve trust.”
+- **Quote 3:** “Traffic and inquiries improved after the rebuild.”
+
+### CTA
+
+- **Heading:** If your work is world-class, your website needs to prove it.
+- **Subtext:** Let’s engineer a digital presence that matches the true quality of your business.
+- **Primary CTA:** Book Your Free Call →
+
+---
+
+## CONTACT (/contact)
+
+### Header
+
+- **Eyebrow:** Contact
+- **Heading:** Let’s architect your next growth engine.
+- **Subtext:** Grab a totally free 30-minute call. I’ll audit your current process and tell you exactly how to capture more leads.
+- **Status:** 🟢 Taking on 2 new projects
+
+### Contact Options
+
+- **Left (Booking):**
+  - **Heading:** Book Your Strategy Call
+  - **Subtext:** Pick a time that fits your schedule.
+  - **Embed:** Cal.com
+- **Right (Direct):**
+  - **Heading:** Or bypass the calendar
+  - **WhatsApp:** Got a rapid-fire question? [wa.me/923014545482]
+  - **Email:** Prefer long-form? [itsyasirkhan.dev@gmail.com]
+  - **LinkedIn:** Connect with me professionally. [linkedin.com/in/connectyasir]
+  - **Note:** I personally reply to all messages within a few hours.
+
+### Mini FAQ
+
+- **Eyebrow:** Quick Answers
+- **Heading:** Before you book
+- **Q: What actually happens on this free call?**
+  **A:** I listen to your business goals and map out precisely what your website needs to help you reach them. No hard pitches.
+- **Q: Do I need to prep documentation or specs?**
+  **A:** None. Just show up knowing who your best customers are.
+- **Q: I’m not tech-savvy at all. Is that an issue?**
+  **A:** Not even slightly. That's exactly why you hire me.
+- **Q: Is a quick WhatsApp message okay instead of a call?**
+  **A:** Absolutely. My WhatsApp is always open for quick questions.

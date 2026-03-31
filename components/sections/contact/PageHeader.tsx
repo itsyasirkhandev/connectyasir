@@ -31,14 +31,14 @@ export default function PageHeader() {
             </div>
 
             <h1 className="text-foreground mt-8 text-5xl leading-[1.05] font-semibold tracking-tighter md:text-7xl">
-              Book a free call to discuss{' '}
-              <span className="text-muted-foreground">your project.</span>
+              Let’s architect your next{' '}
+              <span className="text-muted-foreground">growth engine.</span>
             </h1>
 
             <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-24">
               <p className="text-muted-foreground max-w-prose text-lg leading-relaxed md:text-xl">
-                No sales pitch. No pressure. Just 30 minutes to figure out
-                exactly what your website needs to succeed.
+                Grab a totally free 30-minute call. I’ll audit your current
+                process and tell you exactly how to capture more leads.
               </p>
 
               <div className="flex flex-col items-start gap-8">

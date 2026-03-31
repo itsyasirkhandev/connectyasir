@@ -6,16 +6,16 @@ const FEATURED_PROJECTS = [
   {
     title: 'Apna Qarz',
     description:
-      'From no website to a full platform with 1,000+ leads in the first month.',
+      'From zero online presence to 1,000+ verified leads in the first 30 days.',
     category: 'Full-Stack · Done-for-You',
     image: '/images/projects/apna-qarz-homepage.jpg',
     href: '/projects/apna-qarz',
-    status: 'View Case Study',
+    status: 'View Case Study →',
   },
   {
     title: 'Prime Tools Provider',
     description:
-      'Upgraded an outdated site into a cleaner, more trustworthy business presence.',
+      'Upgraded an outdated site into a highly trusted digital storefront.',
     category: 'Marketing Site',
     image: '/images/projects/prime-tools-provider-homepage.jpg',
     href: '/projects#prime-tools-provider',
@@ -24,7 +24,7 @@ const FEATURED_PROJECTS = [
   {
     title: 'Ghulam Seeds',
     description:
-      'Rebuilt an old website into a modern site that brought weekly inquiries.',
+      'Replaced a low-traffic website with an engine that drives weekly inquiries.',
     category: 'Marketing Site',
     image: '/images/projects/ghulam-seeds-homepage.jpg',
     href: '/projects#ghulam-seeds',
@@ -42,10 +42,10 @@ export default function FeaturedProjects() {
             Recent Work
           </span>
           <h2 className="text-foreground mt-6 text-4xl leading-tight font-semibold tracking-tighter">
-            Real projects. Real businesses. Real results.
+            See how a premium website transforms your business.
           </h2>
           <p className="text-muted-foreground mt-8 max-w-prose text-base leading-relaxed">
-            A few examples of websites I’ve designed and built for businesses.
+            Proof that a modern online presence drives real revenue.
           </p>
         </div>
 
