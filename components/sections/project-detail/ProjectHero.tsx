@@ -48,7 +48,8 @@ export default function ProjectHero() {
           width={1200}
           height={675}
           className="h-auto w-full object-cover"
-          priority
+          sizes="100vw"
+          preload
         />
       </div>
     </section>

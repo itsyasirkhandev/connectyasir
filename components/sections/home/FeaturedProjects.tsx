@@ -67,6 +67,7 @@ export default function FeaturedProjects() {
                   alt={project.title}
                   fill
                   className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
+                  sizes="(max-width: 1024px) 100vw, 60vw"
                 />
               </div>
 

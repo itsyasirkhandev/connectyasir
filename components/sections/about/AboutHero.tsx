@@ -77,7 +77,7 @@ export default function AboutHero() {
                 fill
                 className="object-cover grayscale transition-all duration-700 hover:scale-105 hover:grayscale-0"
                 sizes="(max-width: 1024px) 100vw, 50vw"
-                priority
+                preload
               />
               <div className="ring-foreground/10 pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset"></div>
             </div>
