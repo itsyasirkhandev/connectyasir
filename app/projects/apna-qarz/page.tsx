@@ -11,7 +11,7 @@ import SolutionApproach from '@/components/sections/project-detail/SolutionAppro
 import TechStackUsed from '@/components/sections/project-detail/TechStackUsed'
 import ScreenshotsVisuals from '@/components/sections/project-detail/ScreenshotsVisuals'
 import Results from '@/components/sections/project-detail/Results'
-import ClientTestimonial from '@/components/sections/project-detail/ClientTestimonial'
+import Testimonials from '@/components/sections/shared/Testimonials'
 import CtaBlock from '@/components/sections/project-detail/CtaBlock'
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
@@ -65,7 +65,7 @@ export default function ApnaQarzPage() {
           <Results />
         </div>
 
-        <ClientTestimonial />
+        <Testimonials />
         <CtaBlock />
       </main>
       <Footer />
