@@ -10,42 +10,41 @@ export default function AboutHero() {
   const router = useRouter()
 
   return (
-    <header className="bg-background pt-24 pb-20 md:pt-32 md:pb-32">
+    <header className="bg-background overflow-hidden pt-24 pb-20 md:pt-32 md:pb-32">
       <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2.5fr] lg:gap-24">
-          {/* Left Column: Label */}
-          <div className="transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
-            <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
-              The Builder
-            </span>
-          </div>
+        <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-[1.2fr_1fr] lg:gap-24 xl:grid-cols-[1.5fr_1fr] xl:gap-32">
+          {/* Left Column: Content */}
+          <div className="space-y-10 lg:space-y-12">
+            <div className="transition-all duration-500 ease-out starting:translate-y-2 starting:opacity-0">
+              <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
+                The Builder
+              </span>
+            </div>
 
-          {/* Right Column: Content */}
-          <div className="max-w-4xl">
             <div className="transition-all delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
-              <h1 className="text-foreground text-5xl leading-[1.05] font-semibold tracking-tighter md:text-7xl">
+              <h1 className="text-foreground text-5xl leading-[1.05] font-semibold tracking-tighter md:text-6xl lg:text-7xl">
                 I build the digital assets that make small businesses{' '}
                 <span className="text-muted-foreground">undeniable.</span>
               </h1>
             </div>
 
-            <div className="mt-16 grid grid-cols-1 gap-12 lg:grid-cols-[1.5fr_1fr] lg:gap-24">
-              <div className="text-muted-foreground space-y-8 text-lg leading-relaxed transition-all delay-200 duration-700 ease-out md:text-xl starting:translate-y-4 starting:opacity-0">
-                <p className="max-w-prose">
-                  I&rsquo;m Yasir. I engineer screaming-fast, high-trust
-                  websites that turn your visitors into actual clients. No
-                  agencies. No junior developers. You get my absolute best work,
-                  from the first strategy call to the final launch.
-                </p>
+            <div className="text-muted-foreground space-y-8 text-lg leading-relaxed transition-all delay-200 duration-700 ease-out md:text-xl starting:translate-y-4 starting:opacity-0">
+              <p className="max-w-prose">
+                I&rsquo;m Yasir. I engineer screaming-fast, high-trust
+                websites that turn your visitors into actual clients. No
+                agencies. No junior developers. You get my absolute best work,
+                from the first strategy call to the final launch.
+              </p>
 
-                <div className="flex flex-col items-start gap-8 pt-6 sm:flex-row sm:items-center">
-                  <PrimaryButton
-                    text="Book Your Free Call"
-                    onClick={() => {
-                      router.push(CONTACT.calendar)
-                    }}
-                    className="h-16 px-10 text-lg"
-                  />
+              <div className="flex flex-col items-start gap-8 pt-4 sm:flex-row sm:items-center">
+                <PrimaryButton
+                  text="Book Your Free Call"
+                  onClick={() => {
+                    router.push(CONTACT.calendar)
+                  }}
+                  className="h-14 px-8 text-base md:h-16 md:px-10 md:text-lg"
+                />
+                <div className="flex flex-wrap items-center gap-6">
                   <a
                     href={CONTACT.whatsapp}
                     target="_blank"
@@ -66,17 +65,21 @@ export default function AboutHero() {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
 
-              <div className="border-border/50 relative aspect-4/5 w-full max-w-100 overflow-hidden rounded-3xl border transition-all delay-300 duration-1000 ease-out starting:scale-95 starting:opacity-0">
-                <Image
-                  src="/images/yasir-khan.jpg"
-                  alt="Yasir Khan - Web Designer & Developer"
-                  fill
-                  className="object-cover grayscale transition-all duration-500 hover:grayscale-0"
-                  sizes="(max-width: 768px) 100vw, 400px"
-                  priority
-                />
-              </div>
+          {/* Right Column: Image */}
+          <div className="w-full transition-all delay-300 duration-1000 ease-out starting:translate-y-8 starting:rotate-1 starting:scale-95 starting:opacity-0">
+            <div className="border-border/50 bg-card relative w-full overflow-hidden rounded-3xl border aspect-square sm:aspect-4/3 lg:aspect-4/5">
+              <Image
+                src="/images/yasir-khan.jpg"
+                alt="Yasir Khan - Web Designer & Developer"
+                fill
+                className="object-cover grayscale transition-all duration-700 hover:scale-105 hover:grayscale-0"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
+              <div className="ring-foreground/10 pointer-events-none absolute inset-0 rounded-3xl ring-1 ring-inset"></div>
             </div>
           </div>
         </div>
