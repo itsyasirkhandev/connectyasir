@@ -5,6 +5,8 @@ import { ArrowRight } from 'lucide-react'
 import { PrimaryButton } from '@/components/ui/primary-button'
 import { AVAILABILITY } from '@/lib/site-config'
 
+import { AnimatedHeading } from './AnimatedHeading'
+
 export default function Hero() {
   const router = useRouter()
 
@@ -22,9 +24,7 @@ export default function Hero() {
             {AVAILABILITY.badge.replace('🟢 ', '')}
           </div>
 
-          <h1 className="text-foreground max-w-[18ch] text-5xl leading-tight font-semibold tracking-tighter md:text-6xl">
-            Stop losing customers to a slow, outdated website.
-          </h1>
+          <AnimatedHeading className="lg:mx-auto" />
 
           <p className="text-muted-foreground mt-6 max-w-prose text-base leading-relaxed lg:mx-auto">
             Your business deserves a blazingly fast, premium website that builds
