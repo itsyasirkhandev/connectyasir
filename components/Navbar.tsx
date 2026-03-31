@@ -12,7 +12,7 @@ import {
 } from '@hugeicons/core-free-icons'
 
 import { cn } from '@/lib/utils'
-import { AVAILABILITY } from '@/lib/site-config'
+
 import { Button } from '@/components/ui/button'
 import { PrimaryButton } from '@/components/ui/primary-button'
 import {

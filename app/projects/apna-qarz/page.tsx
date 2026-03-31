@@ -1,5 +1,4 @@
 import type { Metadata } from 'next'
-import Link from 'next/link'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -44,71 +43,28 @@ export default function ApnaQarzPage() {
         ])}
       />
       <Navbar />
-      <main className="mx-auto max-w-6xl px-6 py-10">
+      <main className="mx-auto max-w-5xl px-6 py-12">
         <Breadcrumbs items={breadcrumbs} />
 
         <ProjectHero />
 
-        <AnswerFirstBlock
-          heading="What was built for Apna Qarz"
-          summary={PAGE_SUMMARIES.apnaQarz}
-        />
+        <div className="mb-16">
+          <AnswerFirstBlock
+            heading="What was built for Apna Qarz"
+            summary={PAGE_SUMMARIES.apnaQarz}
+          />
+        </div>
 
-        <section className="mt-8 rounded-2xl border border-zinc-200 p-6">
-          <h2 className="text-2xl font-semibold text-zinc-900">
-            Case study summary
-          </h2>
+        <div className="divide-y">
+          <ProjectOverview />
+          <TheChallenge />
+          <WhatIDelivered />
+          <SolutionApproach />
+          <TechStackUsed />
+          <ScreenshotsVisuals />
+          <Results />
+        </div>
 
-          <dl className="mt-4 grid gap-4 md:grid-cols-2">
-            <div>
-              <dt className="text-sm font-medium text-zinc-600">Client</dt>
-              <dd className="mt-1 text-zinc-900">Rashid Bashir / Apna Qarz</dd>
-            </div>
-            <div>
-              <dt className="text-sm font-medium text-zinc-600">Timeline</dt>
-              <dd className="mt-1 text-zinc-900">14 Days</dd>
-            </div>
-            <div>
-              <dt className="text-sm font-medium text-zinc-600">Scope</dt>
-              <dd className="mt-1 text-zinc-900">
-                Complete Branding, UX Design, Custom Development, Backend
-                Systems, SEO, Managed Hosting
-              </dd>
-            </div>
-            <div>
-              <dt className="text-sm font-medium text-zinc-600">Result</dt>
-              <dd className="mt-1 text-zinc-900">
-                1,000+ high-intent leads generated in 30 days
-              </dd>
-            </div>
-          </dl>
-
-          <p className="mt-6 text-sm text-zinc-700">
-            Want a site with similar strategic thinking behind it? Review the{' '}
-            <Link
-              href="/services"
-              className="font-medium text-zinc-900 underline"
-            >
-              website packages
-            </Link>{' '}
-            or{' '}
-            <Link
-              href="/contact"
-              className="font-medium text-zinc-900 underline"
-            >
-              book a free call
-            </Link>
-            .
-          </p>
-        </section>
-
-        <ProjectOverview />
-        <TheChallenge />
-        <WhatIDelivered />
-        <SolutionApproach />
-        <TechStackUsed />
-        <ScreenshotsVisuals />
-        <Results />
         <ClientTestimonial />
         <CtaBlock />
       </main>

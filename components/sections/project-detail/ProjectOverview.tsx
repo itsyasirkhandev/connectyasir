@@ -1,68 +1,89 @@
-import { ArrowRight } from 'lucide-react'
+import { ArrowUpRight } from 'lucide-react'
 
 export default function ProjectOverview() {
   return (
-    <section>
-      <table>
-        <thead>
-          <tr>
-            <th>Client</th>
-            <th>Timeline</th>
-            <th>Scope</th>
-            <th>Live Site</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Rashid Bashir</td>
-            <td>14 Days</td>
-            <td>
-              Complete Branding, UX Design, Custom Development, Backend Systems,
-              SEO, Managed Hosting
-            </td>
-            <td>
-              <a
-                href="https://apnaqarz.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2"
-              >
-                apnaqarz.com [visit <ArrowRight className="h-4 w-4" />]
-              </a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <section className="py-16">
+      <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-24">
+        {/* Project Summary Details */}
+        <div>
+          <h2 className="text-foreground mb-8 text-2xl font-semibold tracking-tight">
+            Case study summary
+          </h2>
+          <dl className="grid grid-cols-1 gap-x-6 gap-y-6 sm:grid-cols-2">
+            <div>
+              <dt className="text-muted-foreground border-b pb-2 text-xs font-semibold tracking-widest uppercase">
+                Client
+              </dt>
+              <dd className="text-foreground mt-3 text-sm font-medium">
+                Rashid Bashir / Apna Qarz
+              </dd>
+            </div>
+            <div>
+              <dt className="text-muted-foreground border-b pb-2 text-xs font-semibold tracking-widest uppercase">
+                Timeline
+              </dt>
+              <dd className="text-foreground mt-3 text-sm font-medium">
+                14 Days
+              </dd>
+            </div>
+            <div className="sm:col-span-2">
+              <dt className="text-muted-foreground border-b pb-2 text-xs font-semibold tracking-widest uppercase">
+                Scope
+              </dt>
+              <dd className="text-foreground mt-3 text-sm leading-relaxed font-medium">
+                Complete Branding, UX Design, Custom Development, Backend
+                Systems, SEO, Managed Hosting
+              </dd>
+            </div>
+            <div className="sm:col-span-2">
+              <dt className="text-muted-foreground border-b pb-2 text-xs font-semibold tracking-widest uppercase">
+                Live Site
+              </dt>
+              <dd className="mt-3">
+                <a
+                  href="https://apnaqarz.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary inline-flex items-center gap-1.5 text-sm font-medium hover:underline"
+                >
+                  apnaqarz.com <ArrowUpRight className="h-4 w-4" />
+                </a>
+              </dd>
+            </div>
+          </dl>
+        </div>
 
-      <section>
-        <h2>The Before &amp; After</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>BEFORE</th>
-              <th>AFTER</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>- Zero digital footprint.</td>
-              <td>- A blazing fast custom platform.</td>
-            </tr>
-            <tr>
-              <td>- No brand identity.</td>
-              <td>- Secure admin dashboard.</td>
-            </tr>
-            <tr>
-              <td>- No automated lead capture.</td>
-              <td>- 1,000+ high-intent leads generated.</td>
-            </tr>
-            <tr>
-              <td>- Total reliance on manual outreach.</td>
-              <td>- Launched in 30 days.</td>
-            </tr>
-          </tbody>
-        </table>
-      </section>
+        {/* Before & After */}
+        <div className="bg-card rounded-2xl border p-8 shadow-sm">
+          <h3 className="text-foreground mb-6 text-lg font-semibold tracking-tight">
+            The Transformation
+          </h3>
+
+          <div className="space-y-6">
+            <div className="before:bg-destructive/50 relative pl-6 before:absolute before:top-2 before:left-0 before:h-[calc(100%-16px)] before:w-0.5">
+              <span className="text-destructive mb-2 block text-xs font-semibold tracking-widest uppercase">
+                Before
+              </span>
+              <ul className="text-muted-foreground space-y-2 text-sm">
+                <li>• Zero digital footprint</li>
+                <li>• Absent brand identity</li>
+                <li>• Total reliance on manual outreach</li>
+              </ul>
+            </div>
+
+            <div className="relative pl-6 before:absolute before:top-2 before:left-0 before:h-[calc(100%-16px)] before:w-0.5 before:bg-green-500/50">
+              <span className="mb-2 block text-xs font-semibold tracking-widest text-green-600 uppercase dark:text-green-500">
+                After
+              </span>
+              <ul className="text-foreground space-y-2 text-sm font-medium">
+                <li>• Blazing fast custom platform</li>
+                <li>• Secure admin dashboard</li>
+                <li>• 1,000+ high-intent leads generated</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
