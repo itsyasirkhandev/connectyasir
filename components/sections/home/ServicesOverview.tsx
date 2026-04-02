@@ -38,7 +38,7 @@ export default function ServicesOverview() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2fr] lg:gap-24">
           {/* Left Side: Sticky Content */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
-            <span className="text-primary-foreground text-xs font-semibold tracking-widest uppercase">
+            <span className="text-primary text-xs font-semibold tracking-widest uppercase">
               The Package
             </span>
             <h2 className="text-foreground mt-6 text-3xl leading-tight font-semibold tracking-tighter">

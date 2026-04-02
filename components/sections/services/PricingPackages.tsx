@@ -185,7 +185,7 @@ export default function PricingPackages() {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.6fr]">
             {/* Left column — label + heading */}
             <div className="border-background/10 flex flex-col justify-between gap-12 border-b p-8 sm:p-12 lg:border-r lg:border-b-0 lg:p-16">
-              <p className="text-primary text-[10px] font-semibold tracking-[0.3em] uppercase">
+              <p className="text-primary-foreground text-[10px] font-semibold tracking-[0.3em] uppercase">
                 The Promise
               </p>
               <div>
@@ -231,7 +231,7 @@ export default function PricingPackages() {
 
               {/* Payment term — visually distinct footer row */}
               <div className="bg-background/5 flex flex-col gap-1.5 px-8 py-7 sm:px-12 sm:py-9 lg:px-12 lg:py-10">
-                <p className="text-primary text-[10px] font-semibold tracking-[0.25em] uppercase">
+                <p className="text-primary-foreground text-[10px] font-semibold tracking-[0.25em] uppercase">
                   Payment
                 </p>
                 <p className="text-background/90 text-base leading-relaxed sm:text-lg">

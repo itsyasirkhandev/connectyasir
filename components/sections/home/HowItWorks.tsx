@@ -28,7 +28,7 @@ export default function HowItWorks() {
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1.8fr] lg:gap-32">
           {/* Sticky Header Section */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
-            <span className="text-primary-foreground text-xs font-semibold tracking-widest uppercase">
+            <span className="text-primary text-xs font-semibold tracking-widest uppercase">
               The Process
             </span>
             <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter">
