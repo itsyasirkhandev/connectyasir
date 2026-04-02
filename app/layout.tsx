@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Roboto, Nunito, Outfit, Lora } from 'next/font/google'
+import { Outfit, Lora } from 'next/font/google'
 import './globals.css'
 
 import { JsonLd } from '@/components/seo/json-ld'
@@ -16,17 +16,6 @@ import { cn } from '@/lib/utils'
 const loraHeading = Lora({ subsets: ['latin'], variable: '--font-heading' })
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' })
-
-const roboto = Roboto({
-  weight: ['400', '500', '700'],
-  variable: '--font-roboto',
-  subsets: ['latin'],
-})
-
-const nunito = Nunito({
-  variable: '--font-nunito',
-  subsets: ['latin'],
-})
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -81,7 +70,7 @@ export default function RootLayout({
       lang="en"
       className={cn('font-sans', outfit.variable, loraHeading.variable)}
     >
-      <body className={`${roboto.variable} ${nunito.variable} antialiased`}>
+      <body className="antialiased">
         <JsonLd data={schemaGraph([getWebsiteNode(), getOrganizationNode()])} />
         {children}
       </body>

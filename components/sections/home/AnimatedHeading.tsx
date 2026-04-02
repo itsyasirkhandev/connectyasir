@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import gsap from 'gsap'
 import { cn } from '@/lib/utils'
 
@@ -17,28 +17,24 @@ const texts = [
 export function AnimatedHeading({ className }: AnimatedHeadingProps) {
   const containerRef = useRef<HTMLHeadingElement>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
+  const [isMounted, setIsMounted] = useState(false)
+
+  // Split text into characters for React rendering to avoid innerHTML clearing
+  const chars = useMemo(() => {
+    const text = texts[currentIndex] ?? texts[0] ?? ''
+    return text.split('')
+  }, [currentIndex])
 
   useEffect(() => {
-    if (!containerRef.current) return
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsMounted(true)
+  }, [])
 
-    const container = containerRef.current
-    const text = texts[currentIndex] ?? texts[0] ?? ''
-    const chars = text.split('')
+  useEffect(() => {
+    if (!isMounted || !containerRef.current) return
 
-    // Clear previous content
-    container.innerHTML = ''
-
-    // Create spans for each character
-    const spans = chars.map((char) => {
-      const span = document.createElement('span')
-      span.textContent = char === ' ' ? '\u00A0' : char
-      span.style.display = 'inline-block'
-      span.style.opacity = '0'
-      span.style.filter = 'blur(10px)'
-      span.style.transform = 'translateY(20px)'
-      container.appendChild(span)
-      return span
-    })
+    const spans = containerRef.current.querySelectorAll('.char-span')
+    if (spans.length === 0) return
 
     // Animation timeline
     const tl = gsap.timeline({
@@ -48,41 +44,65 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
           opacity: 0,
           y: -20,
           filter: 'blur(10px)',
-          stagger: 0.02,
-          delay: 2,
-          duration: 0.5,
+          stagger: 0.01,
+          delay: 4, // Increased delay for better readability and LCP
+          duration: 0.4,
           ease: 'power2.in',
           onComplete: () => {
-            setCurrentIndex((prev: number) => (prev + 1) % texts.length)
+            setCurrentIndex((prev) => (prev + 1) % texts.length)
           },
         })
       },
     })
 
-    tl.to(spans, {
-      opacity: 1,
-      y: 0,
-      filter: 'blur(0px)',
-      stagger: 0.03,
-      duration: 0.6,
-      ease: 'power2.out',
-    })
+    tl.fromTo(
+      spans,
+      {
+        opacity: 0,
+        y: 20,
+        filter: 'blur(10px)',
+      },
+      {
+        opacity: 1,
+        y: 0,
+        filter: 'blur(0px)',
+        stagger: 0.02,
+        duration: 0.5,
+        ease: 'power2.out',
+      }
+    )
 
     return () => {
       tl.kill()
     }
-  }, [currentIndex])
+  }, [currentIndex, isMounted])
 
   return (
     <h1
       ref={containerRef}
       className={cn(
-        'text-foreground min-h-[2.4em] w-full max-w-[20ch] text-5xl leading-tight font-semibold tracking-tighter',
+        'text-foreground min-h-[3.3em] w-full max-w-[15ch] text-4xl leading-[1.1] font-semibold tracking-tight text-balance sm:max-w-[20ch] md:min-h-[2.4em] md:text-5xl lg:text-6xl',
         className
       )}
     >
-      {/* Initial text for SEO and first paint */}
-      {texts[0]}
+      {!isMounted
+        ? // Initial SSR content - this is what the browser sees first for LCP
+          texts[0]
+        : // Client-side spans for animation
+          chars.map((char, i) => (
+            <span
+              key={`${currentIndex.toString()}-${i.toString()}`}
+              className="char-span inline-block"
+              style={{
+                opacity: 0,
+                filter: 'blur(10px)',
+                transform: 'translateY(20px)',
+                willChange: 'transform, opacity, filter',
+              }}
+            >
+              {char === ' ' ? '\u00A0' : char}
+            </span>
+          ))}
     </h1>
   )
 }

@@ -12,12 +12,12 @@ export default function Hero() {
   const router = useRouter()
 
   return (
-    <section className="grid-wrapper overflow-hidden py-16 md:py-24">
+    <section className="grid-wrapper overflow-hidden py-16 md:py-24 lg:py-32">
       <div className="grid-background" />
 
       <div className="relative z-10 container mx-auto px-4 md:px-6">
-        <div className="mx-auto flex max-w-200 flex-col items-center text-center transition-all duration-300 ease-out starting:translate-y-4 starting:opacity-0">
-          <div className="border-border/50 bg-muted/30 text-foreground/80 mb-6 inline-flex items-center gap-3 rounded-full border px-4 py-1.5 text-xs font-medium">
+        <div className="flex max-w-3xl flex-col items-start text-left">
+          <div className="border-border/50 bg-muted/30 text-foreground/80 mb-6 inline-flex items-center gap-3 rounded-full border px-4 py-1.5 text-xs font-semibold">
             <div className="relative flex h-2 w-2">
               <div className="bg-primary absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></div>
               <div className="bg-primary relative inline-flex h-2 w-2 rounded-full"></div>
@@ -25,14 +25,14 @@ export default function Hero() {
             {AVAILABILITY.badge.replace('🟢 ', '')}
           </div>
 
-          <AnimatedHeading className="text-center" />
+          <AnimatedHeading className="text-left" />
 
-          <p className="text-muted-foreground mx-auto mt-6 max-w-prose text-base leading-relaxed">
+          <p className="text-muted-foreground mt-6 max-w-prose text-base leading-relaxed md:text-lg">
             Your business deserves a blazingly fast, premium website that builds
             instant trust and turns cold visitors into daily leads.
           </p>
 
-          <div className="mt-8 flex flex-col items-center gap-6 sm:flex-row">
+          <div className="mt-10 flex flex-col items-start gap-6 sm:flex-row sm:items-center">
             <PrimaryButton
               text="Book Your Free Call"
               onClick={() => {
@@ -54,8 +54,8 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="border-border mt-16 grid w-full max-w-200 grid-cols-1 gap-10 border-t pt-10 md:grid-cols-3 md:gap-8">
-            <div className="flex flex-col items-center space-y-1">
+          <div className="border-border mt-16 grid w-full grid-cols-1 gap-10 border-t pt-10 md:grid-cols-3 md:gap-8">
+            <div className="flex flex-col items-start space-y-1">
               <span className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
                 3
               </span>
@@ -67,7 +67,7 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center space-y-1">
+            <div className="flex flex-col items-start space-y-1">
               <span className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
                 1,000+
               </span>
@@ -79,7 +79,7 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center space-y-1">
+            <div className="flex flex-col items-start space-y-1">
               <span className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
                 &lt;3s
               </span>
