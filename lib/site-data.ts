@@ -41,27 +41,27 @@ export const PAGE_SEO = {
     description:
       'I design and build modern websites for small businesses that look credible, load fast, and help turn visitors into leads.',
     path: '/',
-    ogImage: '/og/default.jpg',
+    ogImage: '/og/default.png',
   },
   services: {
     title: 'Websites built to make your business look credible online.',
     description:
       'From branding and design to development, launch, and support — everything is handled in one place.',
     path: '/services',
-    ogImage: '/og/services.jpg',
+    ogImage: '/og/services.png',
   },
   projects: {
     title: 'A few businesses I’ve helped improve online.',
     description:
       'Real projects built to increase trust, improve design, and support growth.',
     path: '/projects',
-    ogImage: '/og/projects.jpg',
+    ogImage: '/og/projects.png',
   },
   apnaQarz: {
     title: 'Apna Qarz Case Study: Finance Advisory Website & Lead Generation',
     description: 'Full platform, admin dashboard, 1,000+ leads in month one.',
     path: '/projects/apna-qarz',
-    ogImage: '/og/apna-qarz.jpg',
+    ogImage: '/og/apna-qarz.png',
   },
   about: {
     title:
@@ -69,14 +69,14 @@ export const PAGE_SEO = {
     description:
       'I’m Yasir — a full-stack developer focused on modern, high-trust websites for small businesses.',
     path: '/about',
-    ogImage: '/og/about.jpg',
+    ogImage: '/og/about.png',
   },
   contact: {
     title: 'Let’s talk about your website.',
     description:
       'Book a free 30-minute call and I’ll help you figure out the best next step.',
     path: '/contact',
-    ogImage: '/og/contact.jpg',
+    ogImage: '/og/contact.png',
   },
 } satisfies Record<string, PageSeoConfig>
 
