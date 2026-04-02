@@ -74,7 +74,7 @@ export default function Footer() {
 
           {/* Navigation */}
           <div className="flex flex-col gap-4 sm:gap-6">
-            <h3 className="text-muted-foreground/60 text-xs font-semibold tracking-widest uppercase sm:text-sm">
+            <h3 className="text-muted-foreground text-xs font-semibold tracking-widest uppercase sm:text-sm">
               Navigation
             </h3>
             <ul className="flex flex-col gap-2 sm:gap-3">
@@ -93,7 +93,7 @@ export default function Footer() {
 
           {/* Contact & Social */}
           <div className="flex flex-col gap-4 sm:gap-6">
-            <h3 className="text-muted-foreground/60 text-xs font-semibold tracking-widest uppercase sm:text-sm">
+            <h3 className="text-muted-foreground text-xs font-semibold tracking-widest uppercase sm:text-sm">
               Connect
             </h3>
             <ul className="flex flex-col gap-3 sm:gap-4">

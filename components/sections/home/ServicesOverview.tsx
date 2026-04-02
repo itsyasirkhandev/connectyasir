@@ -38,7 +38,7 @@ export default function ServicesOverview() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2fr] lg:gap-24">
           {/* Left Side: Sticky Content */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
-            <span className="text-muted-foreground text-xs font-semibold tracking-widest uppercase">
+            <span className="text-primary-foreground text-xs font-semibold tracking-widest uppercase">
               The Package
             </span>
             <h2 className="text-foreground mt-6 text-3xl leading-tight font-semibold tracking-tighter">
@@ -58,7 +58,7 @@ export default function ServicesOverview() {
               <div key={service.id} className="group relative py-12 lg:py-16">
                 <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
                   <div className="flex items-start gap-6">
-                    <span className="text-muted-foreground/40 font-mono text-xs font-semibold">
+                    <span className="text-muted-foreground font-mono text-xs font-semibold">
                       {service.id}
                     </span>
                     <div className="space-y-4">

@@ -37,7 +37,7 @@ export default function Testimonials() {
     <section className="bg-background py-24 md:py-32" id="testimonials">
       <div className="container mx-auto px-4 md:px-6">
         <div className="mb-16 max-w-2xl sm:mb-24">
-          <span className="text-primary text-xs font-semibold tracking-widest uppercase">
+          <span className="text-primary-foreground text-xs font-semibold tracking-widest uppercase">
             Client Reviews
           </span>
           <h2 className="text-foreground mt-4 text-3xl leading-tight font-semibold tracking-tighter">

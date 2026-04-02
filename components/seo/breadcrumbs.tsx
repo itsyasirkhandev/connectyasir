@@ -34,7 +34,7 @@ export function Breadcrumbs({ items }: BreadcrumbsProps) {
               )}
 
               {!isLast && (
-                <span className="text-muted-foreground/30 font-normal select-none">
+                <span className="text-muted-foreground font-normal select-none">
                   /
                 </span>
               )}
