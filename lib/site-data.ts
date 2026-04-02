@@ -99,7 +99,7 @@ export const PROJECTS: ProjectItem[] = [
     name: 'Apna Qarz',
     slug: 'apna-qarz',
     path: '/projects/apna-qarz',
-    image: '/images/projects/apna-qarz-homepage.jpg',
+    image: '/images/projects/apna-qarz-homepage.webp',
     imageAlt: 'Homepage screenshot of the Apna Qarz website',
     shortDescription:
       'Complete digital platform built from scratch. 1,000+ targeted leads generated in month one.',

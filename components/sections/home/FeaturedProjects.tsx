@@ -9,7 +9,7 @@ const FEATURED_PROJECTS = [
     description:
       'From zero online presence to 1,000+ verified leads in the first 30 days.',
     category: 'Full-Stack · Done-for-You',
-    image: '/images/projects/apna-qarz-homepage.jpg',
+    image: '/images/projects/apnaqarz/apnaqarz-desktop-mockup.webp',
     href: '/projects/apna-qarz',
     status: 'View Case Study →',
   },
@@ -61,12 +61,26 @@ export default function FeaturedProjects() {
               )}
             >
               {/* Image Container */}
-              <div className="border-border bg-muted relative aspect-16/10 overflow-hidden rounded-2xl border lg:w-3/5">
+              <div
+                className={cn(
+                  'relative overflow-hidden lg:w-3/5',
+                  index === 0
+                    ? 'rounded-2xl'
+                    : 'border-border bg-muted aspect-16/10 rounded-2xl border'
+                )}
+              >
                 <Image
                   src={project.image}
                   alt={project.title}
-                  fill
-                  className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
+                  {...(index === 0
+                    ? { width: 1080, height: 1080 }
+                    : { fill: true })}
+                  className={cn(
+                    'transition-transform duration-700 ease-out group-hover:scale-105',
+                    index === 0
+                      ? 'h-auto w-full object-contain'
+                      : 'object-cover object-top'
+                  )}
                   sizes="(max-width: 1024px) 100vw, 60vw"
                 />
               </div>

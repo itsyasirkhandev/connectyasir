@@ -19,8 +19,8 @@ export default function CtaBlock() {
             <div className="flex flex-col gap-6 sm:gap-8">
               <div className="flex items-center gap-3">
                 <span className="relative flex h-2 w-2 sm:h-2.5 sm:w-2.5">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-75"></span>
-                  <span className="relative inline-flex h-full w-full rounded-full bg-success"></span>
+                  <span className="bg-success absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
+                  <span className="bg-success relative inline-flex h-full w-full rounded-full"></span>
                 </span>
                 <span className="text-muted-foreground/90 text-[10px] font-semibold tracking-[0.25em] uppercase sm:text-xs">
                   {availabilityText}

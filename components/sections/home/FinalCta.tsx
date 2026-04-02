@@ -78,7 +78,9 @@ export default function FinalCta() {
                     <linearGradient
                       id="SVG_WhatsApp_White_CTA"
                       x1="50%"
-                      x2="50%" y1="100%" y2="0%"
+                      x2="50%"
+                      y1="100%"
+                      y2="0%"
                     >
                       <stop offset="0%" stopColor="#f9f9f9" />
                       <stop offset="100%" stopColor="#fff" />

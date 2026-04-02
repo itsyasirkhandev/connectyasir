@@ -72,7 +72,7 @@ export default function AboutHero() {
           <div className="w-full transition-[opacity,transform] delay-300 duration-1000 ease-out starting:translate-y-8 starting:scale-95 starting:rotate-1 starting:opacity-0">
             <div className="border-border/50 bg-card relative aspect-square w-full overflow-hidden rounded-3xl border sm:aspect-4/3 lg:aspect-4/5">
               <Image
-                src="/images/yasir-khan.jpg"
+                src="/images/yasir-khan.webp"
                 alt="Yasir Khan - Web Designer & Developer"
                 fill
                 className="object-cover grayscale transition-all duration-700 hover:scale-105 hover:grayscale-0"

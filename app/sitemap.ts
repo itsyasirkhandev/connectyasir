@@ -34,7 +34,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.85,
       images: [
         absoluteUrl('/og/apna-qarz.jpg'),
-        absoluteUrl('/images/projects/apna-qarz-homepage.jpg'),
+        absoluteUrl('/images/projects/apna-qarz-homepage.webp'),
       ],
     },
     {

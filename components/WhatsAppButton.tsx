@@ -10,8 +10,8 @@ export default function WhatsAppButton() {
         <div className="bg-card/95 text-foreground border-border rounded-2xl border px-4 py-2.5 text-sm font-medium shadow-2xl backdrop-blur-md transition-all duration-500 ease-out @[0px]:hidden @md:block starting:translate-y-2 starting:opacity-0">
           <span className="flex items-center gap-2">
             <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-success opacity-75"></span>
-              <span className="relative inline-flex h-2 w-2 rounded-full bg-success"></span>
+              <span className="bg-success absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
+              <span className="bg-success relative inline-flex h-2 w-2 rounded-full"></span>
             </span>
             Quick question? <span className="text-primary">Ask me here.</span>
           </span>
