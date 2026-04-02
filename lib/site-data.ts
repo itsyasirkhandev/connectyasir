@@ -109,30 +109,6 @@ export const PROJECTS: ProjectItem[] = [
     after:
       'A blazing fast custom platform with a secure admin dashboard, resulting in 1,000+ high-intent leads generated in 30 days.',
   },
-  {
-    name: 'Prime Tools Provider',
-    slug: 'prime-tools-provider',
-    path: '/projects#prime-tools-provider',
-    image: '/images/projects/prime-tools-provider-homepage.jpg',
-    imageAlt: 'Homepage screenshot of the Prime Tools Provider website',
-    shortDescription:
-      'Revamped an outdated, low-trust site into a category-leading digital storefront.',
-    projectType: 'Marketing Site',
-    before: 'Outdated and untrustworthy site.',
-    after: 'Cleaner, stronger, more premium online presence.',
-  },
-  {
-    name: 'Ghulam Seeds',
-    slug: 'ghulam-seeds',
-    path: '/projects#ghulam-seeds',
-    image: '/images/projects/ghulam-seeds-homepage.jpg',
-    imageAlt: 'Homepage screenshot of the Ghulam Seeds website',
-    shortDescription:
-      'Replaced an invisible, underperforming site with a lead-generating engine.',
-    projectType: 'Marketing Site',
-    before: 'Old site with no inbound leads.',
-    after: 'Modern website with more traffic and weekly inquiries.',
-  },
 ]
 
 export const PRICING_PACKAGES: PricingPackage[] = [

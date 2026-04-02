@@ -13,24 +13,7 @@ const FEATURED_PROJECTS = [
     href: '/projects/apna-qarz',
     status: 'View Case Study →',
   },
-  {
-    title: 'Prime Tools Provider',
-    description:
-      'Upgraded an outdated site into a highly trusted digital storefront.',
-    category: 'Marketing Site',
-    image: '/images/projects/prime-tools-provider-homepage.jpg',
-    href: '/projects#prime-tools-provider',
-    status: 'Case Study Coming Soon',
-  },
-  {
-    title: 'Ghulam Seeds',
-    description:
-      'Replaced a low-traffic website with an engine that drives weekly inquiries.',
-    category: 'Marketing Site',
-    image: '/images/projects/ghulam-seeds-homepage.jpg',
-    href: '/projects#ghulam-seeds',
-    status: 'Case Study Coming Soon',
-  },
+
 ]
 
 export default function FeaturedProjects() {
