@@ -43,26 +43,28 @@ export default function ApnaQarzPage() {
         ])}
       />
       <Navbar />
-      <main className="mx-auto max-w-5xl px-6 py-12">
-        <Breadcrumbs items={breadcrumbs} />
+      <main>
+        <div className="mx-auto max-w-5xl px-6 py-12">
+          <Breadcrumbs items={breadcrumbs} />
 
-        <ProjectHero />
+          <ProjectHero />
 
-        <div className="mb-16">
-          <AnswerFirstBlock
-            heading="What was built for Apna Qarz"
-            summary={PAGE_SUMMARIES.apnaQarz}
-          />
-        </div>
+          <div className="mb-16">
+            <AnswerFirstBlock
+              heading="What was built for Apna Qarz"
+              summary={PAGE_SUMMARIES.apnaQarz}
+            />
+          </div>
 
-        <div className="flex flex-col gap-16">
-          <ProjectOverview />
-          <TheChallenge />
-          <WhatIDelivered />
-          <SolutionApproach />
-          <TechStackUsed />
-          <ScreenshotsVisuals />
-          <Results />
+          <div className="flex flex-col gap-16">
+            <ProjectOverview />
+            <TheChallenge />
+            <WhatIDelivered />
+            <SolutionApproach />
+            <TechStackUsed />
+            <ScreenshotsVisuals />
+            <Results />
+          </div>
         </div>
 
         <Testimonials />

@@ -13,7 +13,6 @@ const FEATURED_PROJECTS = [
     href: '/projects/apna-qarz',
     status: 'View Case Study →',
   },
-
 ]
 
 export default function FeaturedProjects() {
