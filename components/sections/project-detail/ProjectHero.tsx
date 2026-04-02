@@ -43,7 +43,7 @@ export default function ProjectHero() {
 
       <div className="bg-muted/20 relative aspect-auto w-full overflow-hidden rounded-2xl border shadow-sm md:aspect-video">
         <Image
-          src="/images/projects/apnaqarz/apnaqarz_hero.webp"
+          src="/images/projects/apnaqarz/apna-qarz-homepage.webp"
           alt="Desktop screenshot of the Apna Qarz homepage"
           width={1280}
           height={905}
