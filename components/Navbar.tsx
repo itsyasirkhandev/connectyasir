@@ -15,6 +15,7 @@ import { cn } from '@/lib/utils'
 
 import { Button } from '@/components/ui/button'
 import { PrimaryButton } from '@/components/ui/primary-button'
+import { ThemeToggle } from '@/components/theme-toggle'
 import {
   Sheet,
   SheetContent,
@@ -73,7 +74,9 @@ export default function Navbar() {
         </nav>
 
         {/* Right Section / Actions */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2 sm:gap-4">
+          <ThemeToggle />
+
           <div className="hidden items-center gap-4 sm:flex">
             <PrimaryButton
               size="sm"

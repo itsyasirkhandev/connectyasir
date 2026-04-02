@@ -13,6 +13,8 @@ import {
 import { getOrganizationNode, getWebsiteNode, schemaGraph } from '@/lib/schema'
 import { cn } from '@/lib/utils'
 
+import { ThemeProvider } from '@/components/theme-provider'
+
 const loraHeading = Lora({ subsets: ['latin'], variable: '--font-heading' })
 
 const outfit = Outfit({ subsets: ['latin'], variable: '--font-sans' })
@@ -71,8 +73,17 @@ export default function RootLayout({
       className={cn('font-sans', outfit.variable, loraHeading.variable)}
     >
       <body className="antialiased">
-        <JsonLd data={schemaGraph([getWebsiteNode(), getOrganizationNode()])} />
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <JsonLd
+            data={schemaGraph([getWebsiteNode(), getOrganizationNode()])}
+          />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
