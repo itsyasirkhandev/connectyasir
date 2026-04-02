@@ -11,21 +11,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'weekly',
       priority: 1,
-      images: [absoluteUrl('/og/default.jpg')],
+      images: [absoluteUrl('/og/default.png')],
     },
     {
       url: absoluteUrl('/services'),
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.95,
-      images: [absoluteUrl('/og/services.jpg')],
+      images: [absoluteUrl('/og/services.png')],
     },
     {
       url: absoluteUrl('/projects'),
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.9,
-      images: [absoluteUrl('/og/projects.jpg')],
+      images: [absoluteUrl('/og/projects.png')],
     },
     {
       url: absoluteUrl('/projects/apna-qarz'),
@@ -33,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'monthly',
       priority: 0.85,
       images: [
-        absoluteUrl('/og/apna-qarz.jpg'),
+        absoluteUrl('/og/apna-qarz.png'),
         absoluteUrl('/images/projects/apna-qarz-homepage.webp'),
       ],
     },
@@ -42,14 +42,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified,
       changeFrequency: 'monthly',
       priority: 0.75,
-      images: [absoluteUrl('/og/about.jpg')],
+      images: [absoluteUrl('/og/about.png')],
     },
     {
       url: absoluteUrl('/contact'),
       lastModified,
       changeFrequency: 'weekly',
       priority: 0.8,
-      images: [absoluteUrl('/og/contact.jpg')],
+      images: [absoluteUrl('/og/contact.png')],
     },
   ]
 }

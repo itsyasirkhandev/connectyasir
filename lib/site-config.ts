@@ -12,7 +12,7 @@ export const SITE_LANGUAGE = 'en-US'
 export const SITE_LOCALE = 'en_US'
 
 export const LOGO_PATH = '/logo.png'
-export const DEFAULT_OG_IMAGE = '/og/default.jpg'
+export const DEFAULT_OG_IMAGE = '/og/default.png'
 export const PERSON_IMAGE_PATH = '/images/yasir-khan.webp'
 
 export const CONTACT = {
