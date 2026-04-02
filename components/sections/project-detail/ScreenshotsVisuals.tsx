@@ -8,7 +8,7 @@ type Screenshot = {
   height: number
 }
 
-const screenshots: Screenshot[] = [
+const screenshots: [Screenshot, Screenshot, Screenshot, Screenshot] = [
   {
     src: '/images/projects/apnaqarz/apna-qarz-homepage.webp',
     alt: 'Apna Qarz desktop homepage — full hero section with loan application entry',
@@ -40,7 +40,10 @@ const screenshots: Screenshot[] = [
 ]
 
 export default function ScreenshotsVisuals() {
-  const [hero, appForm, mobile, admin] = screenshots
+  const hero = screenshots[0]
+  const appForm = screenshots[1]
+  const mobile = screenshots[2]
+  const admin = screenshots[3]
 
   return (
     <section className="py-16">

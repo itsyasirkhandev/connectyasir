@@ -61,9 +61,7 @@ export default function FeaturedProjects() {
               )}
             >
               {/* Image Container */}
-              <div
-                className="border-border bg-muted relative aspect-[16/10] overflow-hidden rounded-2xl border lg:w-3/5"
-              >
+              <div className="border-border bg-muted relative aspect-[16/10] overflow-hidden rounded-2xl border lg:w-3/5">
                 <Image
                   src={project.image}
                   alt={project.title}
