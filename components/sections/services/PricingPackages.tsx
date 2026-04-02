@@ -1,13 +1,5 @@
 import Link from 'next/link'
-import {
-  Star,
-  ShieldCheck,
-  ArrowRight,
-  Check,
-  Zap,
-  Rocket,
-  Crown,
-} from 'lucide-react'
+import { Star, ArrowRight, Check, Zap, Rocket, Crown } from 'lucide-react'
 import { PRICING_PACKAGES } from '@/lib/site-data'
 import { Card, CardContent, CardHeader, CardFooter } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
@@ -188,43 +180,67 @@ export default function PricingPackages() {
           })}
         </div>
 
-        {/* Trust Bar / Promise */}
-        <div className="bg-foreground text-background group relative mt-20 overflow-hidden rounded-[1.5rem] p-8 sm:mt-32 sm:rounded-[2.5rem] sm:p-20">
-          <div className="bg-primary/20 group-hover:bg-primary/30 absolute top-0 right-0 -mt-20 -mr-20 h-64 w-64 rounded-full blur-[100px] transition-colors duration-700" />
-          <div className="bg-primary/10 absolute bottom-0 left-0 -mb-20 -ml-20 h-64 w-64 rounded-full blur-[100px]" />
-
-          <div className="relative flex flex-col gap-16 lg:gap-24">
-            <div className="max-w-5xl">
-              <h4 className="text-primary flex items-center gap-2 text-xs font-semibold tracking-[0.3em] uppercase">
-                <ShieldCheck className="h-4 w-4" /> THE PROMISE
-              </h4>
-              <h2 className="mt-8 text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">
-                Transparent process.{' '}
-                <span className="text-muted-foreground group-hover:text-primary/80 transition-colors">
+        {/* THE PROMISE */}
+        <div className="bg-foreground text-background mt-20 rounded-[1.5rem] sm:mt-32 sm:rounded-[2rem]">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.6fr]">
+            {/* Left column — label + heading */}
+            <div className="border-background/10 flex flex-col justify-between gap-12 border-b p-8 sm:p-12 lg:border-r lg:border-b-0 lg:p-16">
+              <p className="text-primary text-[10px] font-semibold tracking-[0.3em] uppercase">
+                The Promise
+              </p>
+              <div>
+                <h2 className="text-3xl leading-tight font-semibold tracking-tighter sm:text-4xl lg:text-5xl">
+                  Transparent
+                  <br />
+                  process.
+                </h2>
+                <p className="text-background/50 mt-4 text-xl leading-tight font-semibold tracking-tighter sm:text-2xl lg:text-3xl">
                   No surprises.
-                </span>
-              </h2>
+                </p>
+              </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:gap-8 xl:gap-12">
+            {/* Right column — promise items */}
+            <div className="divide-background/10 flex flex-col divide-y">
               {[
-                'You approve the exact design before any coding begins.',
-                'You review the fully functioning site before it goes live.',
-                'You hold 100% ownership of your code, design, and domain.',
-                "Transparent payment: 50% upfront, 50% only when you're ready to launch.",
-              ].map((item) => (
+                {
+                  index: '01',
+                  text: 'You approve the exact design before any coding begins.',
+                },
+                {
+                  index: '02',
+                  text: 'You review the fully functioning site before it goes live.',
+                },
+                {
+                  index: '03',
+                  text: 'You hold 100% ownership of your code, design, and domain.',
+                },
+              ].map(({ index, text }) => (
                 <div
-                  key={item}
-                  className="group/item hover:bg-primary/5 hover:border-primary/10 flex items-start gap-5 rounded-3xl border border-transparent p-6 transition-all duration-300"
+                  key={index}
+                  className="group flex items-start gap-6 px-8 py-7 sm:px-12 sm:py-9 lg:px-12 lg:py-10"
                 >
-                  <div className="border-primary/20 bg-primary/5 group-hover/item:border-primary/40 mt-1 flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border transition-colors sm:h-14 sm:w-14">
-                    <Check className="text-primary h-5 w-5 sm:h-6 sm:w-6" />
-                  </div>
-                  <span className="text-base leading-snug font-medium opacity-90 sm:text-xl lg:text-2xl">
-                    {item}
+                  <span className="text-background/30 mt-0.5 min-w-[2rem] font-mono text-xs font-semibold tracking-widest">
+                    {index}
+                  </span>
+                  <span className="text-background/90 group-hover:text-background text-base leading-relaxed transition-colors sm:text-lg">
+                    {text}
                   </span>
                 </div>
               ))}
+
+              {/* Payment term — visually distinct footer row */}
+              <div className="bg-background/5 flex flex-col gap-1.5 px-8 py-7 sm:px-12 sm:py-9 lg:px-12 lg:py-10">
+                <p className="text-primary text-[10px] font-semibold tracking-[0.25em] uppercase">
+                  Payment
+                </p>
+                <p className="text-background/90 text-base leading-relaxed sm:text-lg">
+                  50% upfront to begin.{' '}
+                  <span className="text-background font-semibold">
+                    The remaining 50% only when you&apos;re ready to launch.
+                  </span>
+                </p>
+              </div>
             </div>
           </div>
         </div>
