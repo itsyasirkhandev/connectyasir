@@ -1,0 +1,2027 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": { "version": "", "name": "Pingdom" },
+    "pages": [
+      {
+        "id": "https://yasir.qzz.io/",
+        "title": "https://yasir.qzz.io/",
+        "pageTimings": {
+          "_navigation_timing": {
+            "secureConnectionStart": 1775288259929,
+            "redirectStart": 0,
+            "domContentLoadedEventStart": 1775288261140,
+            "domContentLoadedEventEnd": 1775288261140,
+            "redirectEnd": 0,
+            "fetchStart": 1775288258664,
+            "navigationStart": 1775288258664,
+            "domainLookupEnd": 1775288259928,
+            "connectEnd": 1775288259943,
+            "unloadEventEnd": 0,
+            "requestStart": 1775288259943,
+            "responseEnd": 1775288260576,
+            "unloadEventStart": 0,
+            "domLoading": 1775288260579,
+            "connectStart": 1775288259928,
+            "loadEventStart": 1775288262202,
+            "responseStart": 1775288260575,
+            "loadEventEnd": 1775288262202,
+            "domComplete": 1775288262202,
+            "domInteractive": 1775288261140,
+            "domainLookupStart": 1775288258671
+          },
+          "onLoad": 3538,
+          "_fullyLoaded": 3726,
+          "onContentLoad": 2476
+        },
+        "startedDateTime": "2026-04-04T07:37:38.672559Z"
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:38.672559Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            {
+              "name": "accept",
+              "value": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" },
+            { "name": "upgrade-insecure-requests", "value": "1" }
+          ],
+          "headersSize": 467,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 1.5480041504,
+          "send": 0.1689940691,
+          "ssl": 13.3140087128,
+          "connect": 14.8469954729,
+          "dns": 1257.2830021381,
+          "wait": 631.5630078316,
+          "blocked": 0
+        },
+        "time": 1918.7240123749,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "text/html",
+            "_resourceType": "Document",
+            "size": 91895
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::qcsbb-1775288259945-0a9dc3923634"
+            },
+            { "name": "content-disposition", "value": "inline" },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "216" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "vary",
+              "value": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            { "name": "server", "value": "Vercel" },
+            { "name": "x-nextjs-stale-time", "value": "300" },
+            {
+              "name": "etag",
+              "value": "W/\"1f9d5b348abec9d84ced8d3ce75445b9\""
+            },
+            { "name": "x-matched-path", "value": "/" },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:40 GMT" },
+            { "name": "x-nextjs-prerender", "value": "1" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "text/html; charset=utf-8" }
+          ],
+          "headersSize": 585,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 17837
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.589223Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2",
+          "queryString": [],
+          "headers": [
+            { "name": "origin", "value": "https://yasir.qzz.io" },
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 476,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.575012207,
+          "send": 0.3159940243,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 219.9800014496,
+          "blocked": 0.6760060787
+        },
+        "time": 221.5470137596,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "font/woff2",
+            "_resourceType": "Font",
+            "size": 32228
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            { "name": "content-length", "value": "32228" },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::qcsbb-1775288260585-18179194fb81"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2\""
+            },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "age", "value": "0" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:40 GMT"
+            },
+            { "name": "etag", "value": "\"98ccc2b7f18991a5126a91ac56fbb1fc\"" },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:40 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "font/woff2" },
+            { "name": "accept-ranges", "value": "bytes" }
+          ],
+          "headersSize": 611,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 32504
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.589310Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/media/8c2eb9ceedecfc8e-s.p.0oeo8epbafgia.woff2",
+          "queryString": [],
+          "headers": [
+            { "name": "origin", "value": "https://yasir.qzz.io" },
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 476,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.6599884033,
+          "send": 0.2560019493,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 379.1379928589,
+          "blocked": 0.5190074444
+        },
+        "time": 380.5729906559,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "font/woff2",
+            "_resourceType": "Font",
+            "size": 37792
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            { "name": "content-length", "value": "37792" },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::25lz8-1775288260585-e1a37a5fd7fa"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"8c2eb9ceedecfc8e-s.p.0oeo8epbafgia.woff2\""
+            },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "age", "value": "0" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:40 GMT"
+            },
+            { "name": "etag", "value": "\"662c56ecd8de96f417f0400559ab2ab9\"" },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/media/8c2eb9ceedecfc8e-s.p.0oeo8epbafgia.woff2"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:40 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "font/woff2" },
+            { "name": "accept-ranges", "value": "bytes" }
+          ],
+          "headersSize": 611,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 38011
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591644Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0_-bcmh8ksdor.css",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "text/css,*/*;q=0.1" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 439,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.3480072021,
+          "send": 0.1080036163,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 402.3839980364,
+          "blocked": 1.8810033798
+        },
+        "time": 404.7210122347,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "text/css",
+            "_resourceType": "Stylesheet",
+            "size": 5577
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288260587-422dc1f21470"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0_-bcmh8ksdor.css\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:40 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"e2e11d187df85dfe3d17e80c95d8e9bd\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0_-bcmh8ksdor.css"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:40 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "text/css; charset=utf-8" }
+          ],
+          "headersSize": 558,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 1681
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.589407Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0a~gleo437lc-.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.487991333,
+          "send": 0.1019984484,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 448.0179995298,
+          "blocked": 0.5770027637
+        },
+        "time": 449.184992075,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 24081
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::xl6br-1775288260584-28c89d10b2fd"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0a~gleo437lc-.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"cece4f14d3568466ef4e6f2dab2edc55\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0a~gleo437lc-.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 8059
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591561Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/150gldwswqdl4.css",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "text/css,*/*;q=0.1" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 439,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.353012085,
+          "send": 0.2370029688,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 449.8019963503,
+          "blocked": 2.0489990711
+        },
+        "time": 452.4410104752,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "text/css",
+            "_resourceType": "Stylesheet",
+            "size": 5125
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288260587-0a0ebaafcaa7"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"150gldwswqdl4.css\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"4f21b3bb013372021301f0ddbefe3522\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/150gldwswqdl4.css"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "text/css; charset=utf-8" }
+          ],
+          "headersSize": 558,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 1918
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591610Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/156j4ff9g76mf.css",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "text/css,*/*;q=0.1" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 439,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.93800354,
+          "send": 0.1849979162,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 535.339012742,
+          "blocked": 1.9349902868
+        },
+        "time": 538.3970044851,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "text/css",
+            "_resourceType": "Stylesheet",
+            "size": 119534
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::kxtqm-1775288260587-322e567d05ee"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"156j4ff9g76mf.css\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"ac86d933317b61d08062ef5fa077c3cf\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/156j4ff9g76mf.css"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "text/css; charset=utf-8" }
+          ],
+          "headersSize": 558,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 21837
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591689Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/11u9~g5dyxriv.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.7619934082,
+          "send": 0.0739991665,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 220.641002059,
+          "blocked": 0.2370029688
+        },
+        "time": 221.7139976025,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 44415
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288261038-6760dda0b9b2"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"11u9~g5dyxriv.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"c871af707dc89d7da162041cadfee546\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/11u9~g5dyxriv.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 9812
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591820Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/turbopack-0w_pu0l8xsgg8.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 433,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.4809875488,
+          "send": 0.1900047064,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 190.3180032969,
+          "blocked": 0.6329864264
+        },
+        "time": 191.6219819784,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 10947
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288261124-b8c31a854020"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"turbopack-0w_pu0l8xsgg8.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"71be3a97f02c07c5c8cd30bdecb2331a\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/turbopack-0w_pu0l8xsgg8.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 590,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 4729
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591855Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0x4jxkh~n2z7f.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.31300354,
+          "send": 0.1650005579,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 191.0160034895,
+          "blocked": 0.5929917097
+        },
+        "time": 192.0869992971,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 6821
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::25lz8-1775288261124-5a75c93dc650"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0x4jxkh~n2z7f.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"7312c867027b0166b64485361cd08a05\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0x4jxkh~n2z7f.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 3102
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591894Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/099a.59-qgqp~.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.6169891357,
+          "send": 0.0690072775,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 223.6360013485,
+          "blocked": 0.6399899721
+        },
+        "time": 224.9619877338,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 54648
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::h6bfm-1775288261124-0c95c5913525"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"099a.59-qgqp~.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"763c5217b278e3e327a9246a4197234d\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/099a.59-qgqp~.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 13607
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591778Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0l-ycgai12ya-.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 3.837020874,
+          "send": 0.2229958773,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 285.0899994373,
+          "blocked": 0.6719976664
+        },
+        "time": 289.822013855,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 227308
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::qcsbb-1775288261124-88d2403d469d"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0l-ycgai12ya-.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"7535403586062ce3317c9feb0fcdd1ef\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0l-ycgai12ya-.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 72487
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591930Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0c5j-~v5rf0wm.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.3539886475,
+          "send": 0.1270025969,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 194.3439990282,
+          "blocked": 0.2810060978
+        },
+        "time": 195.1059963703,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 762
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            { "name": "content-length", "value": "762" },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288261260-9b95034863ae"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0c5j-~v5rf0wm.js\""
+            },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "age", "value": "0" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            { "name": "etag", "value": "\"3e28f633f61c2625e237ff004e81529f\"" },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0c5j-~v5rf0wm.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            },
+            { "name": "accept-ranges", "value": "bytes" }
+          ],
+          "headersSize": 589,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 929
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591730Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/14n77.pw5ndu5.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 2.0659942627,
+          "send": 0.2980083227,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 341.8419957161,
+          "blocked": 0.7029920816
+        },
+        "time": 344.9089903831,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 149533
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::kxtqm-1775288261124-82391e7c3153"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"14n77.pw5ndu5.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"27a8e1837f8328b7c4896d29a314427e\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/14n77.pw5ndu5.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 41408
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.591966Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0ehfk1ni0npj8.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.4349975586,
+          "send": 0.2170056105,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 202.1789997816,
+          "blocked": 0.5979984999
+        },
+        "time": 203.4290014505,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 9057
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::25lz8-1775288261317-8ad830d8afff"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0ehfk1ni0npj8.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"ce645b24bb01441adbe61ee53a30adfd\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0ehfk1ni0npj8.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 4264
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.592053Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/15fyr905fs3m9.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.3839874268,
+          "send": 0.0839978456,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 215.4219895601,
+          "blocked": 0.2260059118
+        },
+        "time": 216.1159807444,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 7333
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::h6bfm-1775288261349-9c57b21787f8"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"15fyr905fs3m9.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"e4251ce616d98f8d7738d6edaa8054ba\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/15fyr905fs3m9.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 2856
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.592008Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/17q..b9y9jny8.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.4759979248,
+          "send": 0.1790076494,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 259.3619972467,
+          "blocked": 0.5140006542
+        },
+        "time": 260.5310034752,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 29051
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288261317-6ea998e0f51c"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"17q..b9y9jny8.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"13cd876e43e2980b3a9afb8efe3213bd\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/17q..b9y9jny8.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 9762
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.592107Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0hjf3r08vwgny.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.4269866943,
+          "send": 0.1130104065,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 188.9619976282,
+          "blocked": 0.2809911966
+        },
+        "time": 189.7829859257,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 30248
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::qcsbb-1775288261414-f4ef16fa344a"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0hjf3r08vwgny.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"3e81a56848e3045efc1812dec56a9eeb\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0hjf3r08vwgny.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 11413
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.592142Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0argmq611dmci.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 1.6110076904,
+          "send": 0.0739991665,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 239.5869940519,
+          "blocked": 0.2040117979
+        },
+        "time": 241.4760127068,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 76903
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::vcn64-1775288261455-832ecceedc16"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0argmq611dmci.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"3872b6fe17ce0e3723ae5cd485fdad65\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0argmq611dmci.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 31138
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.592181Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/static/chunks/0xf6j0_1c8t08.js",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            { "name": "accept", "value": "*/*" },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 423,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 1.3800048828,
+          "send": 0.0980049372,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 249.8909980059,
+          "blocked": 0.4449933767
+        },
+        "time": 251.8140012026,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "application/javascript",
+            "_resourceType": "Script",
+            "size": 98639
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::25lz8-1775288261520-3ec490df68e0"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"0xf6j0_1c8t08.js\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:41 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"c6b89fe657247cb1f4b208fa224dde78\""
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/_next/static/chunks/0xf6j0_1c8t08.js"
+            },
+            {
+              "name": "cache-control",
+              "value": "public,max-age=31536000,immutable"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:41 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            {
+              "name": "content-type",
+              "value": "application/javascript; charset=utf-8"
+            }
+          ],
+          "headersSize": 570,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 34223
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:40.592244Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/_next/image?url=%2Fimages%2Fprojects%2Fapnaqarz%2Fapna-qarz-homepage.webp&w=640&q=75",
+          "queryString": [
+            {
+              "name": "url",
+              "value": "/images/projects/apnaqarz/apna-qarz-homepage.webp"
+            },
+            { "name": "w", "value": "640" },
+            { "name": "q", "value": "75" }
+          ],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 434,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.4909973145,
+          "send": 0.0669956207,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 745.3220039606,
+          "blocked": 0.1710057259
+        },
+        "time": 746.0510026217,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "image/webp",
+            "_resourceType": "Image",
+            "size": 12142
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            { "name": "content-length", "value": "12142" },
+            {
+              "name": "content-security-policy",
+              "value": "script-src 'none'; frame-src 'none'; sandbox;"
+            },
+            {
+              "name": "content-disposition",
+              "value": "attachment; filename=\"apna-qarz-homepage.webp\""
+            },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            { "name": "age", "value": "182853" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            { "name": "vary", "value": "Accept" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Thu, 02 Apr 2026 04:50:08 GMT"
+            },
+            {
+              "name": "x-matched-path",
+              "value": "/images/projects/apnaqarz/apna-qarz-homepage.webp"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:42 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "image/webp" },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::xl6br-1775288261457-45de7e7e4f6d"
+            }
+          ],
+          "headersSize": 615,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 12482
+        }
+      },
+      {
+        "pageref": "https://yasir.qzz.io/",
+        "startedDateTime": "2026-04-04T07:37:42.214202Z",
+        "cache": {},
+        "request": {
+          "cookies": [],
+          "url": "https://yasir.qzz.io/favicon.ico?favicon.07~59vfb68oh4.ico",
+          "queryString": [],
+          "headers": [
+            { "name": "accept-language", "value": "en-US,en;q=0.8" },
+            { "name": "accept-encoding", "value": "gzip, deflate, br" },
+            {
+              "name": "accept",
+              "value": "image/webp,image/apng,image/*,*/*;q=0.8"
+            },
+            {
+              "name": "user-agent",
+              "value": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Ubuntu Chromium/61.0.3163.100 Chrome/61.0.3163.100 Safari/537.36 PingdomPageSpeed/1.0 (pingbot/2.0; +http://www.pingdom.com/)"
+            },
+            { "name": "referer", "value": "https://yasir.qzz.io/" },
+            { "name": "pragma", "value": "no-cache" },
+            { "name": "cache-control", "value": "no-cache" }
+          ],
+          "headersSize": 434,
+          "bodySize": 0,
+          "method": "GET",
+          "httpVersion": ""
+        },
+        "timings": {
+          "receive": 0.6539916992,
+          "send": 0.0819861889,
+          "ssl": 0,
+          "connect": 0,
+          "dns": 0,
+          "wait": 190.7280087471,
+          "blocked": 0.2830028534
+        },
+        "time": 191.7469894886,
+        "response": {
+          "status": 200,
+          "cookies": [],
+          "statusText": "",
+          "content": {
+            "mimeType": "image/vnd.microsoft.icon",
+            "_resourceType": "Other",
+            "size": 15086
+          },
+          "headers": [
+            { "name": "status", "value": "200" },
+            {
+              "name": "strict-transport-security",
+              "value": "max-age=63072000"
+            },
+            {
+              "name": "x-vercel-id",
+              "value": "hnd1::xl6br-1775288262209-ea714195e77e"
+            },
+            {
+              "name": "content-disposition",
+              "value": "inline; filename=\"favicon.ico\""
+            },
+            { "name": "content-encoding", "value": "br" },
+            { "name": "age", "value": "0" },
+            { "name": "x-vercel-cache", "value": "HIT" },
+            { "name": "server", "value": "Vercel" },
+            {
+              "name": "last-modified",
+              "value": "Sat, 04 Apr 2026 07:37:42 GMT"
+            },
+            {
+              "name": "etag",
+              "value": "W/\"a8d988ace05521bb07a78f66351fc90c\""
+            },
+            { "name": "x-matched-path", "value": "/favicon.ico" },
+            {
+              "name": "cache-control",
+              "value": "public, max-age=0, must-revalidate"
+            },
+            { "name": "date", "value": "Sat, 04 Apr 2026 07:37:42 GMT" },
+            { "name": "access-control-allow-origin", "value": "*" },
+            { "name": "content-type", "value": "image/vnd.microsoft.icon" }
+          ],
+          "headersSize": 528,
+          "redirectURL": "",
+          "httpVersion": "",
+          "bodySize": 7674
+        }
+      }
+    ]
+  }
+}

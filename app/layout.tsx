@@ -14,6 +14,7 @@ import { getOrganizationNode, getWebsiteNode, schemaGraph } from '@/lib/schema'
 import { cn } from '@/lib/utils'
 
 import { ThemeProvider } from '@/components/theme-provider'
+import { IconLoader } from '@/components/IconLoader'
 
 const loraHeading = Lora({ subsets: ['latin'], variable: '--font-heading' })
 
@@ -82,6 +83,7 @@ export default function RootLayout({
           <JsonLd
             data={schemaGraph([getWebsiteNode(), getOrganizationNode()])}
           />
+          <IconLoader />
           {children}
         </ThemeProvider>
       </body>
