@@ -124,7 +124,7 @@
 
 @layer utilities {
   /* Icon utilities moved to icons.css for lazy loading */
-  
+
   .grid-wrapper {
     min-height: 100%;
     width: 100%;
@@ -155,4 +155,3 @@
     );
   }
 }
-
