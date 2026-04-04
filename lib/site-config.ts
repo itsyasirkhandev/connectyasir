@@ -1,5 +1,5 @@
 export const SITE_URL = (
-  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://yasirkhan.dev'
+  process.env.NEXT_PUBLIC_SITE_URL ?? 'https://yasir.qzz.io'
 ).replace(/\/$/, '')
 
 export const SITE_NAME = 'Yasir Khan'
