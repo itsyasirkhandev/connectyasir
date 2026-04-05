@@ -134,8 +134,6 @@ export default function Footer() {
 
           <div className="text-muted-foreground flex items-center gap-3 text-[10px] font-semibold tracking-[0.15em] uppercase sm:text-sm">
             <span>Built with Next.js</span>
-            <span className="bg-border h-px w-4 sm:w-6" />
-            <span>Tailwind CSS</span>
           </div>
         </div>
       </div>
