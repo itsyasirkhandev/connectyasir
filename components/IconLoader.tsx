@@ -9,7 +9,7 @@ import { useEffect } from 'react'
 export function IconLoader() {
   useEffect(() => {
     // Dynamically import the icons CSS file
-    import('../app/icons.css').catch((err) => {
+    import('../app/icons.css').catch((err: unknown) => {
       console.error('Failed to load icon styles:', err)
     })
   }, [])

@@ -7,16 +7,16 @@ routing using Next.js 16, React 19, and Tailwind CSS v4.
 
 ## Versions & Sources
 
-| Technology         | Version  | Source                                     |
-|--------------------|----------|--------------------------------------------|
-| Next.js            | 16.2.1   | `package.json`, `node_modules/next/dist/docs/` |
-| React              | 19.2.4   | `package.json`                              |
-| Tailwind CSS       | v4       | `package.json`, `globals.css` (`@theme`)    |
-| shadcn/ui          | 4.1.1    | `package.json`, `components/ui/`            |
-| React Hook Form    | 7.72.1   | `package.json`                              |
-| Zod                | 4.3.6    | `package.json`                              |
-| Lucide React       | 1.7.0    | `package.json`                              |
-| GSAP               | 3.14.2   | `package.json`                              |
+| Technology      | Version | Source                                         |
+| --------------- | ------- | ---------------------------------------------- |
+| Next.js         | 16.2.1  | `package.json`, `node_modules/next/dist/docs/` |
+| React           | 19.2.4  | `package.json`                                 |
+| Tailwind CSS    | v4      | `package.json`, `globals.css` (`@theme`)       |
+| shadcn/ui       | 4.1.1   | `package.json`, `components/ui/`               |
+| React Hook Form | 7.72.1  | `package.json`                                 |
+| Zod             | 4.3.6   | `package.json`                                 |
+| Lucide React    | 1.7.0   | `package.json`                                 |
+| GSAP            | 3.14.2  | `package.json`                                 |
 
 Design rules enforced by: `DESIGN_RULES.md`, verified via `DESIGN_CHECKLIST.md`
 
@@ -36,15 +36,15 @@ Implement a two-page client review flow that:
 
 ## 2. Tech Stack
 
-| Layer      | Technology                                |
-|------------|-------------------------------------------|
-| Framework  | Next.js 16 (App Router)                   |
-| UI         | React 19 + Tailwind CSS v4               |
-| Components | shadcn/ui primitives (Button, Input, Card)|
-| Icons      | Lucide React (`Star` icon)                |
-| Animation  | GSAP (star entrance) + CSS transitions    |
-| Forms      | React Hook Form + Zod (for `/improve`)    |
-| Routing    | Next.js `useRouter` (client-side redirect)|
+| Layer      | Technology                                 |
+| ---------- | ------------------------------------------ |
+| Framework  | Next.js 16 (App Router)                    |
+| UI         | React 19 + Tailwind CSS v4                 |
+| Components | shadcn/ui primitives (Button, Input, Card) |
+| Icons      | Lucide React (`Star` icon)                 |
+| Animation  | GSAP (star entrance) + CSS transitions     |
+| Forms      | React Hook Form + Zod (for `/improve`)     |
+| Routing    | Next.js `useRouter` (client-side redirect) |
 
 **Why this stack?**
 
@@ -246,13 +246,7 @@ export function StarRating() {
               aria-checked={value === selectedStar}
               aria-label={`${value} star${value > 1 ? 's' : ''}`}
               disabled={isProcessing.current && selectedStar > 0}
-              className="group cursor-pointer rounded-sm p-1
-                         transition-transform duration-150
-                         hover:scale-110
-                         focus-visible:outline-2 focus-visible:outline-offset-2
-                         focus-visible:outline-ring
-                         active:scale-95
-                         disabled:pointer-events-none disabled:opacity-60"
+              className="group cursor-pointer rounded-sm p-1 transition-transform duration-150 hover:scale-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring active:scale-95 disabled:pointer-events-none disabled:opacity-60"
               onMouseEnter={() => setHoveredStar(value)}
               onMouseLeave={() => setHoveredStar(0)}
               onClick={() => handleStarClick(value)}
@@ -277,11 +271,11 @@ export function StarRating() {
 
 **State management:**
 
-| State            | Type         | Purpose                                         |
-|------------------|--------------|--------------------------------------------------|
-| `hoveredStar`    | `number`     | Tracks which star is hovered (0 = none)         |
-| `selectedStar`   | `number`     | Tracks the clicked rating (0 = none)            |
-| `isProcessing`   | `Ref<boolean>` | Lock to prevent double-clicks during redirect |
+| State          | Type           | Purpose                                       |
+| -------------- | -------------- | --------------------------------------------- |
+| `hoveredStar`  | `number`       | Tracks which star is hovered (0 = none)       |
+| `selectedStar` | `number`       | Tracks the clicked rating (0 = none)          |
+| `isProcessing` | `Ref<boolean>` | Lock to prevent double-clicks during redirect |
 
 **Accessibility:**
 
@@ -350,9 +344,9 @@ export function FeedbackForm() {
         <h1 className="font-heading text-2xl font-semibold tracking-tight">
           Help me improve
         </h1>
-        <p className="text-muted-foreground leading-relaxed">
-          Thank you for your honesty. Your feedback helps me
-          deliver better results for every client.
+        <p className="leading-relaxed text-muted-foreground">
+          Thank you for your honesty. Your feedback helps me deliver better
+          results for every client.
         </p>
       </div>
 
@@ -366,7 +360,7 @@ export function FeedbackForm() {
             id="name"
             type="text"
             placeholder="Jane Doe"
-            className="... (uses semantic tokens: bg-background, border-input, etc.)"
+            className="(uses semantic tokens: bg-background, border-input, etc.) ..."
             {...register('name')}
           />
           {errors.name && (
@@ -414,13 +408,7 @@ export function FeedbackForm() {
 
         <button
           type="submit"
-          className="w-full rounded-lg bg-primary px-4 py-3
-                     text-sm font-semibold text-primary-foreground
-                     transition-colors
-                     hover:bg-primary/90
-                     focus-visible:outline-2 focus-visible:outline-offset-2
-                     focus-visible:outline-ring
-                     active:bg-primary/80"
+          className="w-full rounded-lg bg-primary px-4 py-3 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary/90 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ring active:bg-primary/80"
         >
           Submit Feedback
         </button>
@@ -431,6 +419,7 @@ export function FeedbackForm() {
 ```
 
 **Form validation is wired but submission is a no-op.** This means:
+
 - Schema is ready for future API integration (just replace `onSubmit`)
 - Client-side validation gives immediate feedback (UX polish)
 - No network requests are made
@@ -441,28 +430,28 @@ export function FeedbackForm() {
 
 These decisions ensure both pages pass the `DESIGN_CHECKLIST.md`:
 
-| Rule                        | Implementation                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **Focal point**             | `/review`: star cluster. `/improve`: form heading           |
-| **Max 4 text sizes**        | `text-3xl` (h1), `text-base` (body), `text-sm` (labels/errors) = 3 sizes |
-| **Max 2 font weights**      | `font-semibold` (headings, labels), normal (body) = 2 weights |
-| **Semantic tokens only**    | `bg-background`, `text-foreground`, `text-muted-foreground`, `border-input`, `bg-primary`, `text-primary-foreground`, `text-destructive` |
-| **No hardcoded colors**     | Exception: `amber-400` for star fill (standard gold, not brand color) |
-| **Accent restrained**       | Primary color used only on the submit button               |
-| **Spacing 8pt rhythm**      | `gap-2`, `gap-6`, `space-y-2`, `space-y-6`, `space-y-8`, `p-4`, `py-3` |
-| **Interaction states**      | hover, focus-visible, active, disabled on all interactive elements |
-| **Accessibility**           | ARIA roles, semantic HTML, contrast ratios, 44px+ touch targets |
-| **Not templated**           | No cards, no hero, no feature grids — purpose-built layout  |
+| Rule                     | Implementation                                                                                                                           |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **Focal point**          | `/review`: star cluster. `/improve`: form heading                                                                                        |
+| **Max 4 text sizes**     | `text-3xl` (h1), `text-base` (body), `text-sm` (labels/errors) = 3 sizes                                                                 |
+| **Max 2 font weights**   | `font-semibold` (headings, labels), normal (body) = 2 weights                                                                            |
+| **Semantic tokens only** | `bg-background`, `text-foreground`, `text-muted-foreground`, `border-input`, `bg-primary`, `text-primary-foreground`, `text-destructive` |
+| **No hardcoded colors**  | Exception: `amber-400` for star fill (standard gold, not brand color)                                                                    |
+| **Accent restrained**    | Primary color used only on the submit button                                                                                             |
+| **Spacing 8pt rhythm**   | `gap-2`, `gap-6`, `space-y-2`, `space-y-6`, `space-y-8`, `p-4`, `py-3`                                                                   |
+| **Interaction states**   | hover, focus-visible, active, disabled on all interactive elements                                                                       |
+| **Accessibility**        | ARIA roles, semantic HTML, contrast ratios, 44px+ touch targets                                                                          |
+| **Not templated**        | No cards, no hero, no feature grids — purpose-built layout                                                                               |
 
 ---
 
 ## 8. Development Plan
 
-| Step | Task                          | Details                                                        |
-|------|-------------------------------|----------------------------------------------------------------|
-| 1    | **Create route files**        | `app/review/page.tsx` and `app/review/improve/page.tsx` with metadata |
-| 2    | **Build StarRating component**| `components/sections/review/StarRating.tsx` — interactive stars, hover/click, routing logic, lock ref |
+| Step | Task                             | Details                                                                                                   |
+| ---- | -------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 1    | **Create route files**           | `app/review/page.tsx` and `app/review/improve/page.tsx` with metadata                                     |
+| 2    | **Build StarRating component**   | `components/sections/review/StarRating.tsx` — interactive stars, hover/click, routing logic, lock ref     |
 | 3    | **Build FeedbackForm component** | `components/sections/review/FeedbackForm.tsx` — React Hook Form + Zod schema, styled inputs, no-op submit |
-| 4    | **Polish & animate**          | GSAP stagger animation on star entrance, smooth transitions   |
-| 5    | **Verify design compliance**  | Run through `DESIGN_CHECKLIST.md` for both pages              |
-| 6    | **Lint & format**             | `pnpm lint`, `pnpm format`, `pnpm check`                     |
+| 4    | **Polish & animate**             | GSAP stagger animation on star entrance, smooth transitions                                               |
+| 5    | **Verify design compliance**     | Run through `DESIGN_CHECKLIST.md` for both pages                                                          |
+| 6    | **Lint & format**                | `pnpm lint`, `pnpm format`, `pnpm check`                                                                  |

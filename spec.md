@@ -17,6 +17,7 @@ As a freelancer/agency, collecting client feedback is essential for building tru
 The system should:
 
 ### `/review` Page (Star Rating)
+
 - Display a clean, branded star-rating interface (1–5 stars)
 - Stars should be interactive (hover and click effects)
 - On selecting **4 or 5 stars** → redirect the user to the Google Business review page:
@@ -26,6 +27,7 @@ The system should:
 - Show a brief prompt/heading asking the client to rate their experience
 
 ### `/review/improve` Page (Feedback Form)
+
 - Display a feedback form with the following fields:
   - **Reviewer Name** (text input, required)
   - **Business Name** (text input, required)
@@ -40,20 +42,20 @@ The system should:
 
 ### Star Rating Behavior (`/review`)
 
-| User Action (Input) | Expected System Behavior (Output) |
-|---|---|
-| User hovers over a star | Stars up to the hovered star highlight with a visual effect |
-| User clicks a star (1–3) | Short delay (~500ms), then redirect to `/review/improve` |
+| User Action (Input)      | Expected System Behavior (Output)                                  |
+| ------------------------ | ------------------------------------------------------------------ |
+| User hovers over a star  | Stars up to the hovered star highlight with a visual effect        |
+| User clicks a star (1–3) | Short delay (~500ms), then redirect to `/review/improve`           |
 | User clicks a star (4–5) | Short delay (~500ms), then redirect to Google Business review page |
-| User lands on the page | See a heading, subtext, and 5 empty/outlined stars |
+| User lands on the page   | See a heading, subtext, and 5 empty/outlined stars                 |
 
 ### Feedback Form Behavior (`/review/improve`)
 
-| User Action (Input) | Expected System Behavior (Output) |
-|---|---|
-| User fills in form fields | Standard form input behavior |
+| User Action (Input)       | Expected System Behavior (Output)             |
+| ------------------------- | --------------------------------------------- |
+| User fills in form fields | Standard form input behavior                  |
 | User clicks submit button | No action (UI-only, no form submission logic) |
-| User lands on the page | See a thank-you message and the feedback form |
+| User lands on the page    | See a thank-you message and the feedback form |
 
 ---
 
@@ -70,14 +72,14 @@ The system should:
 
 ## 5. Edge Cases and Error Handling
 
-| Scenario | Handling |
-|---|---|
-| User clicks same star twice | Treat as a single selection, trigger redirect once |
-| User rapidly clicks different stars | Only process the first valid click, ignore subsequent clicks during redirect |
-| Google Business review URL is unreachable | Not handled (external dependency — out of scope) |
-| User navigates directly to `/review/improve` without rating | Allow access — form should still be usable independently |
-| User submits the form on `/review/improve` | No action — show no error, button is non-functional (future implementation) |
-| Page is accessed on a very small screen | Layout should remain usable and responsive |
+| Scenario                                                    | Handling                                                                     |
+| ----------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| User clicks same star twice                                 | Treat as a single selection, trigger redirect once                           |
+| User rapidly clicks different stars                         | Only process the first valid click, ignore subsequent clicks during redirect |
+| Google Business review URL is unreachable                   | Not handled (external dependency — out of scope)                             |
+| User navigates directly to `/review/improve` without rating | Allow access — form should still be usable independently                     |
+| User submits the form on `/review/improve`                  | No action — show no error, button is non-functional (future implementation)  |
+| Page is accessed on a very small screen                     | Layout should remain usable and responsive                                   |
 
 ---
 
