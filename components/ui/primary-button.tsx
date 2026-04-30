@@ -1,6 +1,6 @@
 'use client'
 
-import React from 'react'
+import React, { useMemo } from 'react'
 import { cn } from '@/lib/utils'
 import './primary-button.css'
 
@@ -23,16 +23,27 @@ const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
     },
     ref
   ) => {
-    const renderLetters = (word: string, startIdx = 0) => {
-      return word.split('').map((char, index) => (
+    const renderedText = useMemo(() => {
+      return text.split('').map((char, index) => (
         <span
           key={index}
-          style={{ '--i': index + startIdx } as React.CSSProperties}
+          style={{ '--i': index } as React.CSSProperties}
         >
           {char === ' ' ? '\u00A0' : char}
         </span>
       ))
-    }
+    }, [text])
+
+    const renderedSentText = useMemo(() => {
+      return sentText.split('').map((char, index) => (
+        <span
+          key={index}
+          style={{ '--i': index + 5 } as React.CSSProperties}
+        >
+          {char === ' ' ? '\u00A0' : char}
+        </span>
+      ))
+    }, [sentText])
 
     return (
       <button
@@ -75,7 +86,7 @@ const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
                 </path>
               </svg>
             </div>
-            <p>{renderLetters(text)}</p>
+            <p>{renderedText}</p>
           </div>
         )}
 
@@ -114,7 +125,7 @@ const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
                 </defs>
               </svg>
             </div>
-            <p>{renderLetters(sentText, 5)}</p>
+            <p>{renderedSentText}</p>
           </div>
         )}
       </button>

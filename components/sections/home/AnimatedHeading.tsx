@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, useMemo } from 'react'
 import gsap from 'gsap'
 import { cn } from '@/lib/utils'
 
@@ -17,15 +17,17 @@ const texts = [
 export function AnimatedHeading({ className }: AnimatedHeadingProps) {
   const containerRef = useRef<HTMLHeadingElement>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [isMounted, setIsMounted] = useState(false)
+
+  const words = useMemo(() => {
+    const currentText = texts[currentIndex] ?? texts[0] ?? ''
+    return currentText.split(' ').map((word) => ({
+      text: word,
+      chars: word.split(''),
+    }))
+  }, [currentIndex])
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setIsMounted(true)
-  }, [])
-
-  useEffect(() => {
-    if (!isMounted || !containerRef.current) return
+    if (!containerRef.current) return
 
     const spans = containerRef.current.querySelectorAll('.char-span')
     if (spans.length === 0) return
@@ -39,7 +41,7 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
           y: -20,
           filter: 'blur(10px)',
           stagger: 0.01,
-          delay: 4, // Increased delay for better readability and LCP
+          delay: 4,
           duration: 0.4,
           ease: 'power2.in',
           onComplete: () => {
@@ -69,7 +71,7 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
     return () => {
       tl.kill()
     }
-  }, [currentIndex, isMounted])
+  }, [currentIndex])
 
   return (
     <h1
@@ -79,48 +81,42 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
         className
       )}
     >
-      {!isMounted
-        ? // Initial SSR content - this is what the browser sees first for LCP
-          texts[0]
-        : // Client-side spans for animation - wrapped in word spans to prevent character-level breaking
-          (texts[currentIndex] ?? texts[0] ?? '')
-            .split(' ')
-            .map((word, wordIndex, words) => (
+      {words.map((word, wordIndex) => (
+        <span
+          key={`${currentIndex}-${wordIndex}`}
+          className="inline-block"
+        >
+          <span className="inline-block whitespace-nowrap">
+            {word.chars.map((char, charIndex) => (
               <span
-                key={`${currentIndex.toString()}-${wordIndex.toString()}`}
-                className="inline-block"
+                key={`${currentIndex}-${wordIndex}-${charIndex}`}
+                className="char-span inline-block"
+                style={{
+                  opacity: 0,
+                  filter: 'blur(10px)',
+                  transform: 'translateY(20px)',
+                  willChange: 'transform, opacity, filter',
+                }}
               >
-                <span className="inline-block whitespace-nowrap">
-                  {word.split('').map((char, charIndex) => (
-                    <span
-                      key={`${currentIndex.toString()}-${wordIndex.toString()}-${charIndex.toString()}`}
-                      className="char-span inline-block"
-                      style={{
-                        opacity: 0,
-                        filter: 'blur(10px)',
-                        transform: 'translateY(20px)',
-                        willChange: 'transform, opacity, filter',
-                      }}
-                    >
-                      {char}
-                    </span>
-                  ))}
-                </span>
-                {wordIndex < words.length - 1 && (
-                  <span
-                    className="char-span inline-block"
-                    style={{
-                      opacity: 0,
-                      filter: 'blur(10px)',
-                      transform: 'translateY(20px)',
-                      willChange: 'transform, opacity, filter',
-                    }}
-                  >
-                    &nbsp;
-                  </span>
-                )}
+                {char}
               </span>
             ))}
+          </span>
+          {wordIndex < words.length - 1 && (
+            <span
+              className="char-span inline-block"
+              style={{
+                opacity: 0,
+                filter: 'blur(10px)',
+                transform: 'translateY(20px)',
+                willChange: 'transform, opacity, filter',
+              }}
+            >
+              &nbsp;
+            </span>
+          )}
+        </span>
+      ))}
     </h1>
   )
 }

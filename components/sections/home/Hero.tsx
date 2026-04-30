@@ -1,6 +1,4 @@
-'use client'
-
-import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 import { PrimaryButton } from '@/components/ui/primary-button'
 import { AVAILABILITY } from '@/lib/site-config'
@@ -9,8 +7,6 @@ import { cn } from '@/lib/utils'
 import { AnimatedHeading } from './AnimatedHeading'
 
 export default function Hero() {
-  const router = useRouter()
-
   return (
     <section className="grid-wrapper overflow-hidden py-16 md:py-24 lg:py-32">
       <div className="grid-background" />
@@ -33,13 +29,12 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:items-center">
-            <PrimaryButton
-              text="Book Your Free Call"
-              onClick={() => {
-                router.push('/contact')
-              }}
-              className="h-12 px-8 text-base shadow-md"
-            />
+            <Link href="/contact" className="focus-visible:ring-ring outline-none">
+              <PrimaryButton
+                text="Book Your Free Call"
+                className="h-12 px-8 text-base shadow-md pointer-events-none"
+              />
+            </Link>
             <a
               href="https://wa.me/923014545482"
               target="_blank"

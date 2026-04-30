@@ -1,5 +1,3 @@
-'use client'
-
 export default function Loading() {
   return (
     <div className="bg-background flex min-h-[60vh] w-full flex-col items-center justify-center gap-6">

@@ -2,7 +2,7 @@
 
 import * as React from 'react'
 import Link from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 import { HugeiconsIcon } from '@hugeicons/react'
 import {
   Home01Icon,
@@ -35,7 +35,6 @@ const NAV_LINKS = [
 
 export default function Navbar() {
   const pathname = usePathname()
-  const router = useRouter()
   const [isOpen, setIsOpen] = React.useState(false)
 
   return (
@@ -78,13 +77,13 @@ export default function Navbar() {
           <ThemeToggle />
 
           <div className="hidden items-center gap-4 sm:flex">
-            <PrimaryButton
-              size="sm"
-              text="Book Your Free Call →"
-              onClick={() => {
-                router.push('/contact')
-              }}
-            />
+            <Link href="/contact" className="focus-visible:ring-ring outline-none">
+              <PrimaryButton
+                size="sm"
+                text="Book Your Free Call →"
+                className="pointer-events-none"
+              />
+            </Link>
           </div>
 
           {/* Mobile Menu Trigger */}
@@ -136,14 +135,18 @@ export default function Navbar() {
                 <hr className="border-border/50" />
 
                 <div className="flex flex-col gap-4 px-6 pb-8">
-                  <PrimaryButton
-                    text="Book Your Free Call →"
-                    className="w-full"
+                  <Link
+                    href="/contact"
+                    className="focus-visible:ring-ring w-full outline-none"
                     onClick={() => {
                       setIsOpen(false)
-                      router.push('/contact')
                     }}
-                  />
+                  >
+                    <PrimaryButton
+                      text="Book Your Free Call →"
+                      className="w-full pointer-events-none"
+                    />
+                  </Link>
                 </div>
               </nav>
             </SheetContent>
