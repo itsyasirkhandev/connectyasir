@@ -25,10 +25,7 @@ const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
   ) => {
     const renderedText = useMemo(() => {
       return text.split('').map((char, index) => (
-        <span
-          key={index}
-          style={{ '--i': index } as React.CSSProperties}
-        >
+        <span key={index} style={{ '--i': index } as React.CSSProperties}>
           {char === ' ' ? '\u00A0' : char}
         </span>
       ))
@@ -36,10 +33,7 @@ const PrimaryButton = React.forwardRef<HTMLButtonElement, PrimaryButtonProps>(
 
     const renderedSentText = useMemo(() => {
       return sentText.split('').map((char, index) => (
-        <span
-          key={index}
-          style={{ '--i': index + 5 } as React.CSSProperties}
-        >
+        <span key={index} style={{ '--i': index + 5 } as React.CSSProperties}>
           {char === ' ' ? '\u00A0' : char}
         </span>
       ))

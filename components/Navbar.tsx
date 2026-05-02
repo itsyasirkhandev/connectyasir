@@ -77,7 +77,10 @@ export default function Navbar() {
           <ThemeToggle />
 
           <div className="hidden items-center gap-4 sm:flex">
-            <Link href="/contact" className="focus-visible:ring-ring outline-none">
+            <Link
+              href="/contact"
+              className="focus-visible:ring-ring outline-none"
+            >
               <PrimaryButton
                 size="sm"
                 text="Book Your Free Call →"
@@ -144,7 +147,7 @@ export default function Navbar() {
                   >
                     <PrimaryButton
                       text="Book Your Free Call →"
-                      className="w-full pointer-events-none"
+                      className="pointer-events-none w-full"
                     />
                   </Link>
                 </div>

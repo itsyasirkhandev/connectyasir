@@ -8,7 +8,6 @@ Project guidelines:
 - I am on windows so use powershell 5 for commands
 - run 'pnpm lint' to check for linting errors, 'pnpm format', and 'pnpm check' to check for errors after making changes
 
-
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

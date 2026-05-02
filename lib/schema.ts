@@ -213,6 +213,30 @@ export function getApnaQarzCaseStudyPageNode(): SchemaNode {
   }
 }
 
+export function getRehmanVetClinicCaseStudyPageNode(): SchemaNode {
+  return {
+    '@type': 'WebPage',
+    '@id': `${SITE_URL}/projects/rehman-veterinary-clinic#webpage`,
+    url: absoluteUrl(PAGE_SEO.rehmanVetClinic.path),
+    name: PAGE_SEO.rehmanVetClinic.title,
+    description: PAGE_SEO.rehmanVetClinic.description,
+    isPartOf: {
+      '@id': `${SITE_URL}/#website`,
+    },
+    about: [
+      {
+        '@type': 'Organization',
+        name: 'Rehman Veterinary Clinic',
+        url: 'https://rehmanvetclinic.vercel.app/',
+      },
+      {
+        '@type': 'Thing',
+        name: 'Veterinary clinic website case study',
+      },
+    ],
+  }
+}
+
 export function getAboutPageNode(): SchemaNode {
   return {
     '@type': 'AboutPage',

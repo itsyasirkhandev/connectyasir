@@ -29,10 +29,13 @@ export default function Hero() {
           </p>
 
           <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:items-center">
-            <Link href="/contact" className="focus-visible:ring-ring outline-none">
+            <Link
+              href="/contact"
+              className="focus-visible:ring-ring outline-none"
+            >
               <PrimaryButton
                 text="Book Your Free Call"
-                className="h-12 px-8 text-base shadow-md pointer-events-none"
+                className="pointer-events-none h-12 px-8 text-base shadow-md"
               />
             </Link>
             <a

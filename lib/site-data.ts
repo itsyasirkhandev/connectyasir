@@ -63,6 +63,13 @@ export const PAGE_SEO = {
     path: '/projects/apna-qarz',
     ogImage: '/og/apna-qarz.png',
   },
+  rehmanVetClinic: {
+    title: 'Rehman Vet Clinic Case Study: Website for Local Pet Care',
+    description:
+      'Professional landing page for a local veterinary clinic, generating daily inquiries and building trust.',
+    path: '/projects/rehman-veterinary-clinic',
+    ogImage: '/og/rehman-vet-clinic.png',
+  },
   about: {
     title:
       'I build websites that help small businesses look more established online.',
@@ -88,6 +95,8 @@ export const PAGE_SUMMARIES = {
     'A few businesses I’ve helped improve online. Real projects built to increase trust, improve design, and support growth.',
   apnaQarz:
     'From no website to a full platform with 1,000+ leads in the first month.',
+  rehmanVetClinic:
+    'From no website to a professional landing page generating daily inquiries.',
   about:
     'I build websites that help small businesses look more established online.',
   contact:
@@ -108,6 +117,21 @@ export const PROJECTS: ProjectItem[] = [
       'Zero digital footprint. No brand identity. No automated lead capture. Total reliance on manual outreach.',
     after:
       'A blazing fast custom platform with a secure admin dashboard, resulting in 1,000+ high-intent leads generated in 30 days.',
+  },
+  {
+    name: 'Rehman Veterinary Clinic',
+    slug: 'rehman-veterinary-clinic',
+    path: '/projects/rehman-veterinary-clinic',
+    image:
+      '/images/projects/rehman_veterinary_clinic/rehman_veterinary_clinic_lahore.webp',
+    imageAlt: 'Homepage screenshot of the Rehman Veterinary Clinic website',
+    shortDescription:
+      'A professional, trust-focused landing page for a local clinic, resulting in daily customer inquiries.',
+    projectType: 'Full Landing Page Design · Technical · On-page SEO',
+    before:
+      'No website, only a Google My Business profile. Limited professional credibility without a dedicated digital home.',
+    after:
+      'A blazing fast landing page that showcases services, builds trust with FAQs, and generates inquiries every single day.',
   },
 ]
 

@@ -2,7 +2,23 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
 
-export default function ProjectHero() {
+type ProjectHeroProps = {
+  title: string
+  description: string
+  industry: string
+  services: string
+  image: string
+  imageAlt: string
+}
+
+export default function ProjectHero({
+  title,
+  description,
+  industry,
+  services,
+  image,
+  imageAlt,
+}: ProjectHeroProps) {
   return (
     <section className="flex flex-col pt-12 pb-16">
       <Link
@@ -16,11 +32,10 @@ export default function ProjectHero() {
       <div className="mb-16 flex flex-col items-start justify-between gap-12 lg:flex-row lg:items-end">
         <div className="max-w-2xl">
           <h1 className="text-foreground text-5xl leading-tight font-semibold tracking-tight lg:text-6xl">
-            Apna Qarz
+            {title}
           </h1>
           <p className="text-muted-foreground mt-4 max-w-prose text-xl leading-relaxed">
-            A secure dashboard and blazing fast platform, built from zero
-            digital presence to 1,000+ leads in 30 days.
+            {description}
           </p>
         </div>
 
@@ -28,28 +43,24 @@ export default function ProjectHero() {
           <span className="text-foreground mt-4 text-xs font-semibold tracking-widest uppercase lg:mt-0">
             Industry
           </span>
-          <span className="text-muted-foreground text-sm">
-            Finance Advisory
-          </span>
+          <span className="text-muted-foreground text-sm">{industry}</span>
 
           <span className="text-foreground mt-4 text-xs font-semibold tracking-widest uppercase">
             Services
           </span>
-          <span className="text-muted-foreground text-sm">
-            Full-Stack · Done-for-You
-          </span>
+          <span className="text-muted-foreground text-sm">{services}</span>
         </div>
       </div>
 
       <div className="bg-muted/20 relative aspect-auto w-full overflow-hidden rounded-2xl border shadow-sm md:aspect-video">
         <Image
-          src="/images/projects/apnaqarz/apna-qarz-homepage.webp"
-          alt="Desktop screenshot of the Apna Qarz homepage"
+          src={image}
+          alt={imageAlt}
           width={1280}
           height={905}
           className="h-auto w-full object-cover"
           sizes="100vw"
-          preload
+          priority
         />
       </div>
     </section>

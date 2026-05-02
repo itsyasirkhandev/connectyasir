@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-type Screenshot = {
+export type Screenshot = {
   src: string
   alt: string
   label: string
@@ -8,38 +8,17 @@ type Screenshot = {
   height: number
 }
 
-const screenshots: [Screenshot, Screenshot, Screenshot, Screenshot] = [
-  {
-    src: '/images/projects/apnaqarz/apna-qarz-homepage.webp',
-    alt: 'Apna Qarz desktop homepage — full hero section with loan application entry',
-    label: 'Desktop · Homepage',
-    width: 1280,
-    height: 800,
-  },
-  {
-    src: '/images/projects/apnaqarz/apnaqarz application form desktop.webp',
-    alt: 'Apna Qarz desktop application form — multi-step loan application flow',
-    label: 'Desktop · Application Form',
-    width: 1280,
-    height: 800,
-  },
-  {
-    src: '/images/projects/apnaqarz/apnaqarz mobile hero.webp',
-    alt: 'Apna Qarz mobile view — hero and primary call-to-action on small screen',
-    label: 'Mobile · Hero',
-    width: 390,
-    height: 844,
-  },
-  {
-    src: '/images/projects/apnaqarz/apnaqarz admin dashboard.webp',
-    alt: 'Apna Qarz admin dashboard — analytics, lead trends and loan type distribution',
-    label: 'Admin · Dashboard & Analytics',
-    width: 1280,
-    height: 800,
-  },
-]
+type ScreenshotsVisualsProps = {
+  screenshots: Screenshot[]
+}
 
-export default function ScreenshotsVisuals() {
+export default function ScreenshotsVisuals({
+  screenshots,
+}: ScreenshotsVisualsProps) {
+  if (screenshots.length === 0) return null
+
+  // We'll use a dynamic layout based on the number of screenshots
+  // For now, let's keep it simple or try to match the previous layout pattern if 4 are provided
   const hero = screenshots[0]
   const appForm = screenshots[1]
   const mobile = screenshots[2]
@@ -51,43 +30,55 @@ export default function ScreenshotsVisuals() {
         The Finished Product
       </h2>
       <p className="text-muted-foreground mb-10 text-base leading-relaxed">
-        From hero to admin — every screen, intentionally built.
+        Visual evidence of the final results.
       </p>
 
       <div className="flex flex-col gap-3">
-        {/* Row 1 — Full-width homepage hero */}
-        <ScreenshotFigure
-          screenshot={hero}
-          sizes="(max-width: 768px) 100vw, 80vw"
-          className="w-full"
-          imageClassName="h-auto w-full object-cover object-top"
-          aspectClassName="aspect-[16/9]"
-        />
-
-        {/* Row 2 — Asymmetric: desktop app form (wide) + mobile (portrait) */}
-        <div className="grid grid-cols-1 gap-3 lg:grid-cols-[2.2fr_1fr]">
+        {/* Row 1 — Full-width */}
+        {hero && (
           <ScreenshotFigure
-            screenshot={appForm}
-            sizes="(max-width: 1024px) 100vw, 55vw"
-            imageClassName="h-full w-full object-cover object-top"
-            aspectClassName="aspect-[16/9] lg:aspect-auto lg:min-h-[340px]"
+            screenshot={hero}
+            sizes="(max-width: 768px) 100vw, 80vw"
+            className="w-full"
+            imageClassName="h-auto w-full object-cover object-top"
+            aspectClassName="aspect-[16/9]"
           />
-          <ScreenshotFigure
-            screenshot={mobile}
-            sizes="(max-width: 1024px) 50vw, 22vw"
-            imageClassName="h-full w-full object-cover object-top"
-            aspectClassName="aspect-[9/19.5] lg:aspect-auto"
-          />
-        </div>
+        )}
 
-        {/* Row 3 — Full-width admin dashboard */}
-        <ScreenshotFigure
-          screenshot={admin}
-          sizes="(max-width: 768px) 100vw, 80vw"
-          className="w-full"
-          imageClassName="h-auto w-full object-cover object-top"
-          aspectClassName="aspect-[16/9]"
-        />
+        {/* Row 2 — Mixed */}
+        {(appForm ?? mobile) && (
+          <div
+            className={`grid grid-cols-1 gap-3 ${appForm && mobile ? 'lg:grid-cols-[2.2fr_1fr]' : ''}`}
+          >
+            {appForm && (
+              <ScreenshotFigure
+                screenshot={appForm}
+                sizes="(max-width: 1024px) 100vw, 55vw"
+                imageClassName="h-full w-full object-cover object-top"
+                aspectClassName="aspect-[16/9] lg:aspect-auto lg:min-h-[340px]"
+              />
+            )}
+            {mobile && (
+              <ScreenshotFigure
+                screenshot={mobile}
+                sizes="(max-width: 1024px) 50vw, 22vw"
+                imageClassName="h-full w-full object-cover object-top"
+                aspectClassName="aspect-[9/19.5] lg:aspect-auto"
+              />
+            )}
+          </div>
+        )}
+
+        {/* Row 3 — Full-width */}
+        {admin && (
+          <ScreenshotFigure
+            screenshot={admin}
+            sizes="(max-width: 768px) 100vw, 80vw"
+            className="w-full"
+            imageClassName="h-auto w-full object-cover object-top"
+            aspectClassName="aspect-[16/9]"
+          />
+        )}
       </div>
     </section>
   )

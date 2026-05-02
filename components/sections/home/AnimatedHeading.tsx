@@ -83,13 +83,13 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
     >
       {words.map((word, wordIndex) => (
         <span
-          key={`${currentIndex}-${wordIndex}`}
+          key={`${String(currentIndex)}-${String(wordIndex)}`}
           className="inline-block"
         >
           <span className="inline-block whitespace-nowrap">
             {word.chars.map((char, charIndex) => (
               <span
-                key={`${currentIndex}-${wordIndex}-${charIndex}`}
+                key={`${String(currentIndex)}-${String(wordIndex)}-${String(charIndex)}`}
                 className="char-span inline-block"
                 style={{
                   opacity: 0,

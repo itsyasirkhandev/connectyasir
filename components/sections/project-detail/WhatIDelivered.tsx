@@ -1,16 +1,10 @@
 import { Check } from 'lucide-react'
 
-const deliverables = [
-  'Premium brand identity & logo',
-  'High-converting site architecture',
-  'Custom Next.js frontend',
-  'Secure data dashboard',
-  'Persuasive, human-first copywriting',
-  'Technical SEO foundation',
-  'Zero-maintenance managed hosting',
-]
+type WhatIDeliveredProps = {
+  deliverables: string[]
+}
 
-export default function WhatIDelivered() {
+export default function WhatIDelivered({ deliverables }: WhatIDeliveredProps) {
   return (
     <section className="border-t py-16">
       <div className="grid grid-cols-1 items-start gap-8 md:grid-cols-[1fr_2fr] md:gap-16">
