@@ -13,6 +13,16 @@ const FEATURED_PROJECTS = [
     href: '/projects/apna-qarz',
     status: 'View Case Study →',
   },
+  {
+    title: 'Rehman Veterinary Clinic',
+    description:
+      'A professional, trust-focused landing page for a local clinic, resulting in daily customer inquiries.',
+    category: 'Full Landing Page Design · SEO',
+    image:
+      '/images/projects/rehman_veterinary_clinic/rehman_veterinary_clinic_lahore.webp',
+    href: '/projects/rehman-veterinary-clinic',
+    status: 'View Case Study →',
+  },
 ]
 
 export default function FeaturedProjects() {

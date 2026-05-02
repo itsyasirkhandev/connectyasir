@@ -90,20 +90,13 @@ export default function ProjectGrid() {
                 </div>
 
                 <div className="mt-10 sm:mt-14">
-                  {project.slug === 'apna-qarz' ? (
-                    <Link
-                      href={project.path}
-                      className="group/link bg-foreground text-background hover:bg-foreground/90 focus-visible:ring-primary inline-flex h-12 items-center gap-2 rounded-full px-6 text-sm font-semibold shadow-sm transition-all duration-200 ease-out hover:scale-[1.02] focus-visible:ring-2 focus-visible:outline-none active:scale-[0.98] sm:h-auto sm:px-8 sm:py-4 sm:text-base"
-                    >
-                      Read Case Study
-                      <ArrowRight className="h-4 w-4 transition-transform duration-300 ease-out group-hover/link:translate-x-1" />
-                    </Link>
-                  ) : (
-                    <div className="text-muted-foreground inline-flex items-center gap-3 text-xs font-semibold tracking-wide sm:gap-4 sm:text-sm">
-                      <div className="bg-muted-foreground/30 h-0.5 w-4 rounded-full sm:w-6" />
-                      Case Study Coming Soon
-                    </div>
-                  )}
+                  <Link
+                    href={project.path}
+                    className="group/link bg-foreground text-background hover:bg-foreground/90 focus-visible:ring-primary inline-flex h-12 items-center gap-2 rounded-full px-6 text-sm font-semibold shadow-sm transition-all duration-200 ease-out hover:scale-[1.02] focus-visible:ring-2 focus-visible:outline-none active:scale-[0.98] sm:h-auto sm:px-8 sm:py-4 sm:text-base"
+                  >
+                    Read Case Study
+                    <ArrowRight className="h-4 w-4 transition-transform duration-300 ease-out group-hover/link:translate-x-1" />
+                  </Link>
                 </div>
               </div>
             </article>
