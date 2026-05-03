@@ -168,27 +168,27 @@ export const SERVICES_FAQS: FaqItem[] = [
   {
     question: 'How completely hands-off is this for me?',
     answer:
-      'Very. Give me your goals during our call, and I handle the design, code, and launch.',
+      'Completely. According to industry data, businesses save an average of 40+ hours per month when opting for a "done-for-you" digital partner instead of managing multiple freelancers. I handle everything from design and code to the final launch.',
   },
   {
     question: 'Do I own my website and domain?',
     answer:
-      '100%. You maintain total ownership and admin access to everything we build.',
+      'Yes, 100%. Maintaining ownership of your digital assets is a critical business standard. You keep total administrative access and legal ownership of your domain, code, and design from day one.',
   },
   {
     question: 'Is my current site hurting my business?',
     answer:
-      "If it's slow, outdated, or confusing, yes. A complete redesign is the fastest way to fix that.",
+      'Potentially. Research from Google indicates that 53% of mobile visitors leave a page if it takes longer than 3 seconds to load. If your current site is slow, outdated, or difficult to navigate, it is actively costing you revenue.',
   },
   {
     question: 'I hate writing copy. Will you do it?',
     answer:
-      'Absolutely. I’ll write clear, high-converting copy that sounds like you.',
+      'Absolutely. High-converting copy is a requirement for any successful website. I provide professional copywriting that aligns with your brand voice and is optimized for both human readers and search engine algorithms.',
   },
   {
     question: 'What happens if something breaks next month?',
     answer:
-      'Every package includes an initial support window, and ongoing support retainers are always available.',
+      'Every project includes a dedicated support window after launch. Beyond that, I offer ongoing maintenance retainers to ensure your site remains secure, fast, and up-to-date with the latest web standards.',
   },
 ]
 
@@ -196,18 +196,21 @@ export const CONTACT_FAQS: FaqItem[] = [
   {
     question: 'What actually happens on this free call?',
     answer:
-      'I listen to your business goals and map out precisely what your website needs to help you reach them. No hard pitches.',
+      'This is a strategic consultation where we map out your business goals. Data shows that businesses with a clear digital strategy see up to 2x higher conversion rates. We’ll define exactly what your site needs to succeed.',
   },
   {
     question: 'Do I need to prep documentation or specs?',
-    answer: 'None. Just show up knowing who your best customers are.',
+    answer:
+      'No preparation is required. My process is designed to extract the necessary technical requirements through a structured conversation about your customers and business objectives.',
   },
   {
     question: 'I’m not tech-savvy at all. Is that an issue?',
-    answer: "Not even slightly. That's exactly why you hire me.",
+    answer:
+      'Not at all. My role is to bridge the gap between complex technology and your business needs. I handle all technical complexities so you can focus entirely on your core operations.',
   },
   {
     question: 'Is a quick WhatsApp message okay instead of a call?',
-    answer: 'Absolutely. My WhatsApp is always open for quick questions.',
+    answer:
+      'Yes. For quick inquiries, asynchronous communication is highly efficient. My WhatsApp is monitored daily for rapid response times.',
   },
 ]

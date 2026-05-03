@@ -34,9 +34,12 @@ export default function AboutHero() {
             <div className="text-muted-foreground space-y-6 text-base leading-relaxed transition-[opacity,transform] delay-200 duration-700 ease-out sm:space-y-8 sm:text-lg starting:translate-y-4 starting:opacity-0">
               <p className="max-w-prose">
                 I&rsquo;m Yasir. I engineer screaming-fast, high-trust websites
-                that turn your visitors into actual clients. No agencies. No
-                junior developers. You get my absolute best work, from the first
-                strategy call to the final launch.
+                that turn your visitors into actual clients. With over{' '}
+                <strong>3+ years of experience</strong> and multiple successful
+                launches, I&rsquo;ve helped businesses generate{' '}
+                <strong>1,000+ targeted leads</strong> through performance-first
+                design. You get my absolute best work, from the first strategy
+                call to the final launch.
               </p>
 
               <div className="flex flex-col items-start gap-8 pt-4 sm:flex-row sm:items-center">

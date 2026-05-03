@@ -89,6 +89,14 @@ export function getPersonNode(): SchemaNode {
       'Tailwind CSS',
       'Convex',
       'Vercel',
+      'Generative Engine Optimization (GEO)',
+      'Technical SEO',
+      'Lead Generation Strategy',
+      'Conversion Rate Optimization (CRO)',
+      'Responsive Web Design',
+      'Full-stack JavaScript Development',
+      'API Integration',
+      'Serverless Architecture',
     ],
   }
 }
@@ -141,19 +149,22 @@ export function getPrimaryServiceNode(): SchemaNode {
   return {
     '@type': 'Service',
     '@id': `${SITE_URL}/services#service`,
-    name: 'Website design and development for small businesses',
+    name: 'Custom Web Design & Development for Small Businesses',
     serviceType:
-      'Branding, logo design, website design, website development, hosting setup, SEO setup, and post-launch support',
+      'Full-stack development, Branding, UI/UX Design, Technical SEO, GEO Optimization, Performance Engineering, and Digital Strategy',
+    description:
+      'Professional web design services tailored for small businesses looking to establish a high-trust, high-performance online presence. Includes custom Next.js development, responsive design, and search engine optimization.',
     provider: {
       '@id': `${SITE_URL}/#organization`,
     },
     audience: {
       '@type': 'Audience',
-      audienceType: 'Small business owners',
+      audienceType:
+        'Small business owners, entrepreneurs, and local service providers',
     },
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
-      name: 'Website packages',
+      name: 'Professional Website Packages',
       itemListElement: PRICING_PACKAGES.map((pkg) => ({
         '@type': 'Offer',
         name: pkg.name,
@@ -161,6 +172,7 @@ export function getPrimaryServiceNode(): SchemaNode {
         price: pkg.price,
         priceCurrency: 'USD',
         url: absoluteUrl('/services'),
+        availability: 'https://schema.org/InStock',
       })),
     },
   }
