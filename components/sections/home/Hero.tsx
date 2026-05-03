@@ -21,7 +21,11 @@ export default function Hero() {
             {AVAILABILITY.badge.replace('🟢 ', '')}
           </div>
 
-          <AnimatedHeading className="text-center" />
+          <h1 className="sr-only">
+            Small Business Website Designer & Web Developer | Yasir Khan
+          </h1>
+
+          <AnimatedHeading className="text-center" as="h2" />
 
           <p className="text-muted-foreground mx-auto mt-6 max-w-prose text-base leading-relaxed md:text-lg">
             Your business deserves a blazingly fast, premium website that builds

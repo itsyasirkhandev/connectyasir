@@ -16,9 +16,12 @@ export default function PageHeader() {
 
           {/* Right Column: Content */}
           <div className="max-w-4xl transition-all delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
-            <h1 className="text-foreground text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
-              Stop guessing. Get a website built specifically to drive leads.
+            <h1 className="sr-only">
+              Web Design & Development Services for Small Businesses
             </h1>
+            <h2 className="text-foreground text-3xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
+              Stop guessing. Get a website built specifically to drive leads.
+            </h2>
 
             <div className="mt-10 grid grid-cols-1 gap-10 sm:mt-16 lg:grid-cols-[1.5fr_1fr] lg:gap-24">
               <p className="text-muted-foreground max-w-prose text-base leading-relaxed sm:text-lg md:text-xl">

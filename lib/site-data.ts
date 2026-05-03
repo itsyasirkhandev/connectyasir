@@ -37,51 +37,51 @@ export type PricingPackage = {
 
 export const PAGE_SEO = {
   home: {
-    title: 'Your website should win trust — not lose customers.',
+    title: 'Small Business Website Designer & Developer | Yasir Khan',
     description:
-      'I design and build modern websites for small businesses that look credible, load fast, and help turn visitors into leads.',
+      'Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.',
     path: '/',
     ogImage: '/og/default.png',
   },
   services: {
-    title: 'Websites built to make your business look credible online.',
+    title: 'Web Design Services for Small Businesses | Yasir Khan',
     description:
-      'From branding and design to development, launch, and support — everything is handled in one place.',
+      'Complete web design and development services. Branding, custom coding, hosting, and SEO setup — all handled by one expert.',
     path: '/services',
     ogImage: '/og/services.png',
   },
   projects: {
-    title: 'A few businesses I’ve helped improve online.',
+    title: 'Small Business Website Portfolio | Case Studies',
     description:
-      'Real projects built to increase trust, improve design, and support growth.',
+      'See how I help businesses grow with premium web design. Real-world examples of lead generation and trust-building websites.',
     path: '/projects',
     ogImage: '/og/projects.png',
   },
   apnaQarz: {
-    title: 'Apna Qarz Case Study: Finance Advisory Website & Lead Generation',
-    description: 'Full platform, admin dashboard, 1,000+ leads in month one.',
+    title: 'Apna Qarz Case Study | Finance Website & Lead Generation',
+    description:
+      'How I built a custom finance platform that generated 1,000+ leads in the first month for Apna Qarz.',
     path: '/projects/apna-qarz',
     ogImage: '/og/apna-qarz.png',
   },
   rehmanVetClinic: {
-    title: 'Rehman Vet Clinic Case Study: Website for Local Pet Care',
+    title: 'Rehman Vet Clinic Case Study | Local Business Website SEO',
     description:
-      'Professional landing page for a local veterinary clinic, generating daily inquiries and building trust.',
+      'Case study on building a professional landing page for a local veterinary clinic, generating daily inquiries.',
     path: '/projects/rehman-veterinary-clinic',
     ogImage: '/og/rehman-vet-clinic.png',
   },
   about: {
-    title:
-      'I build websites that help small businesses look more established online.',
+    title: 'About Yasir Khan | Small Business Web Designer',
     description:
-      'I’m Yasir — a full-stack developer focused on modern, high-trust websites for small businesses.',
+      'I help small businesses look more established online with modern, high-trust websites. Learn more about my approach.',
     path: '/about',
     ogImage: '/og/about.png',
   },
   contact: {
-    title: 'Let’s talk about your website.',
+    title: 'Contact Yasir Khan | Book Your Free Website Strategy Call',
     description:
-      'Book a free 30-minute call and I’ll help you figure out the best next step.',
+      'Ready to transform your online presence? Book a free 30-minute call to discuss your website goals.',
     path: '/contact',
     ogImage: '/og/contact.png',
   },
@@ -109,7 +109,8 @@ export const PROJECTS: ProjectItem[] = [
     slug: 'apna-qarz',
     path: '/projects/apna-qarz',
     image: '/images/projects/apna-qarz-homepage.webp',
-    imageAlt: 'Homepage screenshot of the Apna Qarz website',
+    imageAlt:
+      'Modern finance platform website design for Apna Qarz — Homepage desktop view showing lead generation features',
     shortDescription:
       'Complete digital platform built from scratch. 1,000+ targeted leads generated in month one.',
     projectType: 'Full-Stack · Done-for-You',
@@ -124,7 +125,8 @@ export const PROJECTS: ProjectItem[] = [
     path: '/projects/rehman-veterinary-clinic',
     image:
       '/images/projects/rehman_veterinary_clinic/rehman_veterinary_clinic_lahore.webp',
-    imageAlt: 'Homepage screenshot of the Rehman Veterinary Clinic website',
+    imageAlt:
+      'Professional local business website design for Rehman Veterinary Clinic — Trust-focused landing page for pet care services',
     shortDescription:
       'A professional, trust-focused landing page for a local clinic, resulting in daily customer inquiries.',
     projectType: 'Full Landing Page Design · Technical · On-page SEO',

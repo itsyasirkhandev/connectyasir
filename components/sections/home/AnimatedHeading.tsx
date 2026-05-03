@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils'
 
 type AnimatedHeadingProps = {
   className?: string
+  as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'div'
 }
 
 const texts = [
@@ -14,8 +15,11 @@ const texts = [
   'Turn cold visitors into daily leads.',
 ]
 
-export function AnimatedHeading({ className }: AnimatedHeadingProps) {
-  const containerRef = useRef<HTMLHeadingElement>(null)
+export function AnimatedHeading({
+  className,
+  as: Tag = 'h1',
+}: AnimatedHeadingProps) {
+  const containerRef = useRef<HTMLHeadingElement | HTMLDivElement>(null)
   const [currentIndex, setCurrentIndex] = useState(0)
 
   const words = useMemo(() => {
@@ -74,7 +78,7 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
   }, [currentIndex])
 
   return (
-    <h1
+    <Tag
       ref={containerRef}
       className={cn(
         'text-foreground min-h-[3.3em] w-full text-4xl leading-[1.1] font-semibold tracking-tight text-balance md:min-h-[2.4em] md:text-5xl lg:text-6xl',
@@ -117,6 +121,6 @@ export function AnimatedHeading({ className }: AnimatedHeadingProps) {
           )}
         </span>
       ))}
-    </h1>
+    </Tag>
   )
 }

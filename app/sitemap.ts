@@ -38,6 +38,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ],
     },
     {
+      url: absoluteUrl('/projects/rehman-veterinary-clinic'),
+      lastModified,
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      images: [
+        absoluteUrl('/og/rehman-vet-clinic.png'),
+        absoluteUrl(
+          '/images/projects/rehman_veterinary_clinic/rehman_veterinary_clinic_lahore.webp'
+        ),
+      ],
+    },
+    {
       url: absoluteUrl('/about'),
       lastModified,
       changeFrequency: 'monthly',

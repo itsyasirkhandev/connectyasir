@@ -22,10 +22,13 @@ export default function AboutHero() {
             </div>
 
             <div className="transition-[opacity,transform] delay-100 duration-700 ease-out starting:translate-y-4 starting:opacity-0">
-              <h1 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
+              <h1 className="sr-only">
+                About Yasir Khan | Professional Small Business Website Designer
+              </h1>
+              <h2 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
                 I build the digital assets that make small businesses{' '}
                 <span className="text-muted-foreground">undeniable.</span>
-              </h1>
+              </h2>
             </div>
 
             <div className="text-muted-foreground space-y-6 text-base leading-relaxed transition-[opacity,transform] delay-200 duration-700 ease-out sm:space-y-8 sm:text-lg starting:translate-y-4 starting:opacity-0">

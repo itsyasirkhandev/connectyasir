@@ -4,9 +4,9 @@ export const SITE_URL = (
 
 export const SITE_NAME = 'Yasir Khan'
 export const SITE_TITLE_DEFAULT =
-  'Yasir Khan | Small Business Website Designer & Developer'
+  'Yasir Khan | Small Business Website Designer & Web Developer'
 export const SITE_DESCRIPTION =
-  'Yasir Khan builds complete websites for small businesses — branding, design, development, hosting, SEO setup, and post-launch support handled by one person.'
+  'Yasir Khan is a professional website designer for small businesses. I build high-performance, custom websites that build trust and generate leads. Branding, design, and development handled by one expert.'
 
 export const SITE_LANGUAGE = 'en-US'
 export const SITE_LOCALE = 'en_US'
