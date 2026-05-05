@@ -40,7 +40,7 @@ export type PricingPackage = {
 
 export const PAGE_SEO = {
   home: {
-    title: 'Small Business Website Designer & Developer | Yasir Khan',
+    title: 'Small Business Website Designer & Developer',
     description:
       'Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.',
     path: '/',
@@ -60,7 +60,7 @@ export const PAGE_SEO = {
   },
 
   services: {
-    title: 'Web Design Services for Small Businesses | Yasir Khan',
+    title: 'Web Design Services for Small Businesses',
     description:
       'Complete web design and development services. Branding, custom coding, hosting, and SEO setup — all handled by one expert.',
     path: '/services',
@@ -117,7 +117,7 @@ export const PAGE_SEO = {
     ogImage: '/og/rehman-vet-clinic.png',
   },
   about: {
-    title: 'About Yasir Khan | Small Business Web Designer',
+    title: 'About Me',
     description:
       'I help small businesses look more established online with modern, high-trust websites. Learn more about my approach.',
     path: '/about',
@@ -130,7 +130,7 @@ export const PAGE_SEO = {
     ogImage: '/og/about.png',
   },
   contact: {
-    title: 'Contact Yasir Khan | Book Your Free Website Strategy Call',
+    title: 'Contact & Strategy Call',
     description:
       'Ready to transform your online presence? Book a free 30-minute call to discuss your website goals.',
     path: '/contact',
@@ -143,7 +143,7 @@ export const PAGE_SEO = {
     ogImage: '/og/contact.png',
   },
   nextjsVsWordpress: {
-    title: 'Next.js vs. WordPress for Small Business ROI | Yasir Khan',
+    title: 'Next.js vs. WordPress for Small Business ROI',
     description:
       'A technical and financial comparison of Next.js and WordPress for small businesses in 2026. Why modern stacks deliver 2-5x better ROI.',
     path: '/insights/nextjs-vs-wordpress-small-business-roi',
@@ -159,7 +159,7 @@ export const PAGE_SEO = {
     modifiedAt: '2026-05-05T08:00:00Z',
   },
   localSeoChecklist: {
-    title: 'Local SEO Checklist for Lahore & Regional Markets | Yasir Khan',
+    title: 'Local SEO Checklist for Lahore',
     description:
       'Dominating local search in Lahore and regional markets. A complete 2026 checklist for Google Business Profile and Map Pack rankings.',
     path: '/insights/local-seo-checklist-lahore-regional-markets',
@@ -175,7 +175,7 @@ export const PAGE_SEO = {
     modifiedAt: '2026-05-05T08:00:00Z',
   },
   customVsTemplate: {
-    title: 'Custom Web Design vs. Templates for Lead Generation | Yasir Khan',
+    title: 'Custom Web Design vs. Templates',
     description:
       'Does custom design actually convert better? Analyzing the conversion math and trust signals of bespoke vs. template websites.',
     path: '/insights/custom-design-vs-templates-lead-gen',

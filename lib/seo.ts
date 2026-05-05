@@ -26,6 +26,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
     config.path.startsWith('/insights/') || config.path.startsWith('/projects/')
 
   return {
+    metadataBase: new URL(SITE_URL),
     title: config.title,
     description: config.description,
     keywords: config.keywords,
@@ -79,6 +80,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       title: fullTitle,
       description: config.description,
       images: [absoluteUrl(ogImage)],
+      site: '@connectyasir',
       creator: '@connectyasir',
     },
     other: {
