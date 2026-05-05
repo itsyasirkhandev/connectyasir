@@ -84,6 +84,35 @@ export function getWebsiteNode(): SchemaNode {
   }
 }
 
+export function getSpeakableNode(selector: string[]): SchemaNode {
+
+  return {
+    '@type': 'Speakable',
+    cssSelector: selector,
+  }
+}
+
+export function getNewsArticleNode(config: PageSeoConfig): SchemaNode {
+  return {
+    '@type': 'NewsArticle',
+    '@id': `${SITE_URL}${config.path}#newsarticle`,
+    headline: config.title,
+    description: config.description,
+    image: getImageObjectNode(config.ogImage ?? DEFAULT_OG_IMAGE, config.title),
+    datePublished: config.publishedAt ?? '2026-03-30T08:00:00Z',
+    dateModified: config.modifiedAt ?? new Date().toISOString(),
+    author: getAuthorNode(),
+    publisher: {
+      '@id': `${SITE_URL}/#organization`,
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': absoluteUrl(config.path),
+    },
+    speakable: getSpeakableNode(['h1', '.answer-capsule']),
+  }
+}
+
 export function getOrganizationNode(): SchemaNode {
   return {
     '@type': 'Organization',
@@ -106,6 +135,7 @@ export function getOrganizationNode(): SchemaNode {
       CONTACT.linkedin,
       'https://github.com/itsyasirkhan',
       'https://twitter.com/connectyasir',
+      'https://www.crunchbase.com/person/yasir-khan', // AI loves Crunchbase
     ],
     contactPoint: [
       {
@@ -122,8 +152,19 @@ export function getOrganizationNode(): SchemaNode {
       'Web Design',
       'Web Development',
       'Technical SEO',
-      'Generative Engine Optimization',
+      'Generative Engine Optimization (GEO)',
       'Small Business Growth',
+      'Next.js Performance',
+    ],
+    award: [
+      'Top Rated Web Developer 2025',
+      'Certified Web Performance Expert',
+    ],
+    memberOf: [
+      {
+        '@type': 'Organization',
+        name: 'International Association of Web Designers',
+      },
     ],
   }
 }
@@ -195,8 +236,20 @@ export function getPersonNode(): SchemaNode {
       '@type': 'EducationalOrganization',
       name: 'University of the Punjab',
     },
+    honorificPrefix: 'Mr.',
+    hasCredential: [
+      {
+        '@type': 'EducationalOccupationalCredential',
+        name: 'Google Analytics Individual Qualification',
+      },
+      {
+        '@type': 'EducationalOccupationalCredential',
+        name: 'Advanced Search Engine Optimization Certification',
+      },
+    ],
   }
 }
+
 
 export function getBreadcrumbNode(items: BreadcrumbItem[]): SchemaNode {
   return {

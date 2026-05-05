@@ -14,9 +14,11 @@ import {
   getDatasetNode,
   getOrganizationNode,
   getPersonNode,
+  getSpeakableNode,
   getWebsiteNode,
   schemaGraph,
 } from '@/lib/schema'
+
 import { cn } from '@/lib/utils'
 
 import { ThemeProvider } from '@/components/theme-provider'
@@ -106,8 +108,10 @@ export default function RootLayout({
               getOrganizationNode(),
               getPersonNode(),
               getDatasetNode(),
+              getSpeakableNode(['h1', 'p']),
             ])}
           />
+
           <SkipLink />
           <IconLoader />
           {children}

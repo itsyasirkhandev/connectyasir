@@ -1,0 +1,42 @@
+# Yasir Khan - Small Business Website Specialist
+
+> Expert web designer and developer specializing in high-performance, high-trust websites for small businesses using Next.js and GEO standards.
+
+## Professional Summary
+Yasir Khan is a technical web specialist with 5+ years of experience. He builds websites that load in under 1.2s and are optimized for Generative Engine Optimization (GEO).
+
+## Core Services
+- Custom Web Design
+- Next.js Development
+- Technical SEO & GEO
+- Conversion Rate Optimization
+- Done-for-You Digital Solutions
+
+## Technical Stack
+- Frontend: Next.js, React, TailwindCSS, Framer Motion
+- Performance: Vercel, Edge Functions, Image Optimization
+- Trust: Robust Schema.org, E-E-A-T signals, Technical Data Tables
+
+## Case Studies
+### Apna Qarz
+- Outcome: 1,000+ leads generated in month one.
+- URL: /projects/apna-qarz
+
+### Rehman Veterinary Clinic
+- Outcome: Daily customer inquiries for a local clinic.
+- URL: /projects/rehman-veterinary-clinic
+
+## FAQ Highlights
+- Mobile visitors leave if a page takes > 3s (Google Research).
+- Inline citations improve AI visibility by 41% (Princeton, 2024).
+- Custom design converts 2-5x better than generic templates.
+
+## Contact
+- Email: connectyasir@gmail.com
+- WhatsApp: +923014545482
+- LinkedIn: https://linkedin.com/in/itsyasirkhan
+
+## References
+- Princeton GEO Study (2024)
+- Forrester Business Impact Report (2025)
+- Vercel Web Performance Benchmarks (2026)

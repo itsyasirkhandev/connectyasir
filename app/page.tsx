@@ -18,6 +18,7 @@ import FaqSection from '@/components/sections/shared/FaqSection'
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { EeatSignals } from '@/components/seo/EeatSignals'
+import { AuthorProfile } from '@/components/seo/AuthorProfile'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
 import { PAGE_SEO, PAGE_SUMMARIES, HOME_FAQS } from '@/lib/site-data'
@@ -25,6 +26,7 @@ import {
   getHomePageNode,
   getHomeFaqNode,
   getHowToNode,
+  getNewsArticleNode,
   getPersonNode,
   schemaGraph,
 } from '@/lib/schema'
@@ -41,6 +43,7 @@ export default function Home() {
           getHomeFaqNode(),
           getHowToNode(),
           getPersonNode(),
+          getNewsArticleNode(PAGE_SEO.home),
         ])}
       />
       <Navbar />
@@ -104,8 +107,10 @@ export default function Home() {
         />
 
         <Citations />
+        <AuthorProfile />
         <FinalCta />
       </main>
+
       <Footer />
       <WhatsAppButton />
     </>
