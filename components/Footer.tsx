@@ -12,6 +12,12 @@ const navigation = [
   { name: 'Contact', href: '/contact' },
 ]
 
+const insights = [
+  { name: 'Next.js vs. WordPress ROI', href: '/insights/nextjs-vs-wordpress-small-business-roi' },
+  { name: 'Local SEO Lahore Checklist', href: '/insights/local-seo-checklist-lahore-regional-markets' },
+  { name: 'Custom Design for Lead Gen', href: '/insights/custom-design-vs-templates-lead-gen' },
+]
+
 const socials = [
   {
     name: 'LinkedIn',
@@ -49,7 +55,7 @@ export default function Footer() {
   return (
     <footer className="border-border/40 bg-background w-full border-t pt-12 pb-6 sm:pt-16 sm:pb-8">
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 gap-10 sm:gap-12 md:grid-cols-[2fr_1fr_1fr] md:gap-8">
+        <div className="grid grid-cols-1 gap-10 sm:gap-12 md:grid-cols-[1.5fr_1fr_1.5fr_1fr] md:gap-8">
           {/* Brand Section */}
           <div className="flex flex-col items-start gap-4 sm:gap-6">
             <Link
@@ -79,6 +85,25 @@ export default function Footer() {
             </h3>
             <ul className="flex flex-col gap-2 sm:gap-3">
               {navigation.map((item) => (
+                <li key={item.name}>
+                  <Link
+                    href={item.href}
+                    className="text-muted-foreground hover:text-foreground text-sm transition-colors sm:text-base"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Insights */}
+          <div className="flex flex-col gap-4 sm:gap-6">
+            <h3 className="text-muted-foreground text-xs font-semibold tracking-widest uppercase sm:text-sm">
+              Recent Insights
+            </h3>
+            <ul className="flex flex-col gap-2 sm:gap-3">
+              {insights.map((item) => (
                 <li key={item.name}>
                   <Link
                     href={item.href}

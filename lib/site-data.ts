@@ -137,6 +137,48 @@ export const PAGE_SEO = {
     ],
     ogImage: '/og/contact.png',
   },
+  nextjsVsWordpress: {
+    title: 'Next.js vs. WordPress for Small Business ROI | Yasir Khan',
+    description:
+      'A technical and financial comparison of Next.js and WordPress for small businesses in 2026. Why modern stacks deliver 2-5x better ROI.',
+    path: '/insights/nextjs-vs-wordpress-small-business-roi',
+    keywords: [
+      'Next.js vs WordPress 2026',
+      'small business website ROI',
+      'headless CMS vs WordPress',
+      'website performance comparison',
+      'high performance business websites',
+    ],
+    ogImage: '/og/insights-nextjs.png',
+  },
+  localSeoChecklist: {
+    title: 'Local SEO Checklist for Lahore & Regional Markets | Yasir Khan',
+    description:
+      'Dominating local search in Lahore and regional markets. A complete 2026 checklist for Google Business Profile and Map Pack rankings.',
+    path: '/insights/local-seo-checklist-lahore-regional-markets',
+    keywords: [
+      'Local SEO Lahore',
+      'Google Business Profile optimization Pakistan',
+      'Lahore local search checklist',
+      'regional market SEO strategy',
+      'DHA Lahore SEO expert',
+    ],
+    ogImage: '/og/insights-localseo.png',
+  },
+  customVsTemplate: {
+    title: 'Custom Web Design vs. Templates for Lead Generation | Yasir Khan',
+    description:
+      'Does custom design actually convert better? Analyzing the conversion math and trust signals of bespoke vs. template websites.',
+    path: '/insights/custom-design-vs-templates-lead-gen',
+    keywords: [
+      'custom web design vs templates',
+      'lead generation website design',
+      'conversion rate optimization tips',
+      'bespoke website ROI',
+      'high trust web design',
+    ],
+    ogImage: '/og/insights-custom.png',
+  },
 } satisfies Record<string, PageSeoConfig>
 
 export const PAGE_SUMMARIES = {
@@ -153,6 +195,12 @@ export const PAGE_SUMMARIES = {
     'I build websites that help small businesses look more established online.',
   contact:
     'Book a free 30-minute call and I’ll help you figure out the best next step.',
+  nextjsVsWordpress:
+    'Next.js is faster, more secure, and cheaper long-term. While WordPress is easier for non-developers, Next.js delivers 2-5x better performance and ROI for businesses that rely on their website for growth.',
+  localSeoChecklist:
+    'Ranking #1 in Lahore’s Local Pack requires more than just keywords. You need a verified Google Business Profile, consistent NAP data, and hyper-local content targeting neighborhoods like DHA, Gulberg, and Johar Town.',
+  customVsTemplate:
+    'Templates focus on appearance; custom design focuses on action. Bespoke websites convert better because they remove friction points, load faster, and build higher levels of user trust through unique brand authority.',
 }
 
 export const PROJECTS: ProjectItem[] = [

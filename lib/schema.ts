@@ -12,6 +12,7 @@ import {
   CONTACT_FAQS,
   HOME_FAQS,
   PAGE_SEO,
+  type PageSeoConfig,
   PRICING_PACKAGES,
   PROJECTS,
   SERVICES_FAQS,
@@ -323,4 +324,35 @@ export function getServicesFaqNode(): SchemaNode {
 
 export function getContactFaqNode(): SchemaNode {
   return getFaqNode(CONTACT_FAQS, `${SITE_URL}/contact#faq`)
+}
+
+export function getInsightPageNode(
+  config: PageSeoConfig,
+  citations?: { name: string; url: string }[]
+): SchemaNode {
+  return {
+    '@type': 'TechArticle',
+    '@id': `${SITE_URL}${config.path}#article`,
+    url: absoluteUrl(config.path),
+    name: config.title,
+    description: config.description,
+    isPartOf: {
+      '@id': `${SITE_URL}/#website`,
+    },
+    author: {
+      '@id': `${SITE_URL}/about#person`,
+    },
+    publisher: {
+      '@id': `${SITE_URL}/#organization`,
+    },
+    datePublished: '2026-05-05T08:00:00Z',
+    dateModified: new Date().toISOString(),
+    ...(citations && {
+      citation: citations.map((c) => ({
+        '@type': 'CreativeWork',
+        name: c.name,
+        url: c.url,
+      })),
+    }),
+  }
 }
