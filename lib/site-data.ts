@@ -4,6 +4,8 @@ export type PageSeoConfig = {
   path: string
   keywords: string[]
   ogImage?: string
+  publishedAt?: string
+  modifiedAt?: string
 }
 
 export type BreadcrumbItem = {
@@ -150,6 +152,8 @@ export const PAGE_SEO = {
       'high performance business websites',
     ],
     ogImage: '/og/insights-nextjs.png',
+    publishedAt: '2026-05-05T08:00:00Z',
+    modifiedAt: '2026-05-05T08:00:00Z',
   },
   localSeoChecklist: {
     title: 'Local SEO Checklist for Lahore & Regional Markets | Yasir Khan',
@@ -164,6 +168,8 @@ export const PAGE_SEO = {
       'DHA Lahore SEO expert',
     ],
     ogImage: '/og/insights-localseo.png',
+    publishedAt: '2026-05-05T08:00:00Z',
+    modifiedAt: '2026-05-05T08:00:00Z',
   },
   customVsTemplate: {
     title: 'Custom Web Design vs. Templates for Lead Generation | Yasir Khan',
@@ -178,6 +184,8 @@ export const PAGE_SEO = {
       'high trust web design',
     ],
     ogImage: '/og/insights-custom.png',
+    publishedAt: '2026-05-05T08:00:00Z',
+    modifiedAt: '2026-05-05T08:00:00Z',
   },
 } satisfies Record<string, PageSeoConfig>
 

@@ -30,16 +30,21 @@ export function AnimatedHeading({
     }))
   }, [currentIndex])
 
+  const isFirstRender = useRef(true)
+  const [hasHydrated, setHasHydrated] = useState(false)
+
   useEffect(() => {
-    if (!containerRef.current) return
+    setHasHydrated(true)
+  }, [])
+
+  useEffect(() => {
+    if (!containerRef.current || !hasHydrated) return
 
     const spans = containerRef.current.querySelectorAll('.char-span')
     if (spans.length === 0) return
 
-    // Animation timeline
     const tl = gsap.timeline({
       onComplete: () => {
-        // Animate out after a delay
         gsap.to(spans, {
           opacity: 0,
           y: -20,
@@ -55,27 +60,35 @@ export function AnimatedHeading({
       },
     })
 
-    tl.fromTo(
-      spans,
-      {
-        opacity: 0,
-        y: 20,
-        filter: 'blur(10px)',
-      },
-      {
-        opacity: 1,
-        y: 0,
-        filter: 'blur(0px)',
-        stagger: 0.02,
-        duration: 0.5,
-        ease: 'power2.out',
-      }
-    )
+    // If it's the first render of the first slide, don't do the "in" animation
+    // as it's already visible from SSR. Just start the timeline.
+    if (isFirstRender.current) {
+      isFirstRender.current = false
+      // Trigger the onComplete logic after a delay manually or just let it run
+      tl.play()
+    } else {
+      tl.fromTo(
+        spans,
+        {
+          opacity: 0,
+          y: 20,
+          filter: 'blur(10px)',
+        },
+        {
+          opacity: 1,
+          y: 0,
+          filter: 'blur(0px)',
+          stagger: 0.02,
+          duration: 0.5,
+          ease: 'power2.out',
+        }
+      )
+    }
 
     return () => {
       tl.kill()
     }
-  }, [currentIndex])
+  }, [currentIndex, hasHydrated])
 
   return (
     <Tag
@@ -96,9 +109,10 @@ export function AnimatedHeading({
                 key={`${String(currentIndex)}-${String(wordIndex)}-${String(charIndex)}`}
                 className="char-span inline-block"
                 style={{
-                  opacity: 0,
-                  filter: 'blur(10px)',
-                  transform: 'translateY(20px)',
+                  // Start visible in SSR, only animate later
+                  opacity: 1,
+                  filter: 'blur(0px)',
+                  transform: 'translateY(0px)',
                   willChange: 'transform, opacity, filter',
                 }}
               >
@@ -110,9 +124,9 @@ export function AnimatedHeading({
             <span
               className="char-span inline-block"
               style={{
-                opacity: 0,
-                filter: 'blur(10px)',
-                transform: 'translateY(20px)',
+                opacity: 1,
+                filter: 'blur(0px)',
+                transform: 'translateY(0px)',
                 willChange: 'transform, opacity, filter',
               }}
             >

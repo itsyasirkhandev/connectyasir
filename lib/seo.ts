@@ -22,6 +22,7 @@ export function buildFullTitle(title: string) {
 export function createMetadata(config: PageSeoConfig): Metadata {
   const ogImage = config.ogImage ?? DEFAULT_OG_IMAGE
   const fullTitle = buildFullTitle(config.title)
+  const isArticle = config.path.startsWith('/insights/')
 
   return {
     title: config.title,
@@ -30,7 +31,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
     authors: [{ name: SITE_NAME, url: SITE_URL }],
     creator: SITE_NAME,
     alternates: {
-      canonical: config.path,
+      canonical: absoluteUrl(config.path),
     },
     robots: {
       index: true,
@@ -44,7 +45,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       },
     },
     openGraph: {
-      type: 'website',
+      type: isArticle ? 'article' : 'website',
       locale: SITE_LOCALE,
       siteName: SITE_NAME,
       title: fullTitle,
@@ -58,6 +59,12 @@ export function createMetadata(config: PageSeoConfig): Metadata {
           alt: fullTitle,
         },
       ],
+      ...(isArticle && {
+        publishedTime: config.publishedAt,
+        modifiedTime: config.modifiedAt,
+        authors: [SITE_NAME],
+        section: 'Technology',
+      }),
     },
     twitter: {
       card: 'summary_large_image',
