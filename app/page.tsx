@@ -27,9 +27,9 @@ import {
   getHomeFaqNode,
   getHowToNode,
   getNewsArticleNode,
-  getPersonNode,
   schemaGraph,
 } from '@/lib/schema'
+
 import { Citations } from '@/components/seo/Citations'
 
 export const metadata: Metadata = createMetadata(PAGE_SEO.home)
@@ -44,7 +44,6 @@ export default function Home() {
           getHowToNode(),
           getNewsArticleNode(PAGE_SEO.home),
         ])}
-
       />
       <Navbar />
       <main id="main-content">

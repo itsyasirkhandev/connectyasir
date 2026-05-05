@@ -20,7 +20,7 @@ export function Citations() {
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {CITATIONS.map((citation, index) => (
             <div key={index} className="flex flex-col gap-3">
-              <p className="text-foreground text-sm font-medium leading-relaxed italic">
+              <p className="text-foreground text-sm leading-relaxed font-medium italic">
                 &ldquo;{citation.fact}&rdquo;
               </p>
               <div className="mt-auto">

@@ -28,10 +28,12 @@ export default function Hero() {
           <AnimatedHeading className="text-center" as="h2" />
 
           <p className="text-muted-foreground mx-auto mt-6 max-w-prose text-base leading-relaxed md:text-lg">
-            Your business deserves a blazingly fast <strong>(LCP &lt; 1.2s)</strong>, premium website that builds
-            instant trust and turns cold visitors into daily leads. According to Nielsen Norman Group, high-trust design can increase conversion rates by up to 24%.
+            Your business deserves a blazingly fast{' '}
+            <strong>(LCP &lt; 1.2s)</strong>, premium website that builds
+            instant trust and turns cold visitors into daily leads. According to
+            Nielsen Norman Group, high-trust design can increase conversion
+            rates by up to 24%.
           </p>
-
 
           <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:items-center">
             <Link

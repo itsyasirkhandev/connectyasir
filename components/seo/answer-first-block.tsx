@@ -9,9 +9,9 @@ export function AnswerFirstBlock({ heading, summary }: AnswerFirstBlockProps) {
   return (
     <section
       aria-labelledby="quick-answer-heading"
-      className="border-border bg-card/50 mx-auto max-w-4xl rounded-[2.5rem] border p-8 backdrop-blur-sm md:p-12 shadow-sm"
+      className="border-border bg-card/50 mx-auto max-w-4xl rounded-[2.5rem] border p-8 shadow-sm backdrop-blur-sm md:p-12"
     >
-      <div className="flex flex-wrap items-center justify-between gap-4 mb-6">
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-4">
         <div className="flex items-center gap-3">
           <span className="relative flex h-2 w-2">
             <span className="bg-primary absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
@@ -21,7 +21,7 @@ export function AnswerFirstBlock({ heading, summary }: AnswerFirstBlockProps) {
             Quick summary
           </p>
         </div>
-        <div className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-green-500/10 text-green-600 dark:text-green-400 text-[10px] font-bold uppercase tracking-wider">
+        <div className="flex items-center gap-1.5 rounded-full bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-600 uppercase dark:text-green-400">
           <ShieldCheck className="h-3 w-3" />
           Fact Verified 2026
         </div>
@@ -38,4 +38,3 @@ export function AnswerFirstBlock({ heading, summary }: AnswerFirstBlockProps) {
     </section>
   )
 }
-

@@ -85,7 +85,6 @@ export function getWebsiteNode(): SchemaNode {
 }
 
 export function getSpeakableNode(selector: string[]): SchemaNode {
-
   return {
     '@type': 'Speakable',
     cssSelector: selector,
@@ -133,7 +132,7 @@ export function getOrganizationNode(): SchemaNode {
     },
     sameAs: [
       CONTACT.linkedin,
-      'https://github.com/itsyasirkhan',
+      'https://github.com/itsyasirkhandev',
       'https://twitter.com/connectyasir',
       'https://www.crunchbase.com/person/yasir-khan', // AI loves Crunchbase
     ],
@@ -156,10 +155,7 @@ export function getOrganizationNode(): SchemaNode {
       'Small Business Growth',
       'Next.js Performance',
     ],
-    award: [
-      'Top Rated Web Developer 2025',
-      'Certified Web Performance Expert',
-    ],
+    award: ['Top Rated Web Developer 2025', 'Certified Web Performance Expert'],
     memberOf: [
       {
         '@type': 'Organization',
@@ -200,7 +196,7 @@ export function getPersonNode(): SchemaNode {
     },
     sameAs: [
       CONTACT.linkedin,
-      'https://github.com/itsyasirkhan',
+      'https://github.com/itsyasirkhandev',
       'https://twitter.com/connectyasir',
       'https://www.upwork.com/freelancers/~01b6c7a7a5a8f6d6b5',
     ],
@@ -251,7 +247,6 @@ export function getPersonNode(): SchemaNode {
   }
 }
 
-
 export function getBreadcrumbNode(items: BreadcrumbItem[]): SchemaNode {
   return {
     '@type': 'BreadcrumbList',
@@ -278,7 +273,10 @@ export function getHomePageNode(): SchemaNode {
       '@id': `${SITE_URL}/#organization`,
     },
     author: getAuthorNode(),
-    primaryImageOfPage: getImageObjectNode(DEFAULT_OG_IMAGE, SITE_TITLE_DEFAULT),
+    primaryImageOfPage: getImageObjectNode(
+      DEFAULT_OG_IMAGE,
+      SITE_TITLE_DEFAULT
+    ),
     datePublished: '2026-03-30T08:00:00Z',
     dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
     breadcrumb: {
@@ -622,4 +620,3 @@ export function getDatasetNode(): SchemaNode {
     ],
   }
 }
-

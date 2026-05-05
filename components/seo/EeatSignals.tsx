@@ -7,21 +7,21 @@ export function EeatSignals() {
 
   return (
     <div className="flex flex-col items-center gap-4">
-      <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[10px] md:text-xs font-medium text-muted-foreground uppercase tracking-widest">
+      <div className="text-muted-foreground flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[10px] font-medium tracking-widest uppercase md:text-xs">
         <div className="flex items-center gap-1.5">
-          <UserCheck className="h-3 w-3 text-primary" />
+          <UserCheck className="text-primary h-3 w-3" />
           <span>
             By:{' '}
             <Link
               href="/about"
-              className="text-foreground hover:text-primary transition-colors border-b border-border/40 hover:border-primary font-bold"
+              className="text-foreground hover:text-primary border-border/40 hover:border-primary border-b font-bold transition-colors"
             >
               {SITE_NAME}
             </Link>
           </span>
         </div>
         <div className="flex items-center gap-1.5">
-          <Calendar className="h-3 w-3 text-primary" />
+          <Calendar className="text-primary h-3 w-3" />
           <span>
             Updated:{' '}
             <time
@@ -37,21 +37,22 @@ export function EeatSignals() {
           </span>
         </div>
         <div className="flex items-center gap-1.5">
-          <Award className="h-3 w-3 text-primary" />
+          <Award className="text-primary h-3 w-3" />
           <span>Certified Web Expert</span>
         </div>
-        <div className="hidden sm:flex items-center gap-1.5">
-          <ShieldCheck className="h-3 w-3 text-primary" />
+        <div className="hidden items-center gap-1.5 sm:flex">
+          <ShieldCheck className="text-primary h-3 w-3" />
           <span>Verified Authority</span>
         </div>
       </div>
-      
+
       {/* Hidden but machine-readable datePublished for bots that check visible content */}
       <div className="sr-only">
         <span>Published on: </span>
-        <time dateTime={publishedDate}>{new Date(publishedDate).toLocaleDateString()}</time>
+        <time dateTime={publishedDate}>
+          {new Date(publishedDate).toLocaleDateString()}
+        </time>
       </div>
     </div>
   )
 }
-

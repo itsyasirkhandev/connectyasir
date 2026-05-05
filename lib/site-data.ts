@@ -214,7 +214,6 @@ export const PAGE_SUMMARIES = {
     'Templates focus on appearance; custom design focuses on action. Bespoke websites convert better because they remove friction points, load faster, and build higher levels of user trust through unique brand authority (Nielsen Norman Group, 2025).',
 }
 
-
 export const PROJECTS: ProjectItem[] = [
   {
     name: 'Apna Qarz',
