@@ -57,6 +57,12 @@ export const metadata: Metadata = {
     title: 'Yasir Khan',
   },
   referrer: 'strict-origin-when-cross-origin',
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/',
+    },
+  },
 }
 
 export const viewport: Viewport = {
@@ -75,6 +81,12 @@ export default function RootLayout({
       lang="en"
       className={cn('font-sans', outfit.variable, loraHeading.variable)}
     >
+      <head>
+        <meta
+          httpEquiv="Content-Security-Policy"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://va.vercel-scripts.com https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://vitals.vercel-insights.com https://cloudflareinsights.com https://wa.me; frame-ancestors 'none'; upgrade-insecure-requests;"
+        />
+      </head>
       <body className="antialiased">
         <ThemeProvider
           attribute="class"

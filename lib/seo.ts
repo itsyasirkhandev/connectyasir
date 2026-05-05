@@ -49,7 +49,6 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       locale: SITE_LOCALE,
       siteName: SITE_NAME,
       title: fullTitle,
-      description: config.description,
       url: absoluteUrl(config.path),
       images: [
         {
@@ -71,6 +70,11 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       title: fullTitle,
       description: config.description,
       images: [absoluteUrl(ogImage)],
+    },
+    other: {
+      'publish-date': config.publishedAt ?? '',
+      'author': SITE_NAME,
+      ...(config.modifiedAt && { 'revised': config.modifiedAt }),
     },
   }
 }

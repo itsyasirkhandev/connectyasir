@@ -111,9 +111,8 @@ export function AnimatedHeading({
                 style={{
                   // Start visible in SSR, only animate later
                   opacity: 1,
-                  filter: 'blur(0px)',
                   transform: 'translateY(0px)',
-                  willChange: 'transform, opacity, filter',
+                  willChange: 'transform, opacity',
                 }}
               >
                 {char}
@@ -125,9 +124,8 @@ export function AnimatedHeading({
               className="char-span inline-block"
               style={{
                 opacity: 1,
-                filter: 'blur(0px)',
                 transform: 'translateY(0px)',
-                willChange: 'transform, opacity, filter',
+                willChange: 'transform, opacity',
               }}
             >
               &nbsp;
