@@ -12,10 +12,12 @@ import FeaturedProjects from '@/components/sections/home/FeaturedProjects'
 import HowItWorks from '@/components/sections/home/HowItWorks'
 import Testimonials from '@/components/sections/shared/Testimonials'
 import TechStack from '@/components/sections/home/TechStack'
+import { PerformanceTable } from '@/components/sections/home/PerformanceTable'
 import FinalCta from '@/components/sections/home/FinalCta'
 import FaqSection from '@/components/sections/shared/FaqSection'
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
+import { EeatSignals } from '@/components/seo/EeatSignals'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
 import { PAGE_SEO, PAGE_SUMMARIES, HOME_FAQS } from '@/lib/site-data'
@@ -48,6 +50,9 @@ export default function Home() {
 
         <section className="bg-background relative overflow-hidden py-16 md:py-32">
           <div className="relative z-10 container mx-auto px-4 sm:px-6">
+            <div className="mb-8 flex justify-center">
+              <EeatSignals />
+            </div>
             <AnswerFirstBlock
               heading="Your Specialist for Small Business Website Design & Development"
               summary={PAGE_SUMMARIES.home}
@@ -91,11 +96,13 @@ export default function Home() {
         <HowItWorks />
         <Testimonials />
         <TechStack />
+        <PerformanceTable />
         <FaqSection
           faqs={HOME_FAQS}
           title="Common questions about premium web design"
           description="Everything you need to know about how a premium website helps your business grow."
         />
+
         <Citations />
         <FinalCta />
       </main>

@@ -22,7 +22,8 @@ export function buildFullTitle(title: string) {
 export function createMetadata(config: PageSeoConfig): Metadata {
   const ogImage = config.ogImage ?? DEFAULT_OG_IMAGE
   const fullTitle = buildFullTitle(config.title)
-  const isArticle = config.path.startsWith('/insights/')
+  const isArticle =
+    config.path.startsWith('/insights/') || config.path.startsWith('/projects/')
 
   return {
     title: config.title,
@@ -30,6 +31,12 @@ export function createMetadata(config: PageSeoConfig): Metadata {
     keywords: config.keywords,
     authors: [{ name: SITE_NAME, url: SITE_URL }],
     creator: SITE_NAME,
+    publisher: SITE_NAME,
+    formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+    },
     alternates: {
       canonical: absoluteUrl(config.path),
     },
@@ -49,6 +56,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       locale: SITE_LOCALE,
       siteName: SITE_NAME,
       title: fullTitle,
+      description: config.description,
       url: absoluteUrl(config.path),
       images: [
         {
@@ -63,6 +71,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
         modifiedTime: config.modifiedAt,
         authors: [SITE_NAME],
         section: 'Technology',
+        tags: config.keywords,
       }),
     },
     twitter: {
@@ -70,11 +79,15 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       title: fullTitle,
       description: config.description,
       images: [absoluteUrl(ogImage)],
+      creator: '@connectyasir',
     },
     other: {
       'publish-date': config.publishedAt ?? '',
-      'author': SITE_NAME,
-      ...(config.modifiedAt && { 'revised': config.modifiedAt }),
+      author: SITE_NAME,
+      ...(config.modifiedAt && { revised: config.modifiedAt }),
+      'article:published_time': config.publishedAt ?? '',
+      'article:modified_time': config.modifiedAt ?? '',
     },
   }
 }
+

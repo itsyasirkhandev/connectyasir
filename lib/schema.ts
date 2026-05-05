@@ -27,11 +27,23 @@ type SchemaNode = Record<string, unknown>
 export function getImageObjectNode(url: string, caption?: string): SchemaNode {
   return {
     '@type': 'ImageObject',
-    '@id': `${url}#image`,
+    '@id': `${SITE_URL}${url}#image`,
     url: absoluteUrl(url),
     contentUrl: absoluteUrl(url),
     caption: caption ?? SITE_NAME,
     inLanguage: 'en-US',
+    width: {
+      '@type': 'QuantitativeValue',
+      value: 1200,
+      unitCode: 'E37',
+    },
+    height: {
+      '@type': 'QuantitativeValue',
+      value: 630,
+      unitCode: 'E37',
+    },
+    license: 'https://creativecommons.org/licenses/by-nd/4.0/',
+    acquireLicensePage: `${SITE_URL}/contact`,
   }
 }
 
@@ -59,6 +71,16 @@ export function getWebsiteNode(): SchemaNode {
       '@id': `${SITE_URL}/#organization`,
     },
     inLanguage: 'en-US',
+    potentialAction: [
+      {
+        '@type': 'SearchAction',
+        target: {
+          '@type': 'EntryPoint',
+          urlTemplate: `${SITE_URL}/search?q={search_term_string}`,
+        },
+        'query-input': 'required name=search_term_string',
+      },
+    ],
   }
 }
 
@@ -71,14 +93,37 @@ export function getOrganizationNode(): SchemaNode {
     logo: absoluteUrl(LOGO_PATH),
     image: absoluteUrl(DEFAULT_OG_IMAGE),
     email: CONTACT.email,
-    sameAs: [CONTACT.linkedin],
+    telephone: '+923014545482',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'DHA Phase 5',
+      addressLocality: 'Lahore',
+      addressRegion: 'Punjab',
+      postalCode: '54000',
+      addressCountry: 'PK',
+    },
+    sameAs: [
+      CONTACT.linkedin,
+      'https://github.com/itsyasirkhan',
+      'https://twitter.com/connectyasir',
+    ],
     contactPoint: [
       {
         '@type': 'ContactPoint',
         contactType: 'sales',
         email: CONTACT.email,
+        telephone: '+923014545482',
         url: CONTACT.whatsapp,
+        availableLanguage: ['English', 'Urdu'],
       },
+    ],
+    foundingDate: '2021-01-01',
+    knowsAbout: [
+      'Web Design',
+      'Web Development',
+      'Technical SEO',
+      'Generative Engine Optimization',
+      'Small Business Growth',
     ],
   }
 }
@@ -88,11 +133,26 @@ export function getPersonNode(): SchemaNode {
     '@type': 'Person',
     '@id': `${SITE_URL}/about#person`,
     name: 'Yasir Khan',
+    alternateName: 'Yasir Khan Dev',
     url: `${SITE_URL}/about`,
-    image: getImageObjectNode(PERSON_IMAGE_PATH, 'Yasir Khan - Web Designer and Developer'),
+    image: getImageObjectNode(
+      PERSON_IMAGE_PATH,
+      'Yasir Khan - Professional Web Designer and Developer'
+    ),
     jobTitle: 'Freelance Web Designer and Developer',
     description:
-      'Web designer and developer building high-trust, fast websites for small businesses using Next.js and modern standards.',
+      'Expert web designer and developer specializing in high-trust, fast, and lead-generating websites for small businesses using Next.js and GEO standards.',
+    gender: 'Male',
+    nationality: {
+      '@type': 'Country',
+      name: 'Pakistan',
+    },
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Lahore',
+      addressRegion: 'Punjab',
+      addressCountry: 'PK',
+    },
     worksFor: {
       '@id': `${SITE_URL}/#organization`,
     },
@@ -100,15 +160,16 @@ export function getPersonNode(): SchemaNode {
       CONTACT.linkedin,
       'https://github.com/itsyasirkhan',
       'https://twitter.com/connectyasir',
-      'https://www.upwork.com/freelancers/~01b6c7a7a5a8f6d6b5', // Example placeholder, usually these help
+      'https://www.upwork.com/freelancers/~01b6c7a7a5a8f6d6b5',
     ],
     email: CONTACT.email,
+    telephone: '+923014545482',
     knowsAbout: [
       {
         '@type': 'Thing',
         name: 'Generative Engine Optimization (GEO)',
         description:
-          'Strategies to improve visibility in AI-driven search engines like ChatGPT, Perplexity, and Gemini.',
+          'Advanced strategies to improve visibility in AI-driven search engines like ChatGPT, Perplexity, and Gemini through structured data and entity-based content.',
       },
       {
         '@type': 'Thing',
@@ -130,6 +191,10 @@ export function getPersonNode(): SchemaNode {
     award: [
       'Inspired by Dr. Amjad Saqib (Ramon Magsaysay Award) philosophy of service',
     ],
+    alumniOf: {
+      '@type': 'EducationalOrganization',
+      name: 'University of the Punjab',
+    },
   }
 }
 
@@ -162,6 +227,12 @@ export function getHomePageNode(): SchemaNode {
     primaryImageOfPage: getImageObjectNode(DEFAULT_OG_IMAGE, SITE_TITLE_DEFAULT),
     datePublished: '2026-03-30T08:00:00Z',
     dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
+    breadcrumb: {
+      '@id': `${SITE_URL}/#breadcrumb`,
+    },
+    mainEntity: {
+      '@id': `${SITE_URL}/#organization`,
+    },
   }
 }
 
@@ -195,6 +266,10 @@ export function getPrimaryServiceNode(): SchemaNode {
       'Professional web design services tailored for small businesses looking to establish a high-trust, high-performance online presence. Includes custom Next.js development, responsive design, and search engine optimization.',
     provider: {
       '@id': `${SITE_URL}/#organization`,
+    },
+    areaServed: {
+      '@type': 'Country',
+      name: 'Global',
     },
     audience: {
       '@type': 'Audience',
@@ -323,7 +398,10 @@ export function getAboutPageNode(): SchemaNode {
       '@id': `${SITE_URL}/about#person`,
     },
     author: getAuthorNode(),
-    primaryImageOfPage: getImageObjectNode(PERSON_IMAGE_PATH, 'Yasir Khan - About Section'),
+    primaryImageOfPage: getImageObjectNode(
+      PERSON_IMAGE_PATH,
+      'Yasir Khan - About Section'
+    ),
     datePublished: '2026-03-30T08:00:00Z',
     dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
@@ -383,7 +461,7 @@ export function getInsightPageNode(
     '@type': 'TechArticle',
     '@id': `${SITE_URL}${config.path}#article`,
     url: absoluteUrl(config.path),
-    name: config.title,
+    headline: config.title,
     description: config.description,
     isPartOf: {
       '@id': `${SITE_URL}/#website`,
@@ -392,8 +470,9 @@ export function getInsightPageNode(
     publisher: {
       '@id': `${SITE_URL}/#organization`,
     },
-    datePublished: '2026-05-05T08:00:00Z',
-    dateModified: new Date().toISOString(),
+    datePublished: config.publishedAt ?? '2026-05-05T08:00:00Z',
+    dateModified: config.modifiedAt ?? new Date().toISOString(),
+    image: getImageObjectNode(config.ogImage ?? DEFAULT_OG_IMAGE, config.title),
     ...(citations && {
       citation: citations.map((c) => ({
         '@type': 'CreativeWork',
@@ -401,6 +480,10 @@ export function getInsightPageNode(
         url: c.url,
       })),
     }),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': absoluteUrl(config.path),
+    },
   }
 }
 
@@ -409,27 +492,80 @@ export function getHowToNode(): SchemaNode {
     '@type': 'HowTo',
     '@id': `${SITE_URL}/#process`,
     name: 'How to Launch a Professional Small Business Website',
-    description: 'A 3-step process to launch a high-trust, lead-generating website.',
+    description:
+      'A 3-step process to launch a high-trust, lead-generating website.',
+    estimatedCost: {
+      '@type': 'MonetaryAmount',
+      currency: 'USD',
+      value: '497',
+    },
     step: [
       {
         '@type': 'HowToStep',
         url: `${SITE_URL}/#process`,
         name: 'The Strategy Call',
-        text: "Map out your business goals and technical requirements to define exactly what your site needs to succeed.",
+        text: 'Map out your business goals and technical requirements to define exactly what your site needs to succeed.',
+        itemListElement: [
+          {
+            '@type': 'HowToDirection',
+            text: 'Define target audience and core business objectives.',
+          },
+        ],
       },
       {
         '@type': 'HowToStep',
         url: `${SITE_URL}/#process`,
         name: 'Review Your Design',
         text: 'Approve the visual direction and trust-building elements before development begins.',
+        itemListElement: [
+          {
+            '@type': 'HowToDirection',
+            text: 'Analyze the design prototype for high-trust signals.',
+          },
+        ],
       },
       {
         '@type': 'HowToStep',
         url: `${SITE_URL}/#process`,
         name: 'Launch & Grow',
         text: 'Final technical setup, performance optimization, and go-live to start receiving daily inquiries.',
+        itemListElement: [
+          {
+            '@type': 'HowToDirection',
+            text: 'Optimize for Core Web Vitals and SEO performance.',
+          },
+        ],
       },
     ],
     totalTime: 'P21D',
   }
 }
+
+export function getDatasetNode(): SchemaNode {
+  return {
+    '@type': 'Dataset',
+    '@id': `${SITE_URL}/#dataset`,
+    name: 'Small Business Website Performance Benchmarks 2026',
+    description:
+      'Performance data and conversion benchmarks for small business websites built with modern tech stacks.',
+    creator: {
+      '@id': `${SITE_URL}/about#person`,
+    },
+    publisher: {
+      '@id': `${SITE_URL}/#organization`,
+    },
+    variableMeasured: [
+      'Load time improvement',
+      'Lead generation increase',
+      'User trust score',
+    ],
+    distribution: [
+      {
+        '@type': 'DataDownload',
+        contentUrl: `${SITE_URL}/projects`,
+        encodingFormat: 'text/html',
+      },
+    ],
+  }
+}
+

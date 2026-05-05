@@ -10,7 +10,13 @@ import {
   SITE_TITLE_DEFAULT,
   SITE_URL,
 } from '@/lib/site-config'
-import { getOrganizationNode, getWebsiteNode, schemaGraph } from '@/lib/schema'
+import {
+  getDatasetNode,
+  getOrganizationNode,
+  getPersonNode,
+  getWebsiteNode,
+  schemaGraph,
+} from '@/lib/schema'
 import { cn } from '@/lib/utils'
 
 import { ThemeProvider } from '@/components/theme-provider'
@@ -95,7 +101,12 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <JsonLd
-            data={schemaGraph([getWebsiteNode(), getOrganizationNode()])}
+            data={schemaGraph([
+              getWebsiteNode(),
+              getOrganizationNode(),
+              getPersonNode(),
+              getDatasetNode(),
+            ])}
           />
           <SkipLink />
           <IconLoader />
@@ -105,3 +116,4 @@ export default function RootLayout({
     </html>
   )
 }
+

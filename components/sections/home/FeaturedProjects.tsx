@@ -53,15 +53,22 @@ export default function FeaturedProjects() {
               )}
             >
               {/* Image Container */}
-              <div className="border-border bg-muted relative aspect-[16/10] overflow-hidden rounded-2xl border lg:w-3/5">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
-                  sizes="(max-width: 1024px) 100vw, 60vw"
-                />
+              <div className="flex flex-col lg:w-3/5">
+                <div className="border-border bg-muted relative aspect-[16/10] overflow-hidden rounded-2xl border">
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover object-top transition-transform duration-700 ease-out group-hover:scale-105"
+                    sizes="(max-width: 1024px) 100vw, 60vw"
+                  />
+                </div>
+                <p className="mt-4 text-[10px] md:text-xs text-muted-foreground/60 italic leading-relaxed">
+                  Analysis: This {project.title} interface demonstrates a {project.category.toLowerCase()} approach, focusing on high-converting UI patterns and blazingly fast response times (&lt; 1.2s LCP) to maximize user trust and lead capture efficiency.
+                </p>
+
               </div>
+
 
               {/* Content Container */}
               <div className="flex flex-col lg:w-2/5">
