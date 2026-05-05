@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, MapPin, Star, Phone, CheckCircle2 } from 'lucide-react'
+import { ArrowRight, MapPin, CheckCircle2 } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -63,7 +63,7 @@ export default function LocalSeoChecklistPage() {
 
               <div className="prose prose-invert prose-lg mt-16 max-w-none">
                 <p>
-                  In a fast-moving city like Lahore, your digital storefront is often more important than your physical one. Whether you are a dental clinic in <strong>DHA</strong>, a boutique in <strong>Gulberg</strong>, or a software house in <strong>Johar Town</strong>, ranking in the top 3 results of Google Maps (the "Map Pack") is the single highest-ROI activity you can undertake.
+                  In a fast-moving city like Lahore, your digital storefront is often more important than your physical one. Whether you are a dental clinic in <strong>DHA</strong>, a boutique in <strong>Gulberg</strong>, or a software house in <strong>Johar Town</strong>, ranking in the top 3 results of Google Maps (the &quot;Map Pack&quot;) is the single highest-ROI activity you can undertake.
                 </p>
 
                 <h2 className="text-primary mt-12 text-3xl font-semibold">1. Google Business Profile (GBP) Fundamentals</h2>
@@ -81,13 +81,13 @@ export default function LocalSeoChecklistPage() {
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-6 w-6 text-green-500 shrink-0" />
                       <div>
-                        <strong>Exact Legal Name:</strong> Avoid keyword stuffing (e.g., "Best Biryani Lahore"). Use your real trade name to avoid suspension.
+                        <strong>Exact Legal Name:</strong> Avoid keyword stuffing (e.g., &quot;Best Biryani Lahore&quot;). Use your real trade name to avoid suspension.
                       </div>
                     </li>
                     <li className="flex gap-3">
                       <CheckCircle2 className="h-6 w-6 text-green-500 shrink-0" />
                       <div>
-                        <strong>Primary Category:</strong> This is your biggest ranking lever. Be specific—choose "Pakistani Restaurant" or "Cosmetic Dentist" instead of generic categories.
+                        <strong>Primary Category:</strong> This is your biggest ranking lever. Be specific—choose &quot;Pakistani Restaurant&quot; or &quot;Cosmetic Dentist&quot; instead of generic categories.
                       </div>
                     </li>
                   </ul>
@@ -98,12 +98,12 @@ export default function LocalSeoChecklistPage() {
                   <strong>NAP</strong> stands for Name, Address, and Phone number. Google compares this data across your website, GBP, and local directories like <em>HamariWeb</em>, <em>Yellow Pages PK</em>, and <em>OLX</em>.
                 </p>
                 <p>
-                  Inconsistent formatting (e.g., "St. 4" vs "Street 4") can dilute your "prominence" score. Ensure your international format number (+92 XXX XXXXXXX) is identical everywhere.
+                  Inconsistent formatting (e.g., &quot;St. 4&quot; vs &quot;Street 4&quot;) can dilute your &quot;prominence&quot; score. Ensure your international format number (+92 XXX XXXXXXX) is identical everywhere.
                 </p>
 
                 <h2 className="text-primary mt-12 text-3xl font-semibold">3. Hyper-Local Content & Neighborhood Signals</h2>
                 <p>
-                  Google's algorithm now places extreme weight on <strong>proximity</strong> and <strong>relevance</strong>. To rank across Lahore, you need location-specific landing pages.
+                  Google&apos;s algorithm now places extreme weight on <strong>proximity</strong> and <strong>relevance</strong>. To rank across Lahore, you need location-specific landing pages.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 my-8">
                   <div className="border rounded-xl p-4 text-center">
@@ -128,7 +128,7 @@ export default function LocalSeoChecklistPage() {
                   Reviews are word-of-mouth for the AI age. When asking for reviews, encourage customers to mention the <strong>service</strong> and <strong>location</strong>.
                 </p>
                 <blockquote className="border-l-4 border-primary pl-6 py-2 italic text-muted-foreground">
-                  "Instead of just 'Great service!', aim for 'The best <strong>website design service</strong> I've used in <strong>Lahore</strong>!'"
+                  &quot;Instead of just &apos;Great service!&apos;, aim for &apos;The best <strong>website design service</strong> I&apos;ve used in <strong>Lahore</strong>!&apos;&quot;
                 </blockquote>
                 <p>
                   Always reply to reviews within 24 hours. Your replies are also crawlable content—use them to reinforce your key services.

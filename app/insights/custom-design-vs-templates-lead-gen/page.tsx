@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, Target, Users, MousePointer2, ShieldCheck, BarChart3 } from 'lucide-react'
+import { ArrowRight, ShieldCheck } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -63,18 +63,18 @@ export default function CustomVsTemplatePage() {
 
               <div className="prose prose-invert prose-lg mt-16 max-w-none">
                 <p>
-                  Most business owners view a website as a digital business card. But if your goal is <strong>lead generation</strong>, your website is actually a sales funnel. The decision between a $50 template and a custom bespoke build is not about aesthetics—it's about <strong>conversion rates</strong> and <strong>trust signals</strong>.
+                  Most business owners view a website as a digital business card. But if your goal is <strong>lead generation</strong>, your website is actually a sales funnel. The decision between a $50 template and a custom bespoke build is not about aesthetics—it&apos;s about <strong>conversion rates</strong> and <strong>trust signals</strong>.
                 </p>
 
-                <h2 className="text-primary mt-12 text-3xl font-semibold">1. The "Template Tax" on User Trust</h2>
+                <h2 className="text-primary mt-12 text-3xl font-semibold">1. The &quot;Template Tax&quot; on User Trust</h2>
                 <p>
-                  According to research from Stanford, <strong>75% of users</strong> judge a company's credibility based on its website design. When a visitor lands on a site that looks like a generic template they've seen elsewhere, their "trust alarm" goes off. 
+                  According to research from Stanford, <strong>75% of users</strong> judge a company&apos;s credibility based on its website design. When a visitor lands on a site that looks like a generic template they&apos;ve seen elsewhere, their &quot;trust alarm&quot; goes off. 
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
                   <div className="bg-muted/30 rounded-2xl border p-6">
                     <h4 className="flex items-center gap-2 font-bold mb-4"><ShieldCheck className="h-5 w-5 text-red-500" /> Template Issues</h4>
                     <ul className="list-disc pl-5 text-sm space-y-2">
-                      <li>"Cookie-cutter" look reduces brand authority.</li>
+                      <li>&quot;Cookie-cutter&quot; look reduces brand authority.</li>
                       <li>Forced layouts: Your message must fit the design.</li>
                       <li>Generic CTA placements that users ignore.</li>
                     </ul>
@@ -105,15 +105,15 @@ export default function CustomVsTemplatePage() {
                       <p className="text-3xl font-bold mt-2 text-primary">2.5% Conv. = 25 Leads</p>
                     </div>
                   </div>
-                  <p className="mt-6 text-sm italic">That's a 150% increase in leads from the exact same traffic volume.</p>
+                  <p className="mt-6 text-sm italic">That&apos;s a 150% increase in leads from the exact same traffic volume.</p>
                 </div>
                 <p>
-                  Bespoke design allows us to place action points exactly where users are psychologically ready to respond, rather than where a template's pre-defined grid allows them to be.
+                  Bespoke design allows us to place action points exactly where users are psychologically ready to respond, rather than where a template&apos;s pre-defined grid allows them to be.
                 </p>
 
                 <h2 className="text-primary mt-12 text-3xl font-semibold">3. Technical SEO & AI Readiness (GEO)</h2>
                 <p>
-                  AI search engines like <em>Perplexity</em> and <em>Gemini</em> favor sites with clean, semantic code. Templates often include bloated "div soup" and unused CSS from multiple plugins. 
+                  AI search engines like <em>Perplexity</em> and <em>Gemini</em> favor sites with clean, semantic code. Templates often include bloated &quot;div soup&quot; and unused CSS from multiple plugins. 
                 </p>
                 <p>
                   Custom Next.js sites deliver <strong>clean HTML architecture</strong>. This makes it easier for AI crawlers to extract your services, locations, and unique value propositions, directly increasing your visibility in AI-generated answers.
