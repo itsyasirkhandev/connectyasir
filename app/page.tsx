@@ -12,19 +12,20 @@ import HowItWorks from '@/components/sections/home/HowItWorks'
 import Testimonials from '@/components/sections/shared/Testimonials'
 import TechStack from '@/components/sections/home/TechStack'
 import FinalCta from '@/components/sections/home/FinalCta'
+import FaqSection from '@/components/sections/shared/FaqSection'
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
-import { PAGE_SEO, PAGE_SUMMARIES } from '@/lib/site-data'
-import { getHomePageNode, schemaGraph } from '@/lib/schema'
+import { PAGE_SEO, PAGE_SUMMARIES, HOME_FAQS } from '@/lib/site-data'
+import { getHomePageNode, getHomeFaqNode, schemaGraph } from '@/lib/schema'
 
 export const metadata: Metadata = createMetadata(PAGE_SEO.home)
 
 export default function Home() {
   return (
     <>
-      <JsonLd data={schemaGraph([getHomePageNode()])} />
+      <JsonLd data={schemaGraph([getHomePageNode(), getHomeFaqNode()])} />
       <Navbar />
       <main>
         <Hero />
@@ -74,6 +75,11 @@ export default function Home() {
         <HowItWorks />
         <Testimonials />
         <TechStack />
+        <FaqSection
+          faqs={HOME_FAQS}
+          title="Common questions about premium web design"
+          description="Everything you need to know about how a premium website helps your business grow."
+        />
         <FinalCta />
       </main>
       <Footer />

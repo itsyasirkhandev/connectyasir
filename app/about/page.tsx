@@ -5,6 +5,7 @@ import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PageHeader from '@/components/sections/about/AboutHero'
 import MyValues from '@/components/sections/about/MyValues'
+import MissionSection from '@/components/sections/about/MissionSection'
 import TechStack from '@/components/sections/home/TechStack'
 import Testimonials from '@/components/sections/shared/Testimonials'
 import CtaBlock from '@/components/sections/about/CtaBlock'
@@ -45,6 +46,7 @@ export default function AboutPage() {
 
         <PageHeader />
         <MyValues />
+        <MissionSection />
         <TechStack />
         <Testimonials />
         <CtaBlock />

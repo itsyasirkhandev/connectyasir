@@ -5,13 +5,18 @@ import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import PageHeader from '@/components/sections/contact/PageHeader'
 import ContactOptions from '@/components/sections/contact/ContactOptions'
-import MiniFaq from '@/components/sections/contact/MiniFaq'
+import FaqSection from '@/components/sections/shared/FaqSection'
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { Breadcrumbs } from '@/components/seo/breadcrumbs'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
-import { PAGE_SEO, PAGE_SUMMARIES, type BreadcrumbItem } from '@/lib/site-data'
+import {
+  PAGE_SEO,
+  PAGE_SUMMARIES,
+  CONTACT_FAQS,
+  type BreadcrumbItem,
+} from '@/lib/site-data'
 import {
   getBreadcrumbNode,
   getContactFaqNode,
@@ -52,7 +57,11 @@ export default function ContactPage() {
         </div>
 
         <ContactOptions />
-        <MiniFaq />
+        <FaqSection
+          faqs={CONTACT_FAQS}
+          title="Common questions about starting a project"
+          description="Everything you need to know before we hop on a call."
+        />
       </main>
       <Footer />
       <WhatsAppButton />

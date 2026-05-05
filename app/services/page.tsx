@@ -7,14 +7,19 @@ import PageHeader from '@/components/sections/services/PageHeader'
 import ServicesBreakdown from '@/components/sections/services/ServicesBreakdown'
 import PricingPackages from '@/components/sections/services/PricingPackages'
 import MyProcess from '@/components/sections/services/MyProcess'
-import Faq from '@/components/sections/services/Faq'
+import FaqSection from '@/components/sections/shared/FaqSection'
 import CtaBlock from '@/components/sections/services/CtaBlock'
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { Breadcrumbs } from '@/components/seo/breadcrumbs'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
-import { PAGE_SEO, PAGE_SUMMARIES, type BreadcrumbItem } from '@/lib/site-data'
+import {
+  PAGE_SEO,
+  PAGE_SUMMARIES,
+  SERVICES_FAQS,
+  type BreadcrumbItem,
+} from '@/lib/site-data'
 import {
   getBreadcrumbNode,
   getPrimaryServiceNode,
@@ -59,7 +64,11 @@ export default function ServicesPage() {
         <ServicesBreakdown />
         <PricingPackages />
         <MyProcess />
-        <Faq />
+        <FaqSection
+          faqs={SERVICES_FAQS}
+          title="Questions about the services?"
+          description="Everything you need to know about the process, ownership, and support."
+        />
         <CtaBlock />
       </main>
       <Footer />

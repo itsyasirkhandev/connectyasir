@@ -1,0 +1,5135 @@
+{
+  "url": "https://yasir.qzz.io/",
+  "timestamp": "2026-05-05T03:22:52.317Z",
+  "title": {
+    "content": "Small Business Website Designer & Developer | Yasir Khan",
+    "length": 56,
+    "status": "good",
+    "message": "Title optimized",
+    "recommendation": null
+  },
+  "metaDescription": {
+    "content": "Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.",
+    "length": 142,
+    "status": "good",
+    "message": "Meta description optimized",
+    "recommendation": null
+  },
+  "headings": {
+    "structure": {
+      "h1": [
+        {
+          "text": "Small Business Website Designer & Web Developer | Yasir Khan",
+          "length": 60,
+          "level": 1,
+          "domIndex": 0,
+          "index": 0
+        }
+      ],
+      "h2": [
+        {
+          "text": "Stop losing customers to a slow website.",
+          "length": 40,
+          "level": 2,
+          "domIndex": 1,
+          "index": 0
+        },
+        {
+          "text": "What Yasir Khan does",
+          "length": 20,
+          "level": 2,
+          "domIndex": 2,
+          "index": 1
+        },
+        {
+          "text": "Launch your website without the freelancer headache.",
+          "length": 52,
+          "level": 2,
+          "domIndex": 3,
+          "index": 2
+        },
+        {
+          "text": "See how a premium website transforms your business.",
+          "length": 51,
+          "level": 2,
+          "domIndex": 8,
+          "index": 3
+        },
+        {
+          "text": "Get your new website live in 3 simple steps.",
+          "length": 44,
+          "level": 2,
+          "domIndex": 11,
+          "index": 4
+        },
+        {
+          "text": "Trusted by founders who demand results.",
+          "length": 39,
+          "level": 2,
+          "domIndex": 15,
+          "index": 5
+        },
+        {
+          "text": "The modern stack I use to deliver exceptional results.",
+          "length": 54,
+          "level": 2,
+          "domIndex": 16,
+          "index": 6
+        },
+        {
+          "text": "Every day you wait, you're handing customers to your competitors.",
+          "length": 65,
+          "level": 2,
+          "domIndex": 20,
+          "index": 7
+        }
+      ],
+      "h3": [
+        {
+          "text": "Brand & Identity",
+          "length": 16,
+          "level": 3,
+          "domIndex": 4,
+          "index": 0
+        },
+        {
+          "text": "High-Converting Design",
+          "length": 22,
+          "level": 3,
+          "domIndex": 5,
+          "index": 1
+        },
+        {
+          "text": "Complete Tech Setup",
+          "length": 19,
+          "level": 3,
+          "domIndex": 6,
+          "index": 2
+        },
+        {
+          "text": "Search & Support",
+          "length": 16,
+          "level": 3,
+          "domIndex": 7,
+          "index": 3
+        },
+        {
+          "text": "Apna Qarz",
+          "length": 9,
+          "level": 3,
+          "domIndex": 9,
+          "index": 4
+        },
+        {
+          "text": "Rehman Veterinary Clinic",
+          "length": 24,
+          "level": 3,
+          "domIndex": 10,
+          "index": 5
+        },
+        {
+          "text": "The Strategy Call",
+          "length": 17,
+          "level": 3,
+          "domIndex": 12,
+          "index": 6
+        },
+        {
+          "text": "Review Your Design",
+          "length": 18,
+          "level": 3,
+          "domIndex": 13,
+          "index": 7
+        },
+        {
+          "text": "Launch & Grow",
+          "length": 13,
+          "level": 3,
+          "domIndex": 14,
+          "index": 8
+        },
+        {
+          "text": "Frontend Core",
+          "length": 13,
+          "level": 3,
+          "domIndex": 17,
+          "index": 9
+        },
+        {
+          "text": "Backend & Hosting",
+          "length": 17,
+          "level": 3,
+          "domIndex": 18,
+          "index": 10
+        },
+        {
+          "text": "Design & Tools",
+          "length": 14,
+          "level": 3,
+          "domIndex": 19,
+          "index": 11
+        },
+        {
+          "text": "Navigation",
+          "length": 10,
+          "level": 3,
+          "domIndex": 21,
+          "index": 12
+        },
+        {
+          "text": "Connect",
+          "length": 7,
+          "level": 3,
+          "domIndex": 22,
+          "index": 13
+        }
+      ],
+      "h4": [],
+      "h5": [],
+      "h6": []
+    },
+    "orderedHeadings": [
+      {
+        "text": "Small Business Website Designer & Web Developer | Yasir Khan",
+        "length": 60,
+        "level": 1,
+        "domIndex": 0,
+        "suggestedLevel": 1,
+        "hasIssue": false
+      },
+      {
+        "text": "Stop losing customers to a slow website.",
+        "length": 40,
+        "level": 2,
+        "domIndex": 1,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "What Yasir Khan does",
+        "length": 20,
+        "level": 2,
+        "domIndex": 2,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "Launch your website without the freelancer headache.",
+        "length": 52,
+        "level": 2,
+        "domIndex": 3,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "Brand & Identity",
+        "length": 16,
+        "level": 3,
+        "domIndex": 4,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "High-Converting Design",
+        "length": 22,
+        "level": 3,
+        "domIndex": 5,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Complete Tech Setup",
+        "length": 19,
+        "level": 3,
+        "domIndex": 6,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Search & Support",
+        "length": 16,
+        "level": 3,
+        "domIndex": 7,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "See how a premium website transforms your business.",
+        "length": 51,
+        "level": 2,
+        "domIndex": 8,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "Apna Qarz",
+        "length": 9,
+        "level": 3,
+        "domIndex": 9,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Rehman Veterinary Clinic",
+        "length": 24,
+        "level": 3,
+        "domIndex": 10,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Get your new website live in 3 simple steps.",
+        "length": 44,
+        "level": 2,
+        "domIndex": 11,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "The Strategy Call",
+        "length": 17,
+        "level": 3,
+        "domIndex": 12,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Review Your Design",
+        "length": 18,
+        "level": 3,
+        "domIndex": 13,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Launch & Grow",
+        "length": 13,
+        "level": 3,
+        "domIndex": 14,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Trusted by founders who demand results.",
+        "length": 39,
+        "level": 2,
+        "domIndex": 15,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "The modern stack I use to deliver exceptional results.",
+        "length": 54,
+        "level": 2,
+        "domIndex": 16,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "Frontend Core",
+        "length": 13,
+        "level": 3,
+        "domIndex": 17,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Backend & Hosting",
+        "length": 17,
+        "level": 3,
+        "domIndex": 18,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Design & Tools",
+        "length": 14,
+        "level": 3,
+        "domIndex": 19,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Every day you wait, you're handing customers to your competitors.",
+        "length": 65,
+        "level": 2,
+        "domIndex": 20,
+        "suggestedLevel": 2,
+        "hasIssue": false
+      },
+      {
+        "text": "Navigation",
+        "length": 10,
+        "level": 3,
+        "domIndex": 21,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      },
+      {
+        "text": "Connect",
+        "length": 7,
+        "level": 3,
+        "domIndex": 22,
+        "suggestedLevel": 3,
+        "hasIssue": false
+      }
+    ],
+    "h1Count": 1,
+    "totalHeadings": 23,
+    "status": "good",
+    "message": "Headings structure correct",
+    "hierarchy": {
+      "isCorrect": true,
+      "message": "Heading hierarchy correct"
+    }
+  },
+  "images": {
+    "total": 2,
+    "withAlt": 2,
+    "withoutAlt": 0,
+    "emptyAlt": 0,
+    "decorativeAlt": 0,
+    "resizedCount": 0,
+    "aboveFoldLazy": 0,
+    "totalPotentialSaving": 0,
+    "totalFileSize": 600,
+    "formats": [
+      {
+        "format": "UNKNOWN",
+        "count": 2
+      }
+    ],
+    "images": [
+      {
+        "src": "https://yasir.qzz.io/_next/image?url=%2Fimages%2Fprojects%2Fapnaqarz%2Fapna-qarz-homepage.webp&w=1200&q=75",
+        "currentSrc": "https://yasir.qzz.io/_next/image?url=%2Fimages%2Fprojects%2Fapnaqarz%2Fapna-qarz-homepage.webp&w=828&q=75",
+        "alt": "Apna Qarz",
+        "altStatus": "ok",
+        "isDecorative": false,
+        "format": "unknown",
+        "fileSize": 300,
+        "fileSizeIsEstimate": false,
+        "intrinsicWidth": 763,
+        "intrinsicHeight": 429,
+        "displayWidth": 545,
+        "displayHeight": 340,
+        "isResizedCandidate": false,
+        "resizePercentage": 0,
+        "isAboveFold": false,
+        "isLazy": true,
+        "potentialSavingBytes": 0,
+        "estimatedFinalBytes": 0,
+        "selector": "img.object-cover.object-top",
+        "loading": "lazy",
+        "index": 0
+      },
+      {
+        "src": "https://yasir.qzz.io/_next/image?url=%2Fimages%2Fprojects%2Frehman_veterinary_clinic%2Frehman_veterinary_clinic_lahore.webp&w=1200&q=75",
+        "currentSrc": "https://yasir.qzz.io/_next/image?url=%2Fimages%2Fprojects%2Frehman_veterinary_clinic%2Frehman_veterinary_clinic_lahore.webp&w=828&q=75",
+        "alt": "Rehman Veterinary Clinic",
+        "altStatus": "ok",
+        "isDecorative": false,
+        "format": "unknown",
+        "fileSize": 300,
+        "fileSizeIsEstimate": false,
+        "intrinsicWidth": 763,
+        "intrinsicHeight": 429,
+        "displayWidth": 545,
+        "displayHeight": 340,
+        "isResizedCandidate": false,
+        "resizePercentage": 0,
+        "isAboveFold": false,
+        "isLazy": true,
+        "potentialSavingBytes": 0,
+        "estimatedFinalBytes": 0,
+        "selector": "img.object-cover.object-top",
+        "loading": "lazy",
+        "index": 1
+      }
+    ],
+    "duplicateAlts": {
+      "count": 0,
+      "duplicates": []
+    },
+    "status": "good",
+    "message": "All images have alt attributes"
+  },
+  "links": {
+    "total": 26,
+    "internal": 19,
+    "external": 7,
+    "nofollow": 0,
+    "internalNofollow": 0,
+    "sponsored": 0,
+    "ugc": 0,
+    "empty": 0,
+    "withoutText": 0,
+    "genericAnchors": 0,
+    "links": [
+      {
+        "index": 1,
+        "href": "/",
+        "fullUrl": "https://yasir.qzz.io/",
+        "text": "Yasir Khan",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "H",
+          "name": "header"
+        },
+        "selector": "a.font-heading.text-foreground"
+      },
+      {
+        "index": 2,
+        "href": "/",
+        "fullUrl": "https://yasir.qzz.io/",
+        "text": "Home",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "N",
+          "name": "nav"
+        },
+        "selector": "a.hover:text-foreground.focus-visible:ring-primary"
+      },
+      {
+        "index": 3,
+        "href": "/projects",
+        "fullUrl": "https://yasir.qzz.io/projects",
+        "text": "Projects",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "N",
+          "name": "nav"
+        },
+        "selector": "a.hover:text-foreground.focus-visible:ring-primary"
+      },
+      {
+        "index": 4,
+        "href": "/services",
+        "fullUrl": "https://yasir.qzz.io/services",
+        "text": "Services",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "N",
+          "name": "nav"
+        },
+        "selector": "a.hover:text-foreground.focus-visible:ring-primary"
+      },
+      {
+        "index": 5,
+        "href": "/about",
+        "fullUrl": "https://yasir.qzz.io/about",
+        "text": "About",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "N",
+          "name": "nav"
+        },
+        "selector": "a.hover:text-foreground.focus-visible:ring-primary"
+      },
+      {
+        "index": 6,
+        "href": "/contact",
+        "fullUrl": "https://yasir.qzz.io/contact",
+        "text": "Book Your Free Call →",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "H",
+          "name": "header"
+        },
+        "selector": "a.focus-visible:ring-ring.outline-none"
+      },
+      {
+        "index": 7,
+        "href": "/contact",
+        "fullUrl": "https://yasir.qzz.io/contact",
+        "text": "Book Your Free Call",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.focus-visible:ring-ring.outline-none"
+      },
+      {
+        "index": 8,
+        "href": "https://wa.me/923014545482",
+        "fullUrl": "https://wa.me/923014545482",
+        "text": "Message on WhatsApp",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.flex"
+      },
+      {
+        "index": 9,
+        "href": "/services",
+        "fullUrl": "https://yasir.qzz.io/services",
+        "text": "Pricing & Packages",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.text-foreground"
+      },
+      {
+        "index": 10,
+        "href": "/projects",
+        "fullUrl": "https://yasir.qzz.io/projects",
+        "text": "Case Studies",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.text-foreground"
+      },
+      {
+        "index": 11,
+        "href": "/contact",
+        "fullUrl": "https://yasir.qzz.io/contact",
+        "text": "Book a Call",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.text-foreground"
+      },
+      {
+        "index": 12,
+        "href": "/projects/apna-qarz",
+        "fullUrl": "https://yasir.qzz.io/projects/apna-qarz",
+        "text": "View Case Study →",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group/link.inline-flex"
+      },
+      {
+        "index": 13,
+        "href": "/projects/rehman-veterinary-clinic",
+        "fullUrl": "https://yasir.qzz.io/projects/rehman-veterinary-clinic",
+        "text": "View Case Study →",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group/link.inline-flex"
+      },
+      {
+        "index": 14,
+        "href": "/projects",
+        "fullUrl": "https://yasir.qzz.io/projects",
+        "text": "View All Projects",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.inline-flex"
+      },
+      {
+        "index": 15,
+        "href": "https://wa.me/923014545482",
+        "fullUrl": "https://wa.me/923014545482",
+        "text": "Message on WhatsApp",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.border-border/50"
+      },
+      {
+        "index": 16,
+        "href": "/",
+        "fullUrl": "https://yasir.qzz.io/",
+        "text": "Yasir Khan",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.text-foreground.text-2xl"
+      },
+      {
+        "index": 17,
+        "href": "/",
+        "fullUrl": "https://yasir.qzz.io/",
+        "text": "Home",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.text-muted-foreground.hover:text-foreground"
+      },
+      {
+        "index": 18,
+        "href": "/projects",
+        "fullUrl": "https://yasir.qzz.io/projects",
+        "text": "Projects",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.text-muted-foreground.hover:text-foreground"
+      },
+      {
+        "index": 19,
+        "href": "/services",
+        "fullUrl": "https://yasir.qzz.io/services",
+        "text": "Services",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.text-muted-foreground.hover:text-foreground"
+      },
+      {
+        "index": 20,
+        "href": "/about",
+        "fullUrl": "https://yasir.qzz.io/about",
+        "text": "About",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.text-muted-foreground.hover:text-foreground"
+      },
+      {
+        "index": 21,
+        "href": "/contact",
+        "fullUrl": "https://yasir.qzz.io/contact",
+        "text": "Contact",
+        "type": "internal",
+        "isInternal": true,
+        "rel": "",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": false,
+        "hasNoreferrer": false,
+        "target": "",
+        "hasImage": false,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.text-muted-foreground.hover:text-foreground"
+      },
+      {
+        "index": 22,
+        "href": "https://linkedin.com/in/connectyasir",
+        "fullUrl": "https://linkedin.com/in/connectyasir",
+        "text": "LinkedIn",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.group.text-muted-foreground"
+      },
+      {
+        "index": 23,
+        "href": "https://wa.me/923014545482",
+        "fullUrl": "https://wa.me/923014545482",
+        "text": "WhatsApp",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.group.text-muted-foreground"
+      },
+      {
+        "index": 24,
+        "href": "mailto:itsyasirkhan.dev@gmail.com",
+        "fullUrl": "mailto:itsyasirkhan.dev@gmail.com",
+        "text": "Email",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.group.text-muted-foreground"
+      },
+      {
+        "index": 25,
+        "href": "https://cal.com/connectyasir/30min",
+        "fullUrl": "https://cal.com/connectyasir/30min",
+        "text": "Book Your Free Call",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": false,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": false,
+        "positionZone": {
+          "code": "F",
+          "name": "footer"
+        },
+        "selector": "a.group.text-foreground"
+      },
+      {
+        "index": 26,
+        "href": "https://wa.me/923014545482",
+        "fullUrl": "https://wa.me/923014545482",
+        "text": "",
+        "type": "external",
+        "isInternal": false,
+        "rel": "noopener noreferrer",
+        "relDisplay": "follow",
+        "hasNofollow": false,
+        "hasSponsored": false,
+        "hasUgc": false,
+        "hasNoopener": true,
+        "hasNoreferrer": true,
+        "target": "_blank",
+        "hasImage": true,
+        "isImageOnlyLink": true,
+        "isEmpty": false,
+        "hasText": true,
+        "isGenericAnchor": "",
+        "positionZone": {
+          "code": "M",
+          "name": "main"
+        },
+        "selector": "a.group.relative"
+      }
+    ],
+    "status": "good",
+    "message": "Links properly configured",
+    "internalLinking": {
+      "ratio": 73,
+      "uniqueTargets": 7,
+      "uniqueAnchors": 13,
+      "mainContentLinks": 7,
+      "topTargets": [
+        {
+          "url": "/",
+          "count": 4
+        },
+        {
+          "url": "/projects",
+          "count": 4
+        },
+        {
+          "url": "/contact",
+          "count": 4
+        },
+        {
+          "url": "/services",
+          "count": 3
+        },
+        {
+          "url": "/about",
+          "count": 2
+        }
+      ]
+    }
+  },
+  "content": {
+    "wordCount": 839,
+    "paragraphCount": 31,
+    "averageWordsPerParagraph": 27,
+    "topWords": [
+      {
+        "word": "website",
+        "count": 11,
+        "density": "1.31%"
+      },
+      {
+        "word": "yasir",
+        "count": 8,
+        "density": "0.95%"
+      },
+      {
+        "word": "khan",
+        "count": 8,
+        "density": "0.95%"
+      },
+      {
+        "word": "business",
+        "count": 7,
+        "density": "0.83%"
+      },
+      {
+        "word": "projects",
+        "count": 7,
+        "density": "0.83%"
+      },
+      {
+        "word": "design",
+        "count": 7,
+        "density": "0.83%"
+      },
+      {
+        "word": "leads",
+        "count": 6,
+        "density": "0.72%"
+      },
+      {
+        "word": "call",
+        "count": 5,
+        "density": "0.60%"
+      },
+      {
+        "word": "page",
+        "count": 4,
+        "density": "0.48%"
+      },
+      {
+        "word": "fast",
+        "count": 4,
+        "density": "0.48%"
+      },
+      {
+        "word": "results",
+        "count": 4,
+        "density": "0.48%"
+      },
+      {
+        "word": "modern",
+        "count": 4,
+        "density": "0.48%"
+      },
+      {
+        "word": "professional",
+        "count": 4,
+        "density": "0.48%"
+      },
+      {
+        "word": "online",
+        "count": 4,
+        "density": "0.48%"
+      },
+      {
+        "word": "presence",
+        "count": 4,
+        "density": "0.48%"
+      }
+    ],
+    "status": "good",
+    "message": "Sufficient content"
+  },
+  "keywords": {
+    "score": 92,
+    "totalWordCount": 839,
+    "uniqueKeywords": 342,
+    "totalBoldKeywords": 42,
+    "totalItalicKeywords": 0,
+    "unigrams": [
+      {
+        "word": "website",
+        "count": 11,
+        "density": 1.31,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 4,
+        "inAlt": 0,
+        "prominence": 67
+      },
+      {
+        "word": "yasir",
+        "count": 8,
+        "density": 0.95,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 63
+      },
+      {
+        "word": "khan",
+        "count": 8,
+        "density": 0.95,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 63
+      },
+      {
+        "word": "business",
+        "count": 7,
+        "density": 0.83,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 67
+      },
+      {
+        "word": "projects",
+        "count": 7,
+        "density": 0.83,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "design",
+        "count": 7,
+        "density": 0.83,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 3,
+        "inAlt": 0,
+        "prominence": 18
+      },
+      {
+        "word": "leads",
+        "count": 6,
+        "density": 0.72,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "call",
+        "count": 5,
+        "density": 0.6,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "page",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "fast",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "results",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 2,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "modern",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 18
+      },
+      {
+        "word": "professional",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "online",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "presence",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "actually",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "seo",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "title",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 2,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "small",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 69
+      },
+      {
+        "word": "meta",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 2,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "headings",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "images",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 2,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "links",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 2,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "content",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "home",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "canonical",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 2,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "taking",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "web",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 40
+      },
+      {
+        "word": "developer",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 55
+      },
+      {
+        "word": "premium",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "visitors",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "whatsapp",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "look",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "case",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "launch",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 2,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "hosting",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "brand",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "view",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "landing",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "nextjs",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "tools",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "site",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "1000",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "designer",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "optimized",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "description",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "structure",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "alt",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 10
+      },
+      {
+        "word": "https",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 2,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "data",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 1,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      }
+    ],
+    "bigrams": [
+      {
+        "word": "yasir khan",
+        "count": 5,
+        "density": 0.6,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 63
+      },
+      {
+        "word": "online presence",
+        "count": 4,
+        "density": 0.48,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "web developer",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 30
+      },
+      {
+        "word": "landing page",
+        "count": 3,
+        "density": 0.36,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "small business",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "business website",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "website designer",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "meta description",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "headings structure",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "canonical url",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 14
+      },
+      {
+        "word": "premium website",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 1,
+        "inAlt": 0,
+        "prominence": 8
+      },
+      {
+        "word": "bookyourfreecall message",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "brand identity",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "view case",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "case study",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "next js",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 2,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      }
+    ],
+    "trigrams": [
+      {
+        "word": "small business website",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 3,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "business website designer",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 3,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "message on whatsapp",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 3,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "view case study",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 3,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      }
+    ],
+    "quadgrams": [
+      {
+        "word": "small business website designer",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 4,
+        "inBold": 1,
+        "inItalic": 0,
+        "inTitle": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inH1": 1,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 59
+      },
+      {
+        "word": "taking on new projects",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 4,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      },
+      {
+        "word": "bookyourfreecall message on whatsapp",
+        "count": 2,
+        "density": 0.24,
+        "ngramSize": 4,
+        "inBold": 0,
+        "inItalic": 0,
+        "inTitle": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": false,
+        "inH1": 0,
+        "inH2H6": 0,
+        "inAlt": 0,
+        "prominence": 0
+      }
+    ],
+    "placementMatrix": [
+      {
+        "word": "small",
+        "inTitle": true,
+        "inH1": true,
+        "inH2H6": false,
+        "inMetaDesc": true,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inAlt": false,
+        "inBold": true,
+        "inItalic": false,
+        "inImageFilename": false,
+        "inAnchorText": false
+      },
+      {
+        "word": "business",
+        "inTitle": true,
+        "inH1": true,
+        "inH2H6": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inAlt": false,
+        "inBold": true,
+        "inItalic": false,
+        "inImageFilename": false,
+        "inAnchorText": false
+      },
+      {
+        "word": "website",
+        "inTitle": true,
+        "inH1": true,
+        "inH2H6": true,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inAlt": false,
+        "inBold": true,
+        "inItalic": false,
+        "inImageFilename": false,
+        "inAnchorText": false
+      },
+      {
+        "word": "designer",
+        "inTitle": true,
+        "inH1": true,
+        "inH2H6": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inAlt": false,
+        "inBold": true,
+        "inItalic": false,
+        "inImageFilename": false,
+        "inAnchorText": false
+      },
+      {
+        "word": "developer",
+        "inTitle": true,
+        "inH1": true,
+        "inH2H6": false,
+        "inMetaDesc": false,
+        "inUrl": false,
+        "inFirstParagraph": true,
+        "inAlt": false,
+        "inBold": false,
+        "inItalic": false,
+        "inImageFilename": false,
+        "inAnchorText": false
+      }
+    ],
+    "stuffingAlerts": [],
+    "consistencyIssues": [
+      {
+        "type": "h1_not_in_subheadings",
+        "word": "small",
+        "severity": "info"
+      },
+      {
+        "type": "h1_not_in_subheadings",
+        "word": "designer",
+        "severity": "info"
+      },
+      {
+        "type": "h1_not_in_subheadings",
+        "word": "developer",
+        "severity": "info"
+      },
+      {
+        "type": "important_not_bold",
+        "word": "developer",
+        "severity": "info"
+      },
+      {
+        "type": "important_not_bold",
+        "word": "yasir",
+        "severity": "info"
+      },
+      {
+        "type": "important_not_bold",
+        "word": "khan",
+        "severity": "info"
+      }
+    ],
+    "boldWords": [
+      {
+        "word": "meta",
+        "count": 2,
+        "context": "meta"
+      },
+      {
+        "word": "images",
+        "count": 2,
+        "context": "images"
+      },
+      {
+        "word": "links",
+        "count": 2,
+        "context": "links"
+      },
+      {
+        "word": "https",
+        "count": 2,
+        "context": "https"
+      },
+      {
+        "word": "canonical",
+        "count": 2,
+        "context": "canonical"
+      },
+      {
+        "word": "rankseo",
+        "count": 1,
+        "context": "rankseo"
+      },
+      {
+        "word": "seo",
+        "count": 1,
+        "context": "seo"
+      },
+      {
+        "word": "100",
+        "count": 1,
+        "context": "100"
+      },
+      {
+        "word": "geo",
+        "count": 1,
+        "context": "geo"
+      },
+      {
+        "word": "moz",
+        "count": 1,
+        "context": "moz da"
+      },
+      {
+        "word": "spam",
+        "count": 1,
+        "context": "spam"
+      },
+      {
+        "word": "title",
+        "count": 1,
+        "context": "title"
+      },
+      {
+        "word": "56ch",
+        "count": 1,
+        "context": "56ch"
+      },
+      {
+        "word": "title:",
+        "count": 1,
+        "context": "title: \"small business website designer & develo…\""
+      },
+      {
+        "word": "\"small",
+        "count": 1,
+        "context": "title: \"small business website designer & develo…\""
+      },
+      {
+        "word": "business",
+        "count": 1,
+        "context": "title: \"small business website designer & develo…\""
+      },
+      {
+        "word": "website",
+        "count": 1,
+        "context": "title: \"small business website designer & develo…\""
+      },
+      {
+        "word": "designer",
+        "count": 1,
+        "context": "title: \"small business website designer & develo…\""
+      },
+      {
+        "word": "develo…\"",
+        "count": 1,
+        "context": "title: \"small business website designer & develo…\""
+      },
+      {
+        "word": "142ch",
+        "count": 1,
+        "context": "142ch"
+      },
+      {
+        "word": "description",
+        "count": 1,
+        "context": "meta description"
+      },
+      {
+        "word": "headings",
+        "count": 1,
+        "context": "headings structure"
+      },
+      {
+        "word": "structure",
+        "count": 1,
+        "context": "headings structure"
+      },
+      {
+        "word": "words",
+        "count": 1,
+        "context": "words"
+      },
+      {
+        "word": "756",
+        "count": 1,
+        "context": "756"
+      },
+      {
+        "word": "content",
+        "count": 1,
+        "context": "content length"
+      },
+      {
+        "word": "length",
+        "count": 1,
+        "context": "content length"
+      },
+      {
+        "word": "home",
+        "count": 1,
+        "context": "home"
+      },
+      {
+        "word": "navigational",
+        "count": 1,
+        "context": "navigational"
+      },
+      {
+        "word": "schema",
+        "count": 1,
+        "context": "schema"
+      }
+    ],
+    "italicWords": [],
+    "boldTexts": [
+      "rankseo",
+      "seo",
+      "100",
+      "geo",
+      "46",
+      "moz da",
+      "--",
+      "spam",
+      "—",
+      "title",
+      "56ch",
+      "title: \"small business website designer & develo…\"",
+      "meta",
+      "142ch",
+      "meta description",
+      "h1",
+      "✓",
+      "headings structure",
+      "images",
+      "2",
+      "images",
+      "links",
+      "26",
+      "links",
+      "words",
+      "756",
+      "content length",
+      "home",
+      "navigational",
+      "https",
+      "✓",
+      "https",
+      "schema",
+      "3",
+      "structured data",
+      "canonical",
+      "✓",
+      "canonical url",
+      "index",
+      "✓",
+      "indexability",
+      "▼"
+    ],
+    "italicTexts": [],
+    "vocabRichness": 50,
+    "complexWordPercent": 18,
+    "avgSyllablesPerWord": 1.7,
+    "questionKeywords": ["what happens next?"],
+    "distributionData": [
+      {
+        "word": "website",
+        "tiers": [4, 2, 3]
+      },
+      {
+        "word": "yasir",
+        "tiers": [2, 1, 2]
+      },
+      {
+        "word": "khan",
+        "tiers": [2, 1, 2]
+      },
+      {
+        "word": "business",
+        "tiers": [3, 2, 1]
+      },
+      {
+        "word": "projects",
+        "tiers": [1, 2, 1]
+      }
+    ],
+    "positionTracking": [
+      {
+        "word": "website",
+        "firstPosition": 10,
+        "lastPosition": 602,
+        "totalWords": 702
+      },
+      {
+        "word": "yasir",
+        "firstPosition": 98,
+        "lastPosition": 549,
+        "totalWords": 702
+      },
+      {
+        "word": "khan",
+        "firstPosition": 99,
+        "lastPosition": 550,
+        "totalWords": 702
+      },
+      {
+        "word": "business",
+        "firstPosition": 9,
+        "lastPosition": 516,
+        "totalWords": 702
+      },
+      {
+        "word": "projects",
+        "firstPosition": 89,
+        "lastPosition": 664,
+        "totalWords": 702
+      },
+      {
+        "word": "design",
+        "firstPosition": 155,
+        "lastPosition": 645,
+        "totalWords": 702
+      },
+      {
+        "word": "leads",
+        "firstPosition": 119,
+        "lastPosition": 548,
+        "totalWords": 702
+      },
+      {
+        "word": "call",
+        "firstPosition": 182,
+        "lastPosition": 681,
+        "totalWords": 702
+      },
+      {
+        "word": "page",
+        "firstPosition": 77,
+        "lastPosition": 506,
+        "totalWords": 702
+      },
+      {
+        "word": "fast",
+        "firstPosition": 106,
+        "lastPosition": 622,
+        "totalWords": 702
+      },
+      {
+        "word": "results",
+        "firstPosition": 135,
+        "lastPosition": 617,
+        "totalWords": 702
+      },
+      {
+        "word": "modern",
+        "firstPosition": 158,
+        "lastPosition": 610,
+        "totalWords": 702
+      },
+      {
+        "word": "professional",
+        "firstPosition": 218,
+        "lastPosition": 560,
+        "totalWords": 702
+      },
+      {
+        "word": "online",
+        "firstPosition": 284,
+        "lastPosition": 691,
+        "totalWords": 702
+      },
+      {
+        "word": "presence",
+        "firstPosition": 285,
+        "lastPosition": 692,
+        "totalWords": 702
+      }
+    ]
+  },
+  "technical": {
+    "canonical": {
+      "exists": true,
+      "href": "https://yasir.qzz.io",
+      "status": "good",
+      "message": "Canonical URL defined"
+    },
+    "robots": {
+      "exists": true,
+      "content": "index, follow",
+      "status": "good",
+      "message": "Robots directive: index, follow"
+    },
+    "language": {
+      "exists": true,
+      "value": "en",
+      "status": "good",
+      "message": "Language set: en"
+    },
+    "viewport": {
+      "exists": true,
+      "content": "width=device-width, initial-scale=1",
+      "status": "good",
+      "message": "Viewport configured (mobile-friendly)"
+    },
+    "charset": {
+      "exists": true,
+      "value": "utf-8",
+      "status": "good",
+      "message": "Encoding defined"
+    },
+    "favicon": {
+      "exists": true,
+      "href": "https://yasir.qzz.io/favicon.ico?favicon.07~59vfb68oh4.ico",
+      "status": "good",
+      "message": "Favicon present"
+    },
+    "cms": {
+      "detected": false,
+      "name": null,
+      "all": []
+    },
+    "techStack": {
+      "detected": true,
+      "list": ["Cloudflare Browser Insights", "Lucide", "Priority Hints"],
+      "detailedList": [
+        {
+          "name": "Cloudflare Browser Insights",
+          "cats": ["Analytics", "RUM"],
+          "w": "https://www.cloudflare.com"
+        },
+        {
+          "name": "Lucide",
+          "cats": ["Font scripts"],
+          "w": "https://lucide.dev"
+        },
+        {
+          "name": "Priority Hints",
+          "cats": ["Performance"],
+          "w": "https://wicg.github.io/priority-hints/"
+        }
+      ],
+      "summary": "Cloudflare Browser Insights, Lucide, Priority Hints"
+    },
+    "lastUpdate": {
+      "detected": false,
+      "date": null,
+      "formatted": null,
+      "daysAgo": null
+    },
+    "pageSize": {
+      "bytes": 119230,
+      "formatted": "116.4 KB",
+      "formattedShort": "116.4",
+      "unit": "KB",
+      "percentage": 5.685329437255859,
+      "limit": 2097152,
+      "limitFormatted": "2 MB",
+      "status": "good",
+      "message": "HTML size is within Google's 2MB limit (5.7% used).",
+      "isOverLimit": false,
+      "isWarning": false
+    },
+    "indexability": {
+      "isNoindex": false,
+      "isNofollow": false,
+      "status": "good",
+      "message": "Page is indexable"
+    },
+    "hreflang": {
+      "exists": false,
+      "count": 0,
+      "tags": [],
+      "hasSelfRef": false,
+      "status": "info",
+      "message": "No hreflang tags (single language)"
+    },
+    "url": {
+      "length": 21,
+      "path": "/",
+      "depth": 0,
+      "isLong": false,
+      "hasUppercase": false,
+      "hasUnderscores": false,
+      "isHttps": true,
+      "status": "good",
+      "message": "URL structure OK"
+    },
+    "textHtmlRatio": {
+      "ratio": 4,
+      "textLength": 5121,
+      "htmlLength": 114036,
+      "status": "warning",
+      "message": "Very low text-to-HTML ratio (<10%)"
+    },
+    "duplicateTitleH1": {
+      "isDuplicate": false,
+      "title": "Small Business Website Designer & Developer | Yasir Khan",
+      "h1": "Small Business Website Designer & Web Developer | Yasir Khan",
+      "status": "good",
+      "message": "Title and H1 are different"
+    },
+    "responsiveImages": {
+      "withSrcset": 2,
+      "withoutSrcset": 0,
+      "inPicture": 0,
+      "total": 2,
+      "allImagesCount": 2,
+      "status": "good",
+      "message": "All images are responsive"
+    },
+    "trackingPixels": {
+      "total": 0,
+      "pixels": [],
+      "categories": {},
+      "hasAnalytics": false,
+      "hasAdvertising": false,
+      "hasTagManager": false
+    }
+  },
+  "social": {
+    "openGraph": {
+      "title": "Small Business Website Designer & Developer | Yasir Khan | Yasir Khan",
+      "description": "Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.",
+      "url": "https://yasir.qzz.io",
+      "site_name": "Yasir Khan",
+      "locale": "en_US",
+      "image": "https://yasir.qzz.io/og/default.png",
+      "image:width": "1200",
+      "image:height": "630",
+      "image:alt": "Small Business Website Designer & Developer | Yasir Khan | Yasir Khan",
+      "type": "website"
+    },
+    "twitter": {
+      "card": "summary_large_image",
+      "title": "Small Business Website Designer & Developer | Yasir Khan | Yasir Khan",
+      "description": "Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.",
+      "image": "https://yasir.qzz.io/og/default.png"
+    },
+    "hasOpenGraph": true,
+    "hasTwitterCards": true,
+    "warnings": [
+      {
+        "code": "OG_TITLE_TOO_LONG",
+        "severity": "info"
+      }
+    ],
+    "status": "good",
+    "message": "Social tags configured"
+  },
+  "structured": {
+    "count": 3,
+    "validCount": 3,
+    "invalidCount": 0,
+    "schemas": [
+      {
+        "type": "WebSite",
+        "data": {
+          "@type": "WebSite",
+          "@id": "https://yasir.qzz.io/#website",
+          "url": "https://yasir.qzz.io",
+          "name": "Yasir Khan",
+          "description": "Yasir Khan is a professional website designer for small businesses. I build high-performance, custom websites that build trust and generate leads. Branding, design, and development handled by one expert.",
+          "publisher": {
+            "@id": "https://yasir.qzz.io/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        "error": false,
+        "index": "0-0",
+        "rawSnippet": "{\"@type\":\"WebSite\",\"@id\":\"https://yasir.qzz.io/#website\",\"url\":\"https://yasir.qzz.io\",\"name\":\"Yasir Khan\",\"description\":\"Yasir Khan is a professional website designer for small businesses. I build hig"
+      },
+      {
+        "type": "Organization",
+        "data": {
+          "@type": "Organization",
+          "@id": "https://yasir.qzz.io/#organization",
+          "name": "Yasir Khan",
+          "url": "https://yasir.qzz.io",
+          "logo": "https://yasir.qzz.io/logo.png",
+          "image": "https://yasir.qzz.io/og/default.png",
+          "email": "itsyasirkhan.dev@gmail.com",
+          "sameAs": ["https://linkedin.com/in/connectyasir"],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "sales",
+              "email": "itsyasirkhan.dev@gmail.com",
+              "url": "https://wa.me/923014545482"
+            }
+          ]
+        },
+        "error": false,
+        "index": "0-1",
+        "rawSnippet": "{\"@type\":\"Organization\",\"@id\":\"https://yasir.qzz.io/#organization\",\"name\":\"Yasir Khan\",\"url\":\"https://yasir.qzz.io\",\"logo\":\"https://yasir.qzz.io/logo.png\",\"image\":\"https://yasir.qzz.io/og/default.png\""
+      },
+      {
+        "type": "WebPage",
+        "data": {
+          "@type": "WebPage",
+          "@id": "https://yasir.qzz.io/#home",
+          "url": "https://yasir.qzz.io/",
+          "name": "Small Business Website Designer & Developer | Yasir Khan",
+          "description": "Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.",
+          "isPartOf": {
+            "@id": "https://yasir.qzz.io/#website"
+          },
+          "about": {
+            "@id": "https://yasir.qzz.io/#organization"
+          }
+        },
+        "error": false,
+        "index": "1-0",
+        "rawSnippet": "{\"@type\":\"WebPage\",\"@id\":\"https://yasir.qzz.io/#home\",\"url\":\"https://yasir.qzz.io/\",\"name\":\"Small Business Website Designer & Developer | Yasir Khan\",\"description\":\"Professional web design and develop"
+      }
+    ],
+    "status": "good",
+    "message": "3 JSON-LD schema(s) found"
+  },
+  "structuredDeep": {
+    "schemas": [
+      {
+        "type": "WebSite",
+        "types": ["WebSite"],
+        "fields": ["url", "name", "description", "publisher", "inLanguage"],
+        "fieldCount": 5,
+        "data": {
+          "@type": "WebSite",
+          "@id": "https://yasir.qzz.io/#website",
+          "url": "https://yasir.qzz.io",
+          "name": "Yasir Khan",
+          "description": "Yasir Khan is a professional website designer for small businesses. I build high-performance, custom websites that build trust and generate leads. Branding, design, and development handled by one expert.",
+          "publisher": {
+            "@id": "https://yasir.qzz.io/#organization"
+          },
+          "inLanguage": "en-US"
+        },
+        "validationStatus": "improvable",
+        "completeness": 75,
+        "missingRequired": [],
+        "missingRecommended": ["potentialAction"],
+        "presentRequired": ["name", "url"],
+        "presentRecommended": ["description"],
+        "hasRequirements": true,
+        "rawSnippet": "{\"@type\":\"WebSite\",\"@id\":\"https://yasir.qzz.io/#website\",\"url\":\"https://yasir.qzz.io\",\"name\":\"Yasir Khan\",\"description\":\"Yasir Khan is a professional website designer for small businesses. I build high-performance, custom websites that build trust and generate leads. Branding, design, and developmen"
+      },
+      {
+        "type": "Organization",
+        "types": ["Organization"],
+        "fields": [
+          "name",
+          "url",
+          "logo",
+          "image",
+          "email",
+          "sameAs",
+          "contactPoint"
+        ],
+        "fieldCount": 7,
+        "data": {
+          "@type": "Organization",
+          "@id": "https://yasir.qzz.io/#organization",
+          "name": "Yasir Khan",
+          "url": "https://yasir.qzz.io",
+          "logo": "https://yasir.qzz.io/logo.png",
+          "image": "https://yasir.qzz.io/og/default.png",
+          "email": "itsyasirkhan.dev@gmail.com",
+          "sameAs": ["https://linkedin.com/in/connectyasir"],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "sales",
+              "email": "itsyasirkhan.dev@gmail.com",
+              "url": "https://wa.me/923014545482"
+            }
+          ]
+        },
+        "validationStatus": "improvable",
+        "completeness": 71,
+        "missingRequired": [],
+        "missingRecommended": ["description", "address"],
+        "presentRequired": ["name", "url"],
+        "presentRecommended": ["logo", "contactPoint", "sameAs"],
+        "hasRequirements": true,
+        "rawSnippet": "{\"@type\":\"Organization\",\"@id\":\"https://yasir.qzz.io/#organization\",\"name\":\"Yasir Khan\",\"url\":\"https://yasir.qzz.io\",\"logo\":\"https://yasir.qzz.io/logo.png\",\"image\":\"https://yasir.qzz.io/og/default.png\",\"email\":\"itsyasirkhan.dev@gmail.com\",\"sameAs\":[\"https://linkedin.com/in/connectyasir\"],\"contactPoin"
+      },
+      {
+        "type": "WebPage",
+        "types": ["WebPage"],
+        "fields": ["url", "name", "description", "isPartOf", "about"],
+        "fieldCount": 5,
+        "data": {
+          "@type": "WebPage",
+          "@id": "https://yasir.qzz.io/#home",
+          "url": "https://yasir.qzz.io/",
+          "name": "Small Business Website Designer & Developer | Yasir Khan",
+          "description": "Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.",
+          "isPartOf": {
+            "@id": "https://yasir.qzz.io/#website"
+          },
+          "about": {
+            "@id": "https://yasir.qzz.io/#organization"
+          }
+        },
+        "validationStatus": "valid",
+        "completeness": null,
+        "missingRequired": [],
+        "missingRecommended": [],
+        "presentRequired": [],
+        "presentRecommended": [],
+        "hasRequirements": false,
+        "rawSnippet": "{\"@type\":\"WebPage\",\"@id\":\"https://yasir.qzz.io/#home\",\"url\":\"https://yasir.qzz.io/\",\"name\":\"Small Business Website Designer & Developer | Yasir Khan\",\"description\":\"Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into"
+      }
+    ],
+    "totalCount": 3,
+    "validCount": 3,
+    "errorCount": 0,
+    "incompleteCount": 0,
+    "improvableCount": 2,
+    "avgCompleteness": 73,
+    "microdataTypes": [],
+    "hasMicrodata": false,
+    "allTypes": ["WebSite", "Organization", "WebPage"]
+  },
+  "performance": {
+    "domElements": 753,
+    "scripts": 42,
+    "stylesheets": 10,
+    "inlineStyles": 105,
+    "loadTime": 3261,
+    "domContentLoaded": 3130,
+    "firstByte": 1494,
+    "scriptsAnalysis": {
+      "total": 42,
+      "inline": 21,
+      "local": 18,
+      "external": 1,
+      "blocking": 26,
+      "scripts": [
+        {
+          "index": 0,
+          "src": "/_next/static/chunks/11u9~g5dyxriv.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 1,
+          "src": "/_next/static/chunks/0l-ycgai12ya-.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 2,
+          "src": "/_next/static/chunks/0vcde7j7ii8i3.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 3,
+          "src": "/_next/static/chunks/turbopack-0n4m4w9z-13.o.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 4,
+          "src": "/_next/static/chunks/0rame3mv3ixhp.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 5,
+          "src": "/_next/static/chunks/099a.59-qgqp~.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 6,
+          "src": "/_next/static/chunks/07v5ot9olfmjw.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 7,
+          "src": "/_next/static/chunks/00.k66k_.mdq7.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 8,
+          "src": "/_next/static/chunks/0e3-7pa8-471d.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 9,
+          "src": "/_next/static/chunks/0lo9flfw0v3yg.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 10,
+          "src": "/_next/static/chunks/08pj4xkz~kajd.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 11,
+          "src": "/_next/static/chunks/139_kc8maakbk.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 12,
+          "src": "/_next/static/chunks/03~yq9q893hmn.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 0
+        },
+        {
+          "index": 13,
+          "src": "/_next/static/chunks/02rvyr78ujhc7.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 0
+        },
+        {
+          "index": 14,
+          "src": "/_next/static/chunks/0zkmulodfo15y.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 0
+        },
+        {
+          "index": 15,
+          "src": "/_next/static/chunks/0a6qs3x3uaryv.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 0
+        },
+        {
+          "index": 16,
+          "src": "/_next/static/chunks/164r~m45nkzs7.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 0
+        },
+        {
+          "index": 17,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 527
+        },
+        {
+          "index": 19,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 57
+        },
+        {
+          "index": 20,
+          "src": "/_next/static/chunks/145l.yonqs-ls.js",
+          "type": "local",
+          "origin": "same-origin",
+          "isAsync": true,
+          "isDefer": false,
+          "isBlocking": false,
+          "size": 0
+        },
+        {
+          "index": 21,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 845
+        },
+        {
+          "index": 22,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 43
+        },
+        {
+          "index": 23,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 1681
+        },
+        {
+          "index": 24,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 5194
+        },
+        {
+          "index": 25,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 1903
+        },
+        {
+          "index": 26,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 1548
+        },
+        {
+          "index": 27,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 237
+        },
+        {
+          "index": 28,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 4628
+        },
+        {
+          "index": 29,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 717
+        },
+        {
+          "index": 30,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 2500
+        },
+        {
+          "index": 31,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 3700
+        },
+        {
+          "index": 32,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 4779
+        },
+        {
+          "index": 33,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 4597
+        },
+        {
+          "index": 34,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 1331
+        },
+        {
+          "index": 35,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 3126
+        },
+        {
+          "index": 36,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 252
+        },
+        {
+          "index": 37,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 138
+        },
+        {
+          "index": 38,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 3118
+        },
+        {
+          "index": 39,
+          "src": "(inline)",
+          "type": "inline",
+          "origin": "inline",
+          "isAsync": false,
+          "isDefer": false,
+          "isBlocking": true,
+          "size": 35
+        },
+        {
+          "index": 40,
+          "src": "https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516",
+          "type": "external",
+          "origin": "static.cloudflareinsights.com",
+          "isAsync": false,
+          "isDefer": true,
+          "isBlocking": false,
+          "size": 0
+        }
+      ]
+    },
+    "stylesheetsAnalysis": {
+      "total": 10,
+      "linked": 10,
+      "inline": 0,
+      "local": 8,
+      "external": 2,
+      "styles": [
+        {
+          "index": 0,
+          "href": "/_next/static/chunks/150gldwswqdl4.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 1,
+          "href": "/_next/static/chunks/149dfciwj.~qp.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 2,
+          "href": "/_next/static/chunks/0_-bcmh8ksdor.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 3,
+          "href": "/_next/static/chunks/150gldwswqdl4.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 4,
+          "href": "/_next/static/chunks/149dfciwj.~qp.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 5,
+          "href": "/_next/static/chunks/0_-bcmh8ksdor.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 6,
+          "href": "chrome-extension://pimhmeagnhepckniikojblilglbjngal/content/toolbar.css",
+          "type": "external",
+          "origin": "pimhmeagnhepckniikojblilglbjngal",
+          "isInline": false
+        },
+        {
+          "index": 7,
+          "href": "chrome-extension://pimhmeagnhepckniikojblilglbjngal/content/toolbar.css",
+          "type": "external",
+          "origin": "pimhmeagnhepckniikojblilglbjngal",
+          "isInline": false
+        },
+        {
+          "index": 8,
+          "href": "/_next/static/chunks/11cnzk89n0qnq.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        },
+        {
+          "index": 9,
+          "href": "/_next/static/chunks/11cnzk89n0qnq.css",
+          "type": "local",
+          "origin": "same-origin",
+          "isInline": false
+        }
+      ],
+      "inlineSize": 0
+    },
+    "status": "good",
+    "message": "Performance acceptable"
+  },
+  "readability": {
+    "sentenceCount": 44,
+    "avgSentenceLength": 16,
+    "readabilityScore": 88,
+    "distribution": {
+      "very_short": 2,
+      "short": 14,
+      "medium": 21,
+      "long": 5,
+      "very_long": 2
+    },
+    "sentences": [
+      {
+        "index": 3,
+        "text": "Title optimized Meta142ch Meta Description Meta description optimized H1✓ Headings Structure Headings structure correct 23 total headings Images2 Images All images have alt attributes 2 with alt Links26 Links Internal: 19 External: 7 Nofollow: 0 Words756 Content Length Sufficient content 31 paragraphs Home Navigational HTTPS✓ HTTPS Secure connection Schema3 Structured Data 3 JSON-LD schema(s) found Canonical✓ Canonical URL Canonical URL defined Index✓ Indexability Page is indexable Links Full Re",
+        "wordCount": 87,
+        "charCount": 632,
+        "category": "very_long"
+      },
+      {
+        "index": 28,
+        "text": "Verified Review “I found more professional and best web developer using next.js and latest technology, to building websites and completing projects on time in normal service charges, Personally I like and recommend yasir Khan as web developer” “I really struggled with credibility early on.",
+        "wordCount": 44,
+        "charCount": 290,
+        "category": "very_long"
+      },
+      {
+        "index": 20,
+        "text": "View Case Study → Full Landing Page Design · SEO Rehman Veterinary Clinic A professional, trust-focused landing page for a local clinic, resulting in daily customer inquiries.",
+        "wordCount": 27,
+        "charCount": 175,
+        "category": "long"
+      },
+      {
+        "index": 8,
+        "text": "Quick answer What Yasir Khan does I design and build modern websites for small businesses that look credible, load fast, and help turn visitors into leads.",
+        "wordCount": 26,
+        "charCount": 155,
+        "category": "long"
+      },
+      {
+        "index": 29,
+        "text": "I had a great service with Prime Tools, but the way my site looked before... well, it just didn't inspire much confidence.",
+        "wordCount": 22,
+        "charCount": 122,
+        "category": "long"
+      },
+      {
+        "index": 38,
+        "text": "Highly recommend for anyone needing a website that actually delivers results!” The Toolkit The modern stack I use to deliver exceptional results.",
+        "wordCount": 22,
+        "charCount": 145,
+        "category": "long"
+      },
+      {
+        "index": 35,
+        "text": "Yasir khan completely transformed our online presence by building us a professional, modern marketing website with great design and clear messaging.",
+        "wordCount": 21,
+        "charCount": 148,
+        "category": "long"
+      },
+      {
+        "index": 42,
+        "text": "Figma Google Stitch Git Currently taking on 2 new projects Every day you wait, you're handing customers to your competitors.",
+        "wordCount": 20,
+        "charCount": 124,
+        "category": "medium"
+      },
+      {
+        "index": 4,
+        "text": "Your business deserves a blazingly fast, premium website that builds instant trust and turns cold visitors into daily leads.",
+        "wordCount": 19,
+        "charCount": 124,
+        "category": "medium"
+      },
+      {
+        "index": 16,
+        "text": "04 Search & Support Rank on Google from day one and get direct support whenever you need it.",
+        "wordCount": 18,
+        "charCount": 92,
+        "category": "medium"
+      },
+      {
+        "index": 19,
+        "text": "Full-Stack · Done-for-You Apna Qarz From zero online presence to 1,000+ verified leads in the first 30 days.",
+        "wordCount": 18,
+        "charCount": 108,
+        "category": "medium"
+      },
+      {
+        "index": 21,
+        "text": "View Case Study → View All Projects The Process Get your new website live in 3 simple steps.",
+        "wordCount": 18,
+        "charCount": 92,
+        "category": "medium"
+      },
+      {
+        "index": 43,
+        "text": "Spend 30 minutes on a free call and I'll show you exactly how to fix your online presence.",
+        "wordCount": 18,
+        "charCount": 90,
+        "category": "medium"
+      },
+      {
+        "index": 10,
+        "text": "Pricing & Packages Case Studies Book a Call The Package Launch your website without the freelancer headache.",
+        "wordCount": 17,
+        "charCount": 108,
+        "category": "medium"
+      },
+      {
+        "index": 22,
+        "text": "You’ll never have to ask \"what happens next?\" 01 The Strategy Call Tell me about your business.",
+        "wordCount": 17,
+        "charCount": 95,
+        "category": "medium"
+      },
+      {
+        "index": 24,
+        "text": "02 Review Your Design You approve the visual direction before a single line of code is written.",
+        "wordCount": 17,
+        "charCount": 95,
+        "category": "medium"
+      },
+      {
+        "index": 34,
+        "text": "It’s a huge relief.” “We were struggling with an outdated website that wasn't bringing in any leads.",
+        "wordCount": 17,
+        "charCount": 100,
+        "category": "medium"
+      },
+      {
+        "index": 40,
+        "text": "Next.js React Tailwind CSS Type Script shadcn/ui Backend & Hosting Reliable infrastructure for content and user data.",
+        "wordCount": 17,
+        "charCount": 117,
+        "category": "medium"
+      },
+      {
+        "index": 5,
+        "text": "Book Your Free Call Message on Whats App 3Companies Launched Strategic digital partners for growing businesses.",
+        "wordCount": 16,
+        "charCount": 111,
+        "category": "medium"
+      },
+      {
+        "index": 13,
+        "text": "01 Brand & Identity Look instantly credible with a clean, professional logo and brand design.",
+        "wordCount": 15,
+        "charCount": 93,
+        "category": "medium"
+      },
+      {
+        "index": 14,
+        "text": "02 High-Converting Design Guide your visitors effortlessly from their first click to booking a call.",
+        "wordCount": 15,
+        "charCount": 100,
+        "category": "medium"
+      },
+      {
+        "index": 33,
+        "text": "My conversion rates have improved quite a bit because people actually trust the site now.",
+        "wordCount": 15,
+        "charCount": 89,
+        "category": "medium"
+      },
+      {
+        "index": 32,
+        "text": "The new landing page is clean, fast, and actually looks like a premium business.",
+        "wordCount": 14,
+        "charCount": 80,
+        "category": "medium"
+      },
+      {
+        "index": 36,
+        "text": "Since the new site went live, our traffic and inquiries have significantly increased.",
+        "wordCount": 13,
+        "charCount": 85,
+        "category": "medium"
+      },
+      {
+        "index": 37,
+        "text": "Communication was smooth, delivery was on time, and the quality exceeded our expectations.",
+        "wordCount": 13,
+        "charCount": 90,
+        "category": "medium"
+      },
+      {
+        "index": 41,
+        "text": "Vercel Convex Node.js Design & Tools Visual systems that speak your brand identity.",
+        "wordCount": 13,
+        "charCount": 83,
+        "category": "medium"
+      },
+      {
+        "index": 15,
+        "text": "03 Complete Tech Setup Never worry about domains, hosting, or security updates.",
+        "wordCount": 12,
+        "charCount": 79,
+        "category": "medium"
+      },
+      {
+        "index": 30,
+        "text": "I was losing people because it didn't look 'official' enough, I think.",
+        "wordCount": 12,
+        "charCount": 70,
+        "category": "medium"
+      },
+      {
+        "index": 7,
+        "text": "<3s Average Load Times Built for performance and technical SEO.",
+        "wordCount": 10,
+        "charCount": 63,
+        "category": "short"
+      },
+      {
+        "index": 17,
+        "text": "Recent Work See how a premium website transforms your business.",
+        "wordCount": 10,
+        "charCount": 63,
+        "category": "short"
+      },
+      {
+        "index": 25,
+        "text": "03 Launch & Grow I handle the complete technical setup.",
+        "wordCount": 10,
+        "charCount": 55,
+        "category": "short"
+      },
+      {
+        "index": 44,
+        "text": "Book Your Free Call→ Message on Whats App Quick question?",
+        "wordCount": 10,
+        "charCount": 57,
+        "category": "short"
+      },
+      {
+        "index": 1,
+        "text": "RankSEO SEO100 GEO46 MOZ DA-- SPAM— Title56ch Title: \"",
+        "wordCount": 9,
+        "charCount": 54,
+        "category": "short"
+      },
+      {
+        "index": 12,
+        "text": "You get an entire digital team in one expert.",
+        "wordCount": 9,
+        "charCount": 45,
+        "category": "short"
+      },
+      {
+        "index": 18,
+        "text": "Proof that a modern online presence drives real revenue.",
+        "wordCount": 9,
+        "charCount": 56,
+        "category": "short"
+      },
+      {
+        "index": 23,
+        "text": "We'll map out exactly what you need to grow.",
+        "wordCount": 9,
+        "charCount": 44,
+        "category": "short"
+      },
+      {
+        "index": 27,
+        "text": "Client Reviews Trusted by founders who demand results.",
+        "wordCount": 8,
+        "charCount": 54,
+        "category": "short"
+      },
+      {
+        "index": 31,
+        "text": "Yasir Khan really stepped in and fixed that.",
+        "wordCount": 8,
+        "charCount": 44,
+        "category": "short"
+      },
+      {
+        "index": 39,
+        "text": "Frontend Core Highly interactive, fast, and SEO-optimized interfaces.",
+        "wordCount": 8,
+        "charCount": 69,
+        "category": "short"
+      },
+      {
+        "index": 6,
+        "text": "1,000+Leads Generated Proven results in conversion optimization.",
+        "wordCount": 7,
+        "charCount": 64,
+        "category": "short"
+      },
+      {
+        "index": 11,
+        "text": "Stop chasing designers, developers, and hosting companies.",
+        "wordCount": 7,
+        "charCount": 58,
+        "category": "short"
+      },
+      {
+        "index": 2,
+        "text": "Small Business Website Designer & Develo…\"",
+        "wordCount": 6,
+        "charCount": 42,
+        "category": "short"
+      },
+      {
+        "index": 26,
+        "text": "You start receiving leads.",
+        "wordCount": 4,
+        "charCount": 26,
+        "category": "very_short"
+      },
+      {
+        "index": 9,
+        "text": "Looking for more?",
+        "wordCount": 3,
+        "charCount": 17,
+        "category": "very_short"
+      }
+    ],
+    "sentenceLength": {
+      "veryShort": 2,
+      "short": 14,
+      "medium": 21,
+      "long": 7
+    }
+  },
+  "pageType": {
+    "type": "homepage",
+    "confidence": "high",
+    "jsonLdTypes": ["WebSite", "Organization", "WebPage"],
+    "ogType": "website"
+  },
+  "geoSignals": {
+    "score": 46,
+    "pillars": {
+      "citability": {
+        "score": 11,
+        "max": 20,
+        "label": "Content Citability"
+      },
+      "eeat": {
+        "score": 6,
+        "max": 20,
+        "label": "E-E-A-T Signals"
+      },
+      "structured": {
+        "score": 13,
+        "max": 20,
+        "label": "Structured Data"
+      },
+      "techAI": {
+        "score": 7,
+        "max": 10,
+        "label": "AI Accessibility"
+      },
+      "multiModal": {
+        "score": 0,
+        "max": 10,
+        "label": "Multi-modal Content"
+      }
+    },
+    "details": {
+      "h2Count": 8,
+      "h3Count": 14,
+      "listsCount": 6,
+      "tablesCount": 0,
+      "statsCount": 0,
+      "definitionsCount": 3,
+      "questionsCount": 1,
+      "shortParagraphs": 11,
+      "hasAuthor": false,
+      "hasDatePublished": false,
+      "hasDateModified": false,
+      "hasSources": true,
+      "sourceLinks": 6,
+      "jsonLdCount": 2,
+      "hasProductSchema": false,
+      "hasArticleSchema": false,
+      "hasFAQSchema": false,
+      "hasBreadcrumbSchema": false,
+      "hasOrgSchema": true,
+      "hasCanonical": true,
+      "isIndexable": true,
+      "imagesWithDescAlt": 1,
+      "hasVideo": false,
+      "imagesTotal": 2
+    }
+  },
+  "searchIntent": {
+    "primary": "informational",
+    "confidence": "medium",
+    "scores": {
+      "transactional": 0,
+      "commercial": 0,
+      "informational": 8,
+      "navigational": 8
+    }
+  },
+  "serpEligibility": {
+    "features": [
+      {
+        "feature": "FAQ",
+        "icon": "❓",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "FAQPage schema",
+            "met": false
+          },
+          {
+            "label": "Question/Answer pairs",
+            "met": false
+          }
+        ],
+        "fix": "Add FAQPage JSON-LD with mainEntity containing Question/acceptedAnswer pairs"
+      },
+      {
+        "feature": "Product",
+        "icon": "🛍",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "Product schema",
+            "met": false
+          },
+          {
+            "label": "Price/Offers",
+            "met": false
+          },
+          {
+            "label": "Reviews/Rating",
+            "met": false
+          }
+        ],
+        "fix": "Add Product JSON-LD with name, image, and offers (price, availability)"
+      },
+      {
+        "feature": "Article",
+        "icon": "📝",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "Article/BlogPosting schema",
+            "met": false
+          },
+          {
+            "label": "Author",
+            "met": false
+          },
+          {
+            "label": "datePublished",
+            "met": false
+          }
+        ],
+        "fix": "Add Article JSON-LD with headline, author, datePublished, image"
+      },
+      {
+        "feature": "Breadcrumbs",
+        "icon": "🔗",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "BreadcrumbList schema",
+            "met": false
+          },
+          {
+            "label": "Breadcrumb navigation",
+            "met": false
+          }
+        ],
+        "fix": "Add BreadcrumbList JSON-LD with itemListElement"
+      },
+      {
+        "feature": "Sitelinks Search",
+        "icon": "🔍",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "WebSite schema",
+            "met": true
+          },
+          {
+            "label": "SearchAction",
+            "met": false
+          },
+          {
+            "label": "Search functionality",
+            "met": false
+          }
+        ],
+        "fix": "Add WebSite JSON-LD with potentialAction SearchAction"
+      },
+      {
+        "feature": "How-To",
+        "icon": "📋",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "HowTo schema",
+            "met": false
+          },
+          {
+            "label": "Ordered steps",
+            "met": false
+          }
+        ],
+        "fix": "Add HowTo JSON-LD with name and step array"
+      },
+      {
+        "feature": "Video",
+        "icon": "🎬",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "VideoObject schema",
+            "met": false
+          },
+          {
+            "label": "Video on page",
+            "met": false
+          }
+        ],
+        "fix": null
+      },
+      {
+        "feature": "Recipe",
+        "icon": "🍳",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "Recipe schema",
+            "met": false
+          }
+        ],
+        "fix": null
+      },
+      {
+        "feature": "Event",
+        "icon": "📅",
+        "eligible": false,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "Event schema",
+            "met": false
+          }
+        ],
+        "fix": null
+      },
+      {
+        "feature": "Knowledge Panel",
+        "icon": "🏢",
+        "eligible": true,
+        "partial": false,
+        "requirements": [
+          {
+            "label": "Organization schema",
+            "met": true
+          },
+          {
+            "label": "Logo",
+            "met": true
+          },
+          {
+            "label": "sameAs (social links)",
+            "met": true
+          }
+        ],
+        "fix": null
+      }
+    ],
+    "eligibleCount": 1,
+    "partialCount": 0,
+    "totalChecked": 10
+  },
+  "readabilityAdvanced": {
+    "available": true,
+    "fleschKincaid": 46,
+    "gunningFog": 13.4,
+    "gradeLevel": "College",
+    "difficulty": "difficult",
+    "avgWordsPerSentence": 15.3,
+    "avgSyllablesPerWord": 1.7,
+    "vocabRichness": 50,
+    "complexWordPercent": 18,
+    "longParagraphs": 0,
+    "passiveVoicePercent": 2,
+    "totalSyllables": 1203,
+    "wordCount": 702,
+    "sentenceCount": 46
+  },
+  "duplicateContent": {
+    "issues": [],
+    "issueCount": 0,
+    "hasErrors": false,
+    "hasWarnings": false
+  },
+  "citability": {
+    "available": true,
+    "score": 28,
+    "rawScore": 26,
+    "maxPossible": 94,
+    "signals": [
+      {
+        "label": "Structured lists (3+ items)",
+        "count": 6,
+        "points": 10
+      },
+      {
+        "label": "Expert quotes",
+        "count": 6,
+        "attributed": 0,
+        "points": 8
+      },
+      {
+        "label": "Snippable paragraphs",
+        "count": 1,
+        "points": 0
+      },
+      {
+        "label": "Content sections",
+        "count": 22,
+        "points": 8
+      }
+    ],
+    "signalCount": 4
+  },
+  "aiCrawlerView": {
+    "available": true,
+    "visibleWordCount": 839,
+    "hiddenElements": 36,
+    "hiddenSelectors": [
+      {
+        "tag": "head",
+        "text": "Small Business Website Designer & Developer | Yasir Khan",
+        "reason": "display:none"
+      },
+      {
+        "tag": "title",
+        "text": "Small Business Website Designer & Developer | Yasir Khan",
+        "reason": "display:none"
+      },
+      {
+        "tag": "div",
+        "text": "Title: \"Small Business Website Designer & Develo…\"\n        \n        \n        Tit",
+        "reason": "opacity:0"
+      },
+      {
+        "tag": "div",
+        "text": "Meta Description\n        \n        \n        Meta description optimized",
+        "reason": "opacity:0"
+      },
+      {
+        "tag": "div",
+        "text": "Headings Structure\n        \n        \n        Headings structure correct\n      \n ",
+        "reason": "opacity:0"
+      }
+    ],
+    "lazyImages": 2,
+    "jsOnlyContent": 0,
+    "hasNoscript": false,
+    "iframeCount": 0,
+    "shadowDomCount": 2,
+    "visibleRatio": 96,
+    "issues": [
+      {
+        "type": "hidden",
+        "message": "36 hidden content blocks may be invisible to AI crawlers"
+      },
+      {
+        "type": "shadow",
+        "message": "2 Shadow DOM element(s) - invisible to most crawlers"
+      }
+    ]
+  },
+  "contentGaps": {
+    "gaps": [
+      {
+        "section": "Pricing / Cost",
+        "type": "missing_section"
+      },
+      {
+        "section": "FAQ Section",
+        "type": "missing_section"
+      },
+      {
+        "section": "Comparison / Alternatives",
+        "type": "missing_section"
+      },
+      {
+        "section": "Benefits / Why",
+        "type": "missing_section"
+      },
+      {
+        "section": "Conclusion / Summary",
+        "type": "missing_section"
+      },
+      {
+        "section": "Examples / Case Studies",
+        "type": "missing_section"
+      }
+    ],
+    "gapCount": 6,
+    "headingCount": 22,
+    "wordCount": 839
+  },
+  "entities": {
+    "available": true,
+    "entities": [
+      {
+        "name": "Yasir Khan",
+        "type": "WebSite",
+        "source": "schema",
+        "linked": true
+      },
+      {
+        "name": "Small Business Website Designer & Developer | Yasir Khan",
+        "type": "WebPage",
+        "source": "schema",
+        "linked": true
+      }
+    ],
+    "totalCount": 2,
+    "linkedCount": 2,
+    "unlinkedCount": 0,
+    "coverageScore": 100
+  },
+  "indexationHints": {
+    "issues": [],
+    "issueCount": 0,
+    "errorCount": 0,
+    "warningCount": 0,
+    "isIndexable": true,
+    "hasCanonical": true,
+    "hasPagination": null,
+    "robotsDirective": "index, follow"
+  },
+  "multiLangSeo": {
+    "available": false,
+    "count": 0,
+    "issues": []
+  },
+  "security": {
+    "checks": [
+      {
+        "id": "https",
+        "label": "HTTPS",
+        "passed": true,
+        "detail": "Secure connection"
+      },
+      {
+        "id": "mixed",
+        "label": "Mixed Content",
+        "passed": true,
+        "detail": "No mixed content"
+      },
+      {
+        "id": "csp",
+        "label": "CSP",
+        "passed": false,
+        "detail": "No CSP meta tag (may be set via HTTP header)",
+        "severity": "info"
+      },
+      {
+        "id": "referrer",
+        "label": "Referrer Policy",
+        "passed": false,
+        "detail": "No referrer policy meta tag",
+        "severity": "info"
+      }
+    ],
+    "passed": 2,
+    "total": 4
+  },
+  "accessibility": {
+    "checks": [
+      {
+        "id": "img_alt",
+        "label": "Images with alt",
+        "passed": true,
+        "detail": "All images have alt",
+        "count": 0
+      },
+      {
+        "id": "form_labels",
+        "label": "Form labels",
+        "passed": true,
+        "detail": "All inputs labeled",
+        "count": 0
+      },
+      {
+        "id": "landmarks",
+        "label": "ARIA Landmarks",
+        "passed": true,
+        "detail": "main:✓ nav:✓ header:✓"
+      },
+      {
+        "id": "skip_link",
+        "label": "Skip to content",
+        "passed": false,
+        "detail": "No skip-to-content link",
+        "severity": "info"
+      },
+      {
+        "id": "doc_lang",
+        "label": "Document language",
+        "passed": true,
+        "detail": "lang=\"en\""
+      },
+      {
+        "id": "heading_order",
+        "label": "Heading hierarchy",
+        "passed": true,
+        "detail": "Correct heading order"
+      }
+    ],
+    "passed": 5,
+    "total": 6
+  },
+  "jsErrors": {
+    "issues": [],
+    "issueCount": 0
+  },
+  "fontsPerf": {
+    "fontFaceCount": 22,
+    "uniqueFontCount": 4,
+    "fontFamilies": ["Lora", "Lora Fallback", "Outfit", "Outfit Fallback"],
+    "withSwap": 18,
+    "withoutSwap": 4,
+    "preloadedFonts": 2,
+    "cssFiles": 10,
+    "inlineStyles": 0,
+    "hasCriticalCss": false,
+    "fontLinks": 2
+  },
+  "designTokens": {
+    "fonts": [
+      {
+        "name": "Outfit",
+        "count": 138
+      },
+      {
+        "name": "-apple-system",
+        "count": 41
+      },
+      {
+        "name": "ui-monospace",
+        "count": 9
+      },
+      {
+        "name": "Lora",
+        "count": 1
+      }
+    ],
+    "textColors": [
+      {
+        "color": "lab(2.51107 0.242703 -0.886115)",
+        "count": 66
+      },
+      {
+        "color": "lab(5.19679 0.833102 -2.9579)",
+        "count": 60
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "count": 18
+      },
+      {
+        "color": "rgb(100, 116, 139)",
+        "count": 16
+      },
+      {
+        "color": "rgb(148, 163, 184)",
+        "count": 12
+      },
+      {
+        "color": "rgb(22, 163, 74)",
+        "count": 5
+      },
+      {
+        "color": "lab(33.5804 26.6231 -63.6961)",
+        "count": 4
+      },
+      {
+        "color": "rgb(13, 148, 136)",
+        "count": 1
+      }
+    ],
+    "bgColors": [
+      {
+        "color": "lab(100 0 0)",
+        "count": 11
+      },
+      {
+        "color": "oklab(0.999998 -0.00000980496 0.0000234246 / 0.8)",
+        "count": 5
+      },
+      {
+        "color": "rgb(239, 246, 255)",
+        "count": 1
+      },
+      {
+        "color": "rgb(250, 245, 255)",
+        "count": 1
+      },
+      {
+        "color": "rgb(248, 250, 252)",
+        "count": 1
+      },
+      {
+        "color": "rgb(13, 148, 136)",
+        "count": 1
+      }
+    ]
+  },
+  "videos": {
+    "count": 0,
+    "videos": [],
+    "hasVideoSchema": false,
+    "notLazy": 0,
+    "issues": [],
+    "types": {
+      "html5": 0,
+      "youtube": 0,
+      "vimeo": 0
+    }
+  },
+  "pageWeight": {
+    "html": {
+      "bytes": 119230,
+      "formatted": "116.4 KB"
+    },
+    "inlineCss": {
+      "bytes": 0,
+      "formatted": "0 B"
+    },
+    "inlineJs": {
+      "bytes": 40970,
+      "formatted": "40.0 KB"
+    },
+    "inlineTotal": {
+      "bytes": 160200,
+      "formatted": "156.4 KB"
+    },
+    "counts": {
+      "extCss": 10,
+      "extJs": 19,
+      "images": 2,
+      "fonts": 2,
+      "thirdParty": 3
+    },
+    "totalResources": 33
+  },
+  "contrastAnalysis": {
+    "available": true,
+    "total": 15,
+    "passing": 4,
+    "failing": 11,
+    "passRate": 27,
+    "issues": [
+      {
+        "text": "RankSEO",
+        "tag": "span",
+        "fg": "rgb(13, 148, 136)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 3.74,
+        "fontSize": 11,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-brand-name"
+      },
+      {
+        "text": "SEO",
+        "tag": "span",
+        "fg": "rgb(148, 163, 184)",
+        "bg": "rgb(240, 253, 244)",
+        "ratio": 2.45,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-overall-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "100",
+        "tag": "span",
+        "fg": "rgb(22, 163, 74)",
+        "bg": "rgb(240, 253, 244)",
+        "ratio": 3.15,
+        "fontSize": 14,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rs-score-num"
+      },
+      {
+        "text": "GEO",
+        "tag": "span",
+        "fg": "rgb(148, 163, 184)",
+        "bg": "rgb(255, 247, 237)",
+        "ratio": 2.41,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-geo-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "46",
+        "tag": "span",
+        "fg": "rgb(234, 88, 12)",
+        "bg": "rgb(255, 247, 237)",
+        "ratio": 3.35,
+        "fontSize": 14,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rs-geo-num"
+      },
+      {
+        "text": "MOZ DA",
+        "tag": "span",
+        "fg": "rgb(99, 102, 241)",
+        "bg": "rgb(248, 250, 252)",
+        "ratio": 4.27,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-da-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "SPAM",
+        "tag": "span",
+        "fg": "rgb(239, 68, 68)",
+        "bg": "rgb(248, 250, 252)",
+        "ratio": 3.6,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-spam-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "Title",
+        "tag": "span",
+        "fg": "rgb(148, 163, 184)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 2.56,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": ".rankseo-metric > span:nth-of-type(1)"
+      },
+      {
+        "text": "56ch",
+        "tag": "span",
+        "fg": "rgb(22, 163, 74)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 3.3,
+        "fontSize": 12,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": ".rankseo-metric > span:nth-of-type(2)"
+      },
+      {
+        "text": "Home",
+        "tag": "span",
+        "fg": "rgb(59, 130, 246)",
+        "bg": "rgb(239, 246, 255)",
+        "ratio": 3.38,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": ".rankseo-metric > span"
+      }
+    ],
+    "samples": [
+      {
+        "text": "RankSEO",
+        "tag": "span",
+        "fg": "rgb(13, 148, 136)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 3.74,
+        "fontSize": 11,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-brand-name"
+      },
+      {
+        "text": "SEO",
+        "tag": "span",
+        "fg": "rgb(148, 163, 184)",
+        "bg": "rgb(240, 253, 244)",
+        "ratio": 2.45,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-overall-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "100",
+        "tag": "span",
+        "fg": "rgb(22, 163, 74)",
+        "bg": "rgb(240, 253, 244)",
+        "ratio": 3.15,
+        "fontSize": 14,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rs-score-num"
+      },
+      {
+        "text": "GEO",
+        "tag": "span",
+        "fg": "rgb(148, 163, 184)",
+        "bg": "rgb(255, 247, 237)",
+        "ratio": 2.41,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-geo-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "46",
+        "tag": "span",
+        "fg": "rgb(234, 88, 12)",
+        "bg": "rgb(255, 247, 237)",
+        "ratio": 3.35,
+        "fontSize": 14,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rs-geo-num"
+      },
+      {
+        "text": "MOZ DA",
+        "tag": "span",
+        "fg": "rgb(99, 102, 241)",
+        "bg": "rgb(248, 250, 252)",
+        "ratio": 4.27,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-da-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "SPAM",
+        "tag": "span",
+        "fg": "rgb(239, 68, 68)",
+        "bg": "rgb(248, 250, 252)",
+        "ratio": 3.6,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rankseo-spam-score > span:nth-of-type(1)"
+      },
+      {
+        "text": "Title",
+        "tag": "span",
+        "fg": "rgb(148, 163, 184)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 2.56,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": ".rankseo-metric > span:nth-of-type(1)"
+      },
+      {
+        "text": "56ch",
+        "tag": "span",
+        "fg": "rgb(22, 163, 74)",
+        "bg": "rgb(255, 255, 255)",
+        "ratio": 3.3,
+        "fontSize": 12,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": ".rankseo-metric > span:nth-of-type(2)"
+      },
+      {
+        "text": "Home",
+        "tag": "span",
+        "fg": "rgb(59, 130, 246)",
+        "bg": "rgb(239, 246, 255)",
+        "ratio": 3.38,
+        "fontSize": 9,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": ".rankseo-metric > span"
+      },
+      {
+        "text": "Full Report",
+        "tag": "button",
+        "fg": "rgb(255, 255, 255)",
+        "bg": "rgb(13, 148, 136)",
+        "ratio": 3.74,
+        "fontSize": 10,
+        "passAA": false,
+        "passAAA": false,
+        "isLargeText": false,
+        "selector": "#rs-btn-popup"
+      }
+    ]
+  },
+  "eeat": {
+    "experience": {
+      "score": 0,
+      "signals": []
+    },
+    "expertise": {
+      "score": 25,
+      "signals": [
+        "Link to author page found",
+        "Professional credentials mentioned (expert, director)",
+        "Schema.org Organization markup found"
+      ]
+    },
+    "authority": {
+      "score": 5,
+      "signals": ["Canonical URL set"]
+    },
+    "trust": {
+      "score": 20,
+      "signals": ["HTTPS enabled", "Contact information found"]
+    },
+    "totalScore": 50
+  },
+  "advancedTechnical": {
+    "resourceHints": {
+      "preconnect": [],
+      "prefetch": [],
+      "preload": [
+        {
+          "href": "https://yasir.qzz.io/_next/static/media/1b99372b3eaef0c8-s.p.0gx2haw2tmll8.woff2",
+          "as": "font",
+          "type": "font/woff2"
+        },
+        {
+          "href": "https://yasir.qzz.io/_next/static/media/8c2eb9ceedecfc8e-s.p.0oeo8epbafgia.woff2",
+          "as": "font",
+          "type": "font/woff2"
+        },
+        {
+          "href": "https://yasir.qzz.io/_next/static/chunks/145l.yonqs-ls.js",
+          "as": "script",
+          "type": ""
+        }
+      ],
+      "dnsPrefetch": []
+    },
+    "rendering": {
+      "type": "static",
+      "jsFramework": null,
+      "hydrationDetected": false
+    },
+    "performance": {
+      "domElements": 753,
+      "domDepth": 13,
+      "criticalRequestChains": 0
+    },
+    "serverHints": {
+      "http2": null,
+      "serverTiming": false
+    },
+    "contentFreshness": {
+      "publishDate": null,
+      "modifiedDate": null,
+      "ageInDays": null,
+      "staleContentWarnings": ["No publication or modification date found"]
+    }
+  },
+  "languageAnalysis": {
+    "declaredLang": "en",
+    "declaredLangName": "English",
+    "detectedLang": "en",
+    "detectedLangName": "English",
+    "detectedConfidence": 100,
+    "urlLang": "",
+    "hasLoremIpsum": false,
+    "loremLocations": [],
+    "langScores": {
+      "en": {
+        "count": 71,
+        "ratio": 0.09403973509933775,
+        "pct": 100
+      },
+      "fr": {
+        "count": 0,
+        "ratio": 0,
+        "pct": 0
+      },
+      "de": {
+        "count": 0,
+        "ratio": 0,
+        "pct": 0
+      },
+      "es": {
+        "count": 0,
+        "ratio": 0,
+        "pct": 0
+      },
+      "it": {
+        "count": 0,
+        "ratio": 0,
+        "pct": 0
+      },
+      "pt": {
+        "count": 0,
+        "ratio": 0,
+        "pct": 0
+      },
+      "nl": {
+        "count": 0,
+        "ratio": 0,
+        "pct": 0
+      }
+    },
+    "issues": [],
+    "totalWords": 755
+  },
+  "cro": {
+    "score": 47,
+    "cta": {
+      "count": 0,
+      "items": [],
+      "aboveFold": false
+    },
+    "trust": {
+      "paymentBadges": 0,
+      "securityBadges": 0,
+      "hasReviews": false,
+      "hasGuarantee": false,
+      "hasReturnPolicy": true,
+      "hasShippingInfo": true,
+      "hasPhone": false,
+      "hasEmail": false,
+      "hasContactPage": true,
+      "socialLinks": 1
+    },
+    "product": {
+      "hasPrice": false,
+      "imageCount": 0,
+      "hasVariantSelector": false,
+      "hasAvailability": false,
+      "hasReviews": false
+    },
+    "forms": [],
+    "aboveFold": {
+      "h1Visible": true,
+      "ctaVisible": false,
+      "hasHero": false
+    },
+    "navigation": {
+      "hasSearch": false,
+      "hasBreadcrumbs": false,
+      "hasStickyHeader": true
+    },
+    "interstitials": {
+      "intrusivePopups": 0,
+      "hasChatWidget": false
+    },
+    "socialProof": {
+      "testimonialCount": 0,
+      "hasClientLogos": false,
+      "hasShareButtons": false
+    },
+    "content": {
+      "bulletPoints": 24,
+      "tables": 0,
+      "hasFAQ": false,
+      "hasTOC": false,
+      "longParagraphs": 0,
+      "paragraphCount": 31
+    },
+    "performance": {
+      "domSize": 753,
+      "lazyImageRatio": 100,
+      "renderBlockingScripts": 5
+    }
+  },
+  "socialProfiles": {
+    "profiles": [
+      {
+        "platform": "WhatsApp",
+        "icon": "whatsapp",
+        "url": "https://wa.me/923014545482",
+        "type": "Profile",
+        "text": "Message on WhatsApp"
+      },
+      {
+        "platform": "LinkedIn",
+        "icon": "linkedin",
+        "url": "https://linkedin.com/in/connectyasir",
+        "type": "Profile",
+        "text": "LinkedIn"
+      }
+    ],
+    "count": 2
+  },
+  "score": {
+    "value": 100,
+    "grade": "A",
+    "issues": ["Very low text-to-HTML ratio (<10%)"]
+  }
+}

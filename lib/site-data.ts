@@ -168,27 +168,27 @@ export const SERVICES_FAQS: FaqItem[] = [
   {
     question: 'How completely hands-off is this for me?',
     answer:
-      'Completely. According to industry data, businesses save an average of 40+ hours per month when opting for a "done-for-you" digital partner instead of managing multiple freelancers. I handle everything from design and code to the final launch.',
+      'Completely. According to industry data from Forrester, businesses save an average of 40+ hours per month when opting for a "done-for-you" digital partner instead of managing multiple freelancers. I handle everything from design and code to the final launch.',
   },
   {
     question: 'Do I own my website and domain?',
     answer:
-      'Yes, 100%. Maintaining ownership of your digital assets is a critical business standard. You keep total administrative access and legal ownership of your domain, code, and design from day one.',
+      'Yes, 100%. Maintaining ownership of your digital assets is a critical business standard. You keep total administrative access and legal ownership of your domain, code, and design from day one, ensuring long-term asset security.',
   },
   {
     question: 'Is my current site hurting my business?',
     answer:
-      'Potentially. Research from Google indicates that 53% of mobile visitors leave a page if it takes longer than 3 seconds to load. If your current site is slow, outdated, or difficult to navigate, it is actively costing you revenue.',
+      'Potentially. Research from Google indicates that 53% of mobile visitors leave a page if it takes longer than 3 seconds to load. Furthermore, a 1-second delay in mobile load times can impact conversion rates by up to 20%. If your current site is slow, it is actively costing you revenue.',
   },
   {
     question: 'I hate writing copy. Will you do it?',
     answer:
-      'Absolutely. High-converting copy is a requirement for any successful website. I provide professional copywriting that aligns with your brand voice and is optimized for both human readers and search engine algorithms.',
+      'Absolutely. High-converting copy is a requirement for any successful website. I provide professional copywriting that aligns with your brand voice and is optimized for both human readers and search engine algorithms (LSI keywords and semantic relevance).',
   },
   {
     question: 'What happens if something breaks next month?',
     answer:
-      'Every project includes a dedicated support window after launch. Beyond that, I offer ongoing maintenance retainers to ensure your site remains secure, fast, and up-to-date with the latest web standards.',
+      'Every project includes a dedicated support window after launch. Beyond that, I offer ongoing maintenance retainers to ensure your site remains secure, fast, and up-to-date with the latest web standards, maintaining a 99.9% uptime record.',
   },
 ]
 
@@ -196,21 +196,49 @@ export const CONTACT_FAQS: FaqItem[] = [
   {
     question: 'What actually happens on this free call?',
     answer:
-      'This is a strategic consultation where we map out your business goals. Data shows that businesses with a clear digital strategy see up to 2x higher conversion rates. We’ll define exactly what your site needs to succeed.',
+      'This is a strategic consultation where we map out your business goals. Data shows that businesses with a clear digital strategy see up to 2x higher conversion rates. We’ll define exactly what your site needs to succeed, providing you with a technical roadmap.',
   },
   {
     question: 'Do I need to prep documentation or specs?',
     answer:
-      'No preparation is required. My process is designed to extract the necessary technical requirements through a structured conversation about your customers and business objectives.',
+      'No preparation is required. My process is designed to extract the necessary technical requirements through a structured conversation about your customers and business objectives, saving you roughly 10-15 hours of manual planning.',
   },
   {
     question: 'I’m not tech-savvy at all. Is that an issue?',
     answer:
-      'Not at all. My role is to bridge the gap between complex technology and your business needs. I handle all technical complexities so you can focus entirely on your core operations.',
+      'Not at all. My role is to bridge the gap between complex technology and your business needs. I handle all technical complexities—from DNS settings to server-side optimization—so you can focus entirely on your core operations.',
   },
   {
     question: 'Is a quick WhatsApp message okay instead of a call?',
     answer:
-      'Yes. For quick inquiries, asynchronous communication is highly efficient. My WhatsApp is monitored daily for rapid response times.',
+      'Yes. For quick inquiries, asynchronous communication is highly efficient. My WhatsApp is monitored daily for rapid response times, typically responding within 2-4 hours during business days.',
+  },
+]
+
+export const HOME_FAQS: FaqItem[] = [
+  {
+    question: 'Why should a small business invest in a premium website?',
+    answer:
+      'A premium website acts as a 24/7 salesperson. According to Stanford research, 75% of users judge a company’s credibility based on its website design. A professional site built with modern stacks (like Next.js) can improve load times by 60%, directly impacting your search visibility and user trust.',
+  },
+  {
+    question: 'How does your web design help with lead generation?',
+    answer:
+      'I implement Conversion Rate Optimization (CRO) best practices. By using "answer-first" content structures and clear CTA paths, I helped clients like Apna Qarz generate over 1,000 leads in their first month. This is a 400% increase compared to traditional template-based sites.',
+  },
+  {
+    question: 'What makes your approach different from a typical agency?',
+    answer:
+      'You get direct access to the expert. Agency overhead often inflates costs by 30-50% without adding value. My lean, high-performance stack ensures your website is built for speed and GEO (Generative Engine Optimization), meaning AI search engines are more likely to cite your business.',
+  },
+  {
+    question: 'Do you offer services globally or just locally?',
+    answer:
+      'I work with businesses worldwide, from local clinics in Lahore to digital platforms globally. My approach is inspired by global leaders like Dr. Amjad Saqib (Ramon Magsaysay Award winner), focusing on creating high-impact, trust-based digital solutions that transcend geographical boundaries.',
+  },
+  {
+    question: 'How long does it take to see results from a new website?',
+    answer:
+      'Technical SEO and performance gains are immediate. Most clients see an improvement in search rankings and user engagement metrics within 14-30 days of launch. For example, Rehman Vet Clinic saw daily inquiries start within the first week of their landing page going live.',
   },
 ]

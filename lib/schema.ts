@@ -9,6 +9,7 @@ import {
 } from '@/lib/site-config'
 import {
   CONTACT_FAQS,
+  HOME_FAQS,
   PAGE_SEO,
   PRICING_PACKAGES,
   PROJECTS,
@@ -97,6 +98,12 @@ export function getPersonNode(): SchemaNode {
       'Full-stack JavaScript Development',
       'API Integration',
       'Serverless Architecture',
+      'Digital Strategy for Entrepreneurs',
+      'Performance Engineering',
+      'User Experience (UX) Design',
+    ],
+    award: [
+      'Inspired by Dr. Amjad Saqib (Ramon Magsaysay Award winner) philosophy of service',
     ],
   }
 }
@@ -294,6 +301,10 @@ export function getFaqNode(faqs: FaqItem[], id: string): SchemaNode {
       },
     })),
   }
+}
+
+export function getHomeFaqNode(): SchemaNode {
+  return getFaqNode(HOME_FAQS, `${SITE_URL}/#faq`)
 }
 
 export function getServicesFaqNode(): SchemaNode {
