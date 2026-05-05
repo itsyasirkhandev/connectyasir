@@ -56,6 +56,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     title: 'Yasir Khan',
   },
+  referrer: 'strict-origin-when-cross-origin',
 }
 
 export const viewport: Viewport = {
