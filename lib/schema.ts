@@ -1,5 +1,6 @@
 import {
   CONTACT,
+  DEFAULT_LAST_MODIFIED,
   DEFAULT_OG_IMAGE,
   LOGO_PATH,
   PERSON_IMAGE_PATH,
@@ -149,6 +150,8 @@ export function getServicesPageNode(): SchemaNode {
     about: {
       '@id': `${SITE_URL}/services#service`,
     },
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 
@@ -205,6 +208,8 @@ export function getProjectsCollectionPageNode(): SchemaNode {
         description: project.shortDescription,
       })),
     },
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 

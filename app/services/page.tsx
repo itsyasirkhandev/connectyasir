@@ -7,6 +7,7 @@ import PageHeader from '@/components/sections/services/PageHeader'
 import ServicesBreakdown from '@/components/sections/services/ServicesBreakdown'
 import PricingPackages from '@/components/sections/services/PricingPackages'
 import MyProcess from '@/components/sections/services/MyProcess'
+import { ComparisonTable } from '@/components/sections/services/ComparisonTable'
 import FaqSection from '@/components/sections/shared/FaqSection'
 import CtaBlock from '@/components/sections/services/CtaBlock'
 
@@ -63,6 +64,7 @@ export default function ServicesPage() {
 
         <ServicesBreakdown />
         <PricingPackages />
+        <ComparisonTable />
         <MyProcess />
         <FaqSection
           faqs={SERVICES_FAQS}

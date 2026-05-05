@@ -6,6 +6,7 @@ import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
 import Hero from '@/components/sections/home/Hero'
+import { TrustBar } from '@/components/sections/home/TrustBar'
 import ServicesOverview from '@/components/sections/home/ServicesOverview'
 import FeaturedProjects from '@/components/sections/home/FeaturedProjects'
 import HowItWorks from '@/components/sections/home/HowItWorks'
@@ -29,6 +30,7 @@ export default function Home() {
       <Navbar />
       <main id="main-content">
         <Hero />
+        <TrustBar />
 
         <section className="bg-background relative overflow-hidden py-16 md:py-32">
           <div className="relative z-10 container mx-auto px-4 sm:px-6">
