@@ -94,7 +94,7 @@ export default function NextJsVsWordpressPage() {
                   Next.js achieves this through <strong>Static Site Generation (SSG)</strong>. Instead of building the page from a database every time a user visits, Next.js pre-builds the entire site. This means your visitors get instant load times, which directly correlates to higher search rankings and more leads.
                 </p>
 
-                <h2 className="text-primary mt-12 text-3xl font-semibold">2. Long-Term Cost: Eliminating the 'Plugin Tax'</h2>
+                <h2 className="text-primary mt-12 text-3xl font-semibold">2. Long-Term Cost: Eliminating the &apos;Plugin Tax&apos;</h2>
                 <p>
                   The &quot;hidden costs&quot; of WordPress are significant. To keep a WordPress site secure and fast, you often need premium plugins for SEO, caching, security, and forms. Over 3 years, these licenses—plus managed hosting and maintenance—can cost between <strong>$8,000 and $25,000</strong>.
                 </p>
