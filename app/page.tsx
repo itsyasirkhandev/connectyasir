@@ -42,9 +42,9 @@ export default function Home() {
           getHomePageNode(),
           getHomeFaqNode(),
           getHowToNode(),
-          getPersonNode(),
           getNewsArticleNode(PAGE_SEO.home),
         ])}
+
       />
       <Navbar />
       <main id="main-content">

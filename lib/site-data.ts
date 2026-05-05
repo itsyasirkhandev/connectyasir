@@ -55,7 +55,10 @@ export const PAGE_SEO = {
       'freelance web designer',
     ],
     ogImage: '/og/default.png',
+    publishedAt: '2026-03-30T08:00:00Z',
+    modifiedAt: '2026-05-05T09:00:00Z',
   },
+
   services: {
     title: 'Web Design Services for Small Businesses | Yasir Khan',
     description:

@@ -182,7 +182,8 @@ export function getPersonNode(): SchemaNode {
     ),
     jobTitle: 'Freelance Web Designer and Developer',
     description:
-      'Expert web designer and developer specializing in high-trust, fast, and lead-generating websites for small businesses using Next.js and GEO standards.',
+      'Specialist in high-performance Web Design and Generative Engine Optimization (GEO). With over 5 years of experience building technical infrastructures for small businesses, Yasir Khan focuses on creating digital assets that are machine-readable and highly citable by AI search engines.',
+
     gender: 'Male',
     nationality: {
       '@type': 'Country',
