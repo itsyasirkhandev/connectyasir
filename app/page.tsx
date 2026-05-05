@@ -19,7 +19,12 @@ import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { JsonLd } from '@/components/seo/json-ld'
 import { createMetadata } from '@/lib/seo'
 import { PAGE_SEO, PAGE_SUMMARIES, HOME_FAQS } from '@/lib/site-data'
-import { getHomePageNode, getHomeFaqNode, getPersonNode, schemaGraph } from '@/lib/schema'
+import {
+  getHomePageNode,
+  getHomeFaqNode,
+  getPersonNode,
+  schemaGraph,
+} from '@/lib/schema'
 
 export const metadata: Metadata = createMetadata(PAGE_SEO.home)
 

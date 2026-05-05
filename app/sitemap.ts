@@ -63,5 +63,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
       images: [absoluteUrl('/og/contact.png')],
     },
+    {
+      url: absoluteUrl('/insights/nextjs-vs-wordpress-small-business-roi'),
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      images: [absoluteUrl('/og/insights-nextjs.png')],
+    },
+    {
+      url: absoluteUrl('/insights/local-seo-checklist-lahore-regional-markets'),
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      images: [absoluteUrl('/og/insights-localseo.png')],
+    },
+    {
+      url: absoluteUrl('/insights/custom-design-vs-templates-lead-gen'),
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.85,
+      images: [absoluteUrl('/og/insights-custom.png')],
+    },
   ]
 }

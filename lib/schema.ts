@@ -74,7 +74,7 @@ export function getPersonNode(): SchemaNode {
     image: absoluteUrl(PERSON_IMAGE_PATH),
     jobTitle: 'Freelance Web Designer and Developer',
     description:
-      'Professional web designer and developer specializing in building high-trust, performance-optimized websites for small businesses using Next.js and modern web standards.',
+      'Web designer and developer building high-trust, fast websites for small businesses using Next.js and modern standards.',
     worksFor: {
       '@id': `${SITE_URL}/#organization`,
     },
@@ -110,7 +110,7 @@ export function getPersonNode(): SchemaNode {
       'Conversion Rate Optimization (CRO)',
     ],
     award: [
-      'Inspired by Dr. Amjad Saqib (Ramon Magsaysay Award winner) philosophy of service',
+      'Inspired by Dr. Amjad Saqib (Ramon Magsaysay Award) philosophy of service',
     ],
   }
 }

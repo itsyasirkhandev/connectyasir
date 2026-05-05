@@ -13,9 +13,18 @@ const navigation = [
 ]
 
 const insights = [
-  { name: 'Next.js vs. WordPress ROI', href: '/insights/nextjs-vs-wordpress-small-business-roi' },
-  { name: 'Local SEO Lahore Checklist', href: '/insights/local-seo-checklist-lahore-regional-markets' },
-  { name: 'Custom Design for Lead Gen', href: '/insights/custom-design-vs-templates-lead-gen' },
+  {
+    name: 'Next.js vs. WordPress ROI',
+    href: '/insights/nextjs-vs-wordpress-small-business-roi',
+  },
+  {
+    name: 'Local SEO Lahore Checklist',
+    href: '/insights/local-seo-checklist-lahore-regional-markets',
+  },
+  {
+    name: 'Custom Design for Lead Gen',
+    href: '/insights/custom-design-vs-templates-lead-gen',
+  },
 ]
 
 const socials = [

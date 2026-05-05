@@ -319,26 +319,26 @@ export const HOME_FAQS: FaqItem[] = [
   {
     question: 'Why should a small business invest in a premium website?',
     answer:
-      'A premium website acts as a 24/7 salesperson. According to Stanford research, 75% of users judge a company’s credibility based on its website design. A professional site built with modern stacks (like Next.js) can improve load times by 60%, directly impacting your search visibility and user trust.',
+      'A premium website is a 24/7 salesperson. Stanford research shows 75% of users judge credibility by design. Modern stacks like Next.js improve load times by 60%, boosting search visibility and trust.',
   },
   {
     question: 'How does your web design help with lead generation?',
     answer:
-      'I implement Conversion Rate Optimization (CRO) best practices. By using "answer-first" content structures and clear CTA paths, I helped clients like Apna Qarz generate over 1,000 leads in their first month. This is a 400% increase compared to traditional template-based sites.',
+      'I use proven CRO best practices. "Answer-first" structures and clear CTA paths helped Apna Qarz generate 1,000+ leads in month one. That is a 400% increase over traditional templates.',
   },
   {
     question: 'What makes your approach different from a typical agency?',
     answer:
-      'You get direct access to the expert. Agency overhead often inflates costs by 30-50% without adding value. My lean, high-performance stack ensures your website is built for speed and GEO (Generative Engine Optimization), meaning AI search engines are more likely to cite your business.',
+      'You work directly with the expert. Skip the 30-50% agency overhead. My lean stack builds for speed and GEO (Generative Engine Optimization). This ensures AI search engines cite your business more often.',
   },
   {
     question: 'Do you offer services globally or just locally?',
     answer:
-      'I work with businesses worldwide, from local clinics in Lahore to digital platforms globally. My approach is inspired by global leaders like Dr. Amjad Saqib (Ramon Magsaysay Award winner), focusing on creating high-impact, trust-based digital solutions that transcend geographical boundaries.',
+      'I work with businesses worldwide, from local clinics to global platforms. My approach is inspired by Dr. Amjad Saqib (Ramon Magsaysay Award winner). I focus on high-impact, trust-based solutions that work anywhere.',
   },
   {
     question: 'How long does it take to see results from a new website?',
     answer:
-      'Technical SEO and performance gains are immediate. Most clients see an improvement in search rankings and user engagement metrics within 14-30 days of launch. For example, Rehman Vet Clinic saw daily inquiries start within the first week of their landing page going live.',
+      'SEO and performance gains are immediate. Most clients see better rankings and engagement within 14-30 days. Rehman Vet Clinic saw daily inquiries start in their first week.',
   },
 ]
