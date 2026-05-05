@@ -342,3 +342,26 @@ export const HOME_FAQS: FaqItem[] = [
       'SEO and performance gains are immediate. Most clients see better rankings and engagement within 14-30 days. Rehman Vet Clinic saw daily inquiries start in their first week.',
   },
 ]
+
+export const CITATIONS = [
+  {
+    name: 'Stanford Web Credibility Research',
+    url: 'https://credibility.stanford.edu/guidelines/',
+    fact: '75% of users judge a company’s credibility based on its website design.',
+  },
+  {
+    name: 'Google Mobile Speed Research',
+    url: 'https://www.thinkwithgoogle.com/marketing-strategies/app-and-mobile/mobile-page-speed-new-industry-benchmarks/',
+    fact: '53% of mobile visitors leave a page if it takes longer than 3 seconds to load.',
+  },
+  {
+    name: 'Dr. Amjad Saqib (Ramon Magsaysay Award winner)',
+    url: 'https://www.rmaward.asia/awardee/saqib-muhammad-amjad',
+    fact: 'Philanthropic and service-based business models build deep community trust.',
+  },
+  {
+    name: 'Next.js Performance Documentation',
+    url: 'https://nextjs.org/learn/dashboard-app/optimizing-fonts-images',
+    fact: 'Modern frameworks improve performance by up to 60% through automatic optimization.',
+  },
+]

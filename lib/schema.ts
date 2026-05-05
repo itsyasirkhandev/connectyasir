@@ -6,6 +6,7 @@ import {
   PERSON_IMAGE_PATH,
   SITE_DESCRIPTION,
   SITE_NAME,
+  SITE_TITLE_DEFAULT,
   SITE_URL,
 } from '@/lib/site-config'
 import {
@@ -22,6 +23,23 @@ import {
 import { absoluteUrl } from '@/lib/seo'
 
 type SchemaNode = Record<string, unknown>
+
+export function getImageObjectNode(url: string, caption?: string): SchemaNode {
+  return {
+    '@type': 'ImageObject',
+    '@id': `${url}#image`,
+    url: absoluteUrl(url),
+    contentUrl: absoluteUrl(url),
+    caption: caption ?? SITE_NAME,
+    inLanguage: 'en-US',
+  }
+}
+
+export function getAuthorNode(): SchemaNode {
+  return {
+    '@id': `${SITE_URL}/about#person`,
+  }
+}
 
 export function schemaGraph(nodes: SchemaNode[]): SchemaNode {
   return {
@@ -71,7 +89,7 @@ export function getPersonNode(): SchemaNode {
     '@id': `${SITE_URL}/about#person`,
     name: 'Yasir Khan',
     url: `${SITE_URL}/about`,
-    image: absoluteUrl(PERSON_IMAGE_PATH),
+    image: getImageObjectNode(PERSON_IMAGE_PATH, 'Yasir Khan - Web Designer and Developer'),
     jobTitle: 'Freelance Web Designer and Developer',
     description:
       'Web designer and developer building high-trust, fast websites for small businesses using Next.js and modern standards.',
@@ -140,6 +158,10 @@ export function getHomePageNode(): SchemaNode {
     about: {
       '@id': `${SITE_URL}/#organization`,
     },
+    author: getAuthorNode(),
+    primaryImageOfPage: getImageObjectNode(DEFAULT_OG_IMAGE, SITE_TITLE_DEFAULT),
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 
@@ -156,6 +178,7 @@ export function getServicesPageNode(): SchemaNode {
     about: {
       '@id': `${SITE_URL}/services#service`,
     },
+    author: getAuthorNode(),
     datePublished: '2026-03-30T08:00:00Z',
     dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
@@ -204,6 +227,7 @@ export function getProjectsCollectionPageNode(): SchemaNode {
     isPartOf: {
       '@id': `${SITE_URL}/#website`,
     },
+    author: getAuthorNode(),
     mainEntity: {
       '@type': 'ItemList',
       itemListElement: PROJECTS.map((project, index) => ({
@@ -220,6 +244,8 @@ export function getProjectsCollectionPageNode(): SchemaNode {
 }
 
 export function getApnaQarzCaseStudyPageNode(): SchemaNode {
+  const project = PROJECTS.find((p) => p.slug === 'apna-qarz')
+
   return {
     '@type': 'WebPage',
     '@id': `${SITE_URL}/projects/apna-qarz#webpage`,
@@ -229,6 +255,7 @@ export function getApnaQarzCaseStudyPageNode(): SchemaNode {
     isPartOf: {
       '@id': `${SITE_URL}/#website`,
     },
+    author: getAuthorNode(),
     about: [
       {
         '@type': 'Organization',
@@ -240,10 +267,18 @@ export function getApnaQarzCaseStudyPageNode(): SchemaNode {
         name: 'Finance advisory website case study',
       },
     ],
+    primaryImageOfPage: getImageObjectNode(
+      project?.image ?? DEFAULT_OG_IMAGE,
+      project?.imageAlt ?? SITE_TITLE_DEFAULT
+    ),
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 
 export function getRehmanVetClinicCaseStudyPageNode(): SchemaNode {
+  const project = PROJECTS.find((p) => p.slug === 'rehman-veterinary-clinic')
+
   return {
     '@type': 'WebPage',
     '@id': `${SITE_URL}/projects/rehman-veterinary-clinic#webpage`,
@@ -253,6 +288,7 @@ export function getRehmanVetClinicCaseStudyPageNode(): SchemaNode {
     isPartOf: {
       '@id': `${SITE_URL}/#website`,
     },
+    author: getAuthorNode(),
     about: [
       {
         '@type': 'Organization',
@@ -264,6 +300,12 @@ export function getRehmanVetClinicCaseStudyPageNode(): SchemaNode {
         name: 'Veterinary clinic website case study',
       },
     ],
+    primaryImageOfPage: getImageObjectNode(
+      project?.image ?? DEFAULT_OG_IMAGE,
+      project?.imageAlt ?? SITE_TITLE_DEFAULT
+    ),
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 
@@ -280,6 +322,10 @@ export function getAboutPageNode(): SchemaNode {
     about: {
       '@id': `${SITE_URL}/about#person`,
     },
+    author: getAuthorNode(),
+    primaryImageOfPage: getImageObjectNode(PERSON_IMAGE_PATH, 'Yasir Khan - About Section'),
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 
@@ -296,6 +342,9 @@ export function getContactPageNode(): SchemaNode {
     about: {
       '@id': `${SITE_URL}/#organization`,
     },
+    author: getAuthorNode(),
+    datePublished: '2026-03-30T08:00:00Z',
+    dateModified: new Date(DEFAULT_LAST_MODIFIED).toISOString(),
   }
 }
 
@@ -339,9 +388,7 @@ export function getInsightPageNode(
     isPartOf: {
       '@id': `${SITE_URL}/#website`,
     },
-    author: {
-      '@id': `${SITE_URL}/about#person`,
-    },
+    author: getAuthorNode(),
     publisher: {
       '@id': `${SITE_URL}/#organization`,
     },
@@ -354,5 +401,35 @@ export function getInsightPageNode(
         url: c.url,
       })),
     }),
+  }
+}
+
+export function getHowToNode(): SchemaNode {
+  return {
+    '@type': 'HowTo',
+    '@id': `${SITE_URL}/#process`,
+    name: 'How to Launch a Professional Small Business Website',
+    description: 'A 3-step process to launch a high-trust, lead-generating website.',
+    step: [
+      {
+        '@type': 'HowToStep',
+        url: `${SITE_URL}/#process`,
+        name: 'The Strategy Call',
+        text: "Map out your business goals and technical requirements to define exactly what your site needs to succeed.",
+      },
+      {
+        '@type': 'HowToStep',
+        url: `${SITE_URL}/#process`,
+        name: 'Review Your Design',
+        text: 'Approve the visual direction and trust-building elements before development begins.',
+      },
+      {
+        '@type': 'HowToStep',
+        url: `${SITE_URL}/#process`,
+        name: 'Launch & Grow',
+        text: 'Final technical setup, performance optimization, and go-live to start receiving daily inquiries.',
+      },
+    ],
+    totalTime: 'P21D',
   }
 }

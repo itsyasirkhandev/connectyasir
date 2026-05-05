@@ -22,9 +22,11 @@ import { PAGE_SEO, PAGE_SUMMARIES, HOME_FAQS } from '@/lib/site-data'
 import {
   getHomePageNode,
   getHomeFaqNode,
+  getHowToNode,
   getPersonNode,
   schemaGraph,
 } from '@/lib/schema'
+import { Citations } from '@/components/seo/Citations'
 
 export const metadata: Metadata = createMetadata(PAGE_SEO.home)
 
@@ -35,6 +37,7 @@ export default function Home() {
         data={schemaGraph([
           getHomePageNode(),
           getHomeFaqNode(),
+          getHowToNode(),
           getPersonNode(),
         ])}
       />
@@ -93,6 +96,7 @@ export default function Home() {
           title="Common questions about premium web design"
           description="Everything you need to know about how a premium website helps your business grow."
         />
+        <Citations />
         <FinalCta />
       </main>
       <Footer />
