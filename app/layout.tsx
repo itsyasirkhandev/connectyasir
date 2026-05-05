@@ -15,6 +15,7 @@ import { cn } from '@/lib/utils'
 
 import { ThemeProvider } from '@/components/theme-provider'
 import { IconLoader } from '@/components/IconLoader'
+import { SkipLink } from '@/components/seo/skip-link'
 
 const loraHeading = Lora({ subsets: ['latin'], variable: '--font-heading' })
 
@@ -83,6 +84,7 @@ export default function RootLayout({
           <JsonLd
             data={schemaGraph([getWebsiteNode(), getOrganizationNode()])}
           />
+          <SkipLink />
           <IconLoader />
           {children}
         </ThemeProvider>

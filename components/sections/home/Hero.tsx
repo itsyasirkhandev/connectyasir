@@ -39,7 +39,7 @@ export default function Hero() {
             >
               <PrimaryButton
                 text="Book Your Free Call"
-                className="pointer-events-none h-12 px-8 text-base shadow-md"
+                className="h-12 px-8 text-base shadow-md"
               />
             </Link>
             <a

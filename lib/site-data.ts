@@ -2,6 +2,7 @@ export type PageSeoConfig = {
   title: string
   description: string
   path: string
+  keywords: string[]
   ogImage?: string
 }
 
@@ -41,6 +42,16 @@ export const PAGE_SEO = {
     description:
       'Professional web design and development for small businesses. I build modern, high-trust websites that load fast and turn visitors into leads.',
     path: '/',
+    keywords: [
+      'small business website designer',
+      'web developer for small business',
+      'custom website development',
+      'affordable web design',
+      'lead generation websites',
+      'high performance websites',
+      'Yasir Khan',
+      'freelance web designer',
+    ],
     ogImage: '/og/default.png',
   },
   services: {
@@ -48,6 +59,14 @@ export const PAGE_SEO = {
     description:
       'Complete web design and development services. Branding, custom coding, hosting, and SEO setup — all handled by one expert.',
     path: '/services',
+    keywords: [
+      'web design services',
+      'small business branding',
+      'SEO setup services',
+      'custom coding for websites',
+      'website hosting setup',
+      'professional web development packages',
+    ],
     ogImage: '/og/services.png',
   },
   projects: {
@@ -55,6 +74,13 @@ export const PAGE_SEO = {
     description:
       'See how I help businesses grow with premium web design. Real-world examples of lead generation and trust-building websites.',
     path: '/projects',
+    keywords: [
+      'web design portfolio',
+      'small business website examples',
+      'lead generation case studies',
+      'trust building web design',
+      'Yasir Khan projects',
+    ],
     ogImage: '/og/projects.png',
   },
   apnaQarz: {
@@ -62,6 +88,13 @@ export const PAGE_SEO = {
     description:
       'How I built a custom finance platform that generated 1,000+ leads in the first month for Apna Qarz.',
     path: '/projects/apna-qarz',
+    keywords: [
+      'finance website design',
+      'lead generation platform',
+      'fintech web development',
+      'custom finance portal',
+      'Apna Qarz case study',
+    ],
     ogImage: '/og/apna-qarz.png',
   },
   rehmanVetClinic: {
@@ -69,6 +102,13 @@ export const PAGE_SEO = {
     description:
       'Case study on building a professional landing page for a local veterinary clinic, generating daily inquiries.',
     path: '/projects/rehman-veterinary-clinic',
+    keywords: [
+      'veterinary clinic website',
+      'local business SEO',
+      'medical landing page design',
+      'clinic website development',
+      'Rehman Vet Clinic case study',
+    ],
     ogImage: '/og/rehman-vet-clinic.png',
   },
   about: {
@@ -76,6 +116,12 @@ export const PAGE_SEO = {
     description:
       'I help small businesses look more established online with modern, high-trust websites. Learn more about my approach.',
     path: '/about',
+    keywords: [
+      'about Yasir Khan',
+      'freelance web developer lahore',
+      'web design philosophy',
+      'high trust websites expert',
+    ],
     ogImage: '/og/about.png',
   },
   contact: {
@@ -83,6 +129,12 @@ export const PAGE_SEO = {
     description:
       'Ready to transform your online presence? Book a free 30-minute call to discuss your website goals.',
     path: '/contact',
+    keywords: [
+      'contact Yasir Khan',
+      'book website strategy call',
+      'hire web designer',
+      'start website project',
+    ],
     ogImage: '/og/contact.png',
   },
 } satisfies Record<string, PageSeoConfig>

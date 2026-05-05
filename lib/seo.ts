@@ -26,12 +26,22 @@ export function createMetadata(config: PageSeoConfig): Metadata {
   return {
     title: config.title,
     description: config.description,
+    keywords: config.keywords,
+    authors: [{ name: SITE_NAME, url: SITE_URL }],
+    creator: SITE_NAME,
     alternates: {
       canonical: config.path,
     },
     robots: {
       index: true,
       follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
     openGraph: {
       type: 'website',

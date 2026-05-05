@@ -27,7 +27,7 @@ export default function Home() {
     <>
       <JsonLd data={schemaGraph([getHomePageNode(), getHomeFaqNode()])} />
       <Navbar />
-      <main>
+      <main id="main-content">
         <Hero />
 
         <section className="bg-background relative overflow-hidden py-16 md:py-32">

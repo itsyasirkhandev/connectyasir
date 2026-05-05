@@ -81,11 +81,7 @@ export default function Navbar() {
               href="/contact"
               className="focus-visible:ring-ring outline-none"
             >
-              <PrimaryButton
-                size="sm"
-                text="Book Your Free Call →"
-                className="pointer-events-none"
-              />
+              <PrimaryButton size="sm" text="Book Your Free Call →" />
             </Link>
           </div>
 
@@ -147,7 +143,7 @@ export default function Navbar() {
                   >
                     <PrimaryButton
                       text="Book Your Free Call →"
-                      className="pointer-events-none w-full"
+                      className="w-full"
                     />
                   </Link>
                 </div>
