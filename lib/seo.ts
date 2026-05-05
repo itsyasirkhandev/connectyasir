@@ -49,10 +49,10 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       siteName: SITE_NAME,
       title: fullTitle,
       description: config.description,
-      url: config.path,
+      url: absoluteUrl(config.path),
       images: [
         {
-          url: ogImage,
+          url: absoluteUrl(ogImage),
           width: 1200,
           height: 630,
           alt: fullTitle,
@@ -63,7 +63,7 @@ export function createMetadata(config: PageSeoConfig): Metadata {
       card: 'summary_large_image',
       title: fullTitle,
       description: config.description,
-      images: [ogImage],
+      images: [absoluteUrl(ogImage)],
     },
   }
 }

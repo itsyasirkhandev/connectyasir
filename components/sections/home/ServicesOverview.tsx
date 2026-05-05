@@ -42,7 +42,8 @@ export default function ServicesOverview() {
               The Package
             </span>
             <h2 className="text-foreground mt-6 text-3xl leading-tight font-semibold tracking-tighter">
-              Launch your website without the freelancer headache.
+              Complete Small Business Web Design & Development Without the
+              Headache.
             </h2>
             <div className="mt-8 max-w-prose space-y-6">
               <p className="text-muted-foreground text-base leading-relaxed">

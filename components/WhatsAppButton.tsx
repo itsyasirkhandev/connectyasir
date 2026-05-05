@@ -28,6 +28,7 @@ export default function WhatsAppButton() {
           {/* Concentric Pulse Effect */}
           <span className="absolute inset-0 animate-[ping_3s_infinite] rounded-2xl bg-[#25D366] opacity-40 group-hover:animate-none" />
 
+          <span className="sr-only">Contact on WhatsApp</span>
           {/* Exact User Provided SVG */}
           <svg
             xmlns="http://www.w3.org/2000/svg"

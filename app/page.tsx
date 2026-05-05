@@ -26,7 +26,13 @@ export const metadata: Metadata = createMetadata(PAGE_SEO.home)
 export default function Home() {
   return (
     <>
-      <JsonLd data={schemaGraph([getHomePageNode(), getHomeFaqNode()])} />
+      <JsonLd
+        data={schemaGraph([
+          getHomePageNode(),
+          getHomeFaqNode(),
+          getPersonNode(),
+        ])}
+      />
       <Navbar />
       <main id="main-content">
         <Hero />
@@ -35,7 +41,7 @@ export default function Home() {
         <section className="bg-background relative overflow-hidden py-16 md:py-32">
           <div className="relative z-10 container mx-auto px-4 sm:px-6">
             <AnswerFirstBlock
-              heading="What Yasir Khan does"
+              heading="Your Specialist for Small Business Website Design & Development"
               summary={PAGE_SUMMARIES.home}
             />
 

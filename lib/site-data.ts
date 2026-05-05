@@ -140,7 +140,7 @@ export const PAGE_SEO = {
 } satisfies Record<string, PageSeoConfig>
 
 export const PAGE_SUMMARIES = {
-  home: 'I design and build modern websites for small businesses that look credible, load fast, and help turn visitors into leads.',
+  home: 'As a specialized Small Business Website Designer and Developer, I design and build modern websites that look credible, load fast, and turn visitors into leads.',
   services:
     'From branding and design to development, launch, and support — everything is handled in one place.',
   projects:
