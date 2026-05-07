@@ -198,7 +198,6 @@ export function getPersonNode(): SchemaNode {
       CONTACT.linkedin,
       'https://github.com/itsyasirkhandev',
       'https://twitter.com/connectyasir',
-      'https://www.upwork.com/freelancers/~01b6c7a7a5a8f6d6b5',
     ],
     email: CONTACT.email,
     telephone: '+923014545482',

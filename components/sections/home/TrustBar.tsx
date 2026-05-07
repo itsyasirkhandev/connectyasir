@@ -1,30 +1,37 @@
 'use client'
 
 const CLIENTS = [
-  { name: 'Apna Qarz', industry: 'Finance' },
-  { name: 'Rehman Vet', industry: 'Healthcare' },
-  { name: 'Green Earth', industry: 'Non-profit' },
-  { name: 'TechFlow', industry: 'SaaS' },
-  { name: 'Blue Ridge', industry: 'Real Estate' },
+  { name: 'Apna Qarz', industry: 'FINANCE' },
+  { name: 'Rehman Vet', industry: 'HEALTHCARE' },
 ]
 
 export function TrustBar() {
   return (
-    <section className="border-border/50 bg-muted/20 border-y py-10">
+    <section className="border-border/50 bg-muted/10 border-y py-12">
       <div className="container mx-auto px-4 sm:px-6">
-        <p className="text-muted-foreground mb-8 text-center text-xs font-semibold tracking-[0.2em] uppercase">
-          Trusted by growing businesses and local experts
+        <p className="text-muted-foreground/60 mb-10 text-center text-[10px] font-bold tracking-[0.3em] uppercase">
+          Trusted by Industry Leaders
         </p>
 
-        <div className="flex flex-wrap items-center justify-center gap-x-12 gap-y-8 opacity-60 grayscale transition-all hover:opacity-100 hover:grayscale-0">
+        <div className="flex flex-wrap items-center justify-center gap-x-20 gap-y-10">
           {CLIENTS.map((client) => (
-            <div key={client.name} className="group flex flex-col items-center">
-              <span className="font-heading text-foreground text-xl font-bold tracking-tighter sm:text-2xl">
-                {client.name}
-              </span>
-              <span className="text-muted-foreground text-[10px] font-medium tracking-widest uppercase">
+            <div
+              key={client.name}
+              className="group relative flex flex-col items-center transition-transform duration-500 ease-out hover:-translate-y-1"
+            >
+              <div className="relative">
+                <span className="font-heading text-foreground/40 group-hover:text-foreground relative z-10 text-2xl font-black tracking-tighter transition-all duration-500 sm:text-3xl">
+                  {client.name}
+                </span>
+                <div className="bg-primary/10 absolute -inset-x-4 -inset-y-2 scale-75 rounded-xl opacity-0 blur-xl transition-all duration-500 group-hover:scale-110 group-hover:opacity-100" />
+              </div>
+
+              <span className="text-muted-foreground/30 group-hover:text-primary mt-1 text-[10px] font-bold tracking-[0.2em] uppercase transition-colors duration-500">
                 {client.industry}
               </span>
+
+              {/* Decorative micro-interaction element */}
+              <div className="bg-primary absolute -bottom-4 h-0.5 w-0 rounded-full opacity-0 transition-all duration-500 group-hover:w-8 group-hover:opacity-100" />
             </div>
           ))}
         </div>

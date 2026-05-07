@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { CONTACT, PERSON_IMAGE_PATH, SITE_NAME } from '@/lib/site-config'
-import { Award, CheckCircle, ExternalLink } from 'lucide-react'
+import { Award, CheckCircle } from 'lucide-react'
 import { GithubIcon, LinkedinIcon } from '@/components/ui/Icons'
 
 export function AuthorProfile() {
@@ -34,7 +34,7 @@ export function AuthorProfile() {
                 </h2>
                 <div className="bg-primary/10 text-primary inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[10px] font-bold tracking-wider uppercase">
                   <Award className="h-3 w-3" />
-                  Verified Technical Expert
+                  Verified Website Designer and Developer
                 </div>
               </div>
 
@@ -64,14 +64,6 @@ export function AuthorProfile() {
                   >
                     <GithubIcon className="h-5 w-5" />
                     <span className="sr-only">GitHub</span>
-                  </Link>
-                  <Link
-                    href="https://www.upwork.com/freelancers/~01b6c7a7a5a8f6d6b5"
-                    target="_blank"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    <ExternalLink className="h-5 w-5" />
-                    <span className="sr-only">Upwork</span>
                   </Link>
                 </div>
 
