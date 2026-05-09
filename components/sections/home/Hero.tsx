@@ -8,12 +8,12 @@ import { AnimatedHeading } from './AnimatedHeading'
 
 export default function Hero() {
   return (
-    <section className="grid-wrapper overflow-hidden py-16 md:py-24 lg:py-32">
-      <div className="grid-background" />
+    <section className="grid-wrapper overflow-hidden py-24 md:py-32 lg:py-44">
+      <div className="grid-background opacity-[0.4] dark:opacity-[0.2]" />
 
       <div className="relative z-10 container mx-auto px-4 md:px-6">
         <div className="mx-auto flex max-w-4xl flex-col items-center text-center">
-          <div className="border-border/50 bg-muted/30 text-foreground/80 mb-6 inline-flex items-center gap-3 rounded-full border px-4 py-1.5 text-xs font-semibold">
+          <div className="border-border/50 bg-muted/30 text-foreground/80 mb-8 inline-flex items-center gap-3 rounded-full border px-4 py-1.5 text-xs font-semibold tracking-wide uppercase">
             <div className="relative flex h-2 w-2">
               <div className="bg-primary absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></div>
               <div className="bg-primary relative inline-flex h-2 w-2 rounded-full"></div>
@@ -25,24 +25,24 @@ export default function Hero() {
             Small Business Website Designer & Web Developer | Yasir Khan
           </h1>
 
-          <AnimatedHeading className="text-center" as="h2" />
+          <AnimatedHeading className="text-center tracking-tighter" as="h2" />
 
-          <p className="text-muted-foreground mx-auto mt-6 max-w-prose text-base leading-relaxed md:text-lg">
+          <p className="text-muted-foreground mx-auto mt-8 max-w-prose text-lg leading-relaxed md:text-xl">
             Your business deserves a blazingly fast{' '}
-            <strong>(LCP &lt; 1.2s)</strong>, premium website that builds
-            instant trust and turns cold visitors into daily leads. According to
-            Nielsen Norman Group, high-trust design can increase conversion
-            rates by up to 24%.
+            <strong className="text-foreground">(LCP &lt; 1.2s)</strong>,
+            premium website that builds instant trust and turns cold visitors
+            into daily leads. According to Nielsen Norman Group, high-trust
+            design can increase conversion rates by up to 24%.
           </p>
 
-          <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row sm:items-center">
+          <div className="mt-12 flex flex-col items-center gap-8 sm:flex-row sm:items-center">
             <Link
               href="/contact"
               className="focus-visible:ring-ring outline-none"
             >
               <PrimaryButton
                 text="Book Your Free Call"
-                className="h-12 px-8 text-base shadow-md"
+                className="h-14 px-10 text-lg shadow-lg"
               />
             </Link>
             <a
@@ -50,7 +50,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
               className={cn(
-                'group flex items-center gap-2 py-2 text-base font-semibold transition-colors',
+                'group flex items-center gap-2 py-2 text-lg font-semibold transition-colors',
                 'text-foreground hover:text-primary focus-visible:ring-ring outline-none focus-visible:ring-2 focus-visible:ring-offset-2 active:opacity-80'
               )}
             >
@@ -59,12 +59,12 @@ export default function Hero() {
             </a>
           </div>
 
-          <div className="border-border mt-16 grid w-full grid-cols-1 gap-10 border-t pt-10 md:grid-cols-3 md:gap-8">
-            <div className="flex flex-col items-center space-y-1">
-              <span className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
+          <div className="border-border/60 mt-20 grid w-full grid-cols-1 gap-12 border-t pt-12 md:grid-cols-3 md:gap-8">
+            <div className="flex flex-col items-center space-y-2">
+              <span className="text-foreground font-mono text-4xl font-semibold tracking-tighter">
                 3
               </span>
-              <span className="text-muted-foreground text-xs tracking-widest uppercase">
+              <span className="text-muted-foreground text-xs font-bold tracking-widest uppercase">
                 Companies Launched
               </span>
               <p className="text-muted-foreground max-w-40 text-xs leading-relaxed">
@@ -72,11 +72,11 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center space-y-1">
-              <span className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
+            <div className="flex flex-col items-center space-y-2">
+              <span className="text-foreground font-mono text-4xl font-semibold tracking-tighter">
                 1,000+
               </span>
-              <span className="text-muted-foreground text-xs tracking-widest uppercase">
+              <span className="text-muted-foreground text-xs font-bold tracking-widest uppercase">
                 Leads Generated
               </span>
               <p className="text-muted-foreground max-w-40 text-xs leading-relaxed">
@@ -84,11 +84,11 @@ export default function Hero() {
               </p>
             </div>
 
-            <div className="flex flex-col items-center space-y-1">
-              <span className="text-foreground font-mono text-3xl font-semibold tracking-tighter">
+            <div className="flex flex-col items-center space-y-2">
+              <span className="text-foreground font-mono text-4xl font-semibold tracking-tighter">
                 &lt;3s
               </span>
-              <span className="text-muted-foreground text-xs tracking-widest uppercase">
+              <span className="text-muted-foreground text-xs font-bold tracking-widest uppercase">
                 Average Load Times
               </span>
               <p className="text-muted-foreground max-w-40 text-xs leading-relaxed">

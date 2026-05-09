@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, MapPin, CheckCircle2 } from 'lucide-react'
+import { MapPin, CheckCircle2 } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import { PrimaryButton } from '@/components/ui/primary-button'
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { Breadcrumbs } from '@/components/seo/breadcrumbs'
 import { JsonLd } from '@/components/seo/json-ld'
@@ -59,21 +60,21 @@ export default function LocalSeoChecklistPage() {
           <Breadcrumbs items={breadcrumbs} />
         </div>
 
-        <section className="py-16 md:py-24">
+        <section className="py-24 md:py-32 lg:py-40">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="mx-auto max-w-4xl">
-              <h1 className="text-foreground text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+              <h1 className="text-foreground text-4xl font-bold tracking-tighter sm:text-5xl lg:text-7xl">
                 The 2026 Local SEO Checklist for Lahore & Regional Markets
               </h1>
 
-              <div className="mt-12">
+              <div className="mt-16">
                 <AnswerFirstBlock
                   heading="How to Dominate the Local Map Pack"
                   summary={PAGE_SUMMARIES.localSeoChecklist}
                 />
               </div>
 
-              <div className="prose prose-invert prose-lg mt-16 max-w-none">
+              <div className="prose prose-invert prose-lg mt-20 max-w-none">
                 <p>
                   In a fast-moving city like Lahore, your digital storefront is
                   often more important than your physical one. Whether you are a
@@ -191,22 +192,22 @@ export default function LocalSeoChecklistPage() {
                   crawlable content—use them to reinforce your key services.
                 </p>
 
-                <div className="bg-primary/5 border-primary/20 mt-16 rounded-3xl border p-8 md:p-12">
-                  <h3 className="text-2xl font-bold">
+                <div className="bg-primary/5 border-primary/20 mt-24 rounded-3xl border p-10 md:p-16">
+                  <h3 className="text-3xl font-bold tracking-tight">
                     Is your business invisible in Lahore?
                   </h3>
-                  <p className="text-muted-foreground mt-4">
+                  <p className="text-muted-foreground mt-6 text-lg leading-relaxed">
                     If you are not in the top 3 results on Google Maps, you are
                     losing up to 70% of local phone calls and direction
                     requests. I help local businesses audit their GBP and
                     technical SEO to dominate regional markets.
                   </p>
-                  <div className="mt-10 flex justify-center">
+                  <div className="mt-12 flex justify-center">
                     <Link href="/contact">
-                      <button className="bg-primary text-primary-foreground flex items-center gap-2 rounded-full px-8 py-3 font-semibold transition-transform hover:scale-105 active:scale-95">
-                        Get Your Free Local Audit{' '}
-                        <ArrowRight className="h-4 w-4" />
-                      </button>
+                      <PrimaryButton
+                        text="Get Your Free Local Audit"
+                        className="h-14 px-10 text-lg shadow-lg"
+                      />
                     </Link>
                   </div>
                 </div>

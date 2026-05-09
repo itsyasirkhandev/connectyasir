@@ -44,15 +44,15 @@ export default function ProjectsPage() {
 
         <PageHeader />
 
-        <section className="bg-background relative overflow-hidden py-16 md:py-32">
+        <section className="bg-background relative overflow-hidden py-24 md:py-32 lg:py-40">
           <div className="relative z-10 container mx-auto px-4 sm:px-6">
             <AnswerFirstBlock
               heading="Real client websites and outcomes"
               summary={PAGE_SUMMARIES.projects}
             />
 
-            <div className="mx-auto mt-12 max-w-4xl px-4 md:px-12">
-              <div className="border-border/40 flex flex-col items-center justify-between gap-6 border-t pt-10 md:flex-row">
+            <div className="mx-auto mt-16 max-w-4xl px-4 md:px-12">
+              <div className="border-border/40 flex flex-col items-center justify-between gap-8 border-t pt-12 md:flex-row">
                 <p className="text-muted-foreground text-sm font-medium tracking-tight">
                   Looking for more?
                 </p>

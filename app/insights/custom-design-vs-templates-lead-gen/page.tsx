@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, ShieldCheck } from 'lucide-react'
+import { ShieldCheck } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import { PrimaryButton } from '@/components/ui/primary-button'
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { Breadcrumbs } from '@/components/seo/breadcrumbs'
 import { JsonLd } from '@/components/seo/json-ld'
@@ -59,22 +60,22 @@ export default function CustomVsTemplatePage() {
           <Breadcrumbs items={breadcrumbs} />
         </div>
 
-        <section className="py-16 md:py-24">
+        <section className="py-24 md:py-32 lg:py-40">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="mx-auto max-w-4xl">
-              <h1 className="text-foreground text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+              <h1 className="text-foreground text-4xl font-bold tracking-tighter sm:text-5xl lg:text-7xl">
                 Custom Web Design vs. Templates: Which Actually Generates More
                 Leads?
               </h1>
 
-              <div className="mt-12">
+              <div className="mt-16">
                 <AnswerFirstBlock
                   heading="The Business Math of Custom Design"
                   summary={PAGE_SUMMARIES.customVsTemplate}
                 />
               </div>
 
-              <div className="prose prose-invert prose-lg mt-16 max-w-none">
+              <div className="prose prose-invert prose-lg mt-20 max-w-none">
                 <p>
                   Most business owners view a website as a digital business
                   card. But if your goal is <strong>lead generation</strong>,
@@ -180,21 +181,21 @@ export default function CustomVsTemplatePage() {
                   in AI-generated answers.
                 </p>
 
-                <div className="bg-primary/5 border-primary/20 mt-16 rounded-3xl border p-8 md:p-12">
-                  <h3 className="text-center text-2xl font-bold">
+                <div className="bg-primary/5 border-primary/20 mt-24 rounded-3xl border p-10 md:p-16">
+                  <h3 className="text-center text-3xl font-bold tracking-tight">
                     Is your template holding you back?
                   </h3>
-                  <p className="text-muted-foreground mx-auto mt-4 max-w-2xl text-center">
+                  <p className="text-muted-foreground mx-auto mt-6 max-w-2xl text-center text-lg leading-relaxed">
                     If your website is a primary lead source, every percentage
                     point of conversion matters. I specialize in building
                     custom, high-trust platforms that turn browsers into buyers.
                   </p>
-                  <div className="mt-10 flex justify-center">
+                  <div className="mt-12 flex justify-center">
                     <Link href="/contact">
-                      <button className="bg-primary text-primary-foreground flex items-center gap-2 rounded-full px-8 py-3 font-semibold transition-transform hover:scale-105 active:scale-95">
-                        Book Your Free Conversion Strategy Call{' '}
-                        <ArrowRight className="h-4 w-4" />
-                      </button>
+                      <PrimaryButton
+                        text="Book Your Free Conversion Strategy Call"
+                        className="h-14 px-10 text-lg shadow-lg"
+                      />
                     </Link>
                   </div>
                 </div>

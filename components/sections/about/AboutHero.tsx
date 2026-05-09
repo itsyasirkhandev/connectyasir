@@ -10,13 +10,13 @@ export default function AboutHero() {
   const router = useRouter()
 
   return (
-    <header className="bg-background overflow-hidden pt-16 pb-12 md:pt-32 md:pb-32">
+    <header className="bg-background overflow-hidden pt-24 pb-16 md:pt-40 md:pb-32 lg:pt-48">
       <div className="container mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-[1.2fr_1fr] lg:gap-24 xl:grid-cols-[1.5fr_1fr] xl:gap-32">
+        <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-[1.2fr_1fr] lg:gap-32 xl:grid-cols-[1.5fr_1fr] xl:gap-40">
           {/* Left Column: Content */}
-          <div className="space-y-8 lg:space-y-12">
+          <div className="space-y-10 lg:space-y-14">
             <div className="transition-[opacity,transform] duration-500 ease-out starting:translate-y-2 starting:opacity-0">
-              <span className="text-primary text-xs font-semibold tracking-[0.2em] uppercase">
+              <span className="text-primary text-xs font-bold tracking-widest uppercase">
                 The Builder
               </span>
             </div>
@@ -25,13 +25,13 @@ export default function AboutHero() {
               <h1 className="sr-only">
                 About Yasir Khan | Professional Small Business Website Designer
               </h1>
-              <h2 className="text-foreground text-4xl leading-[1.05] font-semibold tracking-tighter sm:text-5xl md:text-7xl">
+              <h2 className="text-foreground text-5xl leading-[1.05] font-semibold tracking-tighter sm:text-6xl md:text-8xl">
                 I build the digital assets that make small businesses{' '}
                 <span className="text-muted-foreground">undeniable.</span>
               </h2>
             </div>
 
-            <div className="text-muted-foreground space-y-6 text-base leading-relaxed transition-[opacity,transform] delay-200 duration-700 ease-out sm:space-y-8 sm:text-lg starting:translate-y-4 starting:opacity-0">
+            <div className="text-muted-foreground space-y-8 text-lg leading-relaxed transition-[opacity,transform] delay-200 duration-700 ease-out sm:space-y-10 sm:text-xl starting:translate-y-4 starting:opacity-0">
               <p className="max-w-prose">
                 I&rsquo;m Yasir. I engineer screaming-fast, high-trust websites
                 that turn your visitors into actual clients. With over{' '}
@@ -42,13 +42,13 @@ export default function AboutHero() {
                 call to the final launch.
               </p>
 
-              <div className="flex flex-col items-start gap-8 pt-4 sm:flex-row sm:items-center">
+              <div className="flex flex-col items-start gap-10 pt-6 sm:flex-row sm:items-center">
                 <PrimaryButton
                   text="Book Your Free Call"
                   onClick={() => {
                     router.push(CONTACT.calendar)
                   }}
-                  className="h-14 px-8 text-base md:h-16 md:px-10"
+                  className="h-14 px-10 text-lg shadow-lg md:h-16 md:px-12"
                 />
                 <div className="flex flex-wrap items-center gap-x-8 gap-y-4">
                   <a

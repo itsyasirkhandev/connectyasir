@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { ArrowRight, Zap } from 'lucide-react'
+import { Zap } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import WhatsAppButton from '@/components/WhatsAppButton'
+import { PrimaryButton } from '@/components/ui/primary-button'
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { Breadcrumbs } from '@/components/seo/breadcrumbs'
 import { JsonLd } from '@/components/seo/json-ld'
@@ -53,21 +54,21 @@ export default function NextJsVsWordpressPage() {
           <Breadcrumbs items={breadcrumbs} />
         </div>
 
-        <section className="py-16 md:py-24">
+        <section className="py-24 md:py-32 lg:py-40">
           <div className="container mx-auto px-4 sm:px-6">
             <div className="mx-auto max-w-4xl">
-              <h1 className="text-foreground text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+              <h1 className="text-foreground text-4xl font-bold tracking-tighter sm:text-5xl lg:text-7xl">
                 Next.js vs. WordPress for Small Business ROI in 2026
               </h1>
 
-              <div className="mt-12">
+              <div className="mt-16">
                 <AnswerFirstBlock
                   heading="The Verdict for Small Business Owners"
                   summary={PAGE_SUMMARIES.nextjsVsWordpress}
                 />
               </div>
 
-              <div className="prose prose-invert prose-lg mt-16 max-w-none">
+              <div className="prose prose-invert prose-lg mt-20 max-w-none">
                 <p>
                   For over a decade, WordPress has been the default choice for
                   small businesses. It&apos;s accessible, familiar, and powers
@@ -162,57 +163,57 @@ export default function NextJsVsWordpressPage() {
                   is often the deciding factor.
                 </p>
 
-                <div className="bg-primary/5 border-primary/20 mt-16 rounded-3xl border p-8 md:p-12">
-                  <h3 className="text-2xl font-bold">
+                <div className="bg-primary/5 border-primary/20 mt-24 rounded-3xl border p-10 md:p-16">
+                  <h3 className="text-center text-3xl font-bold tracking-tight">
                     Which one is right for you?
                   </h3>
-                  <div className="mt-8 grid grid-cols-1 gap-12 md:grid-cols-2">
-                    <div className="space-y-4">
-                      <h4 className="text-foreground font-bold">
+                  <div className="mt-12 grid grid-cols-1 gap-12 md:grid-cols-2">
+                    <div className="space-y-6">
+                      <h4 className="text-foreground text-xl font-bold">
                         Choose WordPress if:
                       </h4>
-                      <ul className="text-muted-foreground space-y-2 text-sm">
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">✓</span>
+                      <ul className="text-muted-foreground space-y-4 text-base">
+                        <li className="flex items-start gap-3">
+                          <span className="text-primary mt-1 font-bold">✓</span>
                           Budget is under $3,000 total.
                         </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">✓</span>
+                        <li className="flex items-start gap-3">
+                          <span className="text-primary mt-1 font-bold">✓</span>
                           You need to launch in under 2 weeks.
                         </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">✓</span>
+                        <li className="flex items-start gap-3">
+                          <span className="text-primary mt-1 font-bold">✓</span>
                           Non-technical staff need to edit layouts daily.
                         </li>
                       </ul>
                     </div>
-                    <div className="space-y-4">
-                      <h4 className="text-foreground font-bold">
+                    <div className="space-y-6">
+                      <h4 className="text-foreground text-xl font-bold">
                         Choose Next.js if:
                       </h4>
-                      <ul className="text-muted-foreground space-y-2 text-sm">
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">✓</span>
+                      <ul className="text-muted-foreground space-y-4 text-base">
+                        <li className="flex items-start gap-3">
+                          <span className="text-primary mt-1 font-bold">✓</span>
                           Website speed is critical for lead generation.
                         </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">✓</span>
+                        <li className="flex items-start gap-3">
+                          <span className="text-primary mt-1 font-bold">✓</span>
                           You want the lowest 3-year total cost of ownership.
                         </li>
-                        <li className="flex items-start gap-2">
-                          <span className="text-primary mt-1">✓</span>
+                        <li className="flex items-start gap-3">
+                          <span className="text-primary mt-1 font-bold">✓</span>
                           Security and &quot;unhackable&quot; architecture are
                           priorities.
                         </li>
                       </ul>
                     </div>
                   </div>
-                  <div className="mt-12 flex justify-center">
+                  <div className="mt-16 flex justify-center">
                     <Link href="/contact">
-                      <button className="bg-primary text-primary-foreground flex items-center gap-2 rounded-full px-8 py-3 font-semibold transition-transform hover:scale-105 active:scale-95">
-                        Discuss Your Project ROI{' '}
-                        <ArrowRight className="h-4 w-4" />
-                      </button>
+                      <PrimaryButton
+                        text="Discuss Your Project ROI"
+                        className="h-14 px-10 text-lg shadow-lg"
+                      />
                     </Link>
                   </div>
                 </div>

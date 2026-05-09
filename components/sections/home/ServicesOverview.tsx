@@ -33,20 +33,20 @@ const SERVICES = [
 
 export default function ServicesOverview() {
   return (
-    <section className="bg-background py-24 md:py-32">
+    <section className="bg-background py-32 md:py-40 lg:py-48">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-[1fr_2fr] lg:gap-24">
+        <div className="grid grid-cols-1 gap-16 lg:grid-cols-[1fr_2fr] lg:gap-32">
           {/* Left Side: Sticky Content */}
           <div className="lg:sticky lg:top-32 lg:h-fit">
-            <span className="text-primary text-xs font-semibold tracking-widest uppercase">
+            <span className="text-primary text-xs font-bold tracking-widest uppercase">
               The Package
             </span>
-            <h2 className="text-foreground mt-6 text-3xl leading-tight font-semibold tracking-tighter">
+            <h2 className="text-foreground mt-8 text-4xl leading-tight font-semibold tracking-tighter md:text-5xl">
               Complete Small Business Web Design & Development Without the
               Headache.
             </h2>
-            <div className="mt-8 max-w-prose space-y-6">
-              <p className="text-muted-foreground text-base leading-relaxed">
+            <div className="mt-10 max-w-prose space-y-6">
+              <p className="text-muted-foreground text-lg leading-relaxed">
                 Stop chasing designers, developers, and hosting companies. You
                 get an entire digital team in one expert.
               </p>
@@ -54,25 +54,25 @@ export default function ServicesOverview() {
           </div>
 
           {/* Right Side: Editorial List */}
-          <div className="border-border/40 divide-border/40 flex flex-col divide-y border-y lg:border-y-0 lg:border-l lg:pl-12">
+          <div className="border-border/40 divide-border/40 flex flex-col divide-y border-y lg:border-y-0 lg:border-l lg:pl-16">
             {SERVICES.map((service) => (
-              <div key={service.id} className="group relative py-12 lg:py-16">
-                <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
-                  <div className="flex items-start gap-6">
-                    <span className="text-muted-foreground font-mono text-xs font-semibold">
+              <div key={service.id} className="group relative py-14 lg:py-20">
+                <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
+                  <div className="flex items-start gap-8">
+                    <span className="text-muted-foreground font-mono text-sm font-semibold">
                       {service.id}
                     </span>
-                    <div className="space-y-4">
-                      <h3 className="text-foreground text-3xl font-semibold tracking-tight">
+                    <div className="space-y-6">
+                      <h3 className="text-foreground text-3xl font-semibold tracking-tight md:text-4xl">
                         {service.title}
                       </h3>
-                      <p className="text-muted-foreground max-w-prose text-base leading-relaxed">
+                      <p className="text-muted-foreground max-w-prose text-lg leading-relaxed">
                         {service.description}
                       </p>
                     </div>
                   </div>
-                  <div className="border-border bg-card text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground flex h-12 w-12 shrink-0 items-center justify-center rounded-xl border transition-all sm:h-14 sm:w-14">
-                    <service.icon className="h-5 w-5 sm:h-6 sm:w-6" />
+                  <div className="border-border bg-card text-muted-foreground group-hover:bg-primary group-hover:text-primary-foreground flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border shadow-sm transition-all sm:h-16 sm:w-16">
+                    <service.icon className="h-6 w-6 sm:h-7 sm:w-7" />
                   </div>
                 </div>
               </div>

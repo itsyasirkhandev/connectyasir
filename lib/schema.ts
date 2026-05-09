@@ -44,6 +44,11 @@ export function getImageObjectNode(url: string, caption?: string): SchemaNode {
     },
     license: 'https://creativecommons.org/licenses/by-nd/4.0/',
     acquireLicensePage: `${SITE_URL}/contact`,
+    creator: {
+      '@id': `${SITE_URL}/about#person`,
+    },
+    creditText: SITE_NAME,
+    copyrightNotice: `© ${String(new Date().getFullYear())} ${SITE_NAME}`,
   }
 }
 
@@ -617,5 +622,6 @@ export function getDatasetNode(): SchemaNode {
         encodingFormat: 'text/html',
       },
     ],
+    license: 'https://creativecommons.org/licenses/by-nd/4.0/',
   }
 }

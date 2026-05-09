@@ -50,16 +50,16 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <nav
-          className="hidden items-center gap-10 md:flex"
+          className="hidden items-center gap-12 md:flex"
           aria-label="Main Navigation"
         >
-          <ul className="flex items-center gap-8">
+          <ul className="flex items-center gap-10">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
                 <Link
                   href={link.href}
                   className={cn(
-                    'hover:text-foreground focus-visible:ring-primary text-sm font-normal transition-colors focus-visible:ring-2 focus-visible:outline-none',
+                    'hover:text-foreground focus-visible:ring-primary text-sm font-medium tracking-tight transition-colors focus-visible:ring-2 focus-visible:outline-none',
                     pathname === link.href
                       ? 'text-foreground'
                       : 'text-muted-foreground'
