@@ -1,20 +1,37 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import dynamic from 'next/dynamic'
 import { ArrowRight } from 'lucide-react'
 
 import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
-import WhatsAppButton from '@/components/WhatsAppButton'
 import Hero from '@/components/sections/home/Hero'
 import { TrustBar } from '@/components/sections/home/TrustBar'
-import ServicesOverview from '@/components/sections/home/ServicesOverview'
-import FeaturedProjects from '@/components/sections/home/FeaturedProjects'
-import HowItWorks from '@/components/sections/home/HowItWorks'
-import Testimonials from '@/components/sections/shared/Testimonials'
-import TechStack from '@/components/sections/home/TechStack'
-import { PerformanceTable } from '@/components/sections/home/PerformanceTable'
-import FinalCta from '@/components/sections/home/FinalCta'
-import FaqSection from '@/components/sections/shared/FaqSection'
+
+// Lazy load below-the-fold components to reduce initial render-blocking CSS/JS
+const ServicesOverview = dynamic(
+  () => import('@/components/sections/home/ServicesOverview')
+)
+const FeaturedProjects = dynamic(
+  () => import('@/components/sections/home/FeaturedProjects')
+)
+const HowItWorks = dynamic(
+  () => import('@/components/sections/home/HowItWorks')
+)
+const Testimonials = dynamic(
+  () => import('@/components/sections/shared/Testimonials')
+)
+const TechStack = dynamic(() => import('@/components/sections/home/TechStack'))
+const PerformanceTable = dynamic(() =>
+  import('@/components/sections/home/PerformanceTable').then(
+    (mod) => mod.PerformanceTable
+  )
+)
+const FaqSection = dynamic(
+  () => import('@/components/sections/shared/FaqSection')
+)
+const FinalCta = dynamic(() => import('@/components/sections/home/FinalCta'))
+const WhatsAppButton = dynamic(() => import('@/components/WhatsAppButton'))
+const Footer = dynamic(() => import('@/components/Footer'))
 
 import { AnswerFirstBlock } from '@/components/seo/answer-first-block'
 import { EeatSignals } from '@/components/seo/EeatSignals'
