@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import { ArrowUpRight, Mail } from 'lucide-react'
 import { SITE_NAME, CONTACT, AVAILABILITY } from '@/lib/site-config'
+import { SafeEmailLink } from './SafeEmailLink'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -55,7 +56,7 @@ const socials = [
   },
   {
     name: 'Email',
-    href: `mailto:${CONTACT.email}`,
+    email: CONTACT.email,
     icon: Mail,
   },
 ]
@@ -133,16 +134,27 @@ export default function Footer() {
             <ul className="flex flex-col gap-3 sm:gap-4">
               {socials.map((item) => (
                 <li key={item.name}>
-                  <a
-                    href={item.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="group text-muted-foreground hover:text-foreground flex items-center gap-3 text-sm transition-colors sm:text-base"
-                  >
-                    <item.icon className="h-4 w-4 transition-transform group-hover:scale-110 sm:h-5 sm:w-5" />
-                    <span>{item.name}</span>
-                    <ArrowUpRight className="h-3.5 w-3.5 opacity-0 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
-                  </a>
+                  {'email' in item ? (
+                    <SafeEmailLink
+                      email={item.email}
+                      className="group text-muted-foreground hover:text-foreground flex items-center gap-3 text-sm transition-colors sm:text-base"
+                    >
+                      <item.icon className="h-4 w-4 transition-transform group-hover:scale-110 sm:h-5 sm:w-5" />
+                      <span>{item.name}</span>
+                      <ArrowUpRight className="h-3.5 w-3.5 opacity-0 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
+                    </SafeEmailLink>
+                  ) : (
+                    <a
+                      href={item.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group text-muted-foreground hover:text-foreground flex items-center gap-3 text-sm transition-colors sm:text-base"
+                    >
+                      <item.icon className="h-4 w-4 transition-transform group-hover:scale-110 sm:h-5 sm:w-5" />
+                      <span>{item.name}</span>
+                      <ArrowUpRight className="h-3.5 w-3.5 opacity-0 transition-all group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:opacity-100" />
+                    </a>
+                  )}
                 </li>
               ))}
               <li className="pt-2">

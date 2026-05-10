@@ -3,6 +3,7 @@
 import { MessageCircle, Mail, Calendar, ArrowRight } from 'lucide-react'
 import { PrimaryButton } from '@/components/ui/primary-button'
 import { CONTACT } from '@/lib/site-config'
+import { SafeEmailLink } from '@/components/SafeEmailLink'
 
 function LinkedinIcon({ className }: { className?: string }) {
   return (
@@ -75,13 +76,13 @@ export default function ContactOptions() {
               </p>
 
               <div className="mt-8 flex w-full flex-col gap-3">
-                <a
-                  href={`mailto:${CONTACT.email}`}
+                <SafeEmailLink
+                  email={CONTACT.email}
                   className="bg-muted hover:bg-muted/80 text-foreground focus-visible:ring-primary flex w-full items-center justify-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold transition-colors focus-visible:ring-2 focus-visible:outline-none"
                 >
                   <Mail className="h-4 w-4" />
                   Email me directly
-                </a>
+                </SafeEmailLink>
 
                 <a
                   href={CONTACT.whatsapp}
