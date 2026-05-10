@@ -113,6 +113,8 @@ export function AnimatedHeading({
                   // Start visible in SSR, only animate later
                   opacity: 1,
                   transform: 'translateY(0px)',
+                  willChange: 'transform, opacity',
+                  backfaceVisibility: 'hidden',
                 }}
               >
                 {char}

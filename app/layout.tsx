@@ -90,11 +90,36 @@ export default function RootLayout({
       className={cn('font-sans', outfit.variable, loraHeading.variable)}
     >
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link
-          rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossOrigin="anonymous"
+        <style
+          dangerouslySetInnerHTML={{
+            __html: `
+            :root {
+              --background: oklch(0.99 0.002 286);
+              --foreground: oklch(0.15 0.01 286);
+              --primary: oklch(0.55 0.18 273);
+              --border: oklch(0.92 0.005 286);
+              --font-sans: ${outfit.style.fontFamily};
+              --font-heading: ${loraHeading.style.fontFamily};
+            }
+            .dark {
+              --background: oklch(0.12 0.01 286);
+              --foreground: oklch(0.98 0.005 286);
+              --primary: oklch(0.65 0.15 273);
+              --border: oklch(0.98 0.005 286 / 10%);
+            }
+            body {
+              background-color: var(--background);
+              color: var(--foreground);
+              font-family: var(--font-sans);
+            }
+            .grid-wrapper {
+              min-height: 100vh;
+              width: 100%;
+              position: relative;
+              background-color: var(--background);
+            }
+          `,
+          }}
         />
       </head>
       <body className="antialiased">
