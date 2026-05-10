@@ -2,7 +2,7 @@
 
 > **Stack:** Modern SaaS · Conversational · Performance-Focused · March 2026
 
-This document is the authority for all copy and content across this project. Its purpose is to prevent generic, "corporate-sounding" or "AI-generated" text. Follow it strictly to produce world-class, human-first copy.
+This document is the authority for all copy and content across this project. Its purpose is to prevent generic, "corporate-sounding" or "AI-generated" text. Follow it strictly to produce world-class, human-first copy..
 
 ---
 
