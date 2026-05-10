@@ -14,6 +14,11 @@ const nextConfig: NextConfig = {
   // Compression (automatic in Next.js 16)
   compress: true,
 
+  // Experimental optimizations
+  experimental: {
+    optimizeCss: true,
+  },
+
   // Security headers
   headers() {
     return [

@@ -97,7 +97,13 @@ export default function RootLayout({
               --background: oklch(0.99 0.002 286);
               --foreground: oklch(0.15 0.01 286);
               --primary: oklch(0.55 0.18 273);
+              --muted: oklch(0.96 0.005 286);
+              --muted-foreground: oklch(0.45 0.02 286);
+              --secondary: oklch(0.96 0.005 286);
+              --accent: oklch(0.96 0.005 286);
+              --card: oklch(1 0 0);
               --border: oklch(0.92 0.005 286);
+              --radius: 0.75rem;
               --font-sans: ${outfit.style.fontFamily};
               --font-heading: ${loraHeading.style.fontFamily};
             }
@@ -105,12 +111,18 @@ export default function RootLayout({
               --background: oklch(0.12 0.01 286);
               --foreground: oklch(0.98 0.005 286);
               --primary: oklch(0.65 0.15 273);
+              --muted: oklch(0.22 0.01 286);
+              --muted-foreground: oklch(0.7 0.02 286);
+              --secondary: oklch(0.22 0.01 286);
+              --accent: oklch(0.22 0.01 286);
+              --card: oklch(0.16 0.01 286);
               --border: oklch(0.98 0.005 286 / 10%);
             }
             body {
               background-color: var(--background);
               color: var(--foreground);
               font-family: var(--font-sans);
+              -webkit-font-smoothing: antialiased;
             }
             .grid-wrapper {
               min-height: 100vh;
@@ -118,6 +130,7 @@ export default function RootLayout({
               position: relative;
               background-color: var(--background);
             }
+            .text-muted-foreground { color: var(--muted-foreground); }
           `,
           }}
         />
