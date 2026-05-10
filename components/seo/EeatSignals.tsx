@@ -7,7 +7,7 @@ export function EeatSignals() {
 
   return (
     <div className="flex flex-col items-center gap-4">
-      <div className="text-muted-foreground/90 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[10px] font-medium tracking-widest uppercase md:text-xs">
+      <div className="text-muted-foreground flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-[10px] font-medium tracking-widest uppercase md:text-xs">
         <div className="flex items-center gap-1.5">
           <UserCheck className="text-primary h-3 w-3" />
           <span>

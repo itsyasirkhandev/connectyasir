@@ -63,7 +63,7 @@ export default function FeaturedProjects() {
                     sizes="(max-width: 1024px) 100vw, 60vw"
                   />
                 </div>
-                <p className="text-muted-foreground/80 mt-4 text-[10px] leading-relaxed italic md:text-xs">
+                <p className="text-muted-foreground mt-4 text-[10px] leading-relaxed italic md:text-xs">
                   Analysis: This {project.title} interface demonstrates a{' '}
                   {project.category.toLowerCase()} approach, focusing on
                   high-converting UI patterns and blazingly fast response times
@@ -98,7 +98,7 @@ export default function FeaturedProjects() {
                       <ArrowRight className="h-4 w-4 transition-transform group-hover/link:translate-x-1" />
                     </Link>
                   ) : (
-                    <span className="text-muted-foreground/80 text-base font-medium">
+                    <span className="text-muted-foreground text-base font-medium">
                       {project.status}
                     </span>
                   )}

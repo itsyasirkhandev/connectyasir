@@ -46,7 +46,7 @@ export default function HowItWorks() {
                 key={step.number}
                 className="group relative flex flex-col gap-6 py-12 md:flex-row md:gap-12"
               >
-                <span className="text-muted-foreground/80 group-hover:text-primary font-mono text-3xl font-semibold tracking-tighter transition-colors">
+                <span className="text-muted-foreground group-hover:text-primary font-mono text-3xl font-semibold tracking-tighter transition-colors">
                   {step.number}
                 </span>
                 <div className="flex flex-col">

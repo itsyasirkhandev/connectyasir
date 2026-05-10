@@ -21,7 +21,7 @@ export function AnswerFirstBlock({ heading, summary }: AnswerFirstBlockProps) {
             Quick summary
           </p>
         </div>
-        <div className="flex items-center gap-1.5 rounded-full bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-700 uppercase dark:text-green-400">
+        <div className="flex items-center gap-1.5 rounded-full bg-green-500/10 px-3 py-1 text-[10px] font-bold tracking-wider text-green-800 uppercase dark:text-green-400">
           <ShieldCheck className="h-3 w-3" />
           Fact Verified 2026
         </div>
