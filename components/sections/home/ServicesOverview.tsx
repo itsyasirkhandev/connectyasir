@@ -59,7 +59,7 @@ export default function ServicesOverview() {
               <div key={service.id} className="group relative py-14 lg:py-20">
                 <div className="flex flex-col gap-8 md:flex-row md:items-start md:justify-between">
                   <div className="flex items-start gap-8">
-                    <span className="text-muted-foreground font-mono text-sm font-semibold">
+                    <span className="text-muted-foreground/90 font-mono text-sm font-semibold">
                       {service.id}
                     </span>
                     <div className="space-y-6">

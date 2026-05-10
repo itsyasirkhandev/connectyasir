@@ -75,7 +75,7 @@ export function PerformanceTable() {
                     </td>
                     <td className="px-6 py-4">
                       <span
-                        className={`inline-flex items-center rounded-full px-2 py-1 text-[10px] font-bold tracking-wider uppercase ${row.status === 'Optimal' ? 'bg-green-500/10 text-green-600 dark:text-green-400' : 'bg-muted text-muted-foreground'}`}
+                        className={`inline-flex items-center rounded-full px-2 py-1 text-[10px] font-bold tracking-wider uppercase ${row.status === 'Optimal' ? 'bg-green-500/10 text-green-700 dark:text-green-400' : 'bg-muted text-muted-foreground/90 dark:text-muted-foreground'}`}
                       >
                         {row.status}
                       </span>

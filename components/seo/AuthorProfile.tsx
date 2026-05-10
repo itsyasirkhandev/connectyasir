@@ -32,7 +32,7 @@ export function AuthorProfile() {
                 <h2 className="text-foreground text-2xl font-bold tracking-tight md:text-3xl">
                   {SITE_NAME}
                 </h2>
-                <div className="bg-primary/10 text-primary inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[10px] font-bold tracking-wider uppercase">
+                <div className="bg-primary text-primary-foreground inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[10px] font-bold tracking-wider uppercase">
                   <Award className="h-3 w-3" />
                   Verified Website Designer and Developer
                 </div>
